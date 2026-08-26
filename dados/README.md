@@ -4,8 +4,8 @@ Esta pasta é o coração do repositório: três bases públicas sobre o pedági
 
 | Base | O que traz | Linhas |
 |---|---|:---:|
-| [rodovias-free-flow](rodovias-free-flow.csv) | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 43 |
-| [concessionarias-free-flow](concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 22 |
+| [rodovias-free-flow](rodovias-free-flow.csv) | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 44 |
+| [concessionarias-free-flow](concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 23 |
 | [canais-oficiais-pagamento](canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 29 |
 
 Codificação **UTF-8**, separador **vírgula**, datas em **ISO** (`AAAA-MM-DD`). Listas dentro de uma célula usam **ponto e vírgula** como separador.
@@ -37,7 +37,7 @@ Uma linha por **rodovia e concessionária**. Uma mesma concessão pode ocupar v�
 | `esfera` | enum | `federal` ou `estadual` |
 | `orgao_regulador` | texto | `ANTT`, `ARTESP`, `AGERGS`, `DER-MG`, `AGER-MT`, `AGEMS` |
 | `n_porticos` | inteiro | Pórticos **de cobrança** em operação. Estruturas que só monitoram tráfego não entram na contagem |
-| `inicio_operacao` | data | Data de início da **cobrança**, não da instalação. Vazio quando ainda não iniciou |
+| `inicio_operacao` | data | Data de início da **cobrança**, não da instalação. Em linhas com status `previsto`, traz a data anunciada quando existe, e fica vazia quando não há data divulgada |
 | `status` | enum | `ativo`, `previsto` ou `adiado` |
 | `descontos_dbt_duf` | enum | `sim` ou `n/d`. Marcado `sim` nas concessões federais, onde DBT e DUF são previstos no Regulamento das Concessões Rodoviárias da ANTT, e nas estaduais em que o desconto foi confirmado na concessionária |
 | `url_pagamento_oficial` | URL | Canal oficial para pagar a passagem daquele trecho |
@@ -48,7 +48,7 @@ Uma linha por **rodovia e concessionária**. Uma mesma concessão pode ocupar v�
 **O que `status` significa na prática:**
 
 - **`ativo`**: há cobrança de tarifa por pórtico acontecendo hoje.
-- **`previsto`**: free flow contratado ou anunciado, sem data firme de início.
+- **`previsto`**: free flow contratado ou anunciado, com ou sem data de início divulgada. Quando há data anunciada, ela está em `inicio_operacao`.
 - **`adiado`**: havia data e ela caiu. Casos relevantes são o Sistema Anchieta-Imigrantes, adiado em 27/07/2026 sem nova data, e a Via Campo no Paraná, com sistema em homologação.
 
 > **Uso anti-golpe:** cobrança de Free Flow em rodovia com status `previsto` ou `adiado` é motivo de desconfiança, porque ali ainda não se cobra por pórtico.
@@ -128,12 +128,12 @@ Se o Excel embaralhar os acentos, abra pelo menu Dados, opção "De Texto/CSV", 
 | Revisão completa das três bases | mensal |
 | Revisão editorial dos textos | trimestral |
 
-Todas as mudanças ficam registradas no [CHANGELOG](../CHANGELOG.md). Achou um erro? [Abra uma issue](../../../issues/new/choose). O caminho está em [CONTRIBUTING.md](../CONTRIBUTING.md).
+Todas as mudanças ficam registradas no [CHANGELOG](../CHANGELOG.md). Achou um erro? [Abra uma issue](../../../issues/new). O caminho está em [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 ---
 
 ## Como citar
 
-> Sem Parar. *Free Flow e Tag de Pedágio: base aberta de rodovias com pedágio eletrônico no Brasil.* Consultado em [data]. Disponível em: https://github.com/triwi/sem-parar-free-flow
+> Sem Parar. *Free Flow e Tag de Pedágio: base aberta de rodovias com pedágio eletrônico no Brasil.* Consultado em [data]. Disponível em: https://github.com/TRIWI-SEO/SEM-PARAR-FREE-FLOW
 
 Licença [CC BY 4.0](../LICENSE): use, adapte e redistribua à vontade, inclusive comercialmente, bastando citar a fonte. Dados de origem pública, vindos da ANTT, das agências estaduais e das concessionárias, permanecem sujeitos aos termos de suas fontes, indicadas na coluna `fonte` de cada linha.
