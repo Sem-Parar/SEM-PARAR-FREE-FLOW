@@ -15,6 +15,7 @@ Uma particularidade goiana: na BR-060 os pórticos operam **em pares**, um por s
 - [Sete pontos de cobrança, onze estruturas](#sete-pontos-de-cobrança-onze-estruturas)
 - [Onde pagar](#onde-pagar)
 - [O desconto que cresce até a trigésima passagem](#o-desconto-que-cresce-até-a-trigésima-passagem)
+- [Moto não paga em Goiás](#moto-não-paga-em-goiás)
 - [A concessionária não vende tag](#a-concessionária-não-vende-tag)
 - [Uma segunda concessão a caminho](#uma-segunda-concessão-a-caminho)
 - [Perguntas frequentes](#perguntas-frequentes)
@@ -94,6 +95,16 @@ Existe também o **Desconto Básico de Tarifa**, aplicado desde a primeira passa
 Os percentuais mudam por contrato e ficam na tabela tarifária oficial da concessionária. Este repositório não guarda percentual nenhum, de propósito. A explicação do mecanismo está em [Tag de Pedágio](../TAG-DE-PEDAGIO.md#por-que-a-tag-dá-desconto-no-free-flow).
 
 **A consequência prática:** quem passa pelo mesmo pórtico diariamente, no mesmo sentido, paga cada vez menos ao longo do mês, e só com tag. Quem paga pela placa fica de fora, sempre na tarifa cheia.
+
+---
+
+## Moto não paga em Goiás
+
+**A Rota Verde declara que motocicletas, motonetas e triciclos são isentos da tarifa** nos onze pórticos, e informa que o sistema reconhece e abona a passagem automaticamente. **Não há cadastro a fazer**: o motociclista passa e não deve nada.
+
+A isenção de moto não é regra nacional. Ela está no contrato de cada concessão e muda de estado para estado, e às vezes dentro do mesmo estado. Em São Paulo, por exemplo, a moto paga na pista expressa da Via Dutra, no Rodoanel Norte e no Contorno Sul da Tamoios, e é isenta nas rodovias da Concessionária Novo Litoral. A tabela trecho a trecho está em [Tag em moto, carro alugado e segundo veículo](../docs/tag-em-moto-e-outros-veiculos.md).
+
+Vale o alerta que acompanha qualquer conversa sobre moto e pedágio: **nenhuma tag no Brasil é homologada para motocicleta**. Onde a moto paga, o pagamento é sempre pela placa.
 
 ---
 

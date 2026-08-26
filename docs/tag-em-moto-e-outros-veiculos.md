@@ -46,7 +46,14 @@ Não existe regra nacional. A isenção de motocicleta é definida em cada contr
 | **SP-099 Tamoios, Contorno Sul** (Tamoios) | sim | Cobra todos os tipos de veículo, nos dois sentidos |
 | **SP-055, SP-088 e SP-098** (Novo Litoral) | não | Isenção total de motocicletas nas quatro rodovias da concessão |
 | **ERS-122, ERS-240 e ERS-446** (CSG) | sim | Paga como nas praças convencionais |
-| Demais trechos | consulte | A regra está no contrato de concessão e no site da concessionária |
+| **BR-060 e BR-452** em GO (Rota Verde) | não | Motocicletas, motonetas e triciclos isentos, com reconhecimento automático e sem cadastro |
+| **BR-381** em MG (Nova 381) | não | Passe livre nos cinco pórticos |
+| **BR-262** em MG (Way-262) | não | Isenta em toda a extensão da concessão, inclusive nas praças convencionais |
+| **MG-459** em MG (EPR Sul de Minas) | não | Em Minas, moto não paga em nenhum trecho com Free Flow |
+| **BR-364** em RO (Nova 364) | não | Passe livre, sem cadastro |
+| Demais trechos, entre eles os do Paraná e as estaduais paulistas de Sorocabana e Noroeste | consulte | A regra está no contrato de cada concessão e no site da concessionária |
+
+Dois padrões saltam da tabela. **Em Minas Gerais e em Rondônia a moto não paga em nenhum trecho com Free Flow**, e em Goiás a isenção vale nas duas rodovias da Rota Verde. Já em São Paulo a regra muda de concessão para concessão.
 
 Repare no caso de São Paulo: a moto paga na pista expressa da Dutra, no Rodoanel Norte e no Contorno Sul da Tamoios, e é isenta nas quatro rodovias da Concessionária Novo Litoral. O panorama estado a estado está em [Free Flow em São Paulo](../estados/free-flow-sp.md).
 
