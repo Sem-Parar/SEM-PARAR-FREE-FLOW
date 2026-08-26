@@ -135,6 +135,50 @@ Fonte: [Ministério dos Transportes, normas de trânsito](https://www.gov.br/tra
 
 ---
 
+## 2024
+
+### 18 de novembro de 2024: Tamoios liga o pórtico do Contorno Sul
+
+A **Concessionária Tamoios** iniciou a cobrança no **km 13+500 do Contorno Sul da SP-099**, em Caraguatatuba, na via que liga Caraguatatuba a São Sebastião. É o único pórtico da rodovia e cobra de todos os tipos de veículo, inclusive motocicletas, nos dois sentidos.
+
+Fonte: [Free Flow Tamoios](https://freeflowtamoios.com.br). Afeta: [Free Flow na Tamoios](../rodovias/free-flow-tamoios.md) e [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv).
+
+### 4 de setembro de 2024: Ecovias Noroeste Paulista estreia na SP-333
+
+Primeira cobrança por pórtico da concessionária, em **Itápolis (km 179)** e **Jaboticabal (km 110)**. A concessionária divulga prazo de pagamento próprio, menor que a regra geral, o que faz deste um dos trechos em que conferir o prazo no canal oficial não é formalidade.
+
+Fonte: [Ecovias Noroeste Paulista](https://freeflow.ecoviasnoroestepaulista.com.br). Afeta: [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv).
+
+### 4 de junho de 2024: EPR Sul de Minas ativa a MG-459
+
+Cobrança iniciada em **Monte Sião, no km 12,7 da MG-459**. O trecho tem modalidade pré-paga, incomum no país.
+
+Fonte: [Pedágio sem Cancela](https://www.pedagiosemcancela.com.br). Afeta: [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv).
+
+### 30 de março de 2024: os outros cinco pórticos do Bloco 3 entram em operação
+
+A **Caminhos da Serra Gaúcha** ligou os pórticos de **São Sebastião do Caí (ERS-122, km 4,6)**, **Farroupilha (ERS-122, km 45,5)**, **Ipê (ERS-122, km 151,9)**, **Capela de Santana (ERS-240, km 30,1)** e **Carlos Barbosa (ERS-446, km 6)**, completando os seis pórticos do Bloco 3 gaúcho.
+
+Fonte: [RS Parcerias, Free Flow](https://parcerias.rs.gov.br/free-flow). Afeta: [Free Flow no Rio Grande do Sul](../estados/free-flow-rs.md) e [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv).
+
+---
+
+## 2023
+
+### 15 de dezembro de 2023: o primeiro pórtico em rodovia estadual do Brasil
+
+A **Caminhos da Serra Gaúcha** ligou o pórtico da **ERS-122, entre Antônio Prado e Flores da Cunha**, no km 108,3. É o **primeiro pórtico de Free Flow em rodovia estadual do país**. No Bloco 3 os pórticos substituíram as praças físicas que estavam previstas, e por isso essas rodovias nunca tiveram cabine.
+
+Fonte: [RS Parcerias, Free Flow](https://parcerias.rs.gov.br/free-flow). Afeta: [Free Flow no Rio Grande do Sul](../estados/free-flow-rs.md).
+
+### Março de 2023: começa a cobrança na Rio-Santos, a primeira do país
+
+Depois de um mês de operação assistida iniciada em **30 de janeiro de 2023**, sem cobrança, a **RioSP** passou a cobrar nos três pórticos do trecho fluminense da **BR-101**: **Itaguaí (km 414)**, **Mangaratiba (km 447)** e **Paraty (km 538)**. Foi a estreia do Free Flow no Brasil.
+
+Fonte: [ANTT](https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/free-flow-tem-inicio-na-rio-santos-br-101). Afeta: [Free Flow na Rio-Santos](../rodovias/free-flow-rio-santos.md).
+
+---
+
 ## Próximas datas a observar
 
 | Quando | O que acontece | Onde |
