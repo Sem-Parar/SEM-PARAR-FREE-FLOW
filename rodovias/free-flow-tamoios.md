@@ -42,6 +42,18 @@ Vale a delimitação, porque ela é a dúvida mais comum: **o Free Flow da Tamoi
 
 ---
 
+## Quem é a concessionária Tamoios
+
+A **Concessionária Rodovia dos Tamoios** administra o sistema da SP-099 sob regulação **estadual da ARTESP**, e o controlador não é divulgado em fonte oficial que possamos citar. O pagamento roda em plataforma própria, no endereço `freeflowtamoios.com.br`, e por isso aqui o site de pagamento tem o mesmo nome da rodovia, o que não acontece em boa parte do país.
+
+O sistema foi **homologado pela Senatran na Portaria nº 618, publicada em 4 de agosto de 2026**.
+
+**Um ponto que evita cobrança inesperada:** o Free Flow está apenas no Contorno Sul. **As praças de Jambeiro e de Paraibuna, na mesma concessão, seguem convencionais**, com cabine e parada. Numa viagem pela Tamoios você pode parar para pagar em uma praça e passar direto no Contorno Sul.
+
+Quem opera o quê no país inteiro, e por que o site de pagamento costuma ter outro nome, está em [Concessionárias com Free Flow no Brasil](../CONCESSIONARIAS-FREE-FLOW.md).
+
+---
+
 ## Quem paga, e quem não paga
 
 Aqui a Tamoios é mais rigorosa que vários outros trechos do país, e isso surpreende quem está acostumado com a regra do litoral:
