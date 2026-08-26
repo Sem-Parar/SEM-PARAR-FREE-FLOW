@@ -64,6 +64,11 @@ A explicação completa, com o passo a passo do pórtico, prazos, descontos e o 
 | [Free Flow na Tamoios (SP-099)](rodovias/free-flow-tamoios.md) | O pórtico do Contorno Sul, por que aqui a moto paga, tags aceitas pela ARTESP e os totens do SAU |
 | [Free Flow na Mogi-Bertioga (SP-098)](rodovias/free-flow-mogi-bertioga.md) | O ponto do km 92+740, as quatro rodovias da CNL, a isenção de motos e os pórticos de Itariri que não cobram |
 | [Free Flow em São Paulo](estados/free-flow-sp.md) | O panorama do estado com mais Free Flow do país, a diferença entre federal e estadual, o Siga Fácil e a isenção trecho a trecho |
+| [Free Flow no Paraná](estados/free-flow-pr.md) | Os 14 pórticos do segundo estado do país, por que rodovia com sigla estadual segue regra federal e as duas divergências de cadastro |
+| [Free Flow em Goiás](estados/free-flow-go.md) | Os 11 pórticos em 7 pontos tarifários, os pares por sentido da BR-060 e o desconto que cresce até a trigésima passagem |
+| [Free Flow em Minas Gerais](estados/free-flow-mg.md) | Os 8 pórticos em três concessionárias, as duas esferas de regulação e por que moto não paga em nenhum deles |
+| [Free Flow em Rondônia](estados/free-flow-ro.md) | A maior extensão contínua do país, a liminar que parou a cobrança por duas semanas e quem precisa se cadastrar para ser isento |
+| [Free Flow no Rio de Janeiro](estados/free-flow-rj.md) | Onde o Free Flow do Brasil começou, a tarifa fixa por pórtico e a armadilha das duas Rio-Santos |
 | [Free Flow no Rio Grande do Sul](estados/free-flow-rs.md) | Os 6 pórticos da Serra, por que a FreeWay ainda não tem Free Flow e o que é o Bloco 3 |
 | [O que é Free Flow e como funciona o pedágio sem cancela](O-QUE-E-FREE-FLOW.md) | Como o pórtico lê o carro, o que muda com tag e sem tag, prazos, descontos DBT e DUF, e o que acontece se não pagar |
 | [Como pagar o pedágio Free Flow: todos os canais oficiais](docs/como-pagar.md) | O caminho com tag e sem tag, a tabela de canais por concessionária, o prazo e o que acontece se ele passar |
@@ -143,7 +148,9 @@ Rodovias com cobrança eletrônica **em operação**, ordenadas por estado. Gera
 
 **Total de 85 pórticos em operação.** Alguns pórticos instalados nessas mesmas rodovias operam apenas como monitoramento de tráfego, sem cobrança. Eles não entram nesta contagem, e agora têm registro próprio em [`dados/porticos-free-flow.csv`](dados/porticos-free-flow.csv), com o mapa completo em [Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md).
 
-As 15 concessionárias responsáveis por esses pórticos se distribuem em **sete grupos econômicos identificados**, mais três que não divulgam o controlador, e a Motiva, ex-CCR, sozinha opera mais de um terço dos pórticos. Quem é quem, e por que o site onde você paga costuma ter outro nome, está em **[Concessionárias com Free Flow no Brasil](CONCESSIONARIAS-FREE-FLOW.md)**.
+As 15 concessionárias responsáveis por esses pórticos se distribuem em **sete grupos econômicos identificados**, mais três que não divulgam o controlador, e a Motiva, ex-CCR, sozinha opera mais de um terço dos pórticos.
+
+**Os sete estados com Free Flow ativo têm página própria**, com os pórticos um a um, quem cobra, onde pagar e as regras que mudam de um para outro: [São Paulo](estados/free-flow-sp.md), [Paraná](estados/free-flow-pr.md), [Goiás](estados/free-flow-go.md), [Minas Gerais](estados/free-flow-mg.md), [Rondônia](estados/free-flow-ro.md), [Rio Grande do Sul](estados/free-flow-rs.md) e [Rio de Janeiro](estados/free-flow-rj.md). Quem é quem, e por que o site onde você paga costuma ter outro nome, está em **[Concessionárias com Free Flow no Brasil](CONCESSIONARIAS-FREE-FLOW.md)**.
 
 ### Onde o Free Flow ainda vai chegar
 
@@ -301,9 +308,9 @@ Todo o conteúdo deste repositório nasce de sete bases públicas em **CSV**, so
 
 | Base | O que traz | Linhas |
 |---|---|:---:|
-| [`rodovias-free-flow`](dados/rodovias-free-flow.csv) | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 44 |
-| [`concessionarias-free-flow`](dados/concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 23 |
-| [`porticos-free-flow`](dados/porticos-free-flow.csv) | Inventário pórtico a pórtico, com município, quilômetro, sentido e situação | 49 |
+| [`rodovias-free-flow`](dados/rodovias-free-flow.csv) | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 46 |
+| [`concessionarias-free-flow`](dados/concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 24 |
+| [`porticos-free-flow`](dados/porticos-free-flow.csv) | Inventário pórtico a pórtico, com município, quilômetro, sentido e situação | 64 |
 | [`canais-oficiais-pagamento`](dados/canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 29 |
 | [`tags-aceitas-free-flow`](dados/tags-aceitas-free-flow.csv) | Aceitação de tag por concessionária, com regime de autorização, operadoras publicadas e descontos | 15 |
 | [`base-legal-free-flow`](dados/base-legal-free-flow.csv) | As leis, resoluções e portarias que sustentam o Free Flow, com o que cada uma define | 12 |
