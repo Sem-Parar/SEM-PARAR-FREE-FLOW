@@ -10,6 +10,45 @@ Todas as mudanças relevantes deste repositório são registradas aqui. O format
 
 ---
 
+## [0.12.0], 2026-08-26
+
+Concessionárias, onda 2. A camada aberta no PAC-08 fica completa: **todas as concessionárias com Free Flow ativo no Brasil passam a ter página própria**. Junto vem uma correção de dado que a revalidação encontrou, sobre isenção de motocicleta em Goiás.
+
+### Adicionado
+
+- **[`concessionarias/free-flow-rota-verde.md`](concessionarias/free-flow-rota-verde.md)**: os 11 pórticos em 7 pontos de cobrança, a explicação dos pares por sentido na BR-060, a isenção automática de moto e o fato de a concessionária não comercializar tags apesar de operar o desconto por frequência mais generoso do país.
+- **[`concessionarias/free-flow-novo-litoral.md`](concessionarias/free-flow-novo-litoral.md)**: os 5 pontos de cobrança em três rodovias, os dois pórticos de Itariri que só monitoram, a isenção total de motocicleta, a explicação de por que o endereço de pagamento tem outro nome e a armadilha das duas Rio-Santos.
+- **[`concessionarias/free-flow-nova-381.md`](concessionarias/free-flow-nova-381.md)**: os 5 pórticos do Vale do Aço, a concessão federal que nunca teve cabine e a NFS-e Via, que substituiu o Documento Fiscal Equivalente em 1º de janeiro de 2026.
+- **[`concessionarias/free-flow-nova-364.md`](concessionarias/free-flow-nova-364.md)**: os 7 pórticos da maior extensão contínua do país, a linha do tempo da cobrança que parou e voltou, a distinção entre passe livre automático da moto e isenção com cadastro prévio, e por que a tarifa muda tanto de um ponto para outro.
+- **[`concessionarias/free-flow-way-262.md`](concessionarias/free-flow-way-262.md)**: os 2 pórticos da BR-262, a concessão em que pórtico e cabine convivem, os quatro postos com pagamento presencial e a modalidade pré-paga do aplicativo.
+- **[`concessionarias/free-flow-rodoanel-norte.md`](concessionarias/free-flow-rodoanel-norte.md)**: os 2 pórticos da Via SP Serra, por que só o Trecho Norte do Rodoanel cobra, por que aqui a motocicleta paga e a diferença entre WhatsApp oficial de atendimento e cobrança chegando por WhatsApp.
+- **Seção de concessionária na página da Tamoios**, com quem opera, a plataforma própria, a homologação e o registro de que as praças de Jambeiro e Paraibuna seguem convencionais.
+- **Seção sobre motocicleta na página de Goiás**, que não existia.
+
+### Corrigido
+
+- **A isenção de motocicleta em Goiás não estava registrada em lugar nenhum.** A Rota Verde declara que motocicletas, motonetas e triciclos são isentos nas duas rodovias, com reconhecimento automático e sem cadastro. A página do estado não tratava do assunto e a tabela nacional listava Goiás como "consulte". Corrigido na página do estado, na tabela nacional e na base de concessionárias.
+- **A tabela nacional de isenção de motocicleta estava incompleta desde a versão 0.10.0.** Ela trazia seis trechos e mandava consultar os demais, mesmo depois de a camada geográfica ter estabelecido as regras de Minas Gerais e de Rondônia. Passa a cobrir também BR-060 e BR-452 (GO), BR-381, BR-262 e MG-459 (MG) e BR-364 (RO). Permanecem como "consulte" apenas os trechos do Paraná e as estaduais paulistas de Sorocabana e Noroeste.
+
+### Alterado
+
+- **[`CONCESSIONARIAS-FREE-FLOW.md`](CONCESSIONARIAS-FREE-FLOW.md)**: a seção de páginas por concessionária passa de quatro para onze entradas, cobrindo todas as operadoras com Free Flow ativo.
+- **README**: as seis páginas novas entram na seção Conteúdos.
+- **[`dados/concessionarias-free-flow.csv`](dados/concessionarias-free-flow.csv)**: a linha da Rota Verde registra a isenção de motocicleta.
+
+### Decisão editorial declarada
+
+- **A Concessionária Tamoios não ganhou página própria em `concessionarias/`, e isso foi deliberado.** Ela opera um único pórtico, numa única rodovia, e a concessionária tem o mesmo nome da rodovia. Uma página nova competiria com [`rodovias/free-flow-tamoios.md`](rodovias/free-flow-tamoios.md) pelas mesmas buscas, sem responder nada que a existente não responda. Em vez disso, a página de rodovia recebeu a camada de concessionária que faltava, e é ela que o índice de concessionárias linka. **São 6 páginas novas, e não 7.**
+
+### Notas de dado
+
+- **Nenhum número do inventário mudou.** Seguem 85 pórticos de cobrança, 26 rodovias, 15 concessionárias e 7 estados.
+- **A raiz do portal de pagamento da Way-262 não respondeu a acesso automatizado** na revalidação de 26/08/2026, embora a concessionária publique o endereço nos próprios canais e o caminho interno esteja ativo. O endereço foi mantido como a concessionária o divulga, e o comportamento fica registrado para conferência manual no próximo pacote.
+- **A NFS-e Via substituiu o Documento Fiscal Equivalente em 1º de janeiro de 2026**, por força da Lei Complementar nº 214/2025. Vale para o setor todo, e aparece nos portais da Nova 381 e da Nova 364. Interessa a quem faz gestão de frota e precisa do comprovante fiscal da passagem.
+- **Quatro das seis concessionárias desta onda operam concessões 100% eletrônicas**, sem nenhuma cabine: Novo Litoral, Nova 381, Nova 364 e, no caso da Rota Verde, todo o trecho concedido. A Way-262 é o contraponto, com dois pórticos e praças convencionais no restante.
+
+---
+
 ## [0.11.1], 2026-08-26
 
 Correção de documentação, sem mudança de dado.
