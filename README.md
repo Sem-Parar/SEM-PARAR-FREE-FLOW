@@ -11,7 +11,7 @@
 <img src="https://img.shields.io/badge/rodovias%20com%20free%20flow-26-D60B52?style=flat-square" alt="Rodovias com Free Flow mapeadas">
 <img src="https://img.shields.io/badge/p%C3%B3rticos-85-525251?style=flat-square" alt="Pórticos de cobrança em operação">
 <img src="https://img.shields.io/badge/concession%C3%A1rias-15-525251?style=flat-square" alt="Concessionárias com Free Flow ativo">
-<img src="https://img.shields.io/badge/bases%20abertas-5-525251?style=flat-square" alt="Bases abertas em CSV">
+<img src="https://img.shields.io/badge/bases%20abertas-7-525251?style=flat-square" alt="Bases abertas em CSV">
 <br>
 <img src="https://img.shields.io/github/last-commit/TRIWI-SEO/SEM-PARAR-FREE-FLOW?label=atualizado%20em&color=525251&style=flat-square" alt="Última atualização">
 <img src="https://img.shields.io/badge/licen%C3%A7a-CC%20BY%204.0-525251?style=flat-square" alt="Licença CC BY 4.0">
@@ -80,8 +80,12 @@ A explicação completa, com o passo a passo do pórtico, prazos, descontos e o 
 | [Quais tags funcionam no Free Flow: a lista por concessionária](docs/tags-aceitas-no-free-flow.md) | A tabela de aceitação nas 15 concessionárias em operação, as cinco operadoras autorizadas pela ARTESP e onde a tag não entra |
 | [Como funciona a cobrança da tag no Free Flow](docs/como-funciona-a-cobranca-da-tag.md) | O caminho do pórtico até a fatura, onde procurar cada passagem, as cinco situações que parecem erro e como contestar |
 | [Tag em moto, carro alugado e segundo veículo](docs/tag-em-moto-e-outros-veiculos.md) | Por que não existe tag para moto, onde a moto paga e onde é isenta, e a regra de uma tag por placa |
+| [Base legal do Free Flow: as leis e normas que sustentam o pedágio eletrônico](BASE-LEGAL-DO-FREE-FLOW.md) | O texto do art. 209-A, as duas condutas, o que os tribunais já decidiram, as onze normas da cadeia e o que cada uma garante a você |
+| [Golpe do falso pedágio: como identificar e o que fazer](docs/golpe-do-falso-pedagio.md) | As duas modalidades em circulação, o teste do endereço em dez segundos e o roteiro de quem já pagou |
+| [Homologação do Free Flow pela Senatran: o que é e quem já tem](docs/homologacao-senatran-free-flow.md) | Por que sistema não homologado não gera infração, e a lista das doze homologações publicadas |
+| [Cobrança indevida de pedágio: como contestar passo a passo](docs/cobranca-indevida-como-contestar.md) | O que é erro e o que só parece erro, onde contestar conforme quem cobrou e o que pedir |
 | [Sem Parar: quem é, o que faz e desde quando](SEM-PARAR.md) | Quem mantém este repositório, o que a plataforma resolve e quais são os canais oficiais |
-| [Dicionário de dados](dados/README.md) | O significado de cada coluna das cinco bases abertas em CSV |
+| [Dicionário de dados](dados/README.md) | O significado de cada coluna das sete bases abertas em CSV |
 
 Novas páginas entram por pacote, e cada uma delas é linkada aqui.
 
@@ -97,7 +101,7 @@ Novas páginas entram por pacote, e cada uma delas é linkada aqui.
 - [Como pagar o Free Flow](#como-pagar-o-free-flow)
 - [Tag de Pedágio, quando a cobrança vira automática](#tag-de-pedágio-quando-a-cobrança-vira-automática), com o pilar completo em [TAG-DE-PEDAGIO.md](TAG-DE-PEDAGIO.md)
 - [Perguntas frequentes](#perguntas-frequentes)
-- [Dados abertos](#dados-abertos), as cinco bases em CSV
+- [Dados abertos](#dados-abertos), as sete bases em CSV
 - [Como contribuir](#como-contribuir)
 - [Fontes oficiais](#fontes-oficiais)
 - [Metodologia e limites](#metodologia-e-limites)
@@ -190,7 +194,7 @@ O guia completo, com o de-para de concessionária para canal oficial, está em *
 >
 > Nenhum canal de governo recebe pagamento nem pede dados de cartão. ANTT, CNH do Brasil, Portal Senatran e Siga Fácil apenas mostram a passagem e encaminham à concessionária.
 >
-> A lista verificada de canais legítimos está em [Sites e apps oficiais para pagar o Free Flow](docs/sites-e-apps-oficiais.md) e no dado bruto em [`dados/canais-oficiais-pagamento.csv`](dados/canais-oficiais-pagamento.csv), com **29 canais** conferidos um a um.
+> A lista verificada de canais legítimos está em [Sites e apps oficiais para pagar o Free Flow](docs/sites-e-apps-oficiais.md) e no dado bruto em [`dados/canais-oficiais-pagamento.csv`](dados/canais-oficiais-pagamento.csv), com **29 canais** conferidos um a um. Como reconhecer uma página falsa pelo endereço, em dez segundos, está em [Golpe do falso pedágio](docs/golpe-do-falso-pedagio.md).
 
 ---
 
@@ -293,7 +297,7 @@ As operadoras de tag autorizadas pela ANTT são interoperáveis nas rodovias fed
 
 ## Dados abertos
 
-Todo o conteúdo deste repositório nasce de cinco bases públicas em **CSV**, sob licença **CC BY 4.0**. O reuso é livre, inclusive comercial, desde que citada a fonte.
+Todo o conteúdo deste repositório nasce de sete bases públicas em **CSV**, sob licença **CC BY 4.0**. O reuso é livre, inclusive comercial, desde que citada a fonte.
 
 | Base | O que traz | Linhas |
 |---|---|:---:|
@@ -302,6 +306,8 @@ Todo o conteúdo deste repositório nasce de cinco bases públicas em **CSV**, s
 | [`porticos-free-flow`](dados/porticos-free-flow.csv) | Inventário pórtico a pórtico, com município, quilômetro, sentido e situação | 49 |
 | [`canais-oficiais-pagamento`](dados/canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 29 |
 | [`tags-aceitas-free-flow`](dados/tags-aceitas-free-flow.csv) | Aceitação de tag por concessionária, com regime de autorização, operadoras publicadas e descontos | 15 |
+| [`base-legal-free-flow`](dados/base-legal-free-flow.csv) | As leis, resoluções e portarias que sustentam o Free Flow, com o que cada uma define | 12 |
+| [`homologacao-senatran-free-flow`](dados/homologacao-senatran-free-flow.csv) | Homologações de sistema de livre passagem pela Senatran, com número e data de portaria | 12 |
 
 O dicionário de dados, com o significado de cada coluna e os valores aceitos, está em **[`dados/README.md`](dados/README.md)**.
 
