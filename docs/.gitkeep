@@ -1,5 +1,0 @@
-Pasta reservada para os conteudos do repositorio.
-Cada conteudo e uma SUBPASTA com README.md proprio. Esse e o formato que o GitHub
-renderiza como pagina HTML (/tree/) e que o Google indexa. Arquivos .md soltos (/blob/)
-tem indexacao fraca.
-Preenchida a partir do PAC-02.
