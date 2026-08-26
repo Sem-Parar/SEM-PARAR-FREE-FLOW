@@ -86,7 +86,7 @@ Quem aplica a multa também não é a concessionária: é o **órgão autuador**
 
 Trinta dias é a regra geral, não uma garantia universal. O prazo é definido no **contrato de concessão de cada trecho**, e existem concessionárias com prazo próprio, menor.
 
-Um exemplo concreto e verificado: a Ecovias Noroeste Paulista, que opera nas SP-326 e SP-333, divulga prazo menor que a regra geral no próprio canal. Por isso a orientação vale sempre: **confirme o prazo do trecho no canal da concessionária**, na tabela de [Como pagar o pedágio Free Flow](como-pagar.md#onde-pagar-concessionária-por-concessionária).
+Um exemplo concreto e verificado, que mostra que esse prazo **muda com o tempo**: a Ecovias Noroeste Paulista, que opera nas SP-326 e SP-333, começou em setembro de 2024 divulgando prazo de **15 dias** e hoje divulga **30 dias**. Quem guardou a informação antiga na cabeça ficou com a régua errada, para mais e para menos. Por isso a orientação vale sempre: **confirme o prazo do trecho no canal da concessionária**, na tabela de [Como pagar o pedágio Free Flow](como-pagar.md#onde-pagar-concessionária-por-concessionária).
 
 ---
 

@@ -116,7 +116,7 @@ O caso mais relevante é o **Sistema Anchieta-Imigrantes**, o corredor de acesso
 | BR-116 Via Dutra | [pedagiodigital.com](https://pedagiodigital.com) |
 | SP-021 Rodoanel Norte | [viaappia.com.br/sigafacil](https://viaappia.com.br/sigafacil/) |
 | SP-270 Raposo Tavares | [rodovias.motiva.com.br/sorocabana/freeflow](https://rodovias.motiva.com.br/sorocabana/freeflow/) |
-| SP-326 e SP-333 | [freeflow.ecoviasnoroestepaulista.com.br](https://freeflow.ecoviasnoroestepaulista.com.br) |
+| SP-326 e SP-333 | [freeflow.eco.br](https://freeflow.eco.br) |
 | SP-055, SP-088 e SP-098 (CNL) | [cnl.pedagioeletronico.com.br](https://cnl.pedagioeletronico.com.br) |
 | SP-099 Tamoios | [freeflowtamoios.com.br](https://freeflowtamoios.com.br) |
 

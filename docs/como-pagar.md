@@ -64,7 +64,7 @@ Canal oficial de cada concessionária com Free Flow **em operação**, em 26 de 
 | SP | Concessionária Novo Litoral (CNL) | SP-055; SP-088; SP-098 | [cnl.pedagioeletronico.com.br](https://cnl.pedagioeletronico.com.br) |
 | SP | Concessionária Tamoios | SP-099 Contorno Sul | [freeflowtamoios.com.br](https://freeflowtamoios.com.br) |
 | SP | Motiva Sorocabana | SP-270 Raposo Tavares | [rodovias.motiva.com.br/sorocabana/freeflow](https://rodovias.motiva.com.br/sorocabana/freeflow/) |
-| SP | Ecovias Noroeste Paulista | SP-326; SP-333 | [freeflow.ecoviasnoroestepaulista.com.br](https://freeflow.ecoviasnoroestepaulista.com.br) |
+| SP | Ecovias Noroeste Paulista | SP-326; SP-333 | [freeflow.eco.br](https://freeflow.eco.br) |
 | PR | EPR Iguaçu | BR-163; PR-182; PR-280 | [eprpedagioeletronico.com.br](https://www.eprpedagioeletronico.com.br) |
 | PR | EPR Paraná | BR-369; BR-376 | [eprpedagioeletronico.com.br](https://www.eprpedagioeletronico.com.br) |
 | PR | PRVias (Motiva Paraná) | BR-376 Rodovia do Café; PR-445 | [pedagiodigital.com](https://pedagiodigital.com) |
@@ -78,7 +78,7 @@ Canal oficial de cada concessionária com Free Flow **em operação**, em 26 de 
 **Três detalhes que quebram a regra geral e vale conhecer:**
 
 - Na **Tamoios**, passagens já cobradas por tag **não aparecem** no portal de pagamento avulso. A ausência ali não significa que existe débito em aberto, e essa confusão é explorada por golpistas.
-- Na **Ecovias Noroeste Paulista**, o prazo divulgado é **menor** que a regra geral. Confira sempre o prazo do trecho no próprio canal.
+- Na **Ecovias Noroeste Paulista**, o prazo **já foi menor** que a regra geral: no lançamento, em setembro de 2024, era de 15 dias, e hoje a concessionária divulga 30 dias. É o melhor lembrete de que prazo de trecho muda, e de que confirmar no canal da concessionária vale mais do que confiar na memória.
 - No **Rodoanel Norte**, motos **não são isentas**, ao contrário do que acontece em vários outros trechos.
 
 ---

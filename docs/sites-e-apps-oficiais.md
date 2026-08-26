@@ -55,7 +55,7 @@ Nenhum dos cinco recebe pagamento de pedágio. Nenhum dos cinco pede dados de ca
 | **Pedágio Digital** | Motiva e EcoRodovias, operado por Inovap 5 | Trechos das concessionárias Motiva e Ecovias. Também tem app | [pedagiodigital.com](https://pedagiodigital.com) |
 | **Rede CCR Pagamentos** | Motiva | Consulta avulsa sem cadastro. O pagamento se conclui no Pedágio Digital | [rede.ccrpagamentos.com.br](https://rede.ccrpagamentos.com.br) |
 | **Free Flow Sistema Ecovias** | EcoRodovias | Trechos Ecovias. Encaminha o pagamento ao Pedágio Digital | [freeflow.ecovias.com.br](https://freeflow.ecovias.com.br) |
-| **Free Flow Ecovias Noroeste Paulista** | EcoRodovias | SP-326 e SP-333. Prazo próprio, menor que a regra geral | [freeflow.ecoviasnoroestepaulista.com.br](https://freeflow.ecoviasnoroestepaulista.com.br) |
+| **Free Flow Ecovias Noroeste Paulista** | EcoRodovias | SP-326 e SP-333. Endereço atual da concessionária; o antigo `freeflow.econoroeste.com.br` saiu de uso | [freeflow.eco.br](https://freeflow.eco.br) |
 | **Pedágio Eletrônico Nova 381** | Nova 381 | BR-381/MG. Passagem disponível para consulta em até 2 horas, mais 25 totens no trecho | [pedagioeletronico.nova381.com](https://pedagioeletronico.nova381.com) |
 | **Pedágio Eletrônico Nova 364** | Nova 364 | BR-364/RO. Isenções exigem cadastro prévio. 14 totens nas bases SAU | [pedagioeletronico.nova364.com](https://pedagioeletronico.nova364.com) |
 | **Pedágio Eletrônico Way-262** | Way-262 | BR-262/MG. Também por app Way Rodovias e por totens | [pedagioeletronico.way262.com.br](https://pedagioeletronico.way262.com.br) |

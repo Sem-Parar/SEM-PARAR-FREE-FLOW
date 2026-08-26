@@ -49,7 +49,7 @@ Encontrou o pórtico na estrada, mas não sabe quem cobra? A pergunta certa não
 | SP | SP-055; SP-088; SP-098 | Concessionária Novo Litoral (CNL) | [cnl.pedagioeletronico.com.br](https://cnl.pedagioeletronico.com.br) |
 | SP | SP-099 Tamoios, Contorno Sul | Concessionária Tamoios | [freeflowtamoios.com.br](https://freeflowtamoios.com.br) |
 | SP | SP-270 Raposo Tavares | Motiva Sorocabana | [rodovias.motiva.com.br/sorocabana/freeflow](https://rodovias.motiva.com.br/sorocabana/freeflow/) |
-| SP | SP-326; SP-333 | Ecovias Noroeste Paulista | [freeflow.ecoviasnoroestepaulista.com.br](https://freeflow.ecoviasnoroestepaulista.com.br) |
+| SP | SP-326; SP-333 | Ecovias Noroeste Paulista | [freeflow.eco.br](https://freeflow.eco.br) |
 | PR | BR-163; PR-182; PR-280 | EPR Iguaçu | [eprpedagioeletronico.com.br](https://www.eprpedagioeletronico.com.br) |
 | PR | BR-369; BR-376 lote 4 | EPR Paraná | [eprpedagioeletronico.com.br](https://www.eprpedagioeletronico.com.br) |
 | PR | BR-376 Rodovia do Café; PR-445 | PRVias (Motiva Paraná) | [pedagiodigital.com](https://pedagiodigital.com) |

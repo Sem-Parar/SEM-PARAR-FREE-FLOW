@@ -147,7 +147,7 @@ Fonte: [Free Flow Tamoios](https://freeflowtamoios.com.br). Afeta: [Free Flow na
 
 Primeira cobrança por pórtico da concessionária, em **Itápolis (km 179)** e **Jaboticabal (km 110)**. A concessionária divulga prazo de pagamento próprio, menor que a regra geral, o que faz deste um dos trechos em que conferir o prazo no canal oficial não é formalidade.
 
-Fonte: [Ecovias Noroeste Paulista](https://freeflow.ecoviasnoroestepaulista.com.br). Afeta: [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv).
+Fonte: [Ecovias Noroeste Paulista](https://freeflow.eco.br). Afeta: [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv).
 
 ### 4 de junho de 2024: EPR Sul de Minas ativa a MG-459
 
