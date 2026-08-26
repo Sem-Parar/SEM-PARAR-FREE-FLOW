@@ -71,11 +71,11 @@ A tag não é obrigatória para passar. Ela muda **o que acontece depois**: tira
 
 ## Quanto tempo tenho para pagar
 
-A regra geral é de **até 30 dias após a passagem**, conforme a Resolução CONTRAN nº 1.013/2024 e a Resolução ANTT nº 6.079/2026, publicada em 27 de março de 2026.
+A regra geral é de **30 dias**, e duas normas oficiais contam esse prazo a partir de marcos diferentes, para efeitos diferentes. Para os **encargos financeiros** nas rodovias federais concedidas, a Resolução ANTT nº 6.079/2026, publicada em 27 de março de 2026, conta **da passagem** pelo pórtico. Para a **infração de trânsito** do art. 209-A, o art. 7º da Resolução CONTRAN nº 1.013/2024, com a redação dada pela **Deliberação CONTRAN nº 277/2026**, conta **da confirmação do processamento do registro da passagem** junto ao órgão máximo executivo de trânsito da União. Se o último dia cair em data não útil, o prazo se estende até o próximo dia útil. A régua completa, degrau por degrau, está em [Prazo para pagar o Free Flow](prazo-e-encargos.md).
 
 Esse prazo, porém, **é definido no contrato de concessão de cada trecho** e existem concessionárias com prazo menor. Confirme sempre no canal oficial da concessionária responsável. A coluna "Pagar" da [tabela nacional](../README.md#rodovias-com-free-flow-no-brasil) leva direto a ele.
 
-Para descobrir se você passou por um pórtico, o caminho oficial mais simples é o app **CNH do Brasil**, na versão 7.3.0 ou superior, em Veículos, depois Pedágio Eletrônico. Ele mostra as passagens de rodovias federais, estaduais e municipais integradas, com data, concessionária, prazo e situação. O app **não recebe pagamento**: ele encaminha ao canal da concessionária.
+Para descobrir se você passou por um pórtico, o caminho oficial mais simples é o app **CNH do Brasil**, com o app atualizado, em Veículos, depois Pedágio eletrônico. Ele mostra as passagens de rodovias federais, estaduais e municipais integradas, com data, concessionária, prazo e situação. O app **não recebe pagamento**: ele encaminha ao canal da concessionária. O passo a passo completo está em [Como consultar o Free Flow no app CNH do Brasil](consulta-app-cnh-do-brasil.md), e os canais de pagamento em [Como pagar o pedágio Free Flow](como-pagar.md).
 
 ---
 
@@ -106,7 +106,7 @@ Passado o prazo, a passagem em aberto acumula encargos administrativos, multa mo
 
 ## Onde já existe Free Flow no Brasil
 
-Em **26 de agosto de 2026**, há **74 pórticos de cobrança em operação**, em **26 rodovias**, **15 concessionárias** e **7 estados**: GO, MG, PR, RJ, RO, RS e SP.
+Em **26 de agosto de 2026**, há **85 pórticos de cobrança em operação**, em **26 rodovias**, **15 concessionárias** e **7 estados**: GO, MG, PR, RJ, RO, RS e SP. O mapa completo, pórtico a pórtico, está em [Rodovias com Free Flow no Brasil](../RODOVIAS-COM-FREE-FLOW.md).
 
 A lista completa, datada e com o canal de pagamento de cada trecho, está na [tabela nacional do repositório](../README.md#rodovias-com-free-flow-no-brasil). O dado bruto, reutilizável, está em [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv), e as mudanças recentes ficam registradas em [Novidades](novidades.md).
 
@@ -149,7 +149,7 @@ Em geral não, porque o pórtico fica sobre a pista principal do trecho tarifado
 <details>
 <summary><strong>Como sei se passei por um pórtico Free Flow?</strong></summary>
 
-Pelo app CNH do Brasil, em Veículos, depois Pedágio Eletrônico, na versão 7.3.0 ou superior. A passagem pode levar até 24 horas para aparecer. Empresas e frotistas consultam pelo Portal de Serviços da Senatran. Quem usa a Tag Sem Parar acompanha tudo pelo extrato, sem precisar consultar nada.
+Pelo app CNH do Brasil, em Veículos, depois Pedágio eletrônico, com o app atualizado. A passagem pode levar até 24 horas para aparecer. Empresas e frotistas consultam pelo Portal de Serviços da Senatran. Quem usa a Tag Sem Parar acompanha tudo pelo extrato, sem precisar consultar nada.
 </details>
 
 <details>
