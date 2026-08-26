@@ -1,10 +1,11 @@
 # Dados abertos do Free Flow no Brasil
 
-Esta pasta é o coração do repositório: três bases públicas sobre o pedágio eletrônico brasileiro, em **CSV**, publicadas pelo Sem Parar sob licença **[CC BY 4.0](../LICENSE)**. O reuso é livre, inclusive comercial, desde que citada a fonte.
+Esta pasta é o coração do repositório: quatro bases públicas sobre o pedágio eletrônico brasileiro, em **CSV**, publicadas pelo Sem Parar sob licença **[CC BY 4.0](../LICENSE)**. O reuso é livre, inclusive comercial, desde que citada a fonte.
 
 | Base | O que traz | Linhas |
 |---|---|:---:|
 | [rodovias-free-flow](rodovias-free-flow.csv) | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 44 |
+| [porticos-free-flow](porticos-free-flow.csv) | Inventário pórtico a pórtico, com município, quilômetro, sentido e situação | 49 |
 | [concessionarias-free-flow](concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 23 |
 | [canais-oficiais-pagamento](canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 29 |
 
@@ -52,6 +53,41 @@ Uma linha por **rodovia e concessionária**. Uma mesma concessão pode ocupar v�
 - **`adiado`**: havia data e ela caiu. Casos relevantes são o Sistema Anchieta-Imigrantes, adiado em 27/07/2026 sem nova data, e a Via Campo no Paraná, com sistema em homologação.
 
 > **Uso anti-golpe:** cobrança de Free Flow em rodovia com status `previsto` ou `adiado` é motivo de desconfiança, porque ali ainda não se cobra por pórtico.
+
+---
+
+## `porticos-free-flow.csv`
+
+O dado mais granular do repositório, e o que nenhuma outra fonte reúne em âmbito nacional: a ANTT cobre só as federais, cada concessionária cobre só as próprias.
+
+| Coluna | Tipo | Descrição |
+|---|---|---|
+| `rodovia` | texto | Nome usual do trecho ou da concessão |
+| `sigla` | texto | Designação oficial: `BR-116`, `SP-270`, `ERS-122`, `MG-459` |
+| `uf` | texto | Sigla do estado |
+| `municipio` | texto | Município onde o pórtico está instalado. Vários municípios separados por ponto e vírgula, quando o registro é agregado |
+| `km` | texto | Quilometragem, no formato usado pela fonte oficial (`414`, `092+740`, `156,1`). `n/d` quando a concessionária não publica |
+| `sentido` | texto | `ambos`, ou o sentido específico quando a cobrança é assimétrica, como na Rodovia dos Imigrantes |
+| `porticos_no_registro` | inteiro | Quantos pórticos **de cobrança** aquele registro representa. A soma da coluna, nas linhas com `status = ativo`, é o total nacional |
+| `tipo` | enum | `cobranca` ou `monitoramento` |
+| `concessionaria` | texto | Concessionária responsável |
+| `data_ativacao` | data | Início da **cobrança** naquele ponto. Vazio quando não há cobrança |
+| `status` | enum | `ativo`, `monitoramento` ou `instalado_aguardando` |
+| `observacao` | texto | Particularidades, divergências e por que um registro é agregado |
+| `fonte` | URL | Fonte primária consultada |
+| `atualizado_em` | data | Última verificação |
+
+**O que `status` significa aqui:**
+
+- **`ativo`**: o pórtico cobra tarifa hoje.
+- **`monitoramento`**: a estrutura existe e só monitora tráfego, sem previsão de cobrar.
+- **`instalado_aguardando`**: o pórtico está instalado e a cobrança foi adiada ou ainda não começou. É o caso do Sistema Anchieta-Imigrantes e dos trechos da Rota Sorocabana.
+
+**Como contamos um pórtico.** Contamos pórticos **de cobrança**. Onde a concessionária opera um por sentido no mesmo ponto, os dois entram, porque são duas cobranças possíveis. Estrutura de monitoramento nunca entra na contagem.
+
+**Por que alguns registros são agregados.** Algumas concessionárias publicam o número de pórticos e o trecho, mas não a quilometragem individual de cada um. É o caso da Via Dutra, da BR-381, da BR-364 e das duas rodovias da Rota Verde em Goiás. Nesses casos o registro traz o número de pórticos em `porticos_no_registro`, o intervalo ou os municípios conhecidos, e `km` como `n/d`, em vez de inventar posições. A alternativa seria preencher por dedução, e isso este repositório não faz.
+
+> **Uso anti-golpe:** as linhas com `status` diferente de `ativo` são a lista de pórticos que **existem mas não cobram**. Cobrança apresentada em qualquer um deles é motivo de desconfiança.
 
 ---
 
