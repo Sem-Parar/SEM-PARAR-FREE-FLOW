@@ -1,6 +1,6 @@
 # Dados abertos do Free Flow no Brasil
 
-Esta pasta é o coração do repositório: sete bases públicas sobre o pedágio eletrônico brasileiro, em **CSV**, publicadas pelo Sem Parar sob licença **[CC BY 4.0](../LICENSE)**. O reuso é livre, inclusive comercial, desde que citada a fonte.
+Esta pasta é o coração do repositório: oito bases públicas sobre o pedágio eletrônico brasileiro, em **CSV**, publicadas pelo Sem Parar sob licença **[CC BY 4.0](../LICENSE)**. O reuso é livre, inclusive comercial, desde que citada a fonte.
 
 | Base | O que traz | Linhas |
 |---|---|:---:|
@@ -10,7 +10,8 @@ Esta pasta é o coração do repositório: sete bases públicas sobre o pedágio
 | [canais-oficiais-pagamento](canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 29 |
 | [tags-aceitas-free-flow](tags-aceitas-free-flow.csv) | Aceitação de tag por concessionária, com regime de autorização, operadoras publicadas e descontos | 15 |
 | [base-legal-free-flow](base-legal-free-flow.csv) | As leis, resoluções e portarias que sustentam o Free Flow, com o que cada uma define | 12 |
-| [homologacao-senatran-free-flow](homologacao-senatran-free-flow.csv) | Homologações de sistema de livre passagem pela Senatran, com número e data de portaria | 12 |
+| [homologacao-senatran-free-flow](homologacao-senatran-free-flow.csv) | Homologações de sistema de livre passagem pela Senatran, com número e data de portaria | 14 |
+| [linha-do-tempo-free-flow](linha-do-tempo-free-flow.csv) | Cronologia do Free Flow no Brasil, do primeiro regulamento às datas ainda marcadas | 36 |
 
 Codificação **UTF-8**, separador **vírgula**, quebra de linha **CRLF** (padrão RFC 4180, que é o que o Excel espera), datas em **ISO** (`AAAA-MM-DD`). Listas dentro de uma célula usam **ponto e vírgula** como separador.
 
@@ -22,7 +23,9 @@ Codificação **UTF-8**, separador **vírgula**, quebra de linha **CRLF** (padr�
 
 **2. `n/d` em vez de chute.** Campo não confirmado em fonte oficial aparece como `n/d`. Nenhum dado aqui foi inferido, deduzido ou preenchido por analogia.
 
-**3. Divergência se registra.** Quando a ANTT e a concessionária publicam quilometragens diferentes para o mesmo pórtico, e isso acontece, adotamos o valor da ANTT e anotamos a divergência no campo `trecho`.
+**3. Divergência se registra.** Quando duas fontes oficiais discordam, adotamos a de maior hierarquia, registramos o valor e anotamos a divergência no campo de observação da linha. Em quilometragem de pórtico federal, isso significa adotar o cadastro da ANTT e anotar o valor da concessionária.
+
+> **A exceção declarada: a unidade de contagem da Via Dutra.** A concessionária comunica **21 pontos de cobrança** e o cadastro da ANTT registra **10 pórticos**, anotando que cada pórtico concentra vários pontos de entrada e saída. São unidades diferentes para a mesma realidade física, e não erro de nenhuma das duas. **Publicamos 21**, porque é a unidade que corresponde ao que o motorista encontra no trecho, e declaramos a divergência aqui, no índice nacional e na observação da linha. Pelo critério da ANTT o total nacional seria 74, e São Paulo, 25. O raciocínio completo está em [Metodologia e fontes](../docs/metodologia-e-fontes.md).
 
 ---
 
@@ -232,6 +235,32 @@ Uma linha por **homologação de sistema de livre passagem** publicada pela Sena
 
 ---
 
+## `linha-do-tempo-free-flow.csv`
+
+Uma linha por **marco datado** do Free Flow no Brasil, em ordem cronológica, do primeiro regulamento às datas ainda marcadas no calendário. Reúne normas, inícios de cobrança, suspensões, adiamentos e marcos institucionais na mesma régua de tempo.
+
+| Coluna | Tipo | Descrição |
+|---|---|---|
+| `data` | data | Data do marco, em ISO. Para normas, é a data de **publicação**, não a de assinatura |
+| `evento` | texto | O que aconteceu, em uma frase |
+| `tipo` | enum | `norma`, `operacao`, `operacao_assistida`, `suspensao`, `adiamento` ou `institucional` |
+| `status` | enum | `confirmado` para fato consumado ou data fixada em norma; `anunciado` para data divulgada que ainda não se cumpriu |
+| `uf` | texto | Sigla do estado, ou `nacional` quando o marco vale para o país inteiro |
+| `rodovia` | texto | Siglas envolvidas, separadas por ponto e vírgula. `n/d` em marcos nacionais |
+| `concessionaria` | texto | Concessionária envolvida. `n/d` em marcos nacionais |
+| `norma` | texto | Lei, resolução, deliberação ou portaria associada ao marco, quando existe |
+| `observacao` | texto | O contexto que a frase do evento não cabe, incluindo divergências e ressalvas |
+| `fonte` | url | Endereço oficial que sustenta a linha |
+| `atualizado_em` | data | Data da última verificação |
+
+**A coluna `status` é a que protege esta base.** Comunicado de concessionária anunciando início de operação é promessa, não fato: já houve caso de release anunciando uma data continuar no ar depois de o início ter sido adiado. Linhas com `status = anunciado` são exatamente essas, e só passam a `confirmado` quando a cobrança começa de fato.
+
+**Cuidado ao somar esta base com as outras.** Ela conta eventos, não pórticos. Um mesmo dia pode ter duas linhas, como 24 de agosto de 2026, e uma linha pode representar vários pórticos, como a entrada em operação da Rota Verde. Para contar pórticos, use [`porticos-free-flow.csv`](porticos-free-flow.csv).
+
+A leitura narrativa desses marcos está em [História do Free Flow no Brasil](../docs/historia-do-free-flow-no-brasil.md), e o que mudou nas últimas semanas em [Novidades](../docs/novidades.md).
+
+---
+
 ## Como abrir
 
 Clique no arquivo, depois no botão **Download raw file**, no canto superior direito. O arquivo baixa em CSV e abre direto no Excel, no Numbers ou no Google Sheets.
@@ -245,7 +274,7 @@ Se o Excel embaralhar os acentos, abra pelo menu Dados, opção "De Texto/CSV", 
 | Evento | Prazo |
 |---|---|
 | Inauguração, adiamento ou mudança de status de pórtico | até 72 horas após o fato confirmado |
-| Revisão completa das sete bases | mensal |
+| Revisão completa das oito bases | mensal |
 | Revisão editorial dos textos | trimestral |
 
 Todas as mudanças ficam registradas no [CHANGELOG](../CHANGELOG.md). Achou um erro? [Abra uma issue](../../../issues/new). O caminho está em [CONTRIBUTING.md](../CONTRIBUTING.md).
