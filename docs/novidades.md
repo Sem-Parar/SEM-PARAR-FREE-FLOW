@@ -41,7 +41,15 @@ O Governo de São Paulo adiou o início da operação do Free Flow no **Sistema 
 
 Este é hoje o adiamento mais relevante do país, porque envolve o corredor de acesso à Baixada Santista. Enquanto não houver nova data, **não existe cobrança por pórtico na Anchieta nem na Imigrantes**, e qualquer cobrança que se apresente como tal merece desconfiança.
 
-Fonte: [G1 Santos e Região](https://g1.globo.com/sp/santos-regiao/noticia/2026/07/27/governo-de-sp-adia-inicio-do-pedagio-eletronico-no-sistema-anchieta-imigrantes-entenda.ghtml) e [Siga Fácil](https://www.sigafacil.sp.gov.br). Afeta: [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv), linhas SP-150 e SP-160.
+Fonte: [G1 Santos e Região](https://g1.globo.com/sp/santos-regiao/noticia/2026/07/27/governo-de-sp-adia-inicio-do-pedagio-eletronico-no-sistema-anchieta-imigrantes-entenda.ghtml) e [Siga Fácil](https://www.sigafacil.sp.gov.br). Afeta: [Free Flow no Sistema Anchieta-Imigrantes](../rodovias/free-flow-anchieta-imigrantes.md), [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv) e [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv).
+
+### 19 de julho de 2026: o pórtico da Imigrantes sentido capital é realocado
+
+A Secretaria de Parcerias em Investimentos do Estado de São Paulo e a **ARTESP** anunciaram a realocação do pórtico da **Rodovia dos Imigrantes no sentido capital**, do km 29 para um ponto mais próximo do trecho de serra, **depois do km 38**. A decisão veio após manifestação de moradores da região do Pós-Balsa, em São Bernardo do Campo, que apontaram que deslocamentos curtos e cotidianos entre bairros gerariam cobrança repetida ao longo do dia.
+
+É essa redefinição que motivou o adiamento anunciado oito dias depois. O ponto exato segue em definição.
+
+Fonte: [Siga Fácil](https://www.sigafacil.sp.gov.br). Afeta: [Free Flow no Sistema Anchieta-Imigrantes](../rodovias/free-flow-anchieta-imigrantes.md) e [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv).
 
 ### 1º de junho de 2026: PRVias inicia cobrança na Rodovia do Café e na PR-445
 
@@ -71,7 +79,7 @@ Publicada no Diário Oficial da União em 29 de abril de 2026, a **Deliberação
 
 A tarifa continua devida em qualquer cenário. A partir de **17 de novembro de 2026** a regra ordinária volta a valer integralmente.
 
-Fonte: [Deliberação CONTRAN nº 277/2026](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/deliberacoes/Deliberacao2772026.pdf) e [Resolução CONTRAN nº 1.013/2024](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/Resolucao10132024.pdf). Afeta: [Como pagar](como-pagar.md#quanto-tempo-eu-tenho-para-pagar) e [O que é Free Flow](o-que-e-free-flow.md#quanto-tempo-tenho-para-pagar).
+Fonte: [Deliberação CONTRAN nº 277/2026](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/deliberacoes/Deliberacao2772026.pdf) e [Resolução CONTRAN nº 1.013/2024](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/Resolucao10132024.pdf). Afeta: [Como pagar](como-pagar.md#quanto-tempo-eu-tenho-para-pagar) e [O que é Free Flow](../O-QUE-E-FREE-FLOW.md#quanto-tempo-tenho-para-pagar).
 
 ### 27 de março de 2026: publicada a Resolução ANTT nº 6.079/2026
 
@@ -84,7 +92,7 @@ A ANTT publicou a resolução que **regulamenta o sistema de livre passagem** na
 - **Múltiplos meios de pagamento obrigatórios**, incluindo Pix, cartões, dinheiro e sistemas automáticos, com opção de pagamento pós-passagem disponível em até 2 horas para 90% das passagens e em até 24 horas para 99%.
 - **Transações armazenadas por cinco anos**, com obrigação de fornecer o histórico para instruir defesa ou recurso.
 
-Fonte: [ANTT Legis](https://anttlegis.antt.gov.br/) e [ANTT, nota sobre a regulamentação](https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/antt-consolida-regulamentacao-do-pedagio-sem-cancela-com-foco-na-protecao-ao-usuario-e-na-seguranca-do-sistema). Afeta: [Prazo e encargos](prazo-e-encargos.md), [O que é Free Flow](o-que-e-free-flow.md#quanto-tempo-tenho-para-pagar) e o [glossário](glossario.md#r).
+Fonte: [ANTT Legis](https://anttlegis.antt.gov.br/) e [ANTT, nota sobre a regulamentação](https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/antt-consolida-regulamentacao-do-pedagio-sem-cancela-com-foco-na-protecao-ao-usuario-e-na-seguranca-do-sistema). Afeta: [Prazo e encargos](prazo-e-encargos.md), [O que é Free Flow](../O-QUE-E-FREE-FLOW.md#quanto-tempo-tenho-para-pagar) e o [glossário](glossario.md#r).
 
 ### 23 de fevereiro de 2026: EPR Iguaçu começa a cobrar no oeste e sudoeste do Paraná
 
@@ -110,7 +118,7 @@ Fonte: [Siga Fácil](https://www.sigafacil.sp.gov.br). Afeta: [`dados/rodovias-f
 
 ### 6 de dezembro de 2025: Via Dutra ativa o trecho metropolitano
 
-A **RioSP**, do grupo Motiva, iniciou a cobrança eletrônica na **BR-116, Via Dutra**, entre o km 206, em Arujá, e o km 231, em São Paulo, com **dez pórticos** na via expressa. A marginal segue gratuita. É o trecho com Free Flow de maior demanda de busca do país.
+A **RioSP**, do grupo Motiva, iniciou a cobrança eletrônica na **BR-116, Via Dutra**, entre o **km 204**, em Arujá, e o km 231, em São Paulo, passando por Guarulhos, com **21 pontos de cobrança** nas entradas e saídas das pistas expressas. A marginal segue gratuita e a praça física de Arujá continua em operação. É o trecho com Free Flow de maior demanda de busca do país, e a cobrança aqui é proporcional ao trecho percorrido, com tarifa que varia por dia e horário.
 
 Fonte: [ANTT, Free Flow](https://www.gov.br/antt/pt-br/free-flow). Afeta: [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv).
 
