@@ -3,7 +3,7 @@
 **Esta é a linha do tempo do pedágio eletrônico brasileiro: cada mudança confirmada em pórtico, prazo ou regra entra aqui com data, resumo e fonte oficial linkada.** As notas ficam em ordem do mais recente para o mais antigo. Mudanças de status de rodovia entram em até 72 horas após o fato confirmado, e a base de dados é corrigida no mesmo movimento.
 
 > Última verificação em 26 de agosto de 2026.
-> Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Termos técnicos estão no [glossário](glossario.md).
+> Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Termos técnicos estão no [glossário](glossario.md), a cronologia consolidada em [História do Free Flow no Brasil](historia-do-free-flow-no-brasil.md) e o método de levantamento em [Metodologia e fontes](metodologia-e-fontes.md).
 
 ---
 
@@ -28,6 +28,18 @@ Na mesma comunicação, o Ministério confirmou o marco de **17 de novembro de 2
 
 Fonte: [Ministério dos Transportes](https://www.gov.br/transportes/pt-br/assuntos/noticias-/2026/08/app-cnh-do-brasil-oferece-consulta-ao-free-flow-a-partir-desta-segunda-24) e [Serpro](https://www.serpro.gov.br/menu/noticias/noticias-2026/free-flow). Afeta: [Como consultar o Free Flow no app CNH do Brasil](consulta-app-cnh-do-brasil.md), [Como consultar pela placa](consultar-pela-placa.md) e [`dados/canais-oficiais-pagamento.csv`](../dados/canais-oficiais-pagamento.csv).
 
+### 24 de agosto de 2026: a ANTT anuncia nova etapa regulatória para os meios de pagamento
+
+No mesmo evento de lançamento da consulta pela CNH do Brasil, a **ANTT** apresentou os avanços da agenda do pedágio eletrônico e anunciou a próxima etapa: uma discussão regulatória voltada especificamente às **formas de pagamento** oferecidas ao usuário do Free Flow.
+
+**O que está decidido e o que não está.** A proposta de abertura de audiência pública foi **pautada para a reunião da Diretoria Colegiada de 27 de agosto de 2026**. Se aprovada ali, a previsão divulgada pela Agência é de receber contribuições **entre 8 de setembro e 23 de outubro de 2026**. Enquanto a Diretoria não decide, trata-se de proposta pautada, e não de audiência pública aberta.
+
+Depois da consulta, a Agência pretende avançar para um processo que permita às concessionárias apresentar projetos de meios de pagamento compatíveis com requisitos de confiabilidade, consistência e interoperabilidade. Na mesma apresentação, a ANTT listou como avanços já consolidados a regulamentação definitiva do Free Flow federal, a ampliação do prazo de pagamento de 15 para 30 dias e a criação de um grupo de trabalho de interoperabilidade.
+
+**Nada muda hoje para quem dirige.** Prazos, canais e regras de pagamento seguem os de sempre, e estão em [Como pagar o pedágio Free Flow](como-pagar.md).
+
+Fonte: [ANTT, Free Flow](https://www.gov.br/antt/pt-br/free-flow). Afeta: [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv) e [História do Free Flow no Brasil](historia-do-free-flow-no-brasil.md).
+
 ### 24 de agosto de 2026: MT-130 anuncia início do Free Flow para 10 de outubro
 
 A concessionária **Rota dos Grãos** anunciou o início da cobrança eletrônica na **MT-130, entre Primavera do Leste e Paranatinga**, para **10 de outubro de 2026**. O projeto substitui as duas praças físicas do trecho por **seis pórticos** distribuídos ao longo dos cerca de 140 quilômetros da rodovia, com cobrança proporcional ao trecho efetivamente percorrido. Até lá não há cobrança por pórtico na MT-130, e o portal oficial de consulta e pagamento da concessionária já está no ar.
@@ -38,7 +50,9 @@ Fonte: [Rota dos Grãos, portal de pedágio eletrônico](https://pedagioeletroni
 
 ### 31 de julho a 10 de agosto de 2026: a Senatran começa a homologar os sistemas de Free Flow
 
-Em onze dias, a **Secretaria Nacional de Trânsito publicou doze portarias de homologação** de sistemas de livre passagem, cumprindo o procedimento criado pela Portaria Senatran nº 442/2025. Entre as homologadas estão RioSP, PRVias, Motiva Sorocabana, Ecovias Noroeste Paulista, Ecovias dos Imigrantes, Via SP Serra, EPR Sul de Minas, EPR Iguaçu, Tamoios, Nova 381 e Novo Litoral.
+Em onze dias, a **Secretaria Nacional de Trânsito publicou quatorze portarias de homologação** de sistemas de livre passagem, cumprindo o procedimento criado pela Portaria Senatran nº 442/2025. Entre as homologadas estão RioSP, PRVias, Motiva Sorocabana, Ecovias Noroeste Paulista, Ecovias dos Imigrantes, Via SP Serra, EPR Sul de Minas, EPR Iguaçu, Tamoios, Nova 381, Way-262, Nova 364 e Novo Litoral.
+
+**Atualizado em 26 de agosto de 2026:** a varredura mensal da página de portarias localizou mais duas homologações que não constavam aqui, a da **Way-262** (portaria 621) e a da **Nova 364** (portaria 622), ambas publicadas em 5 de agosto de 2026. A contagem passou de doze para quatorze e a lista de concessionárias ativas ainda sem portaria localizada caiu para três: Caminhos da Serra Gaúcha, Rota Verde Goiás e EPR Paraná.
 
 **Por que isso importa para quem dirige:** pelo art. 8º, § 2º da Portaria nº 442/2025, sistema não homologado não pode ser usado para os fins do art. 115, § 10 do CTB, o que **afasta a infração do art. 209-A**. A tarifa continua devida em qualquer cenário, porque é obrigação civil. As portarias determinam ainda que, enquanto a falta de dados impedir a comprovação da infração, **não podem ser emitidos autos de infração** para aquelas passagens.
 
@@ -199,6 +213,7 @@ Fonte: [ANTT](https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/free-flow-
 | 17 de novembro de 2026 | Tarifas em aberto voltam a poder gerar auto de infração | Nacional |
 | Dezembro de 2026 | Free Flow previsto em contrato na BR-116 e BR-251, norte de Minas | MG, Ecovias das Gerais |
 | Novembro de 2026 | 14 pórticos previstos no corredor Três Lagoas, Água Clara e Campo Grande | MS, Rota da Celulose |
+| 27 de agosto de 2026 | Diretoria Colegiada da ANTT decide sobre abrir audiência pública dos meios de pagamento | Nacional, ANTT |
 | Sem data | Retomada do Sistema Anchieta-Imigrantes, com o pórtico da subida após o km 38 | SP, Ecovias dos Imigrantes |
 
 Trechos com status `previsto` ou `adiado` **não cobram tarifa por pórtico hoje**. A lista completa está na seção [Onde o Free Flow ainda vai chegar](../README.md#onde-o-free-flow-ainda-vai-chegar).
