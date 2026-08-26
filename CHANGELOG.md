@@ -6,7 +6,45 @@ Todas as mudanças relevantes deste repositório são registradas aqui. O format
 
 ## [Não publicado]
 
-Nada por enquanto.
+- **Comparativo de tags de pedágio**, a peça do Programa Escolher: seis critérios de decisão, tabela das cinco operadoras autorizadas pela ARTESP e veredito por perfil de motorista. Produzida e revisada, **aguardando aprovação do cliente** antes de publicar.
+
+---
+
+## [0.7.0], 2026-08-26
+
+Camada da tag. O repositório passa a responder o outro lado do Free Flow: não só como pagar quando não se tem tag, mas o que muda quando se tem. Entra o terceiro pilar na raiz, a quinta base aberta e a correção de um erro de contagem que estava publicado desde a 0.5.0.
+
+### Adicionado
+
+- **[`TAG-DE-PEDAGIO.md`](TAG-DE-PEDAGIO.md)**, na raiz: o pilar da tag. O que é o dispositivo e como o pórtico o lê, a separação entre concessionária e operadora de tag, a tabela com tag e sem tag lado a lado, a interoperabilidade obrigatória nas federais, por que o desconto depende de identificação eletrônica, e uma seção sobre o que a tag **não** resolve.
+- **[`docs/tags-aceitas-no-free-flow.md`](docs/tags-aceitas-no-free-flow.md)**: a tabela de aceitação nas 15 concessionárias com Free Flow em operação, a diferença entre o regime federal e o estadual, as cinco operadoras autorizadas pela ARTESP publicadas nominalmente, e as três situações em que a tag não entra.
+- **[`docs/como-funciona-a-cobranca-da-tag.md`](docs/como-funciona-a-cobranca-da-tag.md)**: o caminho do pórtico até a fatura com os quatro atores envolvidos, quanto tempo cada sistema leva para mostrar a passagem, cinco situações que parecem erro de cobrança e não são, e o que a Resolução ANTT nº 6.079/2026 garante ao usuário.
+- **[`docs/tag-em-moto-e-outros-veiculos.md`](docs/tag-em-moto-e-outros-veiculos.md)**: por que não existe tag para moto no Brasil, a tabela nacional de onde a moto paga e onde é isenta, o caso do carro alugado e a regra de uma tag por placa.
+- **[`dados/tags-aceitas-free-flow.csv`](dados/tags-aceitas-free-flow.csv)**, a quinta base aberta, com **15 registros**, um por concessionária em operação: regime de autorização, operadoras publicadas, descontos e regra de moto, com fonte oficial em cada linha.
+- Dicionário da nova base em [`dados/README.md`](dados/README.md), com a explicação de por que `operadoras_publicadas` traz `n/d` na maioria das federais.
+
+### Corrigido
+
+- **A RioSP tem 24 pórticos de cobrança, e não 13.** A base `concessionarias-free-flow.csv` ficou com o número antigo da Via Dutra quando a contagem foi corrigida de 10 para 21 pórticos na versão 0.5.0. A soma da coluna `n_porticos_free_flow` nas linhas ativas voltou a bater com o total nacional de 85, que sempre esteve correto nas demais bases e no índice nacional.
+- **Nome da PRVias alinhado entre as bases**, de `PRVias (Motiva Paraná)` para `PRVias (Motiva Paraná, ex-CCR RodoNorte)`, como já aparecia em `porticos-free-flow.csv` e no índice nacional.
+- **README**: o índice anunciava as bases abertas "em CSV e JSON". Não há espelho JSON no repositório e nunca houve. Corrigido para as cinco bases em CSV.
+- **`dados/README.md`**: a tabela de atualização falava em revisão completa "das três bases", quando já eram quatro. Agora são cinco.
+- **Quebra de linha dos CSVs padronizada em CRLF.** Três das quatro bases já usavam CRLF, que é o padrão do RFC 4180 e o formato que o Excel espera; `concessionarias-free-flow.csv` estava em LF e passou a acompanhar as demais. Nenhum dado muda, e o dicionário agora declara o formato de arquivo.
+
+### Alterado
+
+- **README**: quatro páginas novas na seção Conteúdos, quinta base na seção Dados abertos, badge de bases abertas, e a seção Tag de Pedágio deixa de prometer conteúdo futuro e passa a linkar o pilar e os três apoios.
+
+### Notas de dado
+
+- **Interoperabilidade nas federais é obrigação legal, não cortesia.** A Lei nº 14.157/2021 determinou a interoperabilidade do pagamento eletrônico de pedágio e a Resolução ANTT nº 4.281/2014 padroniza o sistema de arrecadação e define a figura da **AMAP**, Administradora de Meios de Pagamento para Arrecadação de Pedágio. Autorizada a operadora, todas as concessionárias federais leem a tag dela.
+- **A Resolução ANTT nº 6.079/2026, art. 63-D**, deixou explícito que o usuário pode optar entre os sistemas das empresas autorizadas pela ANTT, os sistemas próprios das concessionárias e os sistemas interoperáveis entre concessionárias.
+- **Cinco operadoras autorizadas pela ARTESP**, publicadas nominalmente pelas concessionárias Novo Litoral e Tamoios nos próprios sites: ConectCar, Move Mais, Sem Parar, Taggy e Veloe. **Divergência registrada:** parte da cobertura de imprensa cita GreenPass no lugar de Taggy. Adotamos a lista das concessionárias, por hierarquia de fonte.
+- **Nenhuma tag no Brasil é homologada para motocicleta**, e a restrição é do sistema, não da operadora. A razão declarada pela ARTESP é segurança nas pistas automáticas com cancela, pelo risco de colisão traseira em caso de falha de abertura. Sem Parar publica no próprio canal de ajuda que a tag só deve ser instalada em carro de passeio, ônibus ou caminhão, e a Via Dutra declara proibido o uso de qualquer tag de pagamento automático em motocicleta. O Free Flow, por não ter cancela, é apontado como o caminho que pode destravar o tema, e a ARTESP afirma que ainda não há solução específica.
+- **O prazo de 30 dias é de quem paga pela placa.** Para quem tem tag, o prazo e a forma de pagamento seguem o contrato com a operadora, como a Concessionária Novo Litoral declara no próprio site. Tag inativa ou sem saldo faz a leitura cair para a placa, e o prazo do trecho volta a valer.
+- **Passagem cobrada por tag em regra não aparece no portal de pagamento avulso da concessionária**, porque aquele portal lista o que está em aberto. O registro fica no extrato da operadora. Comportamento confirmado na Tamoios e na RioSP.
+- **Exceção gaúcha:** a CSG concede o desconto ao usuário que se cadastra no site ou no aplicativo, sem tag, e é o caminho do motociclista naquele trecho. A concessionária declara a tag como forma recomendada de pagamento e aceita vale-pedágio apenas em formato tag.
+- **Vale-pedágio é outro produto.** O Vale-Pedágio Obrigatório da Lei nº 10.209/2001 é instrumento de transporte de carga e, desde 2025, existe apenas em meio eletrônico: cartões, cupons e outros meios físicos foram descontinuados pela regulamentação da ANTT.
 
 ---
 
