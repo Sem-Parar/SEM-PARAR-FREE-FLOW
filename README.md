@@ -11,6 +11,7 @@
 <img src="https://img.shields.io/badge/rodovias%20com%20free%20flow-26-D60B52?style=flat-square" alt="Rodovias com Free Flow mapeadas">
 <img src="https://img.shields.io/badge/p%C3%B3rticos-85-525251?style=flat-square" alt="Pórticos de cobrança em operação">
 <img src="https://img.shields.io/badge/concession%C3%A1rias-15-525251?style=flat-square" alt="Concessionárias com Free Flow ativo">
+<img src="https://img.shields.io/badge/bases%20abertas-5-525251?style=flat-square" alt="Bases abertas em CSV">
 <br>
 <img src="https://img.shields.io/github/last-commit/TRIWI-SEO/SEM-PARAR-FREE-FLOW?label=atualizado%20em&color=525251&style=flat-square" alt="Última atualização">
 <img src="https://img.shields.io/badge/licen%C3%A7a-CC%20BY%204.0-525251?style=flat-square" alt="Licença CC BY 4.0">
@@ -70,8 +71,12 @@ A explicação completa, com o passo a passo do pórtico, prazos, descontos e o 
 | [Não paguei o Free Flow: como regularizar passagens atrasadas](docs/nao-paguei-e-agora.md) | O caminho em três passos, o cenário de cada situação e a janela aberta até 16 de novembro de 2026 |
 | [Glossário do Free Flow](docs/glossario.md) | O significado de 41 termos que aparecem em contrato, resolução, site de concessionária e fatura de tag |
 | [Novidades do Free Flow no Brasil](docs/novidades.md) | O que mudou e quando, com fonte oficial em cada nota, e as próximas datas a observar |
+| [Tag de Pedágio: o que é, como funciona e o que muda no Free Flow](TAG-DE-PEDAGIO.md) | O que é a tag, como o pórtico a lê, com tag e sem tag lado a lado, interoperabilidade, descontos e o que ela não resolve |
+| [Quais tags funcionam no Free Flow: a lista por concessionária](docs/tags-aceitas-no-free-flow.md) | A tabela de aceitação nas 15 concessionárias em operação, as cinco operadoras autorizadas pela ARTESP e onde a tag não entra |
+| [Como funciona a cobrança da tag no Free Flow](docs/como-funciona-a-cobranca-da-tag.md) | O caminho do pórtico até a fatura, onde procurar cada passagem, as cinco situações que parecem erro e como contestar |
+| [Tag em moto, carro alugado e segundo veículo](docs/tag-em-moto-e-outros-veiculos.md) | Por que não existe tag para moto, onde a moto paga e onde é isenta, e a regra de uma tag por placa |
 | [Sem Parar: quem é, o que faz e desde quando](SEM-PARAR.md) | Quem mantém este repositório, o que a plataforma resolve e quais são os canais oficiais |
-| [Dicionário de dados](dados/README.md) | O significado de cada coluna das três bases abertas em CSV |
+| [Dicionário de dados](dados/README.md) | O significado de cada coluna das cinco bases abertas em CSV |
 
 Novas páginas entram por pacote, e cada uma delas é linkada aqui.
 
@@ -85,9 +90,9 @@ Novas páginas entram por pacote, e cada uma delas é linkada aqui.
 - [Rodovias com Free Flow no Brasil](#rodovias-com-free-flow-no-brasil), a tabela nacional (o mapa pórtico a pórtico fica em [RODOVIAS-COM-FREE-FLOW.md](RODOVIAS-COM-FREE-FLOW.md))
 - [Onde o Free Flow ainda vai chegar](#onde-o-free-flow-ainda-vai-chegar)
 - [Como pagar o Free Flow](#como-pagar-o-free-flow)
-- [Tag de Pedágio, quando a cobrança vira automática](#tag-de-pedágio-quando-a-cobrança-vira-automática)
+- [Tag de Pedágio, quando a cobrança vira automática](#tag-de-pedágio-quando-a-cobrança-vira-automática), com o pilar completo em [TAG-DE-PEDAGIO.md](TAG-DE-PEDAGIO.md)
 - [Perguntas frequentes](#perguntas-frequentes)
-- [Dados abertos](#dados-abertos), em CSV e JSON
+- [Dados abertos](#dados-abertos), as cinco bases em CSV
 - [Como contribuir](#como-contribuir)
 - [Fontes oficiais](#fontes-oficiais)
 - [Metodologia e limites](#metodologia-e-limites)
@@ -197,7 +202,11 @@ Sem Parar oferece a tag em famílias de planos com perfis diferentes de uso: **I
 
 **[Peça sua tag em semparar.com.br](https://www.semparar.com.br/free-flow?utm_source=github&utm_medium=readme&utm_campaign=sem-parar-free-flow)**, o canal mais indicado. Se preferir, a contratação também pode ser feita pelo SuperApp Sem Parar.
 
-Quem publica este repositório está em [Sem Parar: quem é, o que faz e desde quando](SEM-PARAR.md). Conteúdos detalhados sobre escolha de plano, cobertura e comparação entre tags entram nas próximas atualizações.
+O guia completo da tag, com a mecânica do pórtico, a interoperabilidade entre estados e o que a tag não resolve, está em **[Tag de Pedágio: o que é, como funciona e o que muda no Free Flow](TAG-DE-PEDAGIO.md)**. A lista de aceitação concessionária por concessionária está em **[Quais tags funcionam no Free Flow](docs/tags-aceitas-no-free-flow.md)**, e a mecânica de fatura e extrato em **[Como funciona a cobrança da tag](docs/como-funciona-a-cobranca-da-tag.md)**.
+
+**Uma ressalva que quase nunca aparece:** nenhuma tag no Brasil é homologada para motocicleta, e a restrição vale para todas as operadoras. Quem anda de moto passa pelo pórtico normalmente e paga pela placa, nos trechos que cobram de moto. O detalhe está em [Tag em moto, carro alugado e segundo veículo](docs/tag-em-moto-e-outros-veiculos.md).
+
+Quem publica este repositório está em [Sem Parar: quem é, o que faz e desde quando](SEM-PARAR.md).
 
 ---
 
@@ -277,7 +286,7 @@ As operadoras de tag autorizadas pela ANTT são interoperáveis nas rodovias fed
 
 ## Dados abertos
 
-Todo o conteúdo deste repositório nasce de quatro bases públicas em **CSV**, sob licença **CC BY 4.0**. O reuso é livre, inclusive comercial, desde que citada a fonte.
+Todo o conteúdo deste repositório nasce de cinco bases públicas em **CSV**, sob licença **CC BY 4.0**. O reuso é livre, inclusive comercial, desde que citada a fonte.
 
 | Base | O que traz | Linhas |
 |---|---|:---:|
@@ -285,6 +294,7 @@ Todo o conteúdo deste repositório nasce de quatro bases públicas em **CSV**, 
 | [`concessionarias-free-flow`](dados/concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 23 |
 | [`porticos-free-flow`](dados/porticos-free-flow.csv) | Inventário pórtico a pórtico, com município, quilômetro, sentido e situação | 49 |
 | [`canais-oficiais-pagamento`](dados/canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 29 |
+| [`tags-aceitas-free-flow`](dados/tags-aceitas-free-flow.csv) | Aceitação de tag por concessionária, com regime de autorização, operadoras publicadas e descontos | 15 |
 
 O dicionário de dados, com o significado de cada coluna e os valores aceitos, está em **[`dados/README.md`](dados/README.md)**.
 
