@@ -46,11 +46,11 @@ O estado com mais pórticos é **São Paulo**. A operação de maior extensão c
 |---|---|---|:---:|---|:---:|---|
 | **BR-116** Via Dutra, trecho metropolitano | São Paulo, Guarulhos e Arujá | 204 a 231 | 21 | RioSP | 06/12/2025 | [pagar](https://pedagiodigital.com) |
 | **SP-021** Rodoanel, Trecho Norte | Guarulhos | 135 | 2 | Via SP Serra | 23/12/2025 | [pagar](https://viaappia.com.br/sigafacil/) |
-| **SP-055** Manoel Hipólito do Rego | Santos | 236 | 1 | CNL | 01/11/2025 | [pagar](https://cnl.pedagioeletronico.com.br) |
+| **SP-055** Manoel Hipólito do Rego | Santos | 236+000 | 1 | CNL | 01/11/2025 | [pagar](https://cnl.pedagioeletronico.com.br) |
 | **SP-055** Padre Manoel da Nóbrega | Miracatu | 389+560 | 1 | CNL | 01/11/2025 | [pagar](https://cnl.pedagioeletronico.com.br) |
-| **SP-088** Pedro Eroles (Mogi-Dutra) | Arujá | 037 | 1 | CNL | 01/11/2025 | [pagar](https://cnl.pedagioeletronico.com.br) |
-| **SP-088** Pedro Eroles (Mogi-Dutra) | Mogi das Cruzes | 041 | 1 | CNL | 01/11/2025 | [pagar](https://cnl.pedagioeletronico.com.br) |
-| **SP-098** Mogi-Bertioga | Bertioga | 092+740 | 1 | CNL | 01/11/2025 | [pagar](https://cnl.pedagioeletronico.com.br) |
+| **SP-088** Pedro Eroles (Mogi-Dutra) | Arujá | 37+150 e 37+780 | 1 | CNL | 01/11/2025 | [pagar](https://cnl.pedagioeletronico.com.br) |
+| **SP-088** Pedro Eroles (Mogi-Dutra) | Mogi das Cruzes | 41+600 e 40+800 | 1 | CNL | 01/11/2025 | [pagar](https://cnl.pedagioeletronico.com.br) |
+| **SP-098** Mogi-Bertioga | Bertioga | 92+740 | 1 | CNL | 01/11/2025 | [pagar](https://cnl.pedagioeletronico.com.br) |
 | **SP-099** Tamoios, Contorno Sul | Caraguatatuba | 13+500 | 1 | Tamoios | 18/11/2024 | [pagar](https://freeflowtamoios.com.br) |
 | **SP-270** Raposo Tavares | São Roque | 48 | 1 | Motiva Sorocabana | 01/10/2025 | [pagar](https://rodovias.motiva.com.br/sorocabana/freeflow/) |
 | **SP-270** Raposo Tavares | Alumínio e Sorocaba | 83 | 1 | Motiva Sorocabana | 01/10/2025 | [pagar](https://rodovias.motiva.com.br/sorocabana/freeflow/) |
@@ -60,7 +60,7 @@ O estado com mais pórticos é **São Paulo**. A operação de maior extensão c
 | **SP-333** Carlos Tonanni | Jaboticabal | 110 | 1 | Ecovias Noroeste Paulista | 04/09/2024 | [pagar](https://freeflow.ecoviasnoroestepaulista.com.br) |
 | **SP-333** Laurentino Mascari | Itápolis | 179 | 1 | Ecovias Noroeste Paulista | 04/09/2024 | [pagar](https://freeflow.ecoviasnoroestepaulista.com.br) |
 
-**35 pórticos de cobrança em São Paulo.** A página completa da Dutra está em **[Free Flow na Via Dutra](rodovias/free-flow-dutra.md)**.
+**36 pórticos de cobrança em São Paulo**, o maior número do país. O panorama do estado está em **[Free Flow em São Paulo](estados/free-flow-sp.md)**, e as páginas de rodovia em **[Via Dutra](rodovias/free-flow-dutra.md)**, **[Tamoios](rodovias/free-flow-tamoios.md)** e **[Mogi-Bertioga](rodovias/free-flow-mogi-bertioga.md)**.
 
 ---
 
@@ -111,14 +111,14 @@ O estado com mais pórticos é **São Paulo**. A operação de maior extensão c
 
 | Rodovia | Município | Km | Pórticos | Concessionária | Desde | Pagar |
 |---|---|---|:---:|---|:---:|---|
-| **ERS-122** Rota da Serra Gaúcha | São Sebastião do Caí | 4 | 1 | CSG | 15/12/2023 | [pagar](https://freeflow.csg.com.br) |
-| **ERS-122** Rota da Serra Gaúcha | Farroupilha | 45 | 1 | CSG | 15/12/2023 | [pagar](https://freeflow.csg.com.br) |
-| **ERS-122** Rota da Serra Gaúcha | Antônio Prado | 108 | 1 | CSG | 15/12/2023 | [pagar](https://freeflow.csg.com.br) |
-| **ERS-122** Rota da Serra Gaúcha | Ipê | 151 | 1 | CSG | 15/12/2023 | [pagar](https://freeflow.csg.com.br) |
-| **ERS-240** Vale do Caí | Capela de Santana | 30 | 1 | CSG | 30/03/2024 | [pagar](https://freeflow.csg.com.br) |
+| **ERS-122** Rota da Serra Gaúcha | São Sebastião do Caí | 4,6 | 1 | CSG | 15/12/2023 | [pagar](https://freeflow.csg.com.br) |
+| **ERS-122** Rota da Serra Gaúcha | Farroupilha | 45,5 | 1 | CSG | 15/12/2023 | [pagar](https://freeflow.csg.com.br) |
+| **ERS-122** Rota da Serra Gaúcha | Antônio Prado | 108,3 | 1 | CSG | 15/12/2023 | [pagar](https://freeflow.csg.com.br) |
+| **ERS-122** Rota da Serra Gaúcha | Ipê | 151,9 | 1 | CSG | 15/12/2023 | [pagar](https://freeflow.csg.com.br) |
+| **ERS-240** Vale do Caí | Capela de Santana | 30,1 | 1 | CSG | 30/03/2024 | [pagar](https://freeflow.csg.com.br) |
 | **ERS-446** Carlos Barbosa | Carlos Barbosa | 6 | 1 | CSG | 30/03/2024 | [pagar](https://freeflow.csg.com.br) |
 
-**6 pórticos de cobrança no Rio Grande do Sul.** Duas correções que valem registro, porque circulam erradas: **não existe** pórtico na RSC-453 nem em Campestre da Serra, e o pórtico do km 151 fica em **Ipê**, não em Caxias do Sul. E a **FreeWay, BR-116 e BR-290, não tem Free Flow**: é confusão com o nome comercial da rodovia.
+**6 pórticos de cobrança no Rio Grande do Sul**, e o estado tem um marco: foi o primeiro do país a ter Free Flow em rodovia estadual. O panorama está em **[Free Flow no Rio Grande do Sul](estados/free-flow-rs.md)**. Duas correções que valem registro, porque circulam erradas: **não existe** pórtico na RSC-453 nem em Campestre da Serra, e o pórtico do km 151 fica em **Ipê**, não em Caxias do Sul. E a **FreeWay, BR-116 e BR-290, não tem Free Flow**: é confusão com o nome comercial da rodovia.
 
 ---
 
@@ -153,7 +153,7 @@ Esta é a parte da lista que não existe em nenhum outro lugar, e ela tem uso pr
 | **SP-150** Via Anchieta | São Bernardo do Campo | 33 | Instalado nos dois sentidos, cobrança adiada sem data | Ecovias dos Imigrantes |
 | **SP-160** Imigrantes, descida | São Bernardo do Campo | 29 | Instalado, cobrança adiada sem data | Ecovias dos Imigrantes |
 | **SP-160** Imigrantes, subida | São Bernardo do Campo | após o 38 | Realocado do km 29 em julho de 2026, ponto exato em definição | Ecovias dos Imigrantes |
-| **SP-055** Padre Manoel da Nóbrega | Itariri | n/d | Só monitoramento de tráfego, sem previsão de cobrança | CNL |
+| **SP-055** Padre Manoel da Nóbrega | Itariri | 369+860 e 360+200 | Duas estruturas, só monitoramento de tráfego, sem cobrança | CNL |
 | **SP-079** Tenente Celestino Américo | Piedade e Tapiraí | 114, 138 e 193 | Instalados, cobrança adiada | Motiva Sorocabana |
 | **SP-139** Rota Sorocabana | São Miguel Arcanjo | 110 | Instalado, cobrança adiada | Motiva Sorocabana |
 | **SP-250** Bunjiro Nakao | Ibiúna, Piedade, Pilar do Sul e Capão Bonito | 56, 93, 122, 162 e 188 | Instalados, cobrança adiada | Motiva Sorocabana |
