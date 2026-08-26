@@ -146,6 +146,8 @@ A camada anti-golpe. Cada canal foi acessado e conferido individualmente, com o 
 - **`parcial`**: endereço confirmado por fonte oficial, com conferência incompleta.
 - **`parcial (instabilidade no acesso)`**: o canal apresentou falha de resposta no momento da checagem.
 
+**Por que as colunas aqui têm outro nome.** Nas outras sete bases, as duas últimas colunas se chamam `fonte` e `atualizado_em`. Nesta elas são `verificacao` e `verificado_em`, e a diferença é deliberada. Nas demais, `fonte` responde de onde o dado veio. Aqui o dado **é** o endereço, então o que precisa ficar declarado não é a procedência, e sim se alguém abriu aquele canal, conferiu e com que profundidade. É essa informação que sustenta o uso anti-golpe da base, e `fonte` não a transmitiria. Fica registrado para não parecer descuido de padronização.
+
 ### Três coisas que este arquivo deixa explícitas
 
 **Nenhum canal de governo recebe pagamento.** ANTT, app CNH do Brasil, Portal Senatran e Siga Fácil apenas mostram a passagem e encaminham à concessionária. Qualquer tela com marca de governo pedindo dados de cartão para quitar pedágio é fraude.

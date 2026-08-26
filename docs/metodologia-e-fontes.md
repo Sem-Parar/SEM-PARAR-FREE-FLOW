@@ -127,6 +127,8 @@ A convenção foi decidida no primeiro dataset e vale para os oito, sem exceçã
 | Campo não confirmado | **`n/d`**, nunca vazio e nunca chutado |
 | Colunas obrigatórias em toda base | **`fonte`** e **`atualizado_em`** |
 
+**A exceção, declarada.** Em [`canais-oficiais-pagamento.csv`](../dados/canais-oficiais-pagamento.csv) essas duas colunas se chamam `verificacao` e `verificado_em`. Não é falta de padronização: nas outras bases `fonte` diz de onde o dado veio, e nessa o dado é o próprio endereço, então o que precisa constar é se alguém abriu o canal e conferiu, e com que profundidade. Trocar o nome por simetria custaria justamente o significado que torna aquela base útil contra golpe.
+
 **Se o Excel embaralhar os acentos ao abrir**, não abra o arquivo com dois cliques. Use o menu Dados, depois Obter dados, depois De arquivo de texto ou CSV, e escolha **UTF-8** na origem do arquivo. É a dúvida mais comum de quem baixa a base.
 
 ---
