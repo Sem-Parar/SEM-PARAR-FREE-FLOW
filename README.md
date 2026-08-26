@@ -55,6 +55,10 @@ A explicação completa, com o passo a passo do pórtico, prazos, descontos e o 
 | [Free Flow na Via Dutra (BR-116)](rodovias/free-flow-dutra.md) | Os 21 pontos de cobrança, a regra da expressa e da marginal, o cálculo da tarifa e a praça de Arujá |
 | [Free Flow na Rio-Santos (BR-101)](rodovias/free-flow-rio-santos.md) | Os pórticos de Itaguaí, Mangaratiba e Paraty, quem é isento, totens e rede credenciada |
 | [Free Flow no Sistema Anchieta-Imigrantes](rodovias/free-flow-anchieta-imigrantes.md) | Por que ainda não cobra, onde ficam os pórticos, o que muda quando começar e a linha do tempo dos adiamentos |
+| [Free Flow na Tamoios (SP-099)](rodovias/free-flow-tamoios.md) | O pórtico do Contorno Sul, por que aqui a moto paga, tags aceitas pela ARTESP e os totens do SAU |
+| [Free Flow na Mogi-Bertioga (SP-098)](rodovias/free-flow-mogi-bertioga.md) | O ponto do km 92+740, as quatro rodovias da CNL, a isenção de motos e os pórticos de Itariri que não cobram |
+| [Free Flow em São Paulo](estados/free-flow-sp.md) | O panorama do estado com mais Free Flow do país, a diferença entre federal e estadual, o Siga Fácil e a isenção trecho a trecho |
+| [Free Flow no Rio Grande do Sul](estados/free-flow-rs.md) | Os 6 pórticos da Serra, por que a FreeWay ainda não tem Free Flow e o que é o Bloco 3 |
 | [O que é Free Flow e como funciona o pedágio sem cancela](O-QUE-E-FREE-FLOW.md) | Como o pórtico lê o carro, o que muda com tag e sem tag, prazos, descontos DBT e DUF, e o que acontece se não pagar |
 | [Como pagar o pedágio Free Flow: todos os canais oficiais](docs/como-pagar.md) | O caminho com tag e sem tag, a tabela de canais por concessionária, o prazo e o que acontece se ele passar |
 | [Como consultar o Free Flow pela placa do carro](docs/consultar-pela-placa.md) | Os três caminhos de consulta, o roteador de rodovia para concessionária e como contestar uma cobrança |
