@@ -6,7 +6,9 @@ Todas as mudanças relevantes deste repositório são registradas aqui. O format
 
 ## [Não publicado]
 
-Nada por enquanto.
+### Alterado
+
+- **[`O-QUE-E-FREE-FLOW.md`](O-QUE-E-FREE-FLOW.md) sai de `docs/` e vai para a raiz.** É um conteúdo pilar, e a raiz dá a ele destaque na listagem do repositório e uma URL mais curta, com a palavra-chave no caminho. Todos os links que apontavam para o arquivo foram atualizados. A URL antiga deixa de existir, e por isso a mudança é feita agora, antes da divulgação.
 
 ---
 
@@ -34,7 +36,7 @@ Hub geográfico, onda 1. O repositório ganha a camada "onde tem", com o mapa na
 
 - **`dados/rodovias-free-flow.csv`**: linha da Via Dutra corrigida em `n_porticos` e `trecho`, com a data de verificação atualizada.
 - **README**: badge de pórticos, resposta extraível, tabela nacional, total ao pé da tabela, seção Conteúdos com as quatro páginas novas, seção de dados abertos com a quarta base e ponteiro para o índice nacional.
-- **`docs/o-que-e-free-flow.md`** e **`docs/novidades.md`**: contagem nacional atualizada e nota de 06/12/2025 corrigida com o número de pontos, o quilômetro inicial e o modelo de cobrança da Dutra.
+- **`O-QUE-E-FREE-FLOW.md`** e **`docs/novidades.md`**: contagem nacional atualizada e nota de 06/12/2025 corrigida com o número de pontos, o quilômetro inicial e o modelo de cobrança da Dutra.
 
 ### Notas de dado
 
@@ -60,7 +62,7 @@ Dores. O repositório passa a cobrir a régua completa do que acontece quando a 
 
 ### Corrigido
 
-- **A contagem do prazo de 30 dias, de novo, e agora completa.** A versão 0.3.0 dizia que os 30 dias contam da confirmação do processamento do registro. Está certo para a **infração de trânsito**, mas incompleto: a Resolução ANTT nº 6.079/2026 conta **da passagem pelo pórtico** para efeito dos **encargos financeiros** nas rodovias federais concedidas. As duas fontes são oficiais e tratam de planos distintos. A divergência agora está registrada em tabela no README, em [`docs/como-pagar.md`](docs/como-pagar.md), em [`docs/o-que-e-free-flow.md`](docs/o-que-e-free-flow.md), em [`docs/consulta-app-cnh-do-brasil.md`](docs/consulta-app-cnh-do-brasil.md) e, com o detalhamento completo, em [`docs/prazo-e-encargos.md`](docs/prazo-e-encargos.md).
+- **A contagem do prazo de 30 dias, de novo, e agora completa.** A versão 0.3.0 dizia que os 30 dias contam da confirmação do processamento do registro. Está certo para a **infração de trânsito**, mas incompleto: a Resolução ANTT nº 6.079/2026 conta **da passagem pelo pórtico** para efeito dos **encargos financeiros** nas rodovias federais concedidas. As duas fontes são oficiais e tratam de planos distintos. A divergência agora está registrada em tabela no README, em [`docs/como-pagar.md`](docs/como-pagar.md), em [`O-QUE-E-FREE-FLOW.md`](O-QUE-E-FREE-FLOW.md), em [`docs/consulta-app-cnh-do-brasil.md`](docs/consulta-app-cnh-do-brasil.md) e, com o detalhamento completo, em [`docs/prazo-e-encargos.md`](docs/prazo-e-encargos.md).
 - **Pagar a multa não quita a tarifa.** O README dizia apenas que a passagem não paga vira infração. Faltava a consequência que mais surpreende, e que está expressa na Resolução ANTT nº 6.079/2026: o pagamento da multa não exime o usuário de quitar a tarifa, os encargos administrativos, a multa moratória e os juros legais.
 
 ### Alterado
@@ -96,7 +98,7 @@ Pagar e consultar. O repositório passa a responder, com caminho completo, as du
 
 ### Corrigido
 
-- **Contagem do prazo de pagamento.** O repositório dizia "até 30 dias após a passagem". A Deliberação CONTRAN nº 277/2026 alterou o art. 7º da Resolução CONTRAN nº 1.013/2024, e o prazo de 30 dias passou a ser contado **da confirmação do processamento do registro da passagem** junto ao órgão máximo executivo de trânsito da União. Corrigido no README e em [`docs/o-que-e-free-flow.md`](docs/o-que-e-free-flow.md), com a ressalva de extensão para o próximo dia útil.
+- **Contagem do prazo de pagamento.** O repositório dizia "até 30 dias após a passagem". A Deliberação CONTRAN nº 277/2026 alterou o art. 7º da Resolução CONTRAN nº 1.013/2024, e o prazo de 30 dias passou a ser contado **da confirmação do processamento do registro da passagem** junto ao órgão máximo executivo de trânsito da União. Corrigido no README e em [`O-QUE-E-FREE-FLOW.md`](O-QUE-E-FREE-FLOW.md), com a ressalva de extensão para o próximo dia útil.
 - **Referência à versão do app CNH do Brasil.** A menção a "versão 7.3.0 ou superior" saiu de todas as páginas e da base, substituída por "com o app atualizado". O número não foi confirmado em fonte oficial primária na revalidação de 26/08/2026, e a regra da casa é não afirmar o que não se confirma.
 - **Valores de situação do débito** no FAQ do README: são em processamento, pendente, isento ou pago, e não "vencido".
 
@@ -124,7 +126,7 @@ Base de entendimento. O repositório ganha as páginas que explicam o sistema, d
 
 ### Adicionado
 
-- **[`docs/o-que-e-free-flow.md`](docs/o-que-e-free-flow.md)**, a explicação completa do sistema: como o pórtico identifica o veículo, o que muda com tag e sem tag, prazo de pagamento, descontos DBT e DUF, consequências do não pagamento e por que o país está trocando a praça pelo pórtico.
+- **[`O-QUE-E-FREE-FLOW.md`](O-QUE-E-FREE-FLOW.md)**, a explicação completa do sistema: como o pórtico identifica o veículo, o que muda com tag e sem tag, prazo de pagamento, descontos DBT e DUF, consequências do não pagamento e por que o país está trocando a praça pelo pórtico.
 - **[`docs/glossario.md`](docs/glossario.md)**, com 41 verbetes do pedágio eletrônico, de ANPR e RFID a trecho tarifário e Vale-Pedágio, incluindo os termos da Resolução ANTT nº 6.079/2026.
 - **[`docs/novidades.md`](docs/novidades.md)**, página viva com a linha do tempo do Free Flow no Brasil, uma nota por fato com data e fonte oficial, a tabela de próximas datas a observar e as regras vigentes.
 - **[`SEM-PARAR.md`](SEM-PARAR.md)**, a página de identidade do repositório: história desde 2000, verticais da plataforma, cobertura, governança regulatória e a lista de canais oficiais da marca.
