@@ -1,6 +1,6 @@
 # Dados abertos do Free Flow no Brasil
 
-Esta pasta é o coração do repositório: cinco bases públicas sobre o pedágio eletrônico brasileiro, em **CSV**, publicadas pelo Sem Parar sob licença **[CC BY 4.0](../LICENSE)**. O reuso é livre, inclusive comercial, desde que citada a fonte.
+Esta pasta é o coração do repositório: sete bases públicas sobre o pedágio eletrônico brasileiro, em **CSV**, publicadas pelo Sem Parar sob licença **[CC BY 4.0](../LICENSE)**. O reuso é livre, inclusive comercial, desde que citada a fonte.
 
 | Base | O que traz | Linhas |
 |---|---|:---:|
@@ -9,6 +9,8 @@ Esta pasta é o coração do repositório: cinco bases públicas sobre o pedági
 | [concessionarias-free-flow](concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 23 |
 | [canais-oficiais-pagamento](canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 29 |
 | [tags-aceitas-free-flow](tags-aceitas-free-flow.csv) | Aceitação de tag por concessionária, com regime de autorização, operadoras publicadas e descontos | 15 |
+| [base-legal-free-flow](base-legal-free-flow.csv) | As leis, resoluções e portarias que sustentam o Free Flow, com o que cada uma define | 12 |
+| [homologacao-senatran-free-flow](homologacao-senatran-free-flow.csv) | Homologações de sistema de livre passagem pela Senatran, com número e data de portaria | 12 |
 
 Codificação **UTF-8**, separador **vírgula**, quebra de linha **CRLF** (padrão RFC 4180, que é o que o Excel espera), datas em **ISO** (`AAAA-MM-DD`). Listas dentro de uma célula usam **ponto e vírgula** como separador.
 
@@ -179,6 +181,55 @@ O recorte é deliberado. Só entram as concessionárias que **cobram hoje**, por
 
 ---
 
+## `base-legal-free-flow.csv`
+
+Uma linha por **norma**. Responde à pergunta que sustenta todo o resto: com base em quê se cobra, e com base em quê se multa.
+
+O recorte inclui leis, resoluções, deliberações e portarias em vigor, mais a Resolução CONTRAN nº 984/2022, que foi substituída mas cujos atos seguem produzindo efeitos por regra de transição.
+
+| Coluna | Tipo | Descrição |
+|---|---|---|
+| `norma` | texto | Identificação usual, como `Lei nº 14.157/2021` ou `Art. 209-A do CTB` |
+| `tipo` | enum | `lei federal`, `artigo de lei`, `resolução`, `deliberação` ou `portaria` |
+| `orgao` | texto | Quem editou: `Congresso Nacional`, `ANTT`, `CONTRAN` ou `Senatran` |
+| `data_publicacao` | data | Data de publicação, em ISO |
+| `o_que_estabelece` | texto | Resumo do conteúdo normativo, sem interpretação |
+| `aplica_se_a` | texto | Alcance: `todo o país`, `rodovias federais concedidas` ou `transporte de carga` |
+| `vigencia` | texto | `vigente`, `vigente até` com data, ou a norma que a substituiu |
+| `relevancia_para_o_motorista` | texto | Por que aquela norma importa na prática de quem dirige |
+| `url_oficial` | URL | Endereço do texto oficial |
+| `fonte` | URL | Fonte primária consultada |
+| `atualizado_em` | data | Última verificação |
+
+**Por que a coluna `relevancia_para_o_motorista` existe.** Uma lista de normas sem tradução é inútil para quem não é advogado. Essa coluna é o único campo interpretativo da base, e ele diz o efeito prático, não a opinião sobre o mérito.
+
+> **Uso anti-golpe:** páginas falsas de pedágio costumam citar o art. 209-A com texto inventado. O texto real está nesta base e no [pilar da base legal](../BASE-LEGAL-DO-FREE-FLOW.md).
+
+---
+
+## `homologacao-senatran-free-flow.csv`
+
+Uma linha por **homologação de sistema de livre passagem** publicada pela Senatran. Importa porque, pela Portaria Senatran nº 442/2025, art. 8º, § 2º, sistema não homologado não pode ser usado para os fins do art. 115, § 10 do CTB, o que afasta a infração do art. 209-A.
+
+| Coluna | Tipo | Descrição |
+|---|---|---|
+| `concessionaria_na_portaria` | texto | Razão social exatamente como aparece na portaria |
+| `concessionaria_no_repositorio` | texto | Nome usado nas demais bases, para permitir o cruzamento. `n/d` quando a concessionária ainda não consta no inventário |
+| `cnpj` | texto | CNPJ informado na portaria |
+| `portaria_senatran` | inteiro | Número da portaria de homologação |
+| `data_publicacao` | data | Data de publicação da portaria |
+| `uf` | texto | Estados de atuação, separados por ponto e vírgula |
+| `cobra_por_portico_hoje` | enum | `sim`, `nao` ou `n/d`. **Homologação não é início de cobrança** |
+| `observacao` | texto | Particularidades relevantes |
+| `fonte` | URL | Página de portarias da Senatran |
+| `atualizado_em` | data | Última verificação |
+
+**A coluna `cobra_por_portico_hoje` existe por um motivo específico.** A Ecovias dos Imigrantes teve o sistema homologado e não cobra: os pórticos do Sistema Anchieta-Imigrantes estão instalados e a cobrança segue adiada. Sem essa coluna, a base induziria ao erro de tratar homologação como sinal de que a rodovia já cobra.
+
+**Limite declarado desta base.** Ela reúne as homologações que localizamos na página de portarias da Senatran, e não é uma extração oficial consolidada. Concessionárias ativas que não aparecem aqui podem ter sido homologadas em portaria que não localizamos. **A ausência de uma linha não é afirmação de que a concessionária não foi homologada.**
+
+---
+
 ## Como abrir
 
 Clique no arquivo, depois no botão **Download raw file**, no canto superior direito. O arquivo baixa em CSV e abre direto no Excel, no Numbers ou no Google Sheets.
@@ -192,7 +243,7 @@ Se o Excel embaralhar os acentos, abra pelo menu Dados, opção "De Texto/CSV", 
 | Evento | Prazo |
 |---|---|
 | Inauguração, adiamento ou mudança de status de pórtico | até 72 horas após o fato confirmado |
-| Revisão completa das cinco bases | mensal |
+| Revisão completa das sete bases | mensal |
 | Revisão editorial dos textos | trimestral |
 
 Todas as mudanças ficam registradas no [CHANGELOG](../CHANGELOG.md). Achou um erro? [Abra uma issue](../../../issues/new). O caminho está em [CONTRIBUTING.md](../CONTRIBUTING.md).
