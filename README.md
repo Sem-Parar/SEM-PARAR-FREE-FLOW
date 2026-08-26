@@ -51,6 +51,10 @@ A explicação completa, com o passo a passo do pórtico, prazos, descontos e o 
 
 | Página | O que responde |
 |---|---|
+| [Rodovias com Free Flow no Brasil: lista completa e atualizada](RODOVIAS-COM-FREE-FLOW.md) | O mapa nacional pórtico a pórtico, por estado, mais os pórticos instalados que ainda não cobram |
+| [Free Flow na Via Dutra (BR-116)](rodovias/free-flow-dutra.md) | Os 21 pontos de cobrança, a regra da expressa e da marginal, o cálculo da tarifa e a praça de Arujá |
+| [Free Flow na Rio-Santos (BR-101)](rodovias/free-flow-rio-santos.md) | Os pórticos de Itaguaí, Mangaratiba e Paraty, quem é isento, totens e rede credenciada |
+| [Free Flow no Sistema Anchieta-Imigrantes](rodovias/free-flow-anchieta-imigrantes.md) | Por que ainda não cobra, onde ficam os pórticos, o que muda quando começar e a linha do tempo dos adiamentos |
 | [O que é Free Flow e como funciona o pedágio sem cancela](docs/o-que-e-free-flow.md) | Como o pórtico lê o carro, o que muda com tag e sem tag, prazos, descontos DBT e DUF, e o que acontece se não pagar |
 | [Como pagar o pedágio Free Flow: todos os canais oficiais](docs/como-pagar.md) | O caminho com tag e sem tag, a tabela de canais por concessionária, o prazo e o que acontece se ele passar |
 | [Como consultar o Free Flow pela placa do carro](docs/consultar-pela-placa.md) | Os três caminhos de consulta, o roteador de rodovia para concessionária e como contestar uma cobrança |
@@ -74,7 +78,7 @@ Novas páginas entram por pacote, e cada uma delas é linkada aqui.
 - [Um repositório do Sem Parar](#um-repositório-do-sem-parar)
 - [O que é o Free Flow](#o-que-é-o-free-flow)
 - [Conteúdos deste repositório](#conteúdos-deste-repositório), as páginas completas
-- [Rodovias com Free Flow no Brasil](#rodovias-com-free-flow-no-brasil), a tabela nacional
+- [Rodovias com Free Flow no Brasil](#rodovias-com-free-flow-no-brasil), a tabela nacional (o mapa pórtico a pórtico fica em [RODOVIAS-COM-FREE-FLOW.md](RODOVIAS-COM-FREE-FLOW.md))
 - [Onde o Free Flow ainda vai chegar](#onde-o-free-flow-ainda-vai-chegar)
 - [Como pagar o Free Flow](#como-pagar-o-free-flow)
 - [Tag de Pedágio, quando a cobrança vira automática](#tag-de-pedágio-quando-a-cobrança-vira-automática)
@@ -269,12 +273,13 @@ As operadoras de tag autorizadas pela ANTT são interoperáveis nas rodovias fed
 
 ## Dados abertos
 
-Todo o conteúdo deste repositório nasce de três bases públicas em **CSV**, sob licença **CC BY 4.0**. O reuso é livre, inclusive comercial, desde que citada a fonte.
+Todo o conteúdo deste repositório nasce de quatro bases públicas em **CSV**, sob licença **CC BY 4.0**. O reuso é livre, inclusive comercial, desde que citada a fonte.
 
 | Base | O que traz | Linhas |
 |---|---|:---:|
 | [`rodovias-free-flow`](dados/rodovias-free-flow.csv) | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 44 |
 | [`concessionarias-free-flow`](dados/concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 23 |
+| [`porticos-free-flow`](dados/porticos-free-flow.csv) | Inventário pórtico a pórtico, com município, quilômetro, sentido e situação | 49 |
 | [`canais-oficiais-pagamento`](dados/canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 29 |
 
 O dicionário de dados, com o significado de cada coluna e os valores aceitos, está em **[`dados/README.md`](dados/README.md)**.
