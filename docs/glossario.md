@@ -3,7 +3,7 @@
 **Este é o dicionário do pedágio eletrônico brasileiro: 41 termos que aparecem em contrato de concessão, resolução da ANTT, site de concessionária e fatura de tag, cada um explicado em duas frases.** Se você chegou aqui procurando o que significa uma sigla específica, use a busca do navegador com Ctrl+F ou Cmd+F.
 
 > Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
-> Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). A explicação completa do sistema está em [O que é Free Flow](o-que-e-free-flow.md).
+> Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). A explicação completa do sistema está em [O que é Free Flow](../O-QUE-E-FREE-FLOW.md).
 
 ---
 
@@ -191,7 +191,7 @@ Instrumento obrigatório pelo qual o contratante do frete antecipa ao transporta
 
 ## Continue por aqui
 
-- [O que é Free Flow e como funciona o pedágio sem cancela](o-que-e-free-flow.md), a explicação completa do sistema.
+- [O que é Free Flow e como funciona o pedágio sem cancela](../O-QUE-E-FREE-FLOW.md), a explicação completa do sistema.
 - [Novidades do Free Flow no Brasil](novidades.md), o que mudou e quando, com fonte oficial.
 - [Tabela nacional de rodovias](../README.md#rodovias-com-free-flow-no-brasil), onde já se cobra e onde pagar.
 - [Dicionário de dados](../dados/README.md), o significado de cada coluna das bases abertas.

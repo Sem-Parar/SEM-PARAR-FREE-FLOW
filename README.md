@@ -43,7 +43,7 @@ O repositório cobre dois temas conectados:
 
 Em **26 de agosto de 2026**, o Brasil tem **85 pórticos de Free Flow em operação**, distribuídos por **26 rodovias**, **15 concessionárias** e **7 estados**: GO, MG, PR, RJ, RO, RS, SP. O mapa pórtico a pórtico está em **[Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md)**.
 
-A explicação completa, com o passo a passo do pórtico, prazos, descontos e o que acontece quando o prazo passa, está em **[O que é Free Flow e como funciona o pedágio sem cancela](docs/o-que-e-free-flow.md)**.
+A explicação completa, com o passo a passo do pórtico, prazos, descontos e o que acontece quando o prazo passa, está em **[O que é Free Flow e como funciona o pedágio sem cancela](O-QUE-E-FREE-FLOW.md)**.
 
 ---
 
@@ -55,7 +55,7 @@ A explicação completa, com o passo a passo do pórtico, prazos, descontos e o 
 | [Free Flow na Via Dutra (BR-116)](rodovias/free-flow-dutra.md) | Os 21 pontos de cobrança, a regra da expressa e da marginal, o cálculo da tarifa e a praça de Arujá |
 | [Free Flow na Rio-Santos (BR-101)](rodovias/free-flow-rio-santos.md) | Os pórticos de Itaguaí, Mangaratiba e Paraty, quem é isento, totens e rede credenciada |
 | [Free Flow no Sistema Anchieta-Imigrantes](rodovias/free-flow-anchieta-imigrantes.md) | Por que ainda não cobra, onde ficam os pórticos, o que muda quando começar e a linha do tempo dos adiamentos |
-| [O que é Free Flow e como funciona o pedágio sem cancela](docs/o-que-e-free-flow.md) | Como o pórtico lê o carro, o que muda com tag e sem tag, prazos, descontos DBT e DUF, e o que acontece se não pagar |
+| [O que é Free Flow e como funciona o pedágio sem cancela](O-QUE-E-FREE-FLOW.md) | Como o pórtico lê o carro, o que muda com tag e sem tag, prazos, descontos DBT e DUF, e o que acontece se não pagar |
 | [Como pagar o pedágio Free Flow: todos os canais oficiais](docs/como-pagar.md) | O caminho com tag e sem tag, a tabela de canais por concessionária, o prazo e o que acontece se ele passar |
 | [Como consultar o Free Flow pela placa do carro](docs/consultar-pela-placa.md) | Os três caminhos de consulta, o roteador de rodovia para concessionária e como contestar uma cobrança |
 | [Como consultar o Free Flow no app CNH do Brasil](docs/consulta-app-cnh-do-brasil.md) | O passo a passo da consulta nacional, o que a tela mostra, os alertas do app e o que ele não faz |

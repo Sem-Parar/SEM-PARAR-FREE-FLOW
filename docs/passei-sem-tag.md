@@ -36,7 +36,7 @@ O Free Flow foi desenhado para funcionar nos dois casos, com tag e sem tag. A di
 
 Repare que **não existe passagem proibida**. A Resolução ANTT nº 6.079/2026 obriga a concessionária a disponibilizar a opção de pagamento após a passagem, e com prazo apertado: em até **2 horas** para pelo menos 90% das passagens e em até **24 horas** para 99% delas. O sistema já nasce esperando que você pague depois.
 
-A explicação completa de como o pórtico funciona está em [O que é Free Flow e como funciona o pedágio sem cancela](o-que-e-free-flow.md).
+A explicação completa de como o pórtico funciona está em [O que é Free Flow e como funciona o pedágio sem cancela](../O-QUE-E-FREE-FLOW.md).
 
 ---
 
