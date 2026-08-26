@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="Sem Parar, Free Flow e Tag de Pedágio">
+  <title>Sem Parar, Free Flow e Tag de Pedágio</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9B0A3E"/>
+      <stop offset="52%" stop-color="#D60B52"/>
+      <stop offset="100%" stop-color="#E8447A"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.15"/>
+    </linearGradient>
+    <clipPath id="r"><rect width="1280" height="340" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#r)">
+    <rect width="1280" height="340" fill="url(#bg)"/>
+
+    <g fill="url(#fade)">
+      <path d="M900 -40 L1030 170 L900 380 L980 380 L1110 170 L980 -40 Z"/>
+      <path d="M1030 -40 L1160 170 L1030 380 L1110 380 L1240 170 L1110 -40 Z"/>
+      <path d="M1160 -40 L1290 170 L1160 380 L1240 380 L1370 170 L1240 -40 Z"/>
+    </g>
+
+    <g transform="translate(72,58)">
+      <rect x="0" y="0" width="10" height="86" rx="5" fill="#ffffff"/>
+      <text x="30" y="46" font-family="Verdana, Geneva, DejaVu Sans, sans-serif" font-size="52" font-weight="700" fill="#ffffff" letter-spacing="-1">Sem Parar</text>
+      <text x="32" y="78" font-family="Verdana, Geneva, DejaVu Sans, sans-serif" font-size="17" fill="#ffffff" fill-opacity="0.85" letter-spacing="3">TUDO PRO SEU CARRO</text>
+    </g>
+
+    <text x="72" y="216" font-family="Verdana, Geneva, DejaVu Sans, sans-serif" font-size="44" font-weight="700" fill="#ffffff">Free Flow e Tag de Pedágio</text>
+    <text x="74" y="256" font-family="Verdana, Geneva, DejaVu Sans, sans-serif" font-size="21" fill="#ffffff" fill-opacity="0.92">Guia oficial e dados abertos do pedágio eletrônico no Brasil</text>
+
+    <g transform="translate(838,86)" stroke="#ffffff" stroke-opacity="0.30" stroke-width="7" fill="none" stroke-linecap="round">
+      <path d="M0 0 H176"/>
+      <path d="M10 0 V116"/>
+      <path d="M166 0 V116"/>
+      <path d="M48 0 V28"/>
+      <path d="M128 0 V28"/>
+    </g>
+    <circle cx="886" cy="122" r="9" fill="#ffffff" fill-opacity="0.8"/>
+    <circle cx="966" cy="122" r="9" fill="#ffffff" fill-opacity="0.8"/>
+    <g transform="translate(838,86)" stroke="#ffffff" stroke-opacity="0.45" stroke-width="6" stroke-linecap="round">
+      <path d="M2 108 H40"/>
+      <path d="M60 108 H98"/>
+      <path d="M118 108 H156"/>
+    </g>
+
+    <rect x="0" y="332" width="1280" height="8" fill="#525251"/>
+  </g>
+</svg>
