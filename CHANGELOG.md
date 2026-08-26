@@ -10,6 +10,16 @@ Todas as mudanças relevantes deste repositório são registradas aqui. O format
 
 ---
 
+## [0.11.1], 2026-08-26
+
+Correção de documentação, sem mudança de dado.
+
+### Alterado
+
+- **Documentada a diferença de nomes de coluna da base de canais oficiais.** Ela usa `verificacao` e `verificado_em` onde as outras sete usam `fonte` e `atualizado_em`, e agora o dicionário de dados e a página de metodologia explicam por quê: nas demais bases `fonte` diz de onde o dado veio, e nessa o dado é o próprio endereço, então o que precisa constar é se o canal foi aberto e conferido, e com que profundidade. **Os nomes foram mantidos**, porque renomear por simetria custaria o significado e quebraria quem já consome a base.
+
+---
+
 ## [0.11.0], 2026-08-26
 
 Autoridade. O repositório passa a explicar **como ele próprio é feito**: de onde vem cada dado, o que conta como um pórtico e o que acontece quando duas fontes oficiais discordam. Junto entram a cronologia completa do Free Flow no Brasil, com a oitava base aberta, e um glossário 50% maior.
