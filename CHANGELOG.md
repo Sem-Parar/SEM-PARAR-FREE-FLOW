@@ -10,6 +10,41 @@ Nada por enquanto.
 
 ---
 
+## [0.5.0], 2026-08-26
+
+Hub geográfico, onda 1. O repositório ganha a camada "onde tem", com o mapa nacional pórtico a pórtico, uma base de dados nova e as páginas das três rodovias de maior urgência. Esta versão também traz a maior correção de dado desde a publicação.
+
+### Adicionado
+
+- **[`RODOVIAS-COM-FREE-FLOW.md`](RODOVIAS-COM-FREE-FLOW.md)**, na raiz: o índice nacional pórtico a pórtico, organizado por estado, com município, quilômetro, concessionária, data de início e canal de pagamento. Inclui a seção **Pórticos instalados que ainda não cobram**, que não existe em nenhuma outra fonte e serve para reconhecer cobrança falsa.
+- **[`dados/porticos-free-flow.csv`](dados/porticos-free-flow.csv)**, a quarta base aberta, com **49 registros** cobrindo **85 pórticos de cobrança ativos**, 7 pórticos instalados aguardando cobrança e 1 estrutura de monitoramento. É o dado mais granular do repositório: a ANTT publica só as federais e cada concessionária publica só as próprias.
+- **[`rodovias/free-flow-dutra.md`](rodovias/free-flow-dutra.md)**: os 21 pontos de cobrança, a regra da pista expressa contra a marginal gratuita, o cálculo proporcional com tarifa dinâmica, a relação com a praça física de Arujá, a janela de duas horas para reentrada, as regras de moto e isenção, e os canais de pagamento com totens e rede credenciada.
+- **[`rodovias/free-flow-rio-santos.md`](rodovias/free-flow-rio-santos.md)**: os três pórticos de Itaguaí, Mangaratiba e Paraty, a comparação com o modelo da Dutra, a lista de isentos, os totens ao longo da rodovia e o registro histórico da primeira operação de Free Flow do país.
+- **[`rodovias/free-flow-anchieta-imigrantes.md`](rodovias/free-flow-anchieta-imigrantes.md)**: página de acompanhamento de um fato em movimento. Por que ainda não cobra, onde ficam os pórticos, a realocação do ponto da subida, o que muda no modelo tarifário, a linha do tempo dos adiamentos e o que acontece com as praças físicas.
+- Nota de **19 de julho de 2026** em [`docs/novidades.md`](docs/novidades.md), sobre a realocação do pórtico da Imigrantes no sentido capital, que faltava na linha do tempo e é a causa do adiamento seguinte.
+- Dicionário da nova base em [`dados/README.md`](dados/README.md), com o critério de contagem de pórticos e a explicação de por que alguns registros são agregados.
+
+### Corrigido
+
+- **A Via Dutra tem 21 pontos de cobrança, e não 10.** A contagem publicada desde o PAC-01 estava errada. Quatro fontes independentes convergem em 21 pontos entre o km 204 (Arujá) e o km 231 (São Paulo), e a própria concessionária informa 19 acessos à pista expressa. Corrigido na base, no README, no badge e na tabela nacional.
+- **O trecho começa no km 204, e não no km 206.** Comunicações oficiais da concessionária e da ANTT indicam km 231 ao km 204.
+- **Total nacional recontado: de 74 para 85 pórticos de cobrança em operação.** A mudança decorre integralmente da correção da Dutra. O número de rodovias, concessionárias e estados não muda: seguem 26, 15 e 7.
+
+### Alterado
+
+- **`dados/rodovias-free-flow.csv`**: linha da Via Dutra corrigida em `n_porticos` e `trecho`, com a data de verificação atualizada.
+- **README**: badge de pórticos, resposta extraível, tabela nacional, total ao pé da tabela, seção Conteúdos com as quatro páginas novas, seção de dados abertos com a quarta base e ponteiro para o índice nacional.
+- **`docs/o-que-e-free-flow.md`** e **`docs/novidades.md`**: contagem nacional atualizada e nota de 06/12/2025 corrigida com o número de pontos, o quilômetro inicial e o modelo de cobrança da Dutra.
+
+### Notas de dado
+
+- **Via Dutra, trecho metropolitano:** 21 pontos de cobrança entre o km 204 e o km 231, instalados nas entradas e saídas das pistas expressas, com 19 acessos. Cobrança **proporcional ao trecho percorrido**, com tarifa que varia por dia, horário e condições de fluxo. A pista marginal é gratuita. A praça física de Arujá segue em operação, e quem usa a expressa até ela, ou a partir dela, não paga a tarifa do Free Flow. Quem sai da expressa tem até 2 horas para retornar sem cobrança extra. Motocicletas pagam meia tarifa na expressa e é proibido usar tag em moto. Ônibus, vans e táxis não são isentos. A concessionária não emite boletos e a passagem fica disponível para pagamento em até 48 horas.
+- **Rio-Santos:** cobrança **por pórtico**, com valor fechado, e não proporcional à distância, conforme a própria ANTT informou no anúncio de início. Isentos: motocicletas, motonetas, triciclos, bicicletas, ambulâncias, veículos oficiais e do Corpo de Bombeiros. Operação assistida desde 30/01/2023 e cobrança a partir de março de 2023.
+- **Sistema Anchieta-Imigrantes:** pórticos instalados em fevereiro de 2026, testes desde o fim de maio, início previsto para 01/07/2026, remarcado para 01/08/2026 em 13/07, com o pórtico da subida realocado em 19/07 do km 29 para depois do km 38, e o início adiado de novo em 27/07 **sem nova data**. No período de testes, 93% dos veículos comerciais e 71% dos de passeio já tinham tag ativa. Os pórticos integram o programa Muralha Paulista.
+- **Critério de contagem declarado:** contam-se pórticos **de cobrança**; onde há um por sentido no mesmo ponto, os dois entram; estrutura de monitoramento nunca entra. Registros agregados são usados onde a concessionária não publica a quilometragem individual, com `km` em `n/d`.
+
+---
+
 ## [0.4.0], 2026-08-26
 
 Dores. O repositório passa a cobrir a régua completa do que acontece quando a tarifa não é paga: prazo, encargos, multa, recurso e o caminho de regularização enquanto a janela de transição está aberta.
@@ -144,7 +179,8 @@ Rodovias com Free Flow em operação em 7 estados: SP, PR, MG, GO, RS, RJ e RO.
 - **Deliberação CONTRAN nº 277/2026**, regra de transição com prazo até 16/11/2026 para regularização de tarifas em aberto sem as penalidades de trânsito. A tarifa continua devida.
 - **App CNH do Brasil** com consulta de passagens de Free Flow disponível desde 24/08/2026, na versão 7.3.0 ou superior.
 
-[Não publicado]: https://github.com/TRIWI-SEO/SEM-PARAR-FREE-FLOW/compare/v0.4.0...HEAD
+[Não publicado]: https://github.com/TRIWI-SEO/SEM-PARAR-FREE-FLOW/compare/v0.5.0...HEAD
+[0.5.0]: https://github.com/TRIWI-SEO/SEM-PARAR-FREE-FLOW/releases/tag/v0.5.0
 [0.4.0]: https://github.com/TRIWI-SEO/SEM-PARAR-FREE-FLOW/releases/tag/v0.4.0
 [0.3.0]: https://github.com/TRIWI-SEO/SEM-PARAR-FREE-FLOW/releases/tag/v0.3.0
 [0.2.0]: https://github.com/TRIWI-SEO/SEM-PARAR-FREE-FLOW/releases/tag/v0.2.0
