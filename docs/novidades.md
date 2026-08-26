@@ -12,6 +12,7 @@
 1. **85 pórticos de cobrança em operação**, em 26 rodovias, 15 concessionárias e 7 estados: GO, MG, PR, RJ, RO, RS e SP.
 2. **O prazo de regularização sem penalidade de trânsito termina em 16 de novembro de 2026.** A tarifa continua devida.
 3. **O app CNH do Brasil já mostra passagens de Free Flow**, de rodovias federais, estaduais e municipais integradas.
+4. **A Senatran começou a homologar os sistemas**, e sistema não homologado não gera a infração do art. 209-A. A lista está em [Homologação do Free Flow pela Senatran](homologacao-senatran-free-flow.md).
 
 ---
 
@@ -34,6 +35,16 @@ A concessionária **Rota dos Grãos** anunciou o início da cobrança eletrônic
 Quando a operação começar, Mato Grosso passa a ser o **oitavo estado** com Free Flow ativo no país. A rodovia entra agora na base com status `previsto`.
 
 Fonte: [Rota dos Grãos, portal de pedágio eletrônico](https://pedagioeletronico.rotadosgraos130.com.br). Afeta: [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv) e [`dados/concessionarias-free-flow.csv`](../dados/concessionarias-free-flow.csv).
+
+### 31 de julho a 10 de agosto de 2026: a Senatran começa a homologar os sistemas de Free Flow
+
+Em onze dias, a **Secretaria Nacional de Trânsito publicou doze portarias de homologação** de sistemas de livre passagem, cumprindo o procedimento criado pela Portaria Senatran nº 442/2025. Entre as homologadas estão RioSP, PRVias, Motiva Sorocabana, Ecovias Noroeste Paulista, Ecovias dos Imigrantes, Via SP Serra, EPR Sul de Minas, EPR Iguaçu, Tamoios, Nova 381 e Novo Litoral.
+
+**Por que isso importa para quem dirige:** pelo art. 8º, § 2º da Portaria nº 442/2025, sistema não homologado não pode ser usado para os fins do art. 115, § 10 do CTB, o que **afasta a infração do art. 209-A**. A tarifa continua devida em qualquer cenário, porque é obrigação civil. As portarias determinam ainda que, enquanto a falta de dados impedir a comprovação da infração, **não podem ser emitidos autos de infração** para aquelas passagens.
+
+**Duas leituras que evitam engano.** A Senatran declara que a homologação autoriza a operação, mas **não é aprovação técnica** nem validação dos projetos. E homologação **não é início de cobrança**: a Ecovias dos Imigrantes foi homologada em 3 de agosto e os pórticos do Sistema Anchieta-Imigrantes continuam sem cobrar.
+
+Fonte: [Senatran, portarias de 2026](https://www.gov.br/transportes/pt-br/assuntos/transito/senatran/portarias-2026). Afeta: [Homologação do Free Flow pela Senatran](homologacao-senatran-free-flow.md) e [`dados/homologacao-senatran-free-flow.csv`](../dados/homologacao-senatran-free-flow.csv).
 
 ### 27 de julho de 2026: Sistema Anchieta-Imigrantes adiado, sem nova data
 
