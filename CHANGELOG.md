@@ -10,6 +10,54 @@ Todas as mudanças relevantes deste repositório são registradas aqui. O format
 
 ---
 
+## [0.10.0], 2026-08-26
+
+Cauda geográfica. Os sete estados com Free Flow ativo passam a ter página própria, e o inventário de pórticos ganha a quilometragem que faltava: **nenhum pórtico ativo aparece mais com `km = n/d`**.
+
+### Adicionado
+
+- **[`estados/free-flow-pr.md`](estados/free-flow-pr.md)**: os 14 pórticos do segundo estado do país, por que rodovia com sigla estadual segue regra federal, os 8 pórticos que são 4 pontos tarifários, a janela de duas horas da PRVias e as duas divergências de cadastro do estado.
+- **[`estados/free-flow-go.md`](estados/free-flow-go.md)**: os 11 pórticos em 7 pontos tarifários, os pares por sentido da BR-060, a mecânica do desconto que cresce até a trigésima passagem e o registro de que a concessionária não comercializa tags.
+- **[`estados/free-flow-mg.md`](estados/free-flow-mg.md)**: os 8 pórticos em três concessionárias, as duas esferas de regulação convivendo no estado, a concessão que nasceu sem cabine e o fato de que moto não paga em nenhum dos três trechos.
+- **[`estados/free-flow-ro.md`](estados/free-flow-ro.md)**: a maior extensão contínua do país, a linha do tempo da liminar que parou a cobrança entre 29 de janeiro e 11 de fevereiro de 2026, e a distinção entre quem é isento e quem precisa de cadastro prévio.
+- **[`estados/free-flow-rj.md`](estados/free-flow-rj.md)**: onde o Free Flow do Brasil começou, o sandbox regulatório da ANTT, a tarifa fixa por pórtico em contraste com o modelo proporcional da Via Dutra e a armadilha das duas Rio-Santos.
+- **Linhas da Concessionária Rota Agro MT-GO** em `dados/rodovias-free-flow.csv` e `dados/concessionarias-free-flow.csv`, com status `previsto`.
+
+### Corrigido
+
+- **A quilometragem individual dos pórticos da BR-381, da BR-364 e das duas rodovias da Rota Verde**, que a base registrava como `n/d` em registros agregados. O cadastro de pórticos das concessões federais da ANTT publica cada posição, e os quatro registros agregados foram desmembrados em uma linha por pórtico. A base de pórticos passa de 49 para 64 linhas, e o total nacional segue em 85.
+- **A quilometragem dos dois pórticos da Way-262 na BR-262**, que estava como `n/d`: Nova Serrana no km 452,95 e Ibiá no km 665,1.
+- **A quilometragem dos três pórticos da Rio-Santos**, refinada com a casa decimal do cadastro da ANTT: Itaguaí 414,9, Mangaratiba 447,3 e Paraty 538,5.
+- **A regra de isenção de motocicleta em dois trechos.** A Way-262 declara isenção em toda a extensão da concessão e a Nova 364 registra passe livre para motos, sem exigência de cadastro. A base registrava isenção genérica com cadastro prévio, que na Nova 364 vale apenas para ambulâncias, veículos oficiais e corpo diplomático.
+
+### Alterado
+
+- **`RODOVIAS-COM-FREE-FLOW.md`**: as tabelas de Minas Gerais, Goiás, Rondônia e Rio de Janeiro passam a trazer município e quilômetro por pórtico, e cada estado ganha ponteiro para a página própria.
+- **README**: cinco páginas novas na seção Conteúdos e um bloco novo apontando as sete páginas de estado.
+- **`CONCESSIONARIAS-FREE-FLOW.md`**: a Rota Agro MT-GO entra na lista de concessionárias com Free Flow previsto.
+- **Dicionário de dados**: a seção sobre registros agregados foi reescrita, porque eles deixaram de existir entre as linhas ativas.
+
+### Divergência registrada e em aberto
+
+- **A Via Dutra é contada em unidades diferentes pela concessionária e pela ANTT.** A concessionária comunica **21 pontos de cobrança** na pista expressa entre os km 204 e 231. O cadastro da ANTT registra **10 pórticos** entre os km 206 e 231,3, anotando que **cada pórtico concentra vários pontos de cobrança de entrada e saída**. Não é erro de nenhuma das partes: são duas unidades de medida para a mesma realidade física. Este repositório mantém **21**, o número da concessionária, e passa a declarar a divergência no dicionário de dados, no índice nacional e na observação da linha. **É a única linha ativa da base que não corresponde a um pórtico por registro.** Se o critério for revisto para contar estruturas físicas, o total nacional muda de 85 para 74, e por isso a escolha está declarada em vez de embutida no número.
+
+### Notas de dado
+
+- **Os sete estados com Free Flow ativo têm página própria** a partir desta versão: SP, PR, GO, MG, RO, RS e RJ. A camada geográfica por estado está completa.
+- **O Paraná saiu de zero para o segundo lugar nacional em quatro meses**, entre fevereiro e junho de 2026. Todos os 14 pórticos paranaenses entraram em operação neste ano.
+- **PR-182, PR-280 e PR-445 têm sigla estadual e estão em lotes de concessão federais**, regulados pela ANTT. Valem ali a interoperabilidade obrigatória de tag e os direitos da Resolução ANTT nº 6.079/2026.
+- **Na BR-060, em Goiás, os pórticos operam em pares**, um por sentido, com quilometragens distintas no cadastro da ANTT. São 4 pontos tarifários e 8 estruturas. Na BR-452 são pórticos únicos com cobrança nos dois sentidos.
+- **A Rota Verde Goiás declara que não comercializa tags.** A tag é contratada com uma operadora autorizada; a concessionária apenas registra a passagem.
+- **A Way-262 aceita todas as operadoras de tag do mercado**, tem modalidade pré-paga no aplicativo Way Rodovias e mantém pagamento presencial em quatro postos ao longo do trecho, além dos totens. Cobrança autorizada pela Deliberação ANTT nº 427, de 5 de novembro de 2025.
+- **A Nova 381 opera 100% em pedágio eletrônico**, com cinco pórticos e nenhuma cabine, cobrança autorizada pela Deliberação ANTT nº 339/2025.
+- **Em Rondônia, a cobrança começou, parou e voltou.** Iniciada em 12/01/2026, suspensa por liminar em 29/01 e retomada em 12/02/2026, depois de o TRF1 derrubar a liminar e confirmar a legalidade do ato da ANTT. Passagens ocorridas durante a suspensão não geram tarifa devida.
+- **As tarifas da BR-364 variam bastante entre os sete pórticos**, porque cada um cobre um segmento de extensão diferente dentro dos 686,7 quilômetros da concessão, e o desconto de usuário frequente também varia por ponto.
+- **Divergência de nomenclatura em Rondônia:** o cadastro da ANTT nomeia os municípios dos sete pórticos de um jeito e parte da comunicação sobre o trecho cita outros nomes. Adotado o cadastro da ANTT. O número de pórticos é o mesmo em todas as fontes.
+- **Concessionária nova no inventário: Rota Agro MT-GO**, do grupo Way Brasil, que assumiu 490 km das BR-060/GO e BR-364/GO-MT entre Rio Verde e Rondonópolis em 02/04/2026, com outorga pela Deliberação ANTT nº 51/2026. Cinco pontos de cobrança contratados em Jataí, Portelândia, Alto Garças e Pedra Preta. Sistema homologado pela Senatran em 10/08/2026, **sem cobrança confirmada**. Entra como `previsto`.
+- **A Rio-Santos nasceu no sandbox regulatório da ANTT**, e é por isso que ela precedeu a consolidação da regulação do Free Flow.
+
+---
+
 ## [0.9.0], 2026-08-26
 
 Proteção e base legal. O repositório ganha a camada documental: a cadeia normativa inteira, a lista de homologações da Senatran, o roteiro anti-golpe e o caminho da contestação. Duas bases abertas novas, e um fato de agosto que faltava na linha do tempo.
