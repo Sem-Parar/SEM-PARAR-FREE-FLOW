@@ -10,6 +10,47 @@ Todas as mudanças relevantes deste repositório são registradas aqui. O format
 
 ---
 
+## [0.8.0], 2026-08-26
+
+Camada das concessionárias. O repositório passa a responder "pago para quem", com o índice nacional por grupo econômico e as páginas das quatro operadoras de maior demanda. Esta versão traz também a correção de dois dados que envelheceram no site da própria concessionária.
+
+### Adicionado
+
+- **[`CONCESSIONARIAS-FREE-FLOW.md`](CONCESSIONARIAS-FREE-FLOW.md)**, na raiz: as 15 concessionárias em operação, ordenadas por número de pórticos, agrupadas por grupo econômico, e o mapa das quatro plataformas que processam o pagamento. Inclui a seção **Por que o site de pagamento tem outro nome**, que explica por que o endereço de pagamento raramente traz o nome da rodovia, e a lista das concessionárias com Free Flow previsto ou adiado, útil para reconhecer cobrança falsa.
+- **[`concessionarias/free-flow-motiva-ccr.md`](concessionarias/free-flow-motiva-ccr.md)**: as três concessões do maior grupo do país, a transição de marca de CCR para Motiva, o Pedágio Digital e o alerta sobre o domínio terminado em `.com`, a janela de duas horas para reentrada e as regras próprias da Via Dutra.
+- **[`concessionarias/free-flow-ecovias.md`](concessionarias/free-flow-ecovias.md)**: os quatro pórticos em operação, o pioneirismo estadual paulista, as duas informações que mudaram desde o lançamento e a situação do Sistema Anchieta-Imigrantes, que tem pórtico instalado e não cobra.
+- **[`concessionarias/free-flow-csg.md`](concessionarias/free-flow-csg.md)**: os seis pórticos gaúchos um a um, os dois pioneirismos da concessionária, as cinco operadoras de tag que ela publica, o caminho do motociclista com cadastro sem tag e por que o Bloco 3 lista rodovias que não têm pórtico.
+- **[`concessionarias/free-flow-epr.md`](concessionarias/free-flow-epr.md)**: as três concessões que já cobram, o pagamento da passagem eletrônica nas praças físicas, as duas declarações do grupo que desarmam golpe e a regra do eixo suspenso com MDF-e para veículos pesados.
+- Pasta **`concessionarias/`**, que vai receber as demais páginas de concessionária.
+
+### Corrigido
+
+- **O endereço de pagamento da Ecovias Noroeste Paulista mudou.** O repositório apontava para `freeflow.ecoviasnoroestepaulista.com.br`, que não aparece em nenhuma comunicação oficial atual. O endereço divulgado hoje pela concessionária é **`freeflow.eco.br`**, e o portal do grupo é `freeflow.ecovias.com.br`. Corrigido em 8 arquivos e em duas bases.
+- **O prazo da Ecovias Noroeste Paulista não é mais menor que a regra geral.** No lançamento, em setembro de 2024, a concessionária divulgava 15 dias; hoje divulga 30. O repositório repetia a informação antiga em três páginas, orientando o leitor a esperar um prazo mais curto do que o vigente. Reescrito em `docs/como-pagar.md`, `docs/prazo-e-encargos.md` e `docs/sites-e-apps-oficiais.md`, agora usando a própria mudança como exemplo de por que confirmar o prazo no canal da concessionária.
+- **O pórtico de Taiúva, na SP-326, entrou em operação em 01/12/2025, e não em 01/11/2025.** A data de Dobrada foi aplicada aos dois pórticos da rodovia. Corrigido na base de pórticos, no índice nacional e no README.
+- **A CSG publica sim a lista de operadoras de tag aceitas.** A base `tags-aceitas-free-flow.csv` registrava `n/d` para ela. A concessionária divulga as cinco no próprio site: ConectCar, Move Mais, Sem Parar, Taggy e Veloe.
+
+### Alterado
+
+- **`dados/concessionarias-free-flow.csv`**: plataforma de pagamento da Ecovias Noroeste Paulista passa de "Pedágio Digital e Pedágio Pay" para **Pedágio Digital**, que é o que a concessionária divulga hoje.
+- **`dados/canais-oficiais-pagamento.csv`**: endereço e observação do canal da Ecovias Noroeste Paulista atualizados.
+- **README**: seis páginas novas na seção Conteúdos e ponteiro para o índice de concessionárias logo abaixo da tabela nacional.
+
+### Notas de dado
+
+- **Sete grupos econômicos identificados, mais três concessionárias que não divulgam o controlador, operam os 85 pórticos.** Motiva, ex-CCR, opera 29, mais de um terço do total, distribuídos entre RioSP, Motiva Sorocabana e PRVias. Grupo EPR opera 13; 4UM e Opportunity, 12, com Nova 364 e Nova 381; Fundo Aviva e 4i Capital, 11, com a Rota Verde Goiás. Os três maiores grupos somados passam de metade dos pórticos do país.
+- **Quatro plataformas processam o pagamento de quem passa sem tag.** Pedágio Digital atende 33 pórticos, de concessionárias da Motiva e da EcoRodovias, que são grupos concorrentes. Plataformas próprias das concessionárias atendem 24. Alpdex atende 23, nas três concessões de 4UM, Opportunity e Aviva. Movvia atende 5, na Novo Litoral, e figura como parceiro da CSG. **Plataforma de pagamento não é operadora de tag:** ela processa apenas o pagamento por placa.
+- **A EcoRodovias aparece pequena na contagem de pórticos e não é uma operadora pequena.** A maior parte da malha dela ainda cobra em praça com cancela, e as conversões estão contratadas. O contrato da Ecovias Noroeste Paulista prevê a substituição de todas as praças por pórticos até o sétimo ano da concessão.
+- **A EPR aceita o pagamento da passagem eletrônica em todas as praças físicas dela**, em dinheiro ou cartão, bastando consultar o operador da cabine. É um canal presencial que nenhuma outra concessionária do inventário oferece nesse formato.
+- **Duas declarações públicas da EPR que desarmam confusão:** a concessionária não envia boletos e não emite multas, e afirma que pagar a multa não quita a tarifa, que permanece em aberto.
+- **Regra de eixo suspenso na EPR:** a cobrança de veículo pesado usa o MDF-e como critério. Com MDF-e em aberto o veículo é tratado como carregado e todos os eixos entram na conta; sem MDF-e em aberto, apenas os eixos em contato com o solo.
+- **A CSG nunca teve praça de pedágio.** Os pórticos do Bloco 3 não substituíram cabines: substituíram as praças previstas em contrato e nunca construídas. E a concessionária concede desconto ao motociclista que se cadastra no site ou no app, reconhecendo que a moto não pode usar tag.
+- **A CSG publica canais parceiros de consulta e pagamento**, entre eles o `pedagioeletronicosemparar.com.br`, o canal do Sem Parar para pagamento avulso de quem não é cliente.
+- **Na EPR Paraná, 8 pórticos correspondem a 4 pontos tarifários**, com um pórtico por sentido. A cobrança começou em 04/05/2026, após dez dias de operação assistida em caráter educativo.
+- **Nem toda rodovia de concessionária com Free Flow tem Free Flow.** As praças da BR-277, na EPR Iguaçu, seguem convencionais, e a Motiva Sorocabana opera cinco pórticos apenas de monitoramento na SP-270, que não cobram.
+
+---
+
 ## [0.7.0], 2026-08-26
 
 Camada da tag. O repositório passa a responder o outro lado do Free Flow: não só como pagar quando não se tem tag, mas o que muda quando se tem. Entra o terceiro pilar na raiz, a quinta base aberta e a correção de um erro de contagem que estava publicado desde a 0.5.0.
