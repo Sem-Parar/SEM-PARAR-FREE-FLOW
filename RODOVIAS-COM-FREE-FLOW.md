@@ -60,7 +60,7 @@ O estado com mais pórticos é **São Paulo**. A operação de maior extensão c
 | **SP-333** Carlos Tonanni | Jaboticabal | 110 | 1 | Ecovias Noroeste Paulista | 04/09/2024 | [pagar](https://freeflow.eco.br) |
 | **SP-333** Laurentino Mascari | Itápolis | 179 | 1 | Ecovias Noroeste Paulista | 04/09/2024 | [pagar](https://freeflow.eco.br) |
 
-**36 pórticos de cobrança em São Paulo**, o maior número do país. O panorama do estado está em **[Free Flow em São Paulo](estados/free-flow-sp.md)**, e as páginas de rodovia em **[Via Dutra](rodovias/free-flow-dutra.md)**, **[Tamoios](rodovias/free-flow-tamoios.md)** e **[Mogi-Bertioga](rodovias/free-flow-mogi-bertioga.md)**.
+**36 pórticos de cobrança em São Paulo**, o maior número do país. O panorama do estado está em **[Free Flow em São Paulo](estados/free-flow-sp.md)**, e as páginas de rodovia em **[Via Dutra](rodovias/free-flow-dutra.md)**, **[Raposo Tavares](rodovias/free-flow-raposo-tavares.md)**, **[Tamoios](rodovias/free-flow-tamoios.md)** e **[Mogi-Bertioga](rodovias/free-flow-mogi-bertioga.md)**. Duas cidades paulistas têm duas concessionárias cobrando ao mesmo tempo, e por isso têm página própria: **[Guarulhos](municipios/free-flow-guarulhos.md)** e **[Arujá](municipios/free-flow-aruja.md)**.
 
 ---
 
@@ -138,6 +138,8 @@ O estado com mais pórticos é **São Paulo**. A operação de maior extensão c
 | **BR-101** Rio-Santos | Itaguaí | 414,9 | 1 | RioSP | 31/03/2023 | [pagar](https://pedagiodigital.com) |
 | **BR-101** Rio-Santos | Mangaratiba | 447,3 | 1 | RioSP | 31/03/2023 | [pagar](https://pedagiodigital.com) |
 | **BR-101** Rio-Santos | Paraty | 538,5 | 1 | RioSP | 31/03/2023 | [pagar](https://pedagiodigital.com) |
+
+**Procurando por cidade, e não por rodovia?** A lista dos 58 municípios com pórtico de cobrança está em **[Free Flow por município](FREE-FLOW-POR-MUNICIPIO.md)**.
 
 **3 pórticos de cobrança no Rio de Janeiro**, e eles têm valor histórico: foi aqui que o Free Flow estreou no Brasil. O panorama do estado está em **[Free Flow no Rio de Janeiro](estados/free-flow-rj.md)** e a página do trecho em **[Free Flow na Rio-Santos](rodovias/free-flow-rio-santos.md)**.
 

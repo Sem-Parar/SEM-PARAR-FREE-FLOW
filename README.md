@@ -69,6 +69,11 @@ A explicação completa, com o passo a passo do pórtico, prazos, descontos e o 
 | [Free Flow no Sistema Anchieta-Imigrantes](rodovias/free-flow-anchieta-imigrantes.md) | Por que ainda não cobra, onde ficam os pórticos, o que muda quando começar e a linha do tempo dos adiamentos |
 | [Free Flow na Tamoios (SP-099)](rodovias/free-flow-tamoios.md) | O pórtico do Contorno Sul, por que aqui a moto paga, tags aceitas pela ARTESP e os totens do SAU |
 | [Free Flow na Mogi-Bertioga (SP-098)](rodovias/free-flow-mogi-bertioga.md) | O ponto do km 92+740, as quatro rodovias da CNL, a isenção de motos e os pórticos de Itariri que não cobram |
+| [Free Flow na BR-376: a única rodovia com duas concessionárias](rodovias/free-flow-br-376.md) | Os 5 pórticos, os dois operadores, a janela de duas horas da PRVias e a divergência de Mauá da Serra |
+| [Free Flow na Raposo Tavares (SP-270)](rodovias/free-flow-raposo-tavares.md) | Os 3 pórticos, os pórticos da região que não cobram e a primeira leva de homologações da Senatran |
+| [Free Flow por município: as 58 cidades com pórtico](FREE-FLOW-POR-MUNICIPIO.md) | A lista completa por cidade, o que fazer se a sua não estiver nela e onde existe pórtico que não cobra |
+| [Free Flow em Guarulhos](municipios/free-flow-guarulhos.md) | As duas cobranças da cidade, como saber qual é a sua e por que a regra da moto muda entre elas |
+| [Free Flow em Arujá](municipios/free-flow-aruja.md) | O pórtico, a praça física que continua ali e as duas concessionárias com regras opostas |
 | [Free Flow em São Paulo](estados/free-flow-sp.md) | O panorama do estado com mais Free Flow do país, a diferença entre federal e estadual, o Siga Fácil e a isenção trecho a trecho |
 | [Free Flow no Paraná](estados/free-flow-pr.md) | Os 14 pórticos do segundo estado do país, por que rodovia com sigla estadual segue regra federal e as duas divergências de cadastro |
 | [Free Flow em Goiás](estados/free-flow-go.md) | Os 11 pórticos em 7 pontos tarifários, os pares por sentido da BR-060 e o desconto que cresce até a trigésima passagem |
@@ -111,6 +116,7 @@ Novas páginas entram por pacote, e cada uma delas é linkada aqui.
 - [Conteúdos deste repositório](#conteúdos-deste-repositório), as páginas completas
 - [Rodovias com Free Flow no Brasil](#rodovias-com-free-flow-no-brasil), a tabela nacional (o mapa pórtico a pórtico fica em [RODOVIAS-COM-FREE-FLOW.md](RODOVIAS-COM-FREE-FLOW.md), e quem cobra em [CONCESSIONARIAS-FREE-FLOW.md](CONCESSIONARIAS-FREE-FLOW.md))
 - [Onde o Free Flow ainda vai chegar](#onde-o-free-flow-ainda-vai-chegar)
+- [Free Flow por município](FREE-FLOW-POR-MUNICIPIO.md), a lista das 58 cidades com pórtico de cobrança
 - [Como pagar o Free Flow](#como-pagar-o-free-flow)
 - [Tag de Pedágio, quando a cobrança vira automática](#tag-de-pedágio-quando-a-cobrança-vira-automática), com o pilar completo em [TAG-DE-PEDAGIO.md](TAG-DE-PEDAGIO.md)
 - [Perguntas frequentes](#perguntas-frequentes)
@@ -159,6 +165,8 @@ Rodovias com cobrança eletrônica **em operação**, ordenadas por estado. Gera
 As 15 concessionárias responsáveis por esses pórticos se distribuem em **sete grupos econômicos identificados**, mais três que não divulgam o controlador, e a Motiva, ex-CCR, sozinha opera mais de um terço dos pórticos.
 
 **Os sete estados com Free Flow ativo têm página própria**, com os pórticos um a um, quem cobra, onde pagar e as regras que mudam de um para outro: [São Paulo](estados/free-flow-sp.md), [Paraná](estados/free-flow-pr.md), [Goiás](estados/free-flow-go.md), [Minas Gerais](estados/free-flow-mg.md), [Rondônia](estados/free-flow-ro.md), [Rio Grande do Sul](estados/free-flow-rs.md) e [Rio de Janeiro](estados/free-flow-rj.md). Quem é quem, e por que o site onde você paga costuma ter outro nome, está em **[Concessionárias com Free Flow no Brasil](CONCESSIONARIAS-FREE-FLOW.md)**.
+
+**Procurando pela sua cidade?** A lista dos **58 municípios com pórtico de cobrança** está em **[Free Flow por município](FREE-FLOW-POR-MUNICIPIO.md)**, com a rodovia, o quilômetro e quem cobra em cada um. Se a sua cidade não estiver lá, não existe cobrança de Free Flow nela.
 
 ### Onde o Free Flow ainda vai chegar
 
