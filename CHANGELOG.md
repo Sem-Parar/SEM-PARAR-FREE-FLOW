@@ -6,9 +6,44 @@ Todas as mudanças relevantes deste repositório são registradas aqui. O format
 
 ## [Não publicado]
 
+Nada por enquanto.
+
+---
+
+## [0.6.0], 2026-08-26
+
+Hub geográfico, onda 2. Os corredores de praia de São Paulo e os dois estados-âncora do território ganham página própria, e a linha do tempo do repositório passa a cobrir desde a estreia do Free Flow no Brasil.
+
+### Adicionado
+
+- **[`rodovias/free-flow-tamoios.md`](rodovias/free-flow-tamoios.md)**: o pórtico do km 13+500 do Contorno Sul, por que aqui a motocicleta paga, as operadoras de tag autorizadas pela ARTESP, os totens do SAU 3 e SAU 4, e a armadilha da passagem que não aparece no portal avulso quando a cobrança já foi por tag.
+- **[`rodovias/free-flow-mogi-bertioga.md`](rodovias/free-flow-mogi-bertioga.md)**: o ponto do km 92+740, o mapa das quatro rodovias da Concessionária Novo Litoral, a isenção total de motos, a ambiguidade do nome Rio-Santos entre SP e RJ, e os dois pórticos de Itariri que só monitoram.
+- **[`estados/free-flow-sp.md`](estados/free-flow-sp.md)**: o panorama do estado com mais Free Flow do país, a convivência entre o regime federal da ANTT e o estadual da ARTESP, o que é o Siga Fácil e a tabela de isenção de motos trecho a trecho, que varia dentro do próprio estado.
+- **[`estados/free-flow-rs.md`](estados/free-flow-rs.md)**: os seis pórticos do Bloco 3, o marco do primeiro pórtico em rodovia estadual do Brasil, a resposta direta sobre a FreeWay e a explicação de por que o contrato do Bloco 3 lista rodovias que não têm pórtico.
+- Pasta **`estados/`**, que vai receber as demais páginas de estado.
+- Seções **2024** e **2023** em [`docs/novidades.md`](docs/novidades.md), com seis marcos que faltavam: a estreia da Rio-Santos, o primeiro pórtico estadual do país, os cinco pórticos restantes do Bloco 3, a MG-459, a SP-333 e a Tamoios. A linha do tempo agora cobre desde o início do Free Flow no Brasil.
+
+### Corrigido
+
+- **São Paulo tem 36 pórticos de cobrança, e não 35.** Erro de soma na primeira versão do índice nacional, publicada na 0.5.0. O total nacional de 85 estava certo e não muda.
+- **Quilometragem da Concessionária Novo Litoral detalhada por sentido.** Arujá passa a registrar km 37+150 (norte) e 37+780 (sul); Mogi das Cruzes, km 41+600 (norte) e 40+800 (sul). São pontos tarifários únicos com estruturas em quilômetros diferentes por sentido, e a base agora diz isso.
+- **Os pórticos de monitoramento de Itariri são dois, e têm quilometragem conhecida:** km 369+860 e km 360+200, na Padre Manoel da Nóbrega. A base registrava um, sem quilometragem.
+- **Quilometragem dos pórticos gaúchos refinada** com a casa decimal publicada pela concessionária: São Sebastião do Caí km 4,6; Farroupilha km 45,5; Antônio Prado km 108,3; Ipê km 151,9; Capela de Santana km 30,1.
+
 ### Alterado
 
-- **[`O-QUE-E-FREE-FLOW.md`](O-QUE-E-FREE-FLOW.md) sai de `docs/` e vai para a raiz.** É um conteúdo pilar, e a raiz dá a ele destaque na listagem do repositório e uma URL mais curta, com a palavra-chave no caminho. Todos os links que apontavam para o arquivo foram atualizados. A URL antiga deixa de existir, e por isso a mudança é feita agora, antes da divulgação.
+- **`dados/porticos-free-flow.csv`**: quilometragens, sentidos e observações refinados nos registros da CNL, da CSG e da Tamoios, sem mudança na contagem nacional.
+- **`RODOVIAS-COM-FREE-FLOW.md`**: contagem de São Paulo corrigida, quilometragens atualizadas e ponteiros para as páginas de estado.
+- **README**: cinco páginas novas na seção Conteúdos.
+
+### Notas de dado
+
+- **Concessionária Novo Litoral:** cinco pontos tarifários ativos, em Arujá e Mogi das Cruzes (SP-088), Bertioga (SP-098), Santos (SP-055 Manoel Hipólito do Rego) e Miracatu (SP-055 Padre Manoel da Nóbrega), mais dois pórticos de monitoramento em Itariri. Motocicletas têm isenção total. Pagamento com Pix ou cartão no site e no app, e presencialmente nos totens de oito bases SAU. A concessionária declara que não envia links nem boletos.
+- **Ambiguidade de nome registrada:** em São Paulo, o trecho da SP-055 Doutor Manoel Hipólito do Rego também é chamado de **Rio-Santos**, mesmo nome popular da **BR-101 no Rio de Janeiro**. São rodovias diferentes, de concessionárias diferentes, com regras de isenção opostas quanto a motocicletas.
+- **Tamoios:** cobrança de todos os tipos de veículo nos dois sentidos, inclusive motocicletas. Operadoras aceitas são as autorizadas pela ARTESP: ConectCar, Move Mais, Sem Parar, Taggy e Veloe. Pagamento por site, app, ou totens no SAU 3 (km 10,8) e SAU 4 (km 20). Cadastro no site ou app gera alerta a cada passagem. Não pagamento: os dados vão ao DER.
+- **Bloco 3 gaúcho:** 271,5 km concedidos por 30 anos à CSG, abrangendo ERS-122, ERS-240, ERS-446, RSC-287, RSC-453 e um trecho da BR-470. **Só as três primeiras têm pórtico.** O projeto prevê segmentação futura dos pórticos, para tornar a cobrança mais proporcional ao trecho, sem data. No Bloco 3 os pórticos substituíram as praças que estavam previstas, então essas rodovias nunca tiveram cabine. Órgão autuador no estado: DAER.
+- **BR-290 FreeWay:** confirmado que **não tem Free Flow**. O projeto da ViaSul prevê substituir as sete praças físicas das BR-290, BR-101, BR-386 e BR-448, está **em análise, sem prazo**, e ainda depende de encaminhamento à ANTT. Praças em operação hoje: BR-386 em Montenegro, Paverama, Fontoura Xavier e Victor Graeff; BR-290 em Santo Antônio da Patrulha e Gravataí; BR-101 em Três Cachoeiras.
+- **Isenção de motocicleta varia dentro de São Paulo:** pagam na pista expressa da Via Dutra (meia tarifa, com uso de tag proibido), no Rodoanel Norte e no Contorno Sul da Tamoios; são isentas nas quatro rodovias da CNL. A regra vem do contrato de cada concessão.
 
 ---
 
@@ -181,7 +216,8 @@ Rodovias com Free Flow em operação em 7 estados: SP, PR, MG, GO, RS, RJ e RO.
 - **Deliberação CONTRAN nº 277/2026**, regra de transição com prazo até 16/11/2026 para regularização de tarifas em aberto sem as penalidades de trânsito. A tarifa continua devida.
 - **App CNH do Brasil** com consulta de passagens de Free Flow disponível desde 24/08/2026, na versão 7.3.0 ou superior.
 
-[Não publicado]: https://github.com/TRIWI-SEO/SEM-PARAR-FREE-FLOW/compare/v0.5.0...HEAD
+[Não publicado]: https://github.com/TRIWI-SEO/SEM-PARAR-FREE-FLOW/compare/v0.6.0...HEAD
+[0.6.0]: https://github.com/TRIWI-SEO/SEM-PARAR-FREE-FLOW/releases/tag/v0.6.0
 [0.5.0]: https://github.com/TRIWI-SEO/SEM-PARAR-FREE-FLOW/releases/tag/v0.5.0
 [0.4.0]: https://github.com/TRIWI-SEO/SEM-PARAR-FREE-FLOW/releases/tag/v0.4.0
 [0.3.0]: https://github.com/TRIWI-SEO/SEM-PARAR-FREE-FLOW/releases/tag/v0.3.0
