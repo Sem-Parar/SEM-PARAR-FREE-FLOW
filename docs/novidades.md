@@ -9,7 +9,7 @@
 
 ## O que está valendo agora, em três linhas
 
-1. **74 pórticos de cobrança em operação**, em 26 rodovias, 15 concessionárias e 7 estados: GO, MG, PR, RJ, RO, RS e SP.
+1. **85 pórticos de cobrança em operação**, em 26 rodovias, 15 concessionárias e 7 estados: GO, MG, PR, RJ, RO, RS e SP.
 2. **O prazo de regularização sem penalidade de trânsito termina em 16 de novembro de 2026.** A tarifa continua devida.
 3. **O app CNH do Brasil já mostra passagens de Free Flow**, de rodovias federais, estaduais e municipais integradas.
 
@@ -19,11 +19,13 @@
 
 ### 24 de agosto de 2026: o app CNH do Brasil passa a mostrar passagens de Free Flow
 
-O Ministério dos Transportes liberou, na versão 7.3.0 ou superior do app **CNH do Brasil**, a consulta integrada das passagens de Free Flow registradas para o veículo, em rodovias federais, estaduais e municipais integradas ao sistema. O caminho no app é Veículos, depois o veículo, depois Pedágio Eletrônico, e a passagem pode levar até 24 horas para aparecer. O app **não recebe pagamento**: ele identifica a concessionária responsável e encaminha ao canal dela. Frotas e empresas continuam consultando pelo Portal de Serviços da Senatran.
+O Ministério dos Transportes liberou no app **CNH do Brasil** a consulta integrada das passagens de Free Flow registradas para o veículo, em rodovias federais, estaduais e municipais integradas ao sistema. O caminho no app é Veículos, depois o veículo, depois Pedágio eletrônico. A consulta estreou com **14 concessionárias integradas**, mostra placa, data e local, valor, concessionária, prazo e situação, permite **contestar** uma passagem e envia dois alertas, um em até 24 horas após a passagem e outro cinco dias antes do vencimento. O histórico alcança os últimos cinco anos. O app **não recebe pagamento**: ele identifica a concessionária responsável e encaminha ao canal dela. Pessoas físicas também podem consultar pelo **Portal de Serviços Senatran**, com mais detalhe, e frotas e empresas consultam **exclusivamente** por ele.
+
+A escala ajuda a entender as lacunas: segundo o Ministério e o Serpro, a solução foi construída em três meses, com 27 organizações envolvidas, e já processou mais de 200 milhões de registros de passagem do passivo do sistema, com cerca de 10 milhões de novas passagens só em agosto de 2026.
 
 Na mesma comunicação, o Ministério confirmou o marco de **17 de novembro de 2026**: a partir dessa data, tarifas não quitadas dentro do prazo regulamentar voltam a poder gerar auto de infração, com os processos administrativos seguindo o curso regular previsto no Código de Trânsito Brasileiro.
 
-Fonte: [Ministério dos Transportes](https://www.gov.br/transportes/pt-br/assuntos/noticias-/2026/08/app-cnh-do-brasil-oferece-consulta-ao-free-flow-a-partir-desta-segunda-24). Afeta: [como consultar e pagar](o-que-e-free-flow.md#quanto-tempo-tenho-para-pagar) e [`dados/canais-oficiais-pagamento.csv`](../dados/canais-oficiais-pagamento.csv).
+Fonte: [Ministério dos Transportes](https://www.gov.br/transportes/pt-br/assuntos/noticias-/2026/08/app-cnh-do-brasil-oferece-consulta-ao-free-flow-a-partir-desta-segunda-24) e [Serpro](https://www.serpro.gov.br/menu/noticias/noticias-2026/free-flow). Afeta: [Como consultar o Free Flow no app CNH do Brasil](consulta-app-cnh-do-brasil.md), [Como consultar pela placa](consultar-pela-placa.md) e [`dados/canais-oficiais-pagamento.csv`](../dados/canais-oficiais-pagamento.csv).
 
 ### 24 de agosto de 2026: MT-130 anuncia início do Free Flow para 10 de outubro
 
@@ -59,11 +61,30 @@ A **EPR Paraná** iniciou a cobrança na **BR-369**, em Jataizinho e Rolândia, 
 
 Fonte: [ANTT, Free Flow](https://www.gov.br/antt/pt-br/free-flow). Afeta: [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv).
 
+### 29 de abril de 2026: a Deliberação CONTRAN nº 277 muda a contagem do prazo e abre a regularização
+
+Publicada no Diário Oficial da União em 29 de abril de 2026, a **Deliberação CONTRAN nº 277, de 26 de março de 2026**, fez três coisas ao mesmo tempo, e a segunda passou despercebida na cobertura de imprensa.
+
+1. **Abriu um prazo excepcional de 200 dias**, até **16 de novembro de 2026**, para regularizar tarifas de Free Flow **sem as penalidades de trânsito**. No período não se configura a infração do art. 209-A do Código de Trânsito Brasileiro pelo não pagamento. Quitar dentro do prazo cancela os processos de infração correspondentes e exclui penalidade e pontuação, e quem já tinha pago a multa pode pedir revisão e restituição.
+2. **Alterou o art. 7º da Resolução CONTRAN nº 1.013/2024.** O prazo de 30 dias, que era contado da data da passagem, passou a ser contado **da confirmação do processamento do registro da passagem** junto ao órgão máximo executivo de trânsito da União. Para as passagens feitas durante o regime de transição, prevalece o prazo mais favorável ao usuário entre os dois.
+3. **Deu 100 dias para a homologação dos sistemas** de livre passagem junto à Senatran. Sistema não homologado não pode ser usado para os fins do art. 115, § 10, do Código de Trânsito Brasileiro, o que afasta a infração do art. 209-A, conforme a Portaria Senatran nº 442/2025.
+
+A tarifa continua devida em qualquer cenário. A partir de **17 de novembro de 2026** a regra ordinária volta a valer integralmente.
+
+Fonte: [Deliberação CONTRAN nº 277/2026](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/deliberacoes/Deliberacao2772026.pdf) e [Resolução CONTRAN nº 1.013/2024](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/Resolucao10132024.pdf). Afeta: [Como pagar](como-pagar.md#quanto-tempo-eu-tenho-para-pagar) e [O que é Free Flow](o-que-e-free-flow.md#quanto-tempo-tenho-para-pagar).
+
 ### 27 de março de 2026: publicada a Resolução ANTT nº 6.079/2026
 
-A ANTT publicou a resolução que **regulamenta o sistema de livre passagem** nas rodovias federais concedidas: regras de identificação do veículo, de apuração da tarifa, de prazo de pagamento e de tratamento das passagens não quitadas. É a base regulatória vigente do Free Flow federal, e é ela que sustenta o prazo geral de até 30 dias, ressalvado o que cada contrato de concessão definir.
+A ANTT publicou a resolução que **regulamenta o sistema de livre passagem** nas rodovias federais concedidas, com entrada em vigor prevista para até 120 dias após a publicação. Ela alterou as quatro normas do Regulamento das Concessões Rodoviárias e trouxe a régua financeira completa do Free Flow federal:
 
-Fonte: [ANTT Legis](https://anttlegis.antt.gov.br/). Afeta: [O que é Free Flow](o-que-e-free-flow.md#quanto-tempo-tenho-para-pagar) e o [glossário](glossario.md#r).
+- **Prazo de 30 dias**, contados da passagem pelo pórtico, sem incidência de encargos, multas ou juros.
+- **Depois dos 30 dias**, incidem encargos administrativos (limitados ao ressarcimento dos custos de identificação e notificação, sujeitos à aprovação da ANTT), **multa moratória de 2%**, com base no art. 52, § 1º, do Código de Defesa do Consumidor, e **juros legais de 1% ao mês** pro rata temporis, com base nos arts. 395, 397 e 406 do Código Civil, além da penalidade do art. 209-A do Código de Trânsito Brasileiro.
+- **Pagar a multa não exime** de quitar a tarifa, os encargos, a moratória e os juros.
+- **Cobrança indevida se devolve em dobro**, em até 7 dias corridos.
+- **Múltiplos meios de pagamento obrigatórios**, incluindo Pix, cartões, dinheiro e sistemas automáticos, com opção de pagamento pós-passagem disponível em até 2 horas para 90% das passagens e em até 24 horas para 99%.
+- **Transações armazenadas por cinco anos**, com obrigação de fornecer o histórico para instruir defesa ou recurso.
+
+Fonte: [ANTT Legis](https://anttlegis.antt.gov.br/) e [ANTT, nota sobre a regulamentação](https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/antt-consolida-regulamentacao-do-pedagio-sem-cancela-com-foco-na-protecao-ao-usuario-e-na-seguranca-do-sistema). Afeta: [Prazo e encargos](prazo-e-encargos.md), [O que é Free Flow](o-que-e-free-flow.md#quanto-tempo-tenho-para-pagar) e o [glossário](glossario.md#r).
 
 ### 23 de fevereiro de 2026: EPR Iguaçu começa a cobrar no oeste e sudoeste do Paraná
 
@@ -93,6 +114,17 @@ A **RioSP**, do grupo Motiva, iniciou a cobrança eletrônica na **BR-116, Via D
 
 Fonte: [ANTT, Free Flow](https://www.gov.br/antt/pt-br/free-flow). Afeta: [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv).
 
+### 12 de junho de 2025: Portaria Senatran nº 442 cria a homologação obrigatória
+
+A Senatran publicou a portaria que estabelece os **procedimentos de homologação** dos sistemas de livre passagem e de **interoperabilidade** dos dados de passagem e de pagamento com os sistemas nacionais. É a norma que, um ano depois, tornaria possível a consulta nacional no app CNH do Brasil.
+
+Duas consequências diretas para o motorista:
+
+- **Sistema não homologado não gera infração.** Sistemas de livre passagem não homologados junto à Senatran não podem ser usados para os fins do art. 115, § 10, do Código de Trânsito Brasileiro, o que afasta a infração do art. 209-A. A relação dos sistemas homologados fica no site da Senatran.
+- **Falha técnica exige nova tentativa de cobrança.** Quando há falha na confirmação do pagamento automático, o operador deve realizar ao menos mais uma tentativa até o prazo máximo de pagamento, para mitigar autuação indevida de quem tem tag ativa.
+
+Fonte: [Ministério dos Transportes, normas de trânsito](https://www.gov.br/transportes/pt-br/assuntos/transito). Afeta: [Multa do Free Flow](multa-free-flow.md) e [Prazo e encargos](prazo-e-encargos.md).
+
 ---
 
 ## Próximas datas a observar
@@ -115,8 +147,10 @@ Trechos com status `previsto` ou `adiado` **não cobram tarifa por pórtico hoje
 | Regra | O que define |
 |---|---|
 | Resolução ANTT nº 6.079/2026 | Sistema de livre passagem nas rodovias federais concedidas, publicada em 27/03/2026 |
-| Resolução CONTRAN nº 1.013/2024 | Prazo geral de até 30 dias para pagamento da tarifa, ressalvado o contrato de cada concessão |
-| Deliberação CONTRAN nº 277/2026 | Regularização sem penalidades de trânsito até 16/11/2026, mantida a obrigação de pagar a tarifa |
+| Resolução CONTRAN nº 1.013/2024 | Prazo geral de 30 dias para pagamento da tarifa, ressalvado o contrato de cada concessão |
+| Deliberação CONTRAN nº 277/2026 | Conta os 30 dias da confirmação do processamento do registro da passagem, e não da passagem; regularização sem penalidades de trânsito até 16/11/2026, mantida a obrigação de pagar a tarifa |
+| Portaria Senatran nº 442/2025 | Homologação e interoperabilidade dos sistemas de livre passagem; sistema não homologado não gera a infração do art. 209-A |
+| Lei nº 14.157/2021 | Incluiu o art. 209-A no Código de Trânsito Brasileiro e o § 10 do art. 115 |
 | Art. 209-A do Código de Trânsito Brasileiro | Infração grave, com 5 pontos na CNH, para a passagem não paga |
 
 ---
