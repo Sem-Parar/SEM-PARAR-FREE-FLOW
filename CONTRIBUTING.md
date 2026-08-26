@@ -15,12 +15,10 @@ Você não precisa saber Git. [Abra uma issue](../../issues/new) dizendo o que e
 ## Se preferir mandar um pull request
 
 1. Faça um fork e crie um branch descritivo, por exemplo `dados/portico-br101-km600`.
-2. Edite **o CSV**, nunca só o JSON. Os arquivos em `dados/json/` são gerados a partir dos CSVs.
+2. Edite o CSV direto.
 3. Atualize a coluna `atualizado_em` da linha que você mexeu, no formato `AAAA-MM-DD`, e preencha a coluna `fonte` com a URL oficial.
 4. Some uma linha ao [CHANGELOG.md](CHANGELOG.md), na seção `[Não publicado]`.
 5. Abra o PR explicando o que mudou e por quê.
-
-Não é preciso regenerar os JSONs. A manutenção faz isso na revisão.
 
 ## Convenções das bases
 

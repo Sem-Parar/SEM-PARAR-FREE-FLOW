@@ -1,13 +1,12 @@
 # Dados abertos do Free Flow no Brasil
 
-Esta pasta é o coração do repositório: três bases públicas sobre o pedágio eletrônico brasileiro, em **CSV** (fonte da verdade) e **JSON** (espelho gerado), publicadas pelo Sem Parar sob licença **[CC BY 4.0](../LICENSE)**. O reuso é livre, inclusive comercial, desde que citada a fonte.
+Esta pasta é o coração do repositório: três bases públicas sobre o pedágio eletrônico brasileiro, em **CSV**, publicadas pelo Sem Parar sob licença **[CC BY 4.0](../LICENSE)**. O reuso é livre, inclusive comercial, desde que citada a fonte.
 
-| Base | O que traz | Linhas | Arquivos |
-|---|---|:---:|---|
-| **rodovias-free-flow** | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 43 | [CSV](rodovias-free-flow.csv), [JSON](json/rodovias-free-flow.json) |
-| **concessionarias-free-flow** | Quem opera cada trecho, com plataforma de pagamento e canais | 22 | [CSV](concessionarias-free-flow.csv), [JSON](json/concessionarias-free-flow.json) |
-| **canais-oficiais-pagamento** | Lista verificada de canais legítimos de consulta e pagamento | 29 | [CSV](canais-oficiais-pagamento.csv), [JSON](json/canais-oficiais-pagamento.json) |
-| **_metadados** | Contadores agregados de rodovias, pórticos, concessionárias e UFs | | [JSON](json/_metadados.json) |
+| Base | O que traz | Linhas |
+|---|---|:---:|
+| [rodovias-free-flow](rodovias-free-flow.csv) | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 43 |
+| [concessionarias-free-flow](concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 22 |
+| [canais-oficiais-pagamento](canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 29 |
 
 Codificação **UTF-8**, separador **vírgula**, datas em **ISO** (`AAAA-MM-DD`). Listas dentro de uma célula usam **ponto e vírgula** como separador.
 
@@ -113,37 +112,11 @@ A camada anti-golpe. Cada canal foi acessado e conferido individualmente, com o 
 
 ---
 
-## Como usar
+## Como abrir
 
-**Python**
+Clique no arquivo, depois no botão **Download raw file**, no canto superior direito. O arquivo baixa em CSV e abre direto no Excel, no Numbers ou no Google Sheets.
 
-```python
-import pandas as pd
-
-URL = "https://raw.githubusercontent.com/triwi/sem-parar-free-flow/main/dados/rodovias-free-flow.csv"
-df = pd.read_csv(URL)
-
-ativas = df[df.status == "ativo"]
-print(f"{ativas.n_porticos.sum()} pórticos em {ativas.uf.nunique()} estados")
-print(ativas.groupby("uf").n_porticos.sum().sort_values(ascending=False))
-```
-
-**JavaScript**
-
-```js
-const url = "https://raw.githubusercontent.com/triwi/sem-parar-free-flow/main/dados/json/rodovias-free-flow.json";
-const rodovias = await fetch(url).then(r => r.json());
-
-const ativas = rodovias.filter(r => r.status === "ativo");
-const porticos = ativas.reduce((s, r) => s + Number(r.n_porticos), 0);
-console.log(`${ativas.length} rodovias, ${porticos} pórticos`);
-```
-
-**Contadores prontos**, para dashboards e badges, sem precisar baixar a base inteira:
-
-```
-https://raw.githubusercontent.com/triwi/sem-parar-free-flow/main/dados/json/_metadados.json
-```
+Se o Excel embaralhar os acentos, abra pelo menu Dados, opção "De Texto/CSV", e escolha a codificação UTF-8.
 
 ---
 

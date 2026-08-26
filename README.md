@@ -8,9 +8,9 @@
 
 <p>
 <img src="https://img.shields.io/badge/mantido%20pelo-Sem%20Parar-D60B52?style=flat-square" alt="Mantido pelo Sem Parar">
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftriwi%2Fsem-parar-free-flow%2Fmain%2Fdados%2Fjson%2F_metadados.json&query=%24.rodovias_ativas&label=rodovias%20com%20free%20flow&color=D60B52&style=flat-square" alt="Rodovias com Free Flow mapeadas">
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftriwi%2Fsem-parar-free-flow%2Fmain%2Fdados%2Fjson%2F_metadados.json&query=%24.porticos_ativos&label=p%C3%B3rticos&color=525251&style=flat-square" alt="Pórticos monitorados">
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftriwi%2Fsem-parar-free-flow%2Fmain%2Fdados%2Fjson%2F_metadados.json&query=%24.concessionarias_ativas&label=concession%C3%A1rias&color=525251&style=flat-square" alt="Concessionárias com Free Flow ativo">
+<img src="https://img.shields.io/badge/rodovias%20com%20free%20flow-26-D60B52?style=flat-square" alt="Rodovias com Free Flow mapeadas">
+<img src="https://img.shields.io/badge/p%C3%B3rticos-74-525251?style=flat-square" alt="Pórticos monitorados">
+<img src="https://img.shields.io/badge/concession%C3%A1rias-15-525251?style=flat-square" alt="Concessionárias com Free Flow ativo">
 <br>
 <img src="https://img.shields.io/github/last-commit/triwi/sem-parar-free-flow?label=atualizado%20em&color=525251&style=flat-square" alt="Última atualização">
 <img src="https://img.shields.io/badge/licen%C3%A7a-CC%20BY%204.0-525251?style=flat-square" alt="Licença CC BY 4.0">
@@ -239,15 +239,15 @@ As operadoras de tag autorizadas pela ANTT são interoperáveis nas rodovias fed
 
 ## Dados abertos
 
-Todo o conteúdo deste repositório nasce de três bases públicas, em **CSV** e **JSON**, sob licença **CC BY 4.0**. O reuso é livre, inclusive comercial, desde que citada a fonte.
+Todo o conteúdo deste repositório nasce de três bases públicas em **CSV**, sob licença **CC BY 4.0**. O reuso é livre, inclusive comercial, desde que citada a fonte.
 
-| Base | O que traz | Linhas | Formatos |
-|---|---|:---:|---|
-| [`rodovias-free-flow`](dados/rodovias-free-flow.csv) | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 43 | [CSV](dados/rodovias-free-flow.csv), [JSON](dados/json/rodovias-free-flow.json) |
-| [`concessionarias-free-flow`](dados/concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 22 | [CSV](dados/concessionarias-free-flow.csv), [JSON](dados/json/concessionarias-free-flow.json) |
-| [`canais-oficiais-pagamento`](dados/canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 29 | [CSV](dados/canais-oficiais-pagamento.csv), [JSON](dados/json/canais-oficiais-pagamento.json) |
+| Base | O que traz | Linhas |
+|---|---|:---:|
+| [`rodovias-free-flow`](dados/rodovias-free-flow.csv) | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 43 |
+| [`concessionarias-free-flow`](dados/concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 22 |
+| [`canais-oficiais-pagamento`](dados/canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 29 |
 
-O dicionário de dados, com o significado de cada coluna e os valores aceitos, está em **[`dados/README.md`](dados/README.md)**. Contadores agregados para consumo programático ficam em [`dados/json/_metadados.json`](dados/json/_metadados.json).
+O dicionário de dados, com o significado de cada coluna e os valores aceitos, está em **[`dados/README.md`](dados/README.md)**.
 
 **Como citar:**
 

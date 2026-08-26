@@ -20,7 +20,6 @@ Primeira versão pública do repositório de Free Flow e Tag de Pedágio do Sem 
 - **`dados/rodovias-free-flow.csv`** com 43 rodovias mapeadas: 26 com Free Flow ativo, somando 74 pórticos em operação, e 17 com operação prevista ou adiada.
 - **`dados/concessionarias-free-flow.csv`** com 22 concessionárias, sendo 15 com Free Flow ativo, incluindo grupo econômico, plataforma de pagamento, canais e situação.
 - **`dados/canais-oficiais-pagamento.csv`** com 29 canais oficiais de consulta e pagamento verificados um a um, com nível de verificação declarado. É a base da camada anti-golpe.
-- **`dados/json/`** com o espelho em JSON das três bases e o `_metadados.json` de contadores agregados, usado pelos badges dinâmicos do README.
 - **`dados/README.md`**, o dicionário de dados, com significado, formato e valores aceitos de cada coluna.
 - Infraestrutura do repositório: `LICENSE` (CC BY 4.0), `CONTRIBUTING.md` e `CODE_OF_CONDUCT.md`.
 - Banner do projeto em `.github/assets/banner.svg`, nas cores oficiais da marca.
