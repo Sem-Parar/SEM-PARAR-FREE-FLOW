@@ -12,7 +12,7 @@
 <img src="https://img.shields.io/badge/p%C3%B3rticos-74-525251?style=flat-square" alt="Pórticos monitorados">
 <img src="https://img.shields.io/badge/concession%C3%A1rias-15-525251?style=flat-square" alt="Concessionárias com Free Flow ativo">
 <br>
-<img src="https://img.shields.io/github/last-commit/triwi/sem-parar-free-flow?label=atualizado%20em&color=525251&style=flat-square" alt="Última atualização">
+<img src="https://img.shields.io/github/last-commit/TRIWI-SEO/SEM-PARAR-FREE-FLOW?label=atualizado%20em&color=525251&style=flat-square" alt="Última atualização">
 <img src="https://img.shields.io/badge/licen%C3%A7a-CC%20BY%204.0-525251?style=flat-square" alt="Licença CC BY 4.0">
 <img src="https://img.shields.io/badge/dados-abertos-2E7D32?style=flat-square" alt="Dados abertos">
 <img src="https://img.shields.io/badge/PRs-bem--vindos-2E7D32?style=flat-square" alt="PRs bem-vindos">
@@ -43,12 +43,29 @@ O repositório cobre dois temas conectados:
 
 Em **25 de agosto de 2026**, o Brasil tem **74 pórticos de Free Flow em operação**, distribuídos por **26 rodovias**, **15 concessionárias** e **7 estados**: GO, MG, PR, RJ, RO, RS, SP.
 
+A explicação completa, com o passo a passo do pórtico, prazos, descontos e o que acontece quando o prazo passa, está em **[O que é Free Flow e como funciona o pedágio sem cancela](docs/o-que-e-free-flow.md)**.
+
+---
+
+## Conteúdos deste repositório
+
+| Página | O que responde |
+|---|---|
+| [O que é Free Flow e como funciona o pedágio sem cancela](docs/o-que-e-free-flow.md) | Como o pórtico lê o carro, o que muda com tag e sem tag, prazos, descontos DBT e DUF, e o que acontece se não pagar |
+| [Glossário do Free Flow](docs/glossario.md) | O significado de 41 termos que aparecem em contrato, resolução, site de concessionária e fatura de tag |
+| [Novidades do Free Flow no Brasil](docs/novidades.md) | O que mudou e quando, com fonte oficial em cada nota, e as próximas datas a observar |
+| [Sem Parar: quem é, o que faz e desde quando](SEM-PARAR.md) | Quem mantém este repositório, o que a plataforma resolve e quais são os canais oficiais |
+| [Dicionário de dados](dados/README.md) | O significado de cada coluna das três bases abertas em CSV |
+
+Novas páginas entram por pacote, e cada uma delas é linkada aqui.
+
 ---
 
 ## Índice
 
 - [Um repositório do Sem Parar](#um-repositório-do-sem-parar)
 - [O que é o Free Flow](#o-que-é-o-free-flow)
+- [Conteúdos deste repositório](#conteúdos-deste-repositório), as páginas completas
 - [Rodovias com Free Flow no Brasil](#rodovias-com-free-flow-no-brasil), a tabela nacional
 - [Onde o Free Flow ainda vai chegar](#onde-o-free-flow-ainda-vai-chegar)
 - [Como pagar o Free Flow](#como-pagar-o-free-flow)
@@ -117,6 +134,7 @@ Trechos com Free Flow **previsto** ou com início **adiado**. Nenhum deles cobra
 | RJ | **BR-101** BR-101/RJ Norte | Arteris Fluminense | previsto | Pórticos previstos em Tanguá, Itaboraí e São Gonçalo; sem cronograma público |
 | RJ | **BR-116** Trecho Metropolitano do Rio | Ecovias Rio Minas | previsto | km 161,70 ao km 205,87; Free Flow previsto no contrato, sem cronograma público |
 | MT | **BR-163** Nova Rota do Oeste | Nova Rota do Oeste | previsto | Itiquira a Sinop; ANTT lista termo aditivo previsto para adoção do Free Flow |
+| MT | **MT-130** Primavera do Leste a Paranatinga | Concessionária de Rodovias Rota dos Grãos | previsto | Seis pórticos substituem as duas praças físicas em cerca de 140 km; início da cobrança anunciado para 10/10/2026 |
 | MS | **BR-262** Rota da Celulose | a definir | previsto | Corredor Três Lagoas-Água Clara-Campo Grande; 14 pórticos previstos para novembro de 2026 |
 | MT | **MT-449** Rodovia da Mudança | Rodovia da Mudança | previsto | Lucas do Rio Verde e Tapurah; 6 pórticos em 3 corredores tarifários aprovados pela AGER-MT |
 
@@ -161,7 +179,7 @@ Sem Parar oferece a tag em famílias de planos com perfis diferentes de uso: **I
 
 **[Peça sua tag em semparar.com.br](https://www.semparar.com.br/free-flow?utm_source=github&utm_medium=readme&utm_campaign=sem-parar-free-flow)**, o canal mais indicado. Se preferir, a contratação também pode ser feita pelo SuperApp Sem Parar.
 
-Conteúdos detalhados sobre escolha de plano, cobertura e comparação entre tags entram neste repositório nas próximas atualizações.
+Quem publica este repositório está em [Sem Parar: quem é, o que faz e desde quando](SEM-PARAR.md). Conteúdos detalhados sobre escolha de plano, cobertura e comparação entre tags entram nas próximas atualizações.
 
 ---
 
@@ -243,15 +261,15 @@ Todo o conteúdo deste repositório nasce de três bases públicas em **CSV**, s
 
 | Base | O que traz | Linhas |
 |---|---|:---:|
-| [`rodovias-free-flow`](dados/rodovias-free-flow.csv) | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 43 |
-| [`concessionarias-free-flow`](dados/concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 22 |
+| [`rodovias-free-flow`](dados/rodovias-free-flow.csv) | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 44 |
+| [`concessionarias-free-flow`](dados/concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 23 |
 | [`canais-oficiais-pagamento`](dados/canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 29 |
 
 O dicionário de dados, com o significado de cada coluna e os valores aceitos, está em **[`dados/README.md`](dados/README.md)**.
 
 **Como citar:**
 
-> Sem Parar. *Free Flow e Tag de Pedágio: base aberta de rodovias com pedágio eletrônico no Brasil.* Consultado em [data]. Disponível em: https://github.com/triwi/sem-parar-free-flow
+> Sem Parar. *Free Flow e Tag de Pedágio: base aberta de rodovias com pedágio eletrônico no Brasil.* Consultado em [data]. Disponível em: https://github.com/TRIWI-SEO/SEM-PARAR-FREE-FLOW
 
 ---
 
@@ -312,7 +330,7 @@ Se preferir, a contratação também pode ser feita pelo SuperApp Sem Parar.
 
 <br>
 
-<sub>Repositório oficial mantido pelo <strong>Sem Parar</strong>. Conteúdo e dados sob <a href="LICENSE">CC BY 4.0</a>. Última revisão dos dados em 25 de agosto de 2026.</sub>
+<sub>Repositório oficial mantido pelo <strong>Sem Parar</strong>. Conteúdo e dados sob <a href="LICENSE">CC BY 4.0</a>. Última revisão dos dados em 26 de agosto de 2026.</sub>
 
 <sub><strong>Você com mais tempo para o que importa.</strong> #TudoProSeuCarro</sub>
 
