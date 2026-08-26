@@ -9,7 +9,7 @@
 <p>
 <img src="https://img.shields.io/badge/mantido%20pelo-Sem%20Parar-D60B52?style=flat-square" alt="Mantido pelo Sem Parar">
 <img src="https://img.shields.io/badge/rodovias%20com%20free%20flow-26-D60B52?style=flat-square" alt="Rodovias com Free Flow mapeadas">
-<img src="https://img.shields.io/badge/p%C3%B3rticos-74-525251?style=flat-square" alt="Pórticos monitorados">
+<img src="https://img.shields.io/badge/p%C3%B3rticos-85-525251?style=flat-square" alt="Pórticos de cobrança em operação">
 <img src="https://img.shields.io/badge/concession%C3%A1rias-15-525251?style=flat-square" alt="Concessionárias com Free Flow ativo">
 <br>
 <img src="https://img.shields.io/github/last-commit/TRIWI-SEO/SEM-PARAR-FREE-FLOW?label=atualizado%20em&color=525251&style=flat-square" alt="Última atualização">
@@ -41,7 +41,7 @@ O repositório cobre dois temas conectados:
 
 **Free Flow é o pedágio eletrônico sem cancela: o motorista passa pelo pórtico sem parar e sem fila.** Câmeras e sensores identificam o veículo automaticamente, pela tag ou pela leitura da placa, e a tarifa é cobrada depois. Quem tem tag não faz nada, porque a cobrança cai direto na fatura. Quem não tem paga pela placa, nos canais oficiais da concessionária, dentro do prazo. No Brasil o mesmo sistema também é chamado de **pedágio eletrônico** ou **pedágio sem cancela**.
 
-Em **25 de agosto de 2026**, o Brasil tem **74 pórticos de Free Flow em operação**, distribuídos por **26 rodovias**, **15 concessionárias** e **7 estados**: GO, MG, PR, RJ, RO, RS, SP.
+Em **26 de agosto de 2026**, o Brasil tem **85 pórticos de Free Flow em operação**, distribuídos por **26 rodovias**, **15 concessionárias** e **7 estados**: GO, MG, PR, RJ, RO, RS, SP. O mapa pórtico a pórtico está em **[Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md)**.
 
 A explicação completa, com o passo a passo do pórtico, prazos, descontos e o que acontece quando o prazo passa, está em **[O que é Free Flow e como funciona o pedágio sem cancela](docs/o-que-e-free-flow.md)**.
 
@@ -52,6 +52,14 @@ A explicação completa, com o passo a passo do pórtico, prazos, descontos e o 
 | Página | O que responde |
 |---|---|
 | [O que é Free Flow e como funciona o pedágio sem cancela](docs/o-que-e-free-flow.md) | Como o pórtico lê o carro, o que muda com tag e sem tag, prazos, descontos DBT e DUF, e o que acontece se não pagar |
+| [Como pagar o pedágio Free Flow: todos os canais oficiais](docs/como-pagar.md) | O caminho com tag e sem tag, a tabela de canais por concessionária, o prazo e o que acontece se ele passar |
+| [Como consultar o Free Flow pela placa do carro](docs/consultar-pela-placa.md) | Os três caminhos de consulta, o roteador de rodovia para concessionária e como contestar uma cobrança |
+| [Como consultar o Free Flow no app CNH do Brasil](docs/consulta-app-cnh-do-brasil.md) | O passo a passo da consulta nacional, o que a tela mostra, os alertas do app e o que ele não faz |
+| [Sites e apps oficiais para pagar o Free Flow](docs/sites-e-apps-oficiais.md) | A lista verificada dos 29 canais legítimos, separada por governo, concessionária e operadora de tag |
+| [Passei num Free Flow sem tag: prazo e como pagar pela placa](docs/passei-sem-tag.md) | Por que passar sem tag não é infração, os três passos para resolver e o que você perde sem tag |
+| [Prazo para pagar o Free Flow: o que acontece depois dos 30 dias](docs/prazo-e-encargos.md) | A régua degrau por degrau, os encargos que incidem e por que duas normas contam o prazo de formas diferentes |
+| [Multa do Free Flow: valor, pontos na CNH e como recorrer](docs/multa-free-flow.md) | Quando a passagem vira infração do art. 209-A, quem multa, como cancelar, como pedir ressarcimento e como recorrer |
+| [Não paguei o Free Flow: como regularizar passagens atrasadas](docs/nao-paguei-e-agora.md) | O caminho em três passos, o cenário de cada situação e a janela aberta até 16 de novembro de 2026 |
 | [Glossário do Free Flow](docs/glossario.md) | O significado de 41 termos que aparecem em contrato, resolução, site de concessionária e fatura de tag |
 | [Novidades do Free Flow no Brasil](docs/novidades.md) | O que mudou e quando, com fonte oficial em cada nota, e as próximas datas a observar |
 | [Sem Parar: quem é, o que faz e desde quando](SEM-PARAR.md) | Quem mantém este repositório, o que a plataforma resolve e quais são os canais oficiais |
@@ -84,7 +92,7 @@ Rodovias com cobrança eletrônica **em operação**, ordenadas por estado. Gera
 
 | UF | Rodovia | Trecho e pórticos | Concessionária | Pórticos | Desde | Pagar |
 |---|---|---|---|:---:|:---:|---|
-| SP | **BR-116** Via Dutra - Trecho Metropolitano | km 206 (Arujá) ao km 231 (São Paulo), via expressa; marginal gratuita | Concessionária do Sistema Rodoviário Rio-São Paulo (RioSP) | 10 | 06/12/2025 | [pagar](https://rodovias.motiva.com.br/riosp/freeflow) |
+| SP | **BR-116** Via Dutra - Trecho Metropolitano | km 204 (Arujá) ao km 231 (São Paulo), pistas expressas; marginal gratuita | Concessionária do Sistema Rodoviário Rio-São Paulo (RioSP) | 21 | 06/12/2025 | [pagar](https://rodovias.motiva.com.br/riosp/freeflow) |
 | SP | **SP-021** Rodoanel Mário Covas - Trecho Norte | Guarulhos, km 135 (um pórtico por sentido) | Via SP Serra (Rodoanel Norte SPE) | 2 | 23/12/2025 | [pagar](https://viaappia.com.br/sigafacil/) |
 | SP | **SP-055** Manoel Hipólito do Rego / Padre Manoel da Nóbrega | Santos (km 236) e Miracatu (km 389+560); Itariri opera só como monitoramento | Concessionária Novo Litoral (CNL) | 2 | 01/11/2025 | [pagar](https://cnl.pedagioeletronico.com.br) |
 | SP | **SP-088** Pedro Eroles (Mogi-Dutra) | Arujá (km 037) e Mogi das Cruzes (km 041) | Concessionária Novo Litoral (CNL) | 2 | 01/11/2025 | [pagar](https://cnl.pedagioeletronico.com.br) |
@@ -111,7 +119,7 @@ Rodovias com cobrança eletrônica **em operação**, ordenadas por estado. Gera
 | RJ | **BR-101** Rio-Santos (Costa Verde) | Itaguaí a Paraty (trecho concedido BR-101 RJ/SP) | Concessionária do Sistema Rodoviário Rio-São Paulo (RioSP) | 3 | 31/03/2023 | [pagar](https://rodovias.motiva.com.br/riosp/freeflow) |
 | RO | **BR-364** Rota Agro Norte | Porto Velho/Candeias do Jamari a Vilhena/Pimenta Bueno, 686,7 km | Concessionária de Rodovia Nova 364 | 7 | 12/01/2026 | [pagar](https://pedagioeletronico.nova364.com) |
 
-**Total de 74 pórticos em operação.** Alguns pórticos instalados nessas mesmas rodovias operam apenas como monitoramento de tráfego, sem cobrança. Eles não entram nesta contagem e estão sinalizados na coluna de trecho.
+**Total de 85 pórticos em operação.** Alguns pórticos instalados nessas mesmas rodovias operam apenas como monitoramento de tráfego, sem cobrança. Eles não entram nesta contagem, e agora têm registro próprio em [`dados/porticos-free-flow.csv`](dados/porticos-free-flow.csv), com o mapa completo em [Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md).
 
 ### Onde o Free Flow ainda vai chegar
 
@@ -152,7 +160,9 @@ Depende de uma pergunta só: **você tem tag?**
 | **Quer parar de se preocupar** | Ativar uma tag e deixar a cobrança automática | [Peça a Tag Sem Parar](https://www.semparar.com.br/free-flow?utm_source=github&utm_medium=readme&utm_campaign=sem-parar-free-flow) |
 | **Passou e não é cliente** | Quitar só aquela passagem, pela placa | [pedagioeletronicosemparar.com.br](https://www.pedagioeletronicosemparar.com.br?utm_source=github&utm_medium=readme&utm_campaign=sem-parar-free-flow) |
 
-**O prazo geral é de até 30 dias após a passagem**, conforme a Resolução CONTRAN nº 1.013/2024 e a Resolução ANTT nº 6.079/2026. Mas ele **varia por contrato de concessão**, e há trechos com prazo menor. Confirme sempre no canal da concessionária responsável.
+**O prazo geral é de 30 dias**, e duas normas oficiais contam esse prazo a partir de marcos diferentes, para efeitos diferentes. Para os **encargos financeiros** nas rodovias federais concedidas, a Resolução ANTT nº 6.079/2026 conta **da passagem** pelo pórtico. Para a **infração de trânsito** do art. 209-A, o art. 7º da Resolução CONTRAN nº 1.013/2024, com a redação da Deliberação CONTRAN nº 277/2026, conta **da confirmação do processamento** do registro. O prazo também **varia por contrato de concessão**, e há trechos com prazo menor. Confirme sempre no canal da concessionária responsável, e veja a régua completa em **[Prazo para pagar o Free Flow](docs/prazo-e-encargos.md)**.
+
+O guia completo, com o de-para de concessionária para canal oficial, está em **[Como pagar o pedágio Free Flow](docs/como-pagar.md)**. Para descobrir se você passou por um pórtico, veja **[Como consultar o Free Flow pela placa](docs/consultar-pela-placa.md)**.
 
 > ### Regra de ouro contra golpes
 >
@@ -160,7 +170,7 @@ Depende de uma pergunta só: **você tem tag?**
 >
 > Nenhum canal de governo recebe pagamento nem pede dados de cartão. ANTT, CNH do Brasil, Portal Senatran e Siga Fácil apenas mostram a passagem e encaminham à concessionária.
 >
-> A lista verificada de canais legítimos está em [`dados/canais-oficiais-pagamento.csv`](dados/canais-oficiais-pagamento.csv), com **29 canais** conferidos um a um.
+> A lista verificada de canais legítimos está em [Sites e apps oficiais para pagar o Free Flow](docs/sites-e-apps-oficiais.md) e no dado bruto em [`dados/canais-oficiais-pagamento.csv`](dados/canais-oficiais-pagamento.csv), com **29 canais** conferidos um a um.
 
 ---
 
@@ -206,21 +216,23 @@ Não. Você pode passar sem tag e pagar depois pela placa, no canal oficial da c
 <details>
 <summary><strong>Qual o prazo para pagar?</strong></summary>
 
-A regra geral é de até 30 dias após a passagem, mas o prazo é definido no contrato de concessão de cada trecho e há concessionárias com prazo menor. Confirme no canal da concessionária responsável. A coluna "Pagar" da tabela nacional leva direto a ele.
+A regra geral é de 30 dias. Para os encargos financeiros nas rodovias federais concedidas, a Resolução ANTT nº 6.079/2026 conta da passagem pelo pórtico; para a infração de trânsito, o art. 7º da Resolução CONTRAN nº 1.013/2024, com a redação da Deliberação CONTRAN nº 277/2026, conta da confirmação do processamento do registro. O prazo também é definido no contrato de concessão de cada trecho e há concessionárias com prazo menor. Confirme no canal da concessionária responsável. A régua completa está em [Prazo para pagar o Free Flow](docs/prazo-e-encargos.md) e o guia de pagamento em [Como pagar o pedágio Free Flow](docs/como-pagar.md).
 </details>
 
 <details>
 <summary><strong>O que acontece se eu não pagar?</strong></summary>
 
-Passado o prazo, incidem encargos administrativos, multa moratória e juros. A passagem não paga configura infração de trânsito **grave**, prevista no art. 209-A do Código de Trânsito Brasileiro, com **5 pontos na CNH** e multa em valor definido pela regulação de trânsito.
+Passado o prazo, incidem encargos administrativos, multa moratória e juros sobre a tarifa. A passagem não paga configura infração de trânsito **grave**, prevista no art. 209-A do Código de Trânsito Brasileiro, com **5 pontos na CNH** e multa de trânsito. E pagar a multa **não** quita a tarifa: são obrigações independentes.
 
 Atenção à regra de transição vigente: a Deliberação CONTRAN nº 277/2026 suspendeu penalidades e abriu prazo até **16 de novembro de 2026** para regularizar tarifas em aberto sem as penalidades de trânsito. A anistia dispensa a multa, mas **não a tarifa**. A obrigação de pagar continua.
+
+O detalhamento está em [Multa do Free Flow](docs/multa-free-flow.md) e o caminho de quem está em atraso em [Não paguei o Free Flow](docs/nao-paguei-e-agora.md).
 </details>
 
 <details>
 <summary><strong>Como sei se passei por um pórtico Free Flow?</strong></summary>
 
-A forma oficial mais simples é o app CNH do Brasil, o mesmo da antiga Carteira Digital de Trânsito, na versão 7.3.0 ou superior. O caminho é Veículos, depois selecionar o veículo, depois Pedágio Eletrônico. Ele lista as passagens com data, local, concessionária, prazo e situação, que pode ser em processamento, pendente, pago ou vencido. A passagem pode levar até 24 horas para aparecer.
+A forma oficial mais simples é o app CNH do Brasil, o mesmo da antiga Carteira Digital de Trânsito, com o app atualizado. O caminho é Veículos, depois selecionar o veículo, depois Pedágio eletrônico. Ele lista as passagens com data, local, valor, concessionária, prazo e situação, que pode ser em processamento, pendente, isento ou pago. A passagem pode levar até 24 horas para aparecer. O passo a passo está em [Como consultar o Free Flow no app CNH do Brasil](docs/consulta-app-cnh-do-brasil.md).
 
 Empresas e frotistas consultam pelo Portal de Serviços da Senatran, não pelo app. E o app **não recebe pagamento**: ele encaminha ao canal da concessionária.
 
