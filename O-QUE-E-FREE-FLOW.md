@@ -5,7 +5,7 @@
 No Brasil o mesmo sistema aparece com três nomes, e todos querem dizer a mesma coisa: **Free Flow**, **pedágio eletrônico** e **pedágio sem cancela**.
 
 > Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
-> Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Termos técnicos estão no [glossário](glossario.md).
+> Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](README.md). Termos técnicos estão no [glossário](docs/glossario.md).
 
 ---
 
@@ -50,7 +50,7 @@ O pórtico é uma estrutura metálica sobre a pista, com equipamentos que trabal
 - **Sensores de perfil e laser** medem altura, comprimento e número de eixos para classificar o veículo.
 - **Painéis de mensagem variável**, em muitos trechos, avisam que ali existe cobrança eletrônica.
 
-Vale saber: **nem todo pórtico cobra**. Parte das estruturas instaladas nas rodovias brasileiras opera apenas como monitoramento de tráfego, sem tarifa nenhuma. No inventário deste repositório, pórticos de monitoramento não entram na contagem de cobrança e ficam sinalizados na coluna de trecho de [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv).
+Vale saber: **nem todo pórtico cobra**. Parte das estruturas instaladas nas rodovias brasileiras opera apenas como monitoramento de tráfego, sem tarifa nenhuma. No inventário deste repositório, pórticos de monitoramento não entram na contagem de cobrança e ficam sinalizados na coluna de trecho de [`dados/rodovias-free-flow.csv`](dados/rodovias-free-flow.csv).
 
 ---
 
@@ -71,11 +71,11 @@ A tag não é obrigatória para passar. Ela muda **o que acontece depois**: tira
 
 ## Quanto tempo tenho para pagar
 
-A regra geral é de **30 dias**, e duas normas oficiais contam esse prazo a partir de marcos diferentes, para efeitos diferentes. Para os **encargos financeiros** nas rodovias federais concedidas, a Resolução ANTT nº 6.079/2026, publicada em 27 de março de 2026, conta **da passagem** pelo pórtico. Para a **infração de trânsito** do art. 209-A, o art. 7º da Resolução CONTRAN nº 1.013/2024, com a redação dada pela **Deliberação CONTRAN nº 277/2026**, conta **da confirmação do processamento do registro da passagem** junto ao órgão máximo executivo de trânsito da União. Se o último dia cair em data não útil, o prazo se estende até o próximo dia útil. A régua completa, degrau por degrau, está em [Prazo para pagar o Free Flow](prazo-e-encargos.md).
+A regra geral é de **30 dias**, e duas normas oficiais contam esse prazo a partir de marcos diferentes, para efeitos diferentes. Para os **encargos financeiros** nas rodovias federais concedidas, a Resolução ANTT nº 6.079/2026, publicada em 27 de março de 2026, conta **da passagem** pelo pórtico. Para a **infração de trânsito** do art. 209-A, o art. 7º da Resolução CONTRAN nº 1.013/2024, com a redação dada pela **Deliberação CONTRAN nº 277/2026**, conta **da confirmação do processamento do registro da passagem** junto ao órgão máximo executivo de trânsito da União. Se o último dia cair em data não útil, o prazo se estende até o próximo dia útil. A régua completa, degrau por degrau, está em [Prazo para pagar o Free Flow](docs/prazo-e-encargos.md).
 
-Esse prazo, porém, **é definido no contrato de concessão de cada trecho** e existem concessionárias com prazo menor. Confirme sempre no canal oficial da concessionária responsável. A coluna "Pagar" da [tabela nacional](../README.md#rodovias-com-free-flow-no-brasil) leva direto a ele.
+Esse prazo, porém, **é definido no contrato de concessão de cada trecho** e existem concessionárias com prazo menor. Confirme sempre no canal oficial da concessionária responsável. A coluna "Pagar" da [tabela nacional](README.md#rodovias-com-free-flow-no-brasil) leva direto a ele.
 
-Para descobrir se você passou por um pórtico, o caminho oficial mais simples é o app **CNH do Brasil**, com o app atualizado, em Veículos, depois Pedágio eletrônico. Ele mostra as passagens de rodovias federais, estaduais e municipais integradas, com data, concessionária, prazo e situação. O app **não recebe pagamento**: ele encaminha ao canal da concessionária. O passo a passo completo está em [Como consultar o Free Flow no app CNH do Brasil](consulta-app-cnh-do-brasil.md), e os canais de pagamento em [Como pagar o pedágio Free Flow](como-pagar.md).
+Para descobrir se você passou por um pórtico, o caminho oficial mais simples é o app **CNH do Brasil**, com o app atualizado, em Veículos, depois Pedágio eletrônico. Ele mostra as passagens de rodovias federais, estaduais e municipais integradas, com data, concessionária, prazo e situação. O app **não recebe pagamento**: ele encaminha ao canal da concessionária. O passo a passo completo está em [Como consultar o Free Flow no app CNH do Brasil](docs/consulta-app-cnh-do-brasil.md), e os canais de pagamento em [Como pagar o pedágio Free Flow](docs/como-pagar.md).
 
 ---
 
@@ -86,7 +86,7 @@ Sim, e eles têm nome próprio nas concessões federais reguladas pela ANTT:
 - **DBT, Desconto Básico de Tarifa.** Redução aplicada à tarifa da passagem identificada eletronicamente.
 - **DUF, Desconto de Usuário Frequente.** Redução que cresce conforme a frequência de uso do mesmo trecho no mês.
 
-Os dois dependem de **identificação do veículo por tag**. Quem paga pela placa não recebe desconto. Os percentuais variam por contrato de concessão e são publicados na tabela tarifária oficial de cada concessionária, cujo link está na coluna `url_tarifa_oficial` de [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv).
+Os dois dependem de **identificação do veículo por tag**. Quem paga pela placa não recebe desconto. Os percentuais variam por contrato de concessão e são publicados na tabela tarifária oficial de cada concessionária, cujo link está na coluna `url_tarifa_oficial` de [`dados/rodovias-free-flow.csv`](dados/rodovias-free-flow.csv).
 
 ---
 
@@ -100,15 +100,15 @@ Passado o prazo, a passagem em aberto acumula encargos administrativos, multa mo
 >
 > Nem a ANTT nem as concessionárias enviam cobrança de pedágio por WhatsApp, SMS, e-mail ou anúncio na internet. **Quem inicia o pagamento é você**, entrando no canal oficial, nunca clicando em link recebido. Nenhum canal de governo recebe pagamento nem pede dados de cartão.
 >
-> A lista verificada de canais legítimos está em [`dados/canais-oficiais-pagamento.csv`](../dados/canais-oficiais-pagamento.csv).
+> A lista verificada de canais legítimos está em [`dados/canais-oficiais-pagamento.csv`](dados/canais-oficiais-pagamento.csv).
 
 ---
 
 ## Onde já existe Free Flow no Brasil
 
-Em **26 de agosto de 2026**, há **85 pórticos de cobrança em operação**, em **26 rodovias**, **15 concessionárias** e **7 estados**: GO, MG, PR, RJ, RO, RS e SP. O mapa completo, pórtico a pórtico, está em [Rodovias com Free Flow no Brasil](../RODOVIAS-COM-FREE-FLOW.md).
+Em **26 de agosto de 2026**, há **85 pórticos de cobrança em operação**, em **26 rodovias**, **15 concessionárias** e **7 estados**: GO, MG, PR, RJ, RO, RS e SP. O mapa completo, pórtico a pórtico, está em [Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md).
 
-A lista completa, datada e com o canal de pagamento de cada trecho, está na [tabela nacional do repositório](../README.md#rodovias-com-free-flow-no-brasil). O dado bruto, reutilizável, está em [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv), e as mudanças recentes ficam registradas em [Novidades](novidades.md).
+A lista completa, datada e com o canal de pagamento de cada trecho, está na [tabela nacional do repositório](README.md#rodovias-com-free-flow-no-brasil). O dado bruto, reutilizável, está em [`dados/rodovias-free-flow.csv`](dados/rodovias-free-flow.csv), e as mudanças recentes ficam registradas em [Novidades](docs/novidades.md).
 
 A lista muda rápido. Pórticos são inaugurados, adiados e realocados com frequência, e é por isso que cada linha da base carrega a data da última verificação.
 
@@ -187,10 +187,10 @@ A cobrança segue a placa. Em veículo alugado, a locadora costuma repassar a pa
 
 ## Continue por aqui
 
-- [Glossário do Free Flow](glossario.md), o significado de DBT, DUF, ANPR, pórtico e mais 40 termos.
-- [Novidades do Free Flow no Brasil](novidades.md), o que mudou e quando, com fonte oficial.
-- [Tabela nacional de rodovias](../README.md#rodovias-com-free-flow-no-brasil), onde já se cobra e onde pagar.
-- [Quem é o Sem Parar](../SEM-PARAR.md), a plataforma que publica este repositório.
+- [Glossário do Free Flow](docs/glossario.md), o significado de DBT, DUF, ANPR, pórtico e mais 40 termos.
+- [Novidades do Free Flow no Brasil](docs/novidades.md), o que mudou e quando, com fonte oficial.
+- [Tabela nacional de rodovias](README.md#rodovias-com-free-flow-no-brasil), onde já se cobra e onde pagar.
+- [Quem é o Sem Parar](SEM-PARAR.md), a plataforma que publica este repositório.
 
 ---
 
@@ -202,4 +202,4 @@ Com uma tag ativa, a tarifa do Free Flow é debitada automaticamente, entra nos 
 
 Passou num Free Flow e não é cliente? Dá para quitar só aquela passagem, pela placa, em [pedagioeletronicosemparar.com.br](https://www.pedagioeletronicosemparar.com.br?utm_source=github&utm_medium=o-que-e-free-flow&utm_campaign=sem-parar-free-flow).
 
-<sub>Conteúdo informativo publicado pelo <strong>Sem Parar</strong> sob <a href="../LICENSE">CC BY 4.0</a>. Não substitui os canais oficiais para consulta de débitos, contestação de cobrança ou defesa de infração.</sub>
+<sub>Conteúdo informativo publicado pelo <strong>Sem Parar</strong> sob <a href="LICENSE">CC BY 4.0</a>. Não substitui os canais oficiais para consulta de débitos, contestação de cobrança ou defesa de infração.</sub>
