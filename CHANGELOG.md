@@ -10,6 +10,42 @@ Todas as mudanças relevantes deste repositório são registradas aqui. O format
 
 ---
 
+## [0.13.0], 2026-08-26
+
+Camada geográfica fina. O repositório passa a responder **"tem Free Flow na minha cidade?"**, que nenhuma página anterior respondia, e ganha as duas páginas de rodovia que não estavam cobertas pela camada de concessionárias. Junto vêm três correções de consistência interna.
+
+### Adicionado
+
+- **[`FREE-FLOW-POR-MUNICIPIO.md`](FREE-FLOW-POR-MUNICIPIO.md)**: o índice nacional por cidade, com os **58 municípios** que têm pórtico de cobrança em operação, gerado direto da base de pórticos. Traz rodovia, quilômetro, quantidade e quem cobra em cada um, mais a explicação dos registros de divisa, a lista de estruturas instaladas que não cobram e a instrução de busca por Ctrl+F. Uma peça cobre a cauda inteira de "free flow em [cidade]", em vez de 58 páginas finas.
+- **[`municipios/free-flow-guarulhos.md`](municipios/free-flow-guarulhos.md)**: as duas cobranças da cidade, da RioSP na Via Dutra e da Via SP Serra no Rodoanel Norte, com as três perguntas que identificam qual foi a sua, e a regra da moto que muda entre elas.
+- **[`municipios/free-flow-aruja.md`](municipios/free-flow-aruja.md)**: o município mais complexo do país no assunto, onde convivem o pórtico da Dutra, a praça física que continua em operação e o pórtico da SP-088, com regras opostas para motocicleta.
+- **[`rodovias/free-flow-br-376.md`](rodovias/free-flow-br-376.md)**: a **única rodovia do país com duas concessionárias cobrando Free Flow**, EPR Paraná e PRVias, com canal de pagamento próprio para cada uma, a janela de duas horas que só vale num dos trechos e a divergência de quilometragem de Mauá da Serra.
+- **[`rodovias/free-flow-raposo-tavares.md`](rodovias/free-flow-raposo-tavares.md)**: os 3 pórticos da SP-270, o mapa das estruturas da 2ª etapa da Rota Sorocabana que estão instaladas e não cobram, e o registro de que a concessionária foi uma das duas primeiras homologadas do país.
+
+### Corrigido
+
+- **A base de pórticos e a página de história discordavam sobre o km 29 da Rodovia dos Imigrantes.** A página registrava, desde a versão 0.11.0, que a estrutura permanece no local e passa a cumprir função de monitoramento de tráfego. A base ainda a classificava como estrutura de cobrança aguardando início. **Corrigida a base**, que agora traz `tipo = monitoramento` com a observação completa.
+- **A base de homologações afirmava que a Motiva Sorocabana opera cinco pórticos de monitoramento na SP-270, e a base de pórticos desmentia.** As estruturas sem cobrança da concessionária estão na 2ª etapa da Rota Sorocabana, nas SP-079, SP-139, SP-250 e SP-264, e não na SP-270, onde os três pórticos cobram normalmente. **Corrigida a observação**, que agora aponta para a base de detalhe em vez de repetir a informação.
+- **A lista de estruturas sem cobrança do índice municipal estava incompleta** na primeira redação, omitindo Ibiúna, Pilar do Sul e Capão Bonito e não citando as rodovias. Realinhada com a base.
+
+### Alterado
+
+- **README**: as cinco páginas novas entram na seção Conteúdos, o índice ganha o ponteiro para a lista por município e a seção da tabela nacional passa a oferecer a busca por cidade.
+- **[`RODOVIAS-COM-FREE-FLOW.md`](RODOVIAS-COM-FREE-FLOW.md)**: São Paulo passa a apontar para as páginas de Raposo Tavares, Guarulhos e Arujá, e o índice ganha o ponteiro para a busca por município.
+
+### Decisão editorial declarada
+
+- **Pasta `municipios/` criada, com apenas dois municípios.** A cauda municipal tem 58 cidades, e 58 páginas seriam 56 páginas finas repetindo o que as páginas de estado, de rodovia e de concessionária já dizem. O critério adotado: **página própria só onde duas concessionárias cobram no mesmo município, com regras diferentes**. Isso acontece em Guarulhos e em Arujá, e em nenhum outro lugar do país. O resto da cauda é coberto pelo índice.
+- **Só duas rodovias novas ganharam página, e pelo mesmo critério.** A BR-376 porque é a única com dois operadores, então nenhuma página de concessionária cobre o trecho inteiro. A SP-270 porque tem nome próprio de busca e concentra a dúvida sobre as estruturas vizinhas que não cobram. As demais rodovias já são cobertas pela página do estado e pela da concessionária, e uma terceira página competiria com as duas.
+
+### Notas de dado
+
+- **Nenhum número do inventário mudou.** Seguem 85 pórticos de cobrança, 26 rodovias, 15 concessionárias e 7 estados.
+- **58 municípios para 56 registros:** cinco pórticos ficam na divisa entre duas cidades e aparecem registrados sob os dois nomes. O índice explica isso na leitura da tabela.
+- **A Via Dutra segue como o único registro ativo que agrega mais de um ponto por linha.** Os 21 pontos de cobrança se distribuem entre São Paulo, Guarulhos e Arujá, e a fonte oficial não publica quantos ficam em cada município. Registrado como o dado existe, sem inventar a divisão.
+
+---
+
 ## [0.12.0], 2026-08-26
 
 Concessionárias, onda 2. A camada aberta no PAC-08 fica completa: **todas as concessionárias com Free Flow ativo no Brasil passam a ter página própria**. Junto vem uma correção de dado que a revalidação encontrou, sobre isenção de motocicleta em Goiás.
