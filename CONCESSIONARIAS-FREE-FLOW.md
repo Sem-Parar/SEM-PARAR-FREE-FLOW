@@ -143,6 +143,13 @@ A regra prática: **confirme sempre no canal da concessionária do trecho.** O q
 | [Free Flow da Ecovias](concessionarias/free-flow-ecovias.md) | A pioneira estadual paulista, os quatro pórticos em operação, a mudança de endereço e de prazo, e o que vem no Sistema Anchieta-Imigrantes |
 | [Free Flow da CSG](concessionarias/free-flow-csg.md) | Os seis pórticos gaúchos, o primeiro pórtico estadual do Brasil, o caminho do motociclista e os canais parceiros |
 | [Free Flow do Grupo EPR](concessionarias/free-flow-epr.md) | As três concessões que já cobram, o prazo de 30 dias, o pagamento na praça física e a regra de eixo suspenso |
+| [Free Flow da Rota Verde Goiás](concessionarias/free-flow-rota-verde.md) | Os 11 pórticos em 7 pontos, por que a concessionária não vende tag e o desconto que cresce até a trigésima passagem |
+| [Free Flow da Concessionária Novo Litoral](concessionarias/free-flow-novo-litoral.md) | Os 5 pontos em três rodovias, os dois pórticos que não cobram, a isenção de moto e a armadilha das duas Rio-Santos |
+| [Free Flow da Nova 381](concessionarias/free-flow-nova-381.md) | Os 5 pórticos do Vale do Aço, a concessão federal que nasceu sem cabine e a nota fiscal que mudou em 2026 |
+| [Free Flow da Nova 364](concessionarias/free-flow-nova-364.md) | Os 7 pórticos de Rondônia, a cobrança que parou e voltou e por que a tarifa muda tanto de um ponto para outro |
+| [Free Flow da Way-262](concessionarias/free-flow-way-262.md) | Os 2 pórticos da BR-262, a concessão em que pórtico e cabine convivem e os quatro postos de pagamento presencial |
+| [Free Flow no Rodoanel Norte](concessionarias/free-flow-rodoanel-norte.md) | Os 2 pórticos da Via SP Serra, por que só o Trecho Norte cobra e por que aqui a moto paga |
+| [Free Flow na Tamoios](rodovias/free-flow-tamoios.md) | O pórtico único do Contorno Sul, quem opera, quais praças seguem convencionais e por que a moto paga |
 
 As demais concessionárias entram nas próximas atualizações. Enquanto isso, o canal oficial de cada uma está em [Como pagar o pedágio Free Flow](docs/como-pagar.md) e o detalhe por rodovia em [Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md).
 

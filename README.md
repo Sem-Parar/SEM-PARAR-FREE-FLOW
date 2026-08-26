@@ -58,6 +58,12 @@ A explicação completa, com o passo a passo do pórtico, prazos, descontos e o 
 | [Free Flow da Ecovias](concessionarias/free-flow-ecovias.md) | A pioneira estadual paulista, os quatro pórticos, a mudança de endereço e de prazo, e o Anchieta-Imigrantes |
 | [Free Flow da CSG](concessionarias/free-flow-csg.md) | Os seis pórticos gaúchos, o primeiro pórtico estadual do país, o caminho do motociclista e o Bloco 3 |
 | [Free Flow do Grupo EPR](concessionarias/free-flow-epr.md) | As três concessões que já cobram, o pagamento na praça física e a regra do eixo suspenso com MDF-e |
+| [Free Flow da Rota Verde Goiás](concessionarias/free-flow-rota-verde.md) | Os 11 pórticos em 7 pontos, os pares por sentido, a isenção de moto e por que a concessionária não vende tag |
+| [Free Flow da Concessionária Novo Litoral](concessionarias/free-flow-novo-litoral.md) | Os 5 pontos em três rodovias, os dois pórticos de Itariri que não cobram e a armadilha das duas Rio-Santos |
+| [Free Flow da Nova 381](concessionarias/free-flow-nova-381.md) | Os 5 pórticos do Vale do Aço, a concessão federal que nasceu sem cabine e a NFS-e Via que substituiu o DFE |
+| [Free Flow da Nova 364](concessionarias/free-flow-nova-364.md) | Os 7 pórticos de Rondônia, a cobrança que parou e voltou, o passe livre da moto e a tarifa que varia por ponto |
+| [Free Flow da Way-262](concessionarias/free-flow-way-262.md) | Os 2 pórticos da BR-262, pórtico e cabine na mesma concessão, os quatro postos presenciais e o pré-pago do app |
+| [Free Flow no Rodoanel Norte](concessionarias/free-flow-rodoanel-norte.md) | Os 2 pórticos da Via SP Serra, por que só o Trecho Norte cobra, por que aqui a moto paga e o WhatsApp oficial |
 | [Free Flow na Via Dutra (BR-116)](rodovias/free-flow-dutra.md) | Os 21 pontos de cobrança, a regra da expressa e da marginal, o cálculo da tarifa e a praça de Arujá |
 | [Free Flow na Rio-Santos (BR-101)](rodovias/free-flow-rio-santos.md) | Os pórticos de Itaguaí, Mangaratiba e Paraty, quem é isento, totens e rede credenciada |
 | [Free Flow no Sistema Anchieta-Imigrantes](rodovias/free-flow-anchieta-imigrantes.md) | Por que ainda não cobra, onde ficam os pórticos, o que muda quando começar e a linha do tempo dos adiamentos |
