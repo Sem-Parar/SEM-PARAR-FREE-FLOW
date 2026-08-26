@@ -87,23 +87,32 @@ O estado com mais pórticos é **São Paulo**. A operação de maior extensão c
 
 | Rodovia | Município | Km | Pórticos | Concessionária | Desde | Pagar |
 |---|---|---|:---:|---|:---:|---|
-| **BR-262** Rota do Zebu | Nova Serrana | n/d | 1 | Way-262 | 17/11/2025 | [pagar](https://pedagioeletronico.way262.com.br) |
-| **BR-262** Rota do Zebu | Ibiá | n/d | 1 | Way-262 | 17/11/2025 | [pagar](https://pedagioeletronico.way262.com.br) |
-| **BR-381** Vale do Aço | Entre Belo Horizonte e Governador Valadares | 450+540 a 150 | 5 | Nova 381 | 27/09/2025 | [pagar](https://pedagioeletronico.nova381.com) |
+| **BR-262** Rota do Zebu | Nova Serrana | 452,95 | 1 | Way-262 | 17/11/2025 | [pagar](https://pedagioeletronico.way262.com.br) |
+| **BR-262** Rota do Zebu | Ibiá | 665,1 | 1 | Way-262 | 17/11/2025 | [pagar](https://pedagioeletronico.way262.com.br) |
+| **BR-381** Vale do Aço | Governador Valadares | 176,55 | 1 | Nova 381 | 27/09/2025 | [pagar](https://pedagioeletronico.nova381.com) |
+| **BR-381** Vale do Aço | Belo Oriente | 227,5 | 1 | Nova 381 | 27/09/2025 | [pagar](https://pedagioeletronico.nova381.com) |
+| **BR-381** Vale do Aço | Jaguaraçu | 280,15 | 1 | Nova 381 | 27/09/2025 | [pagar](https://pedagioeletronico.nova381.com) |
+| **BR-381** Vale do Aço | João Monlevade | 342,27 | 1 | Nova 381 | 27/09/2025 | [pagar](https://pedagioeletronico.nova381.com) |
+| **BR-381** Vale do Aço | Caeté | 411,85 | 1 | Nova 381 | 27/09/2025 | [pagar](https://pedagioeletronico.nova381.com) |
 | **MG-459** Francisco Bueno Brandão | Monte Sião | 12,7 | 1 | EPR Sul de Minas | 04/06/2024 | [pagar](https://www.pedagiosemcancela.com.br) |
 
-**8 pórticos de cobrança em Minas Gerais.** O pórtico da MG-459 fica em **Monte Sião**, e não em Camanducaia, como circula em algumas listas.
+**8 pórticos de cobrança em Minas Gerais**, e agora todos com quilometragem individual, vinda do cadastro de pórticos das concessões federais da ANTT. O panorama está em **[Free Flow em Minas Gerais](estados/free-flow-mg.md)**. Duas notas: o pórtico da MG-459 fica em **Monte Sião**, e não em Camanducaia, como circula em algumas listas; e **motocicleta não paga em nenhum dos três trechos mineiros**.
 
 ---
 
 ## Goiás
 
-| Rodovia | Municípios | Pórticos | Concessionária | Desde | Pagar |
-|---|---|:---:|---|:---:|---|
-| **BR-060** Concessão Centro-Norte | Abadia de Goiás, Indiara, Jandaia e Acreúna | 8 | Rota Verde Goiás | 27/05/2026 | [pagar](https://pedagioeletronico.rotaverdegoias.com.br) |
-| **BR-452** Concessão Centro-Norte | Santa Helena de Goiás e Bom Jesus de Goiás | 3 | Rota Verde Goiás | 27/05/2026 | [pagar](https://pedagioeletronico.rotaverdegoias.com.br) |
+| Rodovia | Município | Km | Pórticos | Concessionária | Desde | Pagar |
+|---|---|---|:---:|---|:---:|---|
+| **BR-060** Concessão Centro-Norte | Abadia de Goiás | 172 e 182,6 | 2 | Rota Verde Goiás | 27/05/2026 | [pagar](https://pedagioeletronico.rotaverdegoias.com.br) |
+| **BR-060** Concessão Centro-Norte | Indiara | 233,75 e 233,85 | 2 | Rota Verde Goiás | 27/05/2026 | [pagar](https://pedagioeletronico.rotaverdegoias.com.br) |
+| **BR-060** Concessão Centro-Norte | Jandaia | 281,6 e 281,7 | 2 | Rota Verde Goiás | 27/05/2026 | [pagar](https://pedagioeletronico.rotaverdegoias.com.br) |
+| **BR-060** Concessão Centro-Norte | Acreúna | 325,89 e 326 | 2 | Rota Verde Goiás | 27/05/2026 | [pagar](https://pedagioeletronico.rotaverdegoias.com.br) |
+| **BR-452** Concessão Centro-Norte | Santa Helena de Goiás | 44,9 | 1 | Rota Verde Goiás | 27/05/2026 | [pagar](https://pedagioeletronico.rotaverdegoias.com.br) |
+| **BR-452** Concessão Centro-Norte | Bom Jesus de Goiás | 99,85 | 1 | Rota Verde Goiás | 27/05/2026 | [pagar](https://pedagioeletronico.rotaverdegoias.com.br) |
+| **BR-452** Concessão Centro-Norte | Bom Jesus de Goiás | 147,59 | 1 | Rota Verde Goiás | 27/05/2026 | [pagar](https://pedagioeletronico.rotaverdegoias.com.br) |
 
-**11 pórticos de cobrança em Goiás**, em 7 pontos, cobrindo mais de 400 quilômetros do Anel Viário de Goiânia ao Contorno de Rio Verde e de Rio Verde a Itumbiara. É a maior operação de Free Flow do Centro-Oeste. A concessionária não comercializa tags.
+**11 pórticos de cobrança em Goiás**, em **7 pontos tarifários**: na BR-060 eles operam em pares, um por sentido, com quilometragens distintas para cada lado; na BR-452 são pórticos únicos. Cobrem mais de 400 quilômetros, do Anel Viário de Goiânia ao Contorno de Rio Verde e de Rio Verde a Itumbiara, e formam a maior operação de Free Flow do Centro-Oeste. O panorama está em **[Free Flow em Goiás](estados/free-flow-go.md)**. A concessionária declara que **não comercializa tags**.
 
 ---
 
@@ -126,21 +135,27 @@ O estado com mais pórticos é **São Paulo**. A operação de maior extensão c
 
 | Rodovia | Município | Km | Pórticos | Concessionária | Desde | Pagar |
 |---|---|---|:---:|---|:---:|---|
-| **BR-101** Rio-Santos | Itaguaí | 414 | 1 | RioSP | 31/03/2023 | [pagar](https://pedagiodigital.com) |
-| **BR-101** Rio-Santos | Mangaratiba | 447 | 1 | RioSP | 31/03/2023 | [pagar](https://pedagiodigital.com) |
-| **BR-101** Rio-Santos | Paraty | 538 | 1 | RioSP | 31/03/2023 | [pagar](https://pedagiodigital.com) |
+| **BR-101** Rio-Santos | Itaguaí | 414,9 | 1 | RioSP | 31/03/2023 | [pagar](https://pedagiodigital.com) |
+| **BR-101** Rio-Santos | Mangaratiba | 447,3 | 1 | RioSP | 31/03/2023 | [pagar](https://pedagiodigital.com) |
+| **BR-101** Rio-Santos | Paraty | 538,5 | 1 | RioSP | 31/03/2023 | [pagar](https://pedagiodigital.com) |
 
-**3 pórticos de cobrança no Rio de Janeiro**, e eles têm valor histórico: foi aqui que o Free Flow estreou no Brasil. A página completa está em **[Free Flow na Rio-Santos](rodovias/free-flow-rio-santos.md)**.
+**3 pórticos de cobrança no Rio de Janeiro**, e eles têm valor histórico: foi aqui que o Free Flow estreou no Brasil. O panorama do estado está em **[Free Flow no Rio de Janeiro](estados/free-flow-rj.md)** e a página do trecho em **[Free Flow na Rio-Santos](rodovias/free-flow-rio-santos.md)**.
 
 ---
 
 ## Rondônia
 
-| Rodovia | Trecho | Pórticos | Concessionária | Desde | Pagar |
-|---|---|:---:|---|:---:|---|
-| **BR-364** Rota Agro Norte | De Porto Velho e Candeias do Jamari a Vilhena e Pimenta Bueno, 686,7 km | 7 | Nova 364 | 12/01/2026 | [pagar](https://pedagioeletronico.nova364.com) |
+| Rodovia | Município | Km | Pórticos | Concessionária | Desde | Pagar |
+|---|---|---|:---:|---|:---:|---|
+| **BR-364** Rota Agro Norte | Pimenta Bueno | 122,2 | 1 | Nova 364 | 12/01/2026 | [pagar](https://pedagioeletronico.nova364.com) |
+| **BR-364** Rota Agro Norte | Pimenta Bueno | 221,3 | 1 | Nova 364 | 12/01/2026 | [pagar](https://pedagioeletronico.nova364.com) |
+| **BR-364** Rota Agro Norte | Cacoal | 272,4 | 1 | Nova 364 | 12/01/2026 | [pagar](https://pedagioeletronico.nova364.com) |
+| **BR-364** Rota Agro Norte | Ouro Preto do Oeste | 399,3 | 1 | Nova 364 | 12/01/2026 | [pagar](https://pedagioeletronico.nova364.com) |
+| **BR-364** Rota Agro Norte | Theobroma / Jaru | 452,3 | 1 | Nova 364 | 12/01/2026 | [pagar](https://pedagioeletronico.nova364.com) |
+| **BR-364** Rota Agro Norte | Alto Paraíso | 562,3 | 1 | Nova 364 | 12/01/2026 | [pagar](https://pedagioeletronico.nova364.com) |
+| **BR-364** Rota Agro Norte | Candeias do Jamari | 686,9 | 1 | Nova 364 | 12/01/2026 | [pagar](https://pedagioeletronico.nova364.com) |
 
-**7 pórticos de cobrança em Rondônia**, na operação de **maior extensão contínua do país**. Isenções exigem cadastro prévio, e há 14 totens de pagamento nas bases SAU ao longo do trecho.
+**7 pórticos de cobrança em Rondônia**, na operação de **maior extensão contínua do país**, com 686,7 quilômetros numa concessão 100% eletrônica. O panorama está em **[Free Flow em Rondônia](estados/free-flow-ro.md)**. **Motocicleta tem passe livre e não precisa de cadastro**; ambulâncias, veículos oficiais e corpo diplomático são isentos apenas se cadastrados previamente. Há 14 totens de pagamento nas bases SAU ao longo do trecho.
 
 ---
 
@@ -182,7 +197,9 @@ Duas datas para observar de perto:
 
 **Como contamos um pórtico.** Contamos **pórticos de cobrança em operação**. Estrutura que só monitora tráfego não entra na contagem e tem registro próprio, com o tipo `monitoramento`. Onde a concessionária opera um pórtico por sentido no mesmo ponto, os dois entram, porque são duas cobranças possíveis.
 
-**Onde o dado é agregado, e por quê.** Algumas concessionárias publicam o número de pórticos e o trecho, mas não a quilometragem individual de cada um. É o caso da Via Dutra, da BR-381, da BR-364 e das duas rodovias da Rota Verde em Goiás. Nesses casos a base traz um registro agregado, com o número de pórticos daquele trecho e a quilometragem em `n/d`, em vez de inventar posições. A soma da coluna `porticos_no_registro` é o total nacional.
+**Todo pórtico ativo tem quilometragem.** Até agosto de 2026 a base trazia registros agregados, com `km = n/d`, para a BR-381, a BR-364 e as duas rodovias da Rota Verde, porque as concessionárias não publicavam a posição individual. O cadastro de pórticos das concessões federais da ANTT trouxe essas quilometragens, e os registros agregados foram desmembrados. **Nenhum pórtico ativo aparece hoje com `km = n/d`.** A soma da coluna `porticos_no_registro` continua sendo o total nacional.
+
+**A exceção é a Via Dutra, e ela é uma divergência de unidade, não de valor.** A concessionária comunica **21 pontos de cobrança** na pista expressa; o cadastro da ANTT registra **10 pórticos** entre os km 206 e 231,3, anotando que **cada pórtico concentra vários pontos de cobrança de entrada e saída**. São duas unidades de medida diferentes para a mesma realidade física. Este repositório publica **21**, o número da concessionária, e por isso o trecho aparece com a faixa de quilometragem, e não com uma posição por linha. A divergência está registrada na observação da base e é a única em aberto no inventário.
 
 **Divergências.** Quando a ANTT e a concessionária publicam dados diferentes para o mesmo pórtico, adotamos o valor da ANTT e registramos a divergência no campo de observação. Nenhum dado aqui foi inferido: o que não foi confirmado aparece como `n/d`.
 

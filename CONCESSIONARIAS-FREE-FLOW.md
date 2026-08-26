@@ -162,6 +162,7 @@ Concessionárias com Free Flow **previsto ou adiado**, que hoje não cobram por 
 | Arteris Fluminense | RJ | previsto, BR-101 Norte |
 | CCR ViaSul | RS | previsto, conversão das praças da FreeWay em estudo |
 | Concessionária Rota dos Grãos | MT | previsto, cobrança anunciada para 10 de outubro de 2026 |
+| Rota Agro MT-GO | GO e MT | previsto, concessão assumida em 02/04/2026 e sistema homologado pela Senatran em 10/08/2026, sem cobrança confirmada |
 
 Quando a Rota dos Grãos começar a cobrar, **Mato Grosso passa a ser o oitavo estado com Free Flow**. O acompanhamento fica em [Novidades do Free Flow no Brasil](docs/novidades.md).
 
