@@ -4,9 +4,9 @@ Esta pasta é o coração do repositório: sete bases públicas sobre o pedágio
 
 | Base | O que traz | Linhas |
 |---|---|:---:|
-| [rodovias-free-flow](rodovias-free-flow.csv) | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 44 |
-| [porticos-free-flow](porticos-free-flow.csv) | Inventário pórtico a pórtico, com município, quilômetro, sentido e situação | 49 |
-| [concessionarias-free-flow](concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 23 |
+| [rodovias-free-flow](rodovias-free-flow.csv) | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 46 |
+| [porticos-free-flow](porticos-free-flow.csv) | Inventário pórtico a pórtico, com município, quilômetro, sentido e situação | 64 |
+| [concessionarias-free-flow](concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 24 |
 | [canais-oficiais-pagamento](canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 29 |
 | [tags-aceitas-free-flow](tags-aceitas-free-flow.csv) | Aceitação de tag por concessionária, com regime de autorização, operadoras publicadas e descontos | 15 |
 | [base-legal-free-flow](base-legal-free-flow.csv) | As leis, resoluções e portarias que sustentam o Free Flow, com o que cada uma define | 12 |
@@ -88,7 +88,9 @@ O dado mais granular do repositório, e o que nenhuma outra fonte reúne em âmb
 
 **Como contamos um pórtico.** Contamos pórticos **de cobrança**. Onde a concessionária opera um por sentido no mesmo ponto, os dois entram, porque são duas cobranças possíveis. Estrutura de monitoramento nunca entra na contagem.
 
-**Por que alguns registros são agregados.** Algumas concessionárias publicam o número de pórticos e o trecho, mas não a quilometragem individual de cada um. É o caso da Via Dutra, da BR-381, da BR-364 e das duas rodovias da Rota Verde em Goiás. Nesses casos o registro traz o número de pórticos em `porticos_no_registro`, o intervalo ou os municípios conhecidos, e `km` como `n/d`, em vez de inventar posições. A alternativa seria preencher por dedução, e isso este repositório não faz.
+**Todo pórtico ativo tem quilometragem.** Até agosto de 2026 esta base trazia registros agregados, com `km = n/d`, para a BR-381, a BR-364 e as duas rodovias da Rota Verde em Goiás, porque as concessionárias não publicavam a posição individual. O cadastro de pórticos das concessões federais da ANTT trouxe essas quilometragens, e os registros agregados foram desmembrados em uma linha por pórtico. **Nenhuma linha ativa aparece hoje com `km = n/d`.**
+
+**A divergência da Via Dutra, registrada e em aberto.** A concessionária comunica **21 pontos de cobrança** na pista expressa entre os km 204 e 231; o cadastro da ANTT registra **10 pórticos** entre os km 206 e 231,3, anotando que **cada pórtico concentra vários pontos de cobrança de entrada e saída**. São unidades de medida diferentes para a mesma realidade física, e não um erro de uma das partes. Esta base adota **21**, o número da concessionária, e o registro do trecho traz a faixa de quilometragem em vez de uma posição por linha. É a única linha ativa que não tem um pórtico por registro, e a observação da linha descreve a divergência. **Se o critério for revisto para contar estruturas físicas, o total nacional muda**, e por isso a escolha está declarada aqui em vez de embutida no número.
 
 > **Uso anti-golpe:** as linhas com `status` diferente de `ativo` são a lista de pórticos que **existem mas não cobram**. Cobrança apresentada em qualquer um deles é motivo de desconfiança.
 
