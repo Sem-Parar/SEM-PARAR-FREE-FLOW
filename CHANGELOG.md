@@ -10,6 +10,43 @@ Todas as mudanças relevantes deste repositório são registradas aqui. O format
 
 ---
 
+## [0.11.0], 2026-08-26
+
+Autoridade. O repositório passa a explicar **como ele próprio é feito**: de onde vem cada dado, o que conta como um pórtico e o que acontece quando duas fontes oficiais discordam. Junto entram a cronologia completa do Free Flow no Brasil, com a oitava base aberta, e um glossário 50% maior.
+
+### Adicionado
+
+- **[`docs/metodologia-e-fontes.md`](docs/metodologia-e-fontes.md)**: a hierarquia das seis camadas de fonte, o critério de contagem de pórticos em tabela, a tabela das cinco divergências vivas, a convenção completa dos arquivos CSV, a régua de atualização e o que esta base declaradamente não faz. É a peça que torna o número de capa auditável.
+- **[`docs/historia-do-free-flow-no-brasil.md`](docs/historia-do-free-flow-no-brasil.md)**: a cronologia do pedágio eletrônico brasileiro ano a ano, de 2014 a 2026, com os cinco marcos que mais importam, o que ainda está marcado no calendário e a separação entre operação assistida e início de cobrança.
+- **[`dados/linha-do-tempo-free-flow.csv`](dados/linha-do-tempo-free-flow.csv)**, a **oitava base aberta**: 36 marcos datados, com coluna `tipo` para separar norma de operação, de suspensão, de adiamento e de marco institucional, e coluna `status` para separar fato consumado de data apenas anunciada.
+- **21 verbetes novos no glossário**, cobrindo os termos que entraram com as camadas de tag, concessionárias, base legal e cauda geográfica: AMAP, ASA, art. 209-A, CETRAN, contestação, Credencia, DAER, DER, homologação, JARI, MDF-e, operação assistida, órgão autuador, plataforma de pagamento, ponto de cobrança, Portaria Senatran nº 442/2025, restituição em dobro, sandbox regulatório, tarifa dinâmica, tarifa fixa por pórtico e VPO. Duas letras novas no índice, H e J.
+- **Duas homologações da Senatran** em `dados/homologacao-senatran-free-flow.csv` e na página correspondente: **Way-262**, portaria 621, e **Nova 364**, portaria 622, ambas publicadas em 05/08/2026. A base passa de 12 para 14 linhas.
+
+### Corrigido
+
+- **O glossário anunciava 41 termos e tinha 40.** A contagem foi conferida verbete a verbete e a página passa a declarar o número real, agora 61.
+- **A lista de concessionárias ativas sem portaria de homologação localizada estava desatualizada.** Ela citava cinco, entre elas a Way-262 e a Nova 364, que a varredura mensal encontrou. Caiu para três: Caminhos da Serra Gaúcha, Rota Verde Goiás e EPR Paraná.
+- **A regra de divergência do dicionário de dados dizia sempre adotar o valor da ANTT**, o que não descrevia a prática real depois da Via Dutra. Passa a dizer que se adota a fonte de maior hierarquia, com a exceção da unidade de contagem da Dutra declarada logo abaixo.
+
+### Alterado
+
+- **README**: as duas páginas novas entram na seção Conteúdos, o badge de bases abertas vai a 8, a nova base entra na tabela de dados abertos e a seção Metodologia e limites passa a resumir e apontar para a página completa, incluindo o critério de contagem e a exceção da Dutra.
+- **Dicionário de dados**: seção nova para a base de linha do tempo, contagens atualizadas e o aviso de que essa base conta eventos, não pórticos, e por isso não se soma às demais.
+- **[`docs/novidades.md`](docs/novidades.md)**: a nota das homologações passa de doze para quatorze portarias e ganha registro datado da revisão; nota nova sobre a etapa regulatória anunciada pela ANTT; a data de 27 de agosto entra na tabela de próximas datas.
+- **[`docs/homologacao-senatran-free-flow.md`](docs/homologacao-senatran-free-flow.md)**: duas linhas novas na tabela e a seção de limites reescrita, registrando o que a revisão encontrou.
+
+### Decisão do cliente, registrada
+
+- **A contagem da Via Dutra fica em 21 pontos de cobrança.** A divergência aberta na versão 0.10.0 foi decidida em 26 de agosto de 2026: o repositório mantém os **21 pontos de cobrança** comunicados pela concessionária, e não os **10 pórticos** agregados do cadastro da ANTT, porque 21 é a unidade que corresponde ao que o motorista encontra no trecho e a própria ANTT reconhece a agregação na nota do cadastro. **O total nacional permanece em 85 e São Paulo em 36.** A escolha deixa de ser uma pendência e passa a ser critério declarado, escrito por extenso em [Metodologia e fontes](docs/metodologia-e-fontes.md), no dicionário de dados e na observação da linha.
+
+### Notas de dado
+
+- **A homologação da Senatran é base viva, e a varredura mensal provou o ponto.** Duas portarias publicadas em 5 de agosto não estavam na nossa lista de 26 de agosto. As razões sociais ajudam a explicar: a Way-262 aparece nas portarias como *Concessionária da Rodovia BR 262 MG S.A.*, e é por isso que a coluna que casa razão social com nome comercial existe na base.
+- **A ANTT anunciou uma nova etapa regulatória para os meios de pagamento do Free Flow**, e a proposta de abertura de audiência pública foi **pautada para a reunião da Diretoria Colegiada de 27 de agosto de 2026**. Se aprovada, a previsão divulgada é de contribuições entre 8 de setembro e 23 de outubro de 2026. Registrado como `anunciado`, porque proposta pautada não é audiência aberta.
+- **Nenhum número do inventário mudou nesta versão.** Seguem 85 pórticos de cobrança, 26 rodovias, 15 concessionárias e 7 estados. O pacote é de autoridade e de método, não de inventário.
+
+---
+
 ## [0.10.0], 2026-08-26
 
 Cauda geográfica. Os sete estados com Free Flow ativo passam a ter página própria, e o inventário de pórticos ganha a quilometragem que faltava: **nenhum pórtico ativo aparece mais com `km = n/d`**.
