@@ -11,7 +11,7 @@
 <img src="https://img.shields.io/badge/rodovias%20com%20free%20flow-26-D60B52?style=flat-square" alt="Rodovias com Free Flow mapeadas">
 <img src="https://img.shields.io/badge/p%C3%B3rticos-85-525251?style=flat-square" alt="Pórticos de cobrança em operação">
 <img src="https://img.shields.io/badge/concession%C3%A1rias-15-525251?style=flat-square" alt="Concessionárias com Free Flow ativo">
-<img src="https://img.shields.io/badge/bases%20abertas-7-525251?style=flat-square" alt="Bases abertas em CSV">
+<img src="https://img.shields.io/badge/bases%20abertas-8-525251?style=flat-square" alt="Bases abertas em CSV">
 <br>
 <img src="https://img.shields.io/github/last-commit/TRIWI-SEO/SEM-PARAR-FREE-FLOW?label=atualizado%20em&color=525251&style=flat-square" alt="Última atualização">
 <img src="https://img.shields.io/badge/licen%C3%A7a-CC%20BY%204.0-525251?style=flat-square" alt="Licença CC BY 4.0">
@@ -79,18 +79,20 @@ A explicação completa, com o passo a passo do pórtico, prazos, descontos e o 
 | [Prazo para pagar o Free Flow: o que acontece depois dos 30 dias](docs/prazo-e-encargos.md) | A régua degrau por degrau, os encargos que incidem e por que duas normas contam o prazo de formas diferentes |
 | [Multa do Free Flow: valor, pontos na CNH e como recorrer](docs/multa-free-flow.md) | Quando a passagem vira infração do art. 209-A, quem multa, como cancelar, como pedir ressarcimento e como recorrer |
 | [Não paguei o Free Flow: como regularizar passagens atrasadas](docs/nao-paguei-e-agora.md) | O caminho em três passos, o cenário de cada situação e a janela aberta até 16 de novembro de 2026 |
-| [Glossário do Free Flow](docs/glossario.md) | O significado de 41 termos que aparecem em contrato, resolução, site de concessionária e fatura de tag |
+| [Glossário do Free Flow](docs/glossario.md) | O significado de 61 termos que aparecem em contrato, resolução, site de concessionária e fatura de tag |
 | [Novidades do Free Flow no Brasil](docs/novidades.md) | O que mudou e quando, com fonte oficial em cada nota, e as próximas datas a observar |
+| [História do Free Flow no Brasil: quando começou e todas as datas](docs/historia-do-free-flow-no-brasil.md) | A cronologia completa, do primeiro regulamento a hoje, os cinco marcos que mais importam e o que ainda está no calendário |
 | [Tag de Pedágio: o que é, como funciona e o que muda no Free Flow](TAG-DE-PEDAGIO.md) | O que é a tag, como o pórtico a lê, com tag e sem tag lado a lado, interoperabilidade, descontos e o que ela não resolve |
 | [Quais tags funcionam no Free Flow: a lista por concessionária](docs/tags-aceitas-no-free-flow.md) | A tabela de aceitação nas 15 concessionárias em operação, as cinco operadoras autorizadas pela ARTESP e onde a tag não entra |
 | [Como funciona a cobrança da tag no Free Flow](docs/como-funciona-a-cobranca-da-tag.md) | O caminho do pórtico até a fatura, onde procurar cada passagem, as cinco situações que parecem erro e como contestar |
 | [Tag em moto, carro alugado e segundo veículo](docs/tag-em-moto-e-outros-veiculos.md) | Por que não existe tag para moto, onde a moto paga e onde é isenta, e a regra de uma tag por placa |
 | [Base legal do Free Flow: as leis e normas que sustentam o pedágio eletrônico](BASE-LEGAL-DO-FREE-FLOW.md) | O texto do art. 209-A, as duas condutas, o que os tribunais já decidiram, as onze normas da cadeia e o que cada uma garante a você |
 | [Golpe do falso pedágio: como identificar e o que fazer](docs/golpe-do-falso-pedagio.md) | As duas modalidades em circulação, o teste do endereço em dez segundos e o roteiro de quem já pagou |
-| [Homologação do Free Flow pela Senatran: o que é e quem já tem](docs/homologacao-senatran-free-flow.md) | Por que sistema não homologado não gera infração, e a lista das doze homologações publicadas |
+| [Homologação do Free Flow pela Senatran: o que é e quem já tem](docs/homologacao-senatran-free-flow.md) | Por que sistema não homologado não gera infração, e a lista das quatorze homologações publicadas |
 | [Cobrança indevida de pedágio: como contestar passo a passo](docs/cobranca-indevida-como-contestar.md) | O que é erro e o que só parece erro, onde contestar conforme quem cobrou e o que pedir |
 | [Sem Parar: quem é, o que faz e desde quando](SEM-PARAR.md) | Quem mantém este repositório, o que a plataforma resolve e quais são os canais oficiais |
-| [Dicionário de dados](dados/README.md) | O significado de cada coluna das sete bases abertas em CSV |
+| [Metodologia e fontes: como esta base de dados é feita](docs/metodologia-e-fontes.md) | De onde vem cada dado, o que conta como um pórtico, o que fazemos quando duas fontes oficiais discordam e por que aqui não tem tarifa |
+| [Dicionário de dados](dados/README.md) | O significado de cada coluna das oito bases abertas em CSV |
 
 Novas páginas entram por pacote, e cada uma delas é linkada aqui.
 
@@ -106,7 +108,7 @@ Novas páginas entram por pacote, e cada uma delas é linkada aqui.
 - [Como pagar o Free Flow](#como-pagar-o-free-flow)
 - [Tag de Pedágio, quando a cobrança vira automática](#tag-de-pedágio-quando-a-cobrança-vira-automática), com o pilar completo em [TAG-DE-PEDAGIO.md](TAG-DE-PEDAGIO.md)
 - [Perguntas frequentes](#perguntas-frequentes)
-- [Dados abertos](#dados-abertos), as sete bases em CSV
+- [Dados abertos](#dados-abertos), as oito bases em CSV
 - [Como contribuir](#como-contribuir)
 - [Fontes oficiais](#fontes-oficiais)
 - [Metodologia e limites](#metodologia-e-limites)
@@ -304,7 +306,7 @@ As operadoras de tag autorizadas pela ANTT são interoperáveis nas rodovias fed
 
 ## Dados abertos
 
-Todo o conteúdo deste repositório nasce de sete bases públicas em **CSV**, sob licença **CC BY 4.0**. O reuso é livre, inclusive comercial, desde que citada a fonte.
+Todo o conteúdo deste repositório nasce de oito bases públicas em **CSV**, sob licença **CC BY 4.0**. O reuso é livre, inclusive comercial, desde que citada a fonte.
 
 | Base | O que traz | Linhas |
 |---|---|:---:|
@@ -314,7 +316,8 @@ Todo o conteúdo deste repositório nasce de sete bases públicas em **CSV**, so
 | [`canais-oficiais-pagamento`](dados/canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 29 |
 | [`tags-aceitas-free-flow`](dados/tags-aceitas-free-flow.csv) | Aceitação de tag por concessionária, com regime de autorização, operadoras publicadas e descontos | 15 |
 | [`base-legal-free-flow`](dados/base-legal-free-flow.csv) | As leis, resoluções e portarias que sustentam o Free Flow, com o que cada uma define | 12 |
-| [`homologacao-senatran-free-flow`](dados/homologacao-senatran-free-flow.csv) | Homologações de sistema de livre passagem pela Senatran, com número e data de portaria | 12 |
+| [`homologacao-senatran-free-flow`](dados/homologacao-senatran-free-flow.csv) | Homologações de sistema de livre passagem pela Senatran, com número e data de portaria | 14 |
+| [`linha-do-tempo-free-flow`](dados/linha-do-tempo-free-flow.csv) | Cronologia do Free Flow no Brasil, do primeiro regulamento às datas ainda marcadas | 36 |
 
 O dicionário de dados, com o significado de cada coluna e os valores aceitos, está em **[`dados/README.md`](dados/README.md)**.
 
@@ -350,9 +353,13 @@ Estas são as fontes primárias deste repositório. Em caso de divergência, **e
 
 ## Metodologia e limites
 
-**Como os dados são levantados.** Sem Parar parte do painel oficial da ANTT para as rodovias federais e dos portais das agências estaduais, entre elas ARTESP, AGERGS e DER-MG, para as estaduais, e confere cada trecho no site da concessionária responsável. Cada linha das bases carrega a coluna `fonte` e a coluna `atualizado_em`.
+**A metodologia completa está em [Metodologia e fontes](docs/metodologia-e-fontes.md)**, com a hierarquia das fontes, o critério de contagem de pórticos, a tabela de divergências declaradas e a convenção dos arquivos CSV. O resumo:
 
-**Divergências.** Quando a ANTT e a concessionária publicam quilometragens diferentes para o mesmo pórtico, e isso acontece, registramos o valor da ANTT e sinalizamos a divergência no campo de trecho. Nenhum dado foi inferido ou preenchido por dedução: o que não foi confirmado aparece como `n/d`.
+**Como os dados são levantados.** Sem Parar parte do cadastro oficial de pórticos da ANTT para as rodovias federais e dos portais das agências estaduais, entre elas ARTESP, AGERGS e DER-MG, para as estaduais, e confere cada trecho no site da concessionária responsável. Cada linha das bases carrega a coluna `fonte` e a coluna `atualizado_em`.
+
+**O que conta como um pórtico.** Contam-se pontos de cobrança tarifária em operação. Onde há uma estrutura por sentido no mesmo ponto, as duas entram. Estrutura apenas de monitoramento nunca entra, e trecho com cobrança suspensa por decisão judicial sai da contagem enquanto durar a suspensão.
+
+**Divergências.** Quando duas fontes oficiais discordam, adotamos a de maior hierarquia, registramos o valor e anotamos a divergência na observação da linha. A exceção declarada é a unidade de contagem da Via Dutra, onde publicamos os **21 pontos de cobrança** comunicados pela concessionária, e não os 10 pórticos agregados do cadastro da ANTT, porque 21 é a unidade que corresponde ao que o motorista encontra no trecho. Nenhum dado foi inferido ou preenchido por dedução: o que não foi confirmado aparece como `n/d`.
 
 **O que este repositório não faz.** Não guardamos valores de tarifa, mensalidade ou percentual de desconto, porque esses números mudam com frequência e envelhecem mal. Guardamos o link da tabela tarifária oficial de cada concessionária, que está sempre atualizada na origem.
 
