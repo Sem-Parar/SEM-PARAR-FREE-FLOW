@@ -10,6 +10,42 @@ Todas as mudanças relevantes deste repositório são registradas aqui. O format
 
 ---
 
+## [0.9.0], 2026-08-26
+
+Proteção e base legal. O repositório ganha a camada documental: a cadeia normativa inteira, a lista de homologações da Senatran, o roteiro anti-golpe e o caminho da contestação. Duas bases abertas novas, e um fato de agosto que faltava na linha do tempo.
+
+### Adicionado
+
+- **[`BASE-LEGAL-DO-FREE-FLOW.md`](BASE-LEGAL-DO-FREE-FLOW.md)**, na raiz: o texto do art. 209-A palavra por palavra, as **duas condutas** que ele tipifica e por que a segunda alcança o Free Flow, a defesa de atipicidade e por que os tribunais a rejeitam, a separação entre tarifa e multa, as onze normas da cadeia, a divergência de prazo entre ANTT e CONTRAN, o efeito da falta de homologação e os direitos criados pela Resolução ANTT nº 6.079/2026.
+- **[`docs/golpe-do-falso-pedagio.md`](docs/golpe-do-falso-pedagio.md)**: as duas modalidades descritas pela ANTT, o teste do endereço em dez segundos, as quatro coisas que nenhum canal oficial faz, os sinais dentro da página falsa, o risco do resultado patrocinado e o roteiro de seis passos para quem já pagou.
+- **[`docs/homologacao-senatran-free-flow.md`](docs/homologacao-senatran-free-flow.md)**: o que a homologação significa, a lista das doze publicadas, por que homologação não é início de cobrança e a segunda proteção, menos conhecida, sobre a ausência de dados impedir a emissão de autos.
+- **[`docs/cobranca-indevida-como-contestar.md`](docs/cobranca-indevida-como-contestar.md)**: as cinco situações que parecem erro e não são, os seis casos que são erro de verdade, onde contestar conforme quem cobrou, os seis itens a pedir e a resposta sobre pagar ou contestar primeiro.
+- **[`dados/base-legal-free-flow.csv`](dados/base-legal-free-flow.csv)**, a sexta base aberta, com **12 registros**, um por norma, incluindo órgão, data, o que estabelece, alcance, vigência e link oficial.
+- **[`dados/homologacao-senatran-free-flow.csv`](dados/homologacao-senatran-free-flow.csv)**, a sétima base aberta, com **12 registros**, um por portaria de homologação, com CNPJ, número, data e se a concessionária cobra por pórtico hoje.
+- Nota em [`docs/novidades.md`](docs/novidades.md) sobre as homologações publicadas entre 31 de julho e 10 de agosto de 2026, que faltavam na linha do tempo.
+
+### Alterado
+
+- **README**: quatro páginas novas na seção Conteúdos, duas bases novas na seção Dados abertos, badge de bases abertas e ponteiro para a página de golpe na Regra de ouro.
+- **[`docs/novidades.md`](docs/novidades.md)**: o bloco "O que está valendo agora" ganha uma quarta linha sobre homologação.
+- **Dicionário de dados**: capítulos das duas bases novas, com o limite declarado da base de homologações.
+
+### Notas de dado
+
+- **O art. 209-A tipifica duas condutas, não uma.** O texto é "evadir-se da cobrança pelo uso de rodovias e vias urbanas para não efetuar o seu pagamento, **ou deixar de efetuá-lo na forma estabelecida**". A primeira não alcança o Free Flow, porque não há barreira física; a segunda alcança. Infração grave, penalidade de multa.
+- **A defesa de atipicidade vem sendo rejeitada.** O TJ-SP, julgando multas em Pindamonhangaba, registrou que o dispositivo prevê mais de uma conduta típica, aplicável tanto às praças tradicionais quanto ao sistema de livre passagem. O TJ-RS decidiu na mesma linha e afastou também a alegação de bis in idem entre tarifa, de natureza civil, e multa, de natureza administrativa.
+- **Portaria Senatran nº 442/2025, art. 8º, § 2º:** sistema de livre passagem não homologado não pode ser usado para os fins do art. 115, § 10 do CTB, **afastando a infração do art. 209-A**. A tarifa continua devida, porque é obrigação civil. O § 3º traz regra de transição para atos praticados sob as Resoluções CONTRAN nº 984/2022 e nº 1.013/2024, e o § 4º determina que a relação de sistemas homologados fique no sítio da Senatran.
+- **Doze homologações publicadas entre 31/07 e 10/08/2026**, pelas Portarias 603, 604, 607, 612, 613, 615, 616, 617, 618, 620, 638 e 640. As portarias obrigam o envio à Senatran dos dados de passagem e pagamento, inclusive anteriores, e determinam que, enquanto a ausência desses dados impedir a comprovação da infração, **não podem ser emitidos autos de infração**.
+- **Homologação não é aprovação técnica** nem validação de projeto, e a responsabilidade pelos dados segue das concessionárias, conforme a própria Senatran declara.
+- **Homologação não é início de cobrança.** A Ecovias dos Imigrantes foi homologada pela Portaria 613, de 03/08/2026, e os pórticos do Sistema Anchieta-Imigrantes seguem sem cobrar, com o início adiado pelo Governo de São Paulo e sem nova data.
+- **Concessionária nova no radar:** a Rota Agro MT-GO foi homologada pela Portaria 640, de 10/08/2026, e ainda não consta no inventário de pórticos deste repositório, por falta de confirmação oficial de cobrança em operação. Registrada como `n/d`.
+- **Resolução CONTRAN nº 984/2022** entra na base legal: foi o primeiro regulamento do sistema de livre passagem e seus atos seguem produzindo efeitos por regra de transição.
+- **Modalidades de golpe descritas pela ANTT:** páginas falsas de consulta que geram chave Pix para o golpista, e boletos falsos enviados a endereço físico ou e-mail com dados obtidos de forma irregular. A ANTT afirma que **não há envio automático de boletos nem site único nacional** de consulta de débitos.
+- **O sinal que entrega o golpe é o endereço**, não o visual. Páginas falsas copiam marca, cores e layout com precisão, e chegam por anúncio patrocinado acima do site oficial nos buscadores. O trecho imediatamente antes do `.com` ou `.com.br` precisa ser exatamente o nome da empresa.
+- **Páginas falsas citam o art. 209-A com texto inventado**, e usam contagem regressiva de minutos e ameaça de encaminhamento imediato ao Detran. Nenhum canal oficial faz isso.
+
+---
+
 ## [0.8.0], 2026-08-26
 
 Camada das concessionárias. O repositório passa a responder "pago para quem", com o índice nacional por grupo econômico e as páginas das quatro operadoras de maior demanda. Esta versão traz também a correção de dois dados que envelheceram no site da própria concessionária.
