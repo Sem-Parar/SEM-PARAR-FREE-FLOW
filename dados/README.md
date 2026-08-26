@@ -1,6 +1,6 @@
 # Dados abertos do Free Flow no Brasil
 
-Esta pasta é o coração do repositório: quatro bases públicas sobre o pedágio eletrônico brasileiro, em **CSV**, publicadas pelo Sem Parar sob licença **[CC BY 4.0](../LICENSE)**. O reuso é livre, inclusive comercial, desde que citada a fonte.
+Esta pasta é o coração do repositório: cinco bases públicas sobre o pedágio eletrônico brasileiro, em **CSV**, publicadas pelo Sem Parar sob licença **[CC BY 4.0](../LICENSE)**. O reuso é livre, inclusive comercial, desde que citada a fonte.
 
 | Base | O que traz | Linhas |
 |---|---|:---:|
@@ -8,6 +8,7 @@ Esta pasta é o coração do repositório: quatro bases públicas sobre o pedág
 | [porticos-free-flow](porticos-free-flow.csv) | Inventário pórtico a pórtico, com município, quilômetro, sentido e situação | 49 |
 | [concessionarias-free-flow](concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 23 |
 | [canais-oficiais-pagamento](canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 29 |
+| [tags-aceitas-free-flow](tags-aceitas-free-flow.csv) | Aceitação de tag por concessionária, com regime de autorização, operadoras publicadas e descontos | 15 |
 
 Codificação **UTF-8**, separador **vírgula**, datas em **ISO** (`AAAA-MM-DD`). Listas dentro de uma célula usam **ponto e vírgula** como separador.
 
@@ -148,6 +149,36 @@ A camada anti-golpe. Cada canal foi acessado e conferido individualmente, com o 
 
 ---
 
+## `tags-aceitas-free-flow.csv`
+
+Uma linha por **concessionária com Free Flow em operação**. Responde à pergunta que o motorista faz antes da viagem: a minha tag funciona nesse pórtico?
+
+O recorte é deliberado. Só entram as concessionárias que **cobram hoje**, porque aceitação de tag em trecho que ainda não cobra é informação sem uso e que muda até a inauguração.
+
+| Coluna | Tipo | Descrição |
+|---|---|---|
+| `concessionaria` | texto | Razão social ou nome usual, no mesmo padrão de `concessionarias-free-flow.csv` |
+| `uf` | texto | Estados de atuação, separados por ponto e vírgula |
+| `esfera` | enum | `federal` ou `estadual` |
+| `orgao_regulador` | texto | `ANTT`, `ARTESP`, `AGERGS`, `DER-MG` |
+| `aceita_tag` | enum | `sim`, `nao` ou `n/d` |
+| `regime_de_aceitacao` | texto | De onde vem a autorização: `interoperabilidade obrigatoria (ANTT)` nas federais, ou a lista da agência estadual |
+| `operadoras_publicadas` | texto | Operadoras nomeadas **pela própria concessionária**, separadas por ponto e vírgula. `n/d` quando ela não publica lista própria |
+| `moto_pode_usar_tag` | enum | `nao` em todas as linhas. Nenhuma tag no Brasil é homologada para motocicleta, e o campo existe para que a resposta esteja completa em qualquer linha lida isoladamente |
+| `desconto_por_tag` | texto | `DBT`, `DUF`, `DBT; DUF` ou `n/d`. **Nunca percentual** |
+| `prazo_com_tag` | texto | Em regra `definido pela operadora de tag`. O prazo de 30 dias é o de quem paga pela placa, não o de quem tem tag |
+| `observacao` | texto | Exceções do trecho: isenção de moto, proibição de tag em moto, cadastro sem tag, vale-pedágio |
+| `fonte` | URL | Fonte primária consultada para a linha |
+| `atualizado_em` | data | Última verificação |
+
+**Por que tantos `n/d` em `operadoras_publicadas`.** Nas rodovias federais a interoperabilidade é obrigatória: autorizada pela ANTT, a operadora é lida por qualquer pórtico federal. Publicar lista ali seria redundante, e a maioria das concessionárias federais não publica. Preferimos registrar `n/d` e explicar o regime na coluna ao lado a inventar uma lista.
+
+**Divergência registrada.** As concessionárias Novo Litoral e Tamoios publicam a mesma lista de cinco operadoras autorizadas pela ARTESP: ConectCar, Move Mais, Sem Parar, Taggy e Veloe. Parte da cobertura de imprensa cita GreenPass no lugar de Taggy. Adotamos a lista publicada pelas próprias concessionárias, por hierarquia de fonte, e a divergência está anotada na página [Quais tags funcionam no Free Flow](../docs/tags-aceitas-no-free-flow.md).
+
+> **Uso anti-golpe:** operadora de tag que não consta em nenhuma lista oficial e cobra adesão por link recebido em mensagem é motivo de desconfiança. Quem autoriza operadora de tag é a ANTT nas federais e a agência reguladora nas estaduais.
+
+---
+
 ## Como abrir
 
 Clique no arquivo, depois no botão **Download raw file**, no canto superior direito. O arquivo baixa em CSV e abre direto no Excel, no Numbers ou no Google Sheets.
@@ -161,7 +192,7 @@ Se o Excel embaralhar os acentos, abra pelo menu Dados, opção "De Texto/CSV", 
 | Evento | Prazo |
 |---|---|
 | Inauguração, adiamento ou mudança de status de pórtico | até 72 horas após o fato confirmado |
-| Revisão completa das três bases | mensal |
+| Revisão completa das cinco bases | mensal |
 | Revisão editorial dos textos | trimestral |
 
 Todas as mudanças ficam registradas no [CHANGELOG](../CHANGELOG.md). Achou um erro? [Abra uma issue](../../../issues/new). O caminho está em [CONTRIBUTING.md](../CONTRIBUTING.md).
