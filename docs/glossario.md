@@ -44,7 +44,7 @@ A barreira física que se levanta na praça de pedágio depois do pagamento. É 
 Classificação tarifária pelo número de eixos, altura e tipo de rodagem, que define quanto cada veículo paga. No Free Flow ela é determinada automaticamente pelos sensores do pórtico, sem operador.
 
 **CNH do Brasil**
-Aplicativo oficial do Governo Federal, sucessor da Carteira Digital de Trânsito. Desde 24 de agosto de 2026, na versão 7.3.0 ou superior, mostra as passagens de Free Flow registradas para o veículo, mas não recebe pagamento.
+Aplicativo oficial do Governo Federal, sucessor da Carteira Digital de Trânsito. Desde 24 de agosto de 2026 mostra as passagens de Free Flow registradas para o veículo, com o app atualizado, mas não recebe pagamento.
 
 **Concessionária**
 Empresa que administra um trecho de rodovia por contrato com o poder público e cobra a tarifa de pedágio. É sempre ela, e não a agência reguladora, quem recebe o pagamento da passagem.
