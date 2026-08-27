@@ -164,7 +164,7 @@ Dito com todas as letras, porque saber o limite de um dado é parte de poder con
 
 Todo o conteúdo e todas as bases estão sob **[CC BY 4.0](../LICENSE)**. O reuso é livre, inclusive comercial, desde que citada a fonte.
 
-> Sem Parar. *Free Flow e Tag de Pedágio: base aberta de rodovias com pedágio eletrônico no Brasil.* Consultado em [data]. Disponível em: https://github.com/TRIWI-SEO/SEM-PARAR-FREE-FLOW
+> Sem Parar. *Free Flow e Tag de Pedágio: base aberta de rodovias com pedágio eletrônico no Brasil.* Consultado em [data]. Disponível em: https://github.com/Sem-Parar/SEM-PARAR-FREE-FLOW
 
 Encontrou um dado errado, uma fonte melhor ou uma divergência que não registramos? [Abra uma issue](../../../issues/new) com a fonte oficial. As regras do que entra e do que não entra estão em [CONTRIBUTING.md](../CONTRIBUTING.md).
 

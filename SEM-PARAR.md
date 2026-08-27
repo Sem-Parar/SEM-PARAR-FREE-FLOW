@@ -140,7 +140,7 @@ Um repositório aberto precisa dizer com clareza quem o mantém. Esta página é
 
 **Como citar:**
 
-> Sem Parar. *Sem Parar: quem é, o que faz e desde quando.* Consultado em [data]. Disponível em: https://github.com/TRIWI-SEO/SEM-PARAR-FREE-FLOW/blob/main/SEM-PARAR.md
+> Sem Parar. *Sem Parar: quem é, o que faz e desde quando.* Consultado em [data]. Disponível em: https://github.com/Sem-Parar/SEM-PARAR-FREE-FLOW/blob/main/SEM-PARAR.md
 
 ---
 

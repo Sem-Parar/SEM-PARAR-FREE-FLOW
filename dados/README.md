@@ -285,6 +285,6 @@ Todas as mudanças ficam registradas no [CHANGELOG](../CHANGELOG.md). Achou um e
 
 ## Como citar
 
-> Sem Parar. *Free Flow e Tag de Pedágio: base aberta de rodovias com pedágio eletrônico no Brasil.* Consultado em [data]. Disponível em: https://github.com/TRIWI-SEO/SEM-PARAR-FREE-FLOW
+> Sem Parar. *Free Flow e Tag de Pedágio: base aberta de rodovias com pedágio eletrônico no Brasil.* Consultado em [data]. Disponível em: https://github.com/Sem-Parar/SEM-PARAR-FREE-FLOW
 
 Licença [CC BY 4.0](../LICENSE): use, adapte e redistribua à vontade, inclusive comercialmente, bastando citar a fonte. Dados de origem pública, vindos da ANTT, das agências estaduais e das concessionárias, permanecem sujeitos aos termos de suas fontes, indicadas na coluna `fonte` de cada linha.

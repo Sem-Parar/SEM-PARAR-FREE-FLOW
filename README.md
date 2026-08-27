@@ -13,7 +13,7 @@
 <img src="https://img.shields.io/badge/concession%C3%A1rias-15-525251?style=flat-square" alt="Concessionárias com Free Flow ativo">
 <img src="https://img.shields.io/badge/bases%20abertas-8-525251?style=flat-square" alt="Bases abertas em CSV">
 <br>
-<img src="https://img.shields.io/github/last-commit/TRIWI-SEO/SEM-PARAR-FREE-FLOW?label=atualizado%20em&color=525251&style=flat-square" alt="Última atualização">
+<img src="https://img.shields.io/github/last-commit/Sem-Parar/SEM-PARAR-FREE-FLOW?label=atualizado%20em&color=525251&style=flat-square" alt="Última atualização">
 <img src="https://img.shields.io/badge/licen%C3%A7a-CC%20BY%204.0-525251?style=flat-square" alt="Licença CC BY 4.0">
 <img src="https://img.shields.io/badge/dados-abertos-2E7D32?style=flat-square" alt="Dados abertos">
 <img src="https://img.shields.io/badge/PRs-bem--vindos-2E7D32?style=flat-square" alt="PRs bem-vindos">
@@ -337,7 +337,7 @@ O dicionário de dados, com o significado de cada coluna e os valores aceitos, e
 
 **Como citar:**
 
-> Sem Parar. *Free Flow e Tag de Pedágio: base aberta de rodovias com pedágio eletrônico no Brasil.* Consultado em [data]. Disponível em: https://github.com/TRIWI-SEO/SEM-PARAR-FREE-FLOW
+> Sem Parar. *Free Flow e Tag de Pedágio: base aberta de rodovias com pedágio eletrônico no Brasil.* Consultado em [data]. Disponível em: https://github.com/Sem-Parar/SEM-PARAR-FREE-FLOW
 
 ---
 
