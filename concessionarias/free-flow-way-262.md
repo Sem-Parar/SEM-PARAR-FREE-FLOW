@@ -27,7 +27,7 @@ Esta é a concessão em que **pórtico e cabine convivem**: só duas das praças
 
 Concessionária **federal**, regulada pela **ANTT**, responsável pelo trecho da **BR-262** conhecido como Rota do Zebu, entre Betim, na região metropolitana de Belo Horizonte, e Uberaba, no Triângulo Mineiro. São 440,6 quilômetros sob concessão, iniciada em março de 2025.
 
-O controle é do **grupo Way Brasil com a Kinea**. O mesmo grupo assumiu, em abril de 2026, a Rota Agro MT-GO, nas BR-060 e BR-364 entre Goiás e Mato Grosso, que ainda não tem cobrança por pórtico confirmada.
+O controle é do **grupo Way Brasil com a Kinea**. O mesmo grupo assumiu, em abril de 2026, a Rota Agro MT-GO, nas BR-060 e BR-364 entre Goiás e Mato Grosso, que **começou a cobrar em 7 de setembro de 2026** e levou o Free Flow a Mato Grosso.
 
 O pagamento roda em plataforma própria, no aplicativo e no portal **Way Rodovias**, com o endereço oficial `pedagioeletronico.way262.com.br`. O sistema foi **homologado pela Senatran na Portaria nº 621, publicada em 5 de agosto de 2026**, sob a razão social Concessionária da Rodovia BR 262 MG S.A.
 
