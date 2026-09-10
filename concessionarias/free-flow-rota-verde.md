@@ -146,7 +146,7 @@ Não. Em Abadia de Goiás, como nos outros pontos da BR-060, há uma estrutura p
 <details>
 <summary><strong>Existe outra concessionária com Free Flow em Goiás?</strong></summary>
 
-A **Rota Agro MT-GO**, do grupo Way Brasil, assumiu em abril de 2026 um trecho das BR-060 e BR-364 entre Rio Verde e Rondonópolis, com cinco pontos de cobrança contratados. O sistema já foi homologado pela Senatran, mas **não há cobrança por pórtico confirmada** até esta atualização. Quando começar, a BR-060 passa a ter dois operadores de Free Flow em trechos diferentes, e conferir o quilômetro vira essencial.
+A **Rota Agro MT-GO**, a Way-364, do grupo Way Brasil, assumiu em abril de 2026 um trecho das BR-060 e BR-364 entre Rio Verde e Rondonópolis e **começou a cobrar em 7 de setembro de 2026**, em cinco pórticos, três deles em Goiás. Com isso, **a BR-060 passou a ter dois operadores de Free Flow em trechos diferentes**, com canais de pagamento distintos: a Rota Verde do Anel Viário de Goiânia ao Contorno de Rio Verde, e a Way-364 dali até o Contorno de Jataí. Conferir o quilômetro virou essencial, e o mapa das duas está em [Free Flow em Goiás](../estados/free-flow-go.md).
 </details>
 
 ---
