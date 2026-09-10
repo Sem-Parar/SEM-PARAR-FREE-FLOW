@@ -1,8 +1,8 @@
 # Rodovias com Free Flow no Brasil: lista completa e atualizada
 
-**Em 26 de agosto de 2026, o Brasil tem 85 pórticos de cobrança de Free Flow em operação, distribuídos por 26 rodovias, 15 concessionárias e 7 estados: GO, MG, PR, RJ, RO, RS e SP. Esta é a lista completa, pórtico a pórtico, com município, quilômetro, concessionária responsável e canal oficial de pagamento. Ela inclui também os pórticos instalados que ainda não cobram, informação que ninguém mais reúne e que serve para reconhecer cobrança falsa.**
+**Em 10 de setembro de 2026, o Brasil tem 90 pórticos de cobrança de Free Flow em operação, distribuídos por 28 rodovias, 16 concessionárias e 8 estados: GO, MG, MT, PR, RJ, RO, RS e SP. Esta é a lista completa, pórtico a pórtico, com município, quilômetro, concessionária responsável e canal oficial de pagamento. Ela inclui também os pórticos instalados que ainda não cobram, informação que ninguém mais reúne e que serve para reconhecer cobrança falsa.**
 
-> Publicado em 26 de agosto de 2026. Última verificação dos dados em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última verificação dos dados em 10 de setembro de 2026.
 > Página do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](README.md). Dado bruto em [`dados/porticos-free-flow.csv`](dados/porticos-free-flow.csv) e [`dados/rodovias-free-flow.csv`](dados/rodovias-free-flow.csv).
 
 ---
@@ -17,6 +17,7 @@
 - [Rio Grande do Sul](#rio-grande-do-sul)
 - [Rio de Janeiro](#rio-de-janeiro)
 - [Rondônia](#rondônia)
+- [Mato Grosso](#mato-grosso)
 - [Pórticos instalados que ainda não cobram](#pórticos-instalados-que-ainda-não-cobram)
 - [Onde o Free Flow ainda vai chegar](#onde-o-free-flow-ainda-vai-chegar)
 - [Como esta lista é montada](#como-esta-lista-é-montada)
@@ -29,12 +30,12 @@
 
 | Indicador | Hoje |
 |---|:---:|
-| Pórticos de cobrança em operação | **85** |
-| Rodovias com cobrança ativa | **26** |
-| Concessionárias com Free Flow ativo | **15** |
-| Estados com cobrança ativa | **7** |
+| Pórticos de cobrança em operação | **90** |
+| Rodovias com cobrança ativa | **28** |
+| Concessionárias com Free Flow ativo | **16** |
+| Estados com cobrança ativa | **8** |
 | Rodovias com Free Flow previsto ou adiado | **18** |
-| Estados que entram quando os previstos ativarem | MT, MS |
+| Estados que entram quando os previstos ativarem | MS |
 
 O estado com mais pórticos é **São Paulo**. A operação de maior extensão contínua é a **BR-364, em Rondônia**, com 686,7 quilômetros. A mais antiga é a **BR-101, Rio-Santos**, primeira do país.
 
@@ -111,8 +112,13 @@ O estado com mais pórticos é **São Paulo**. A operação de maior extensão c
 | **BR-452** Concessão Centro-Norte | Santa Helena de Goiás | 44,9 | 1 | Rota Verde Goiás | 27/05/2026 | [pagar](https://pedagioeletronico.rotaverdegoias.com.br) |
 | **BR-452** Concessão Centro-Norte | Bom Jesus de Goiás | 99,85 | 1 | Rota Verde Goiás | 27/05/2026 | [pagar](https://pedagioeletronico.rotaverdegoias.com.br) |
 | **BR-452** Concessão Centro-Norte | Bom Jesus de Goiás | 147,59 | 1 | Rota Verde Goiás | 27/05/2026 | [pagar](https://pedagioeletronico.rotaverdegoias.com.br) |
+| **BR-060** Rota Agro | Jataí | 439,15 | 1 | Rota Agro MT-GO (Way-364) | 07/09/2026 | [pagar](https://way364.com.br) |
+| **BR-364** Rota Agro | Jataí / Mineiros | 258,66 | 1 | Rota Agro MT-GO (Way-364) | 07/09/2026 | [pagar](https://way364.com.br) |
+| **BR-364** Rota Agro | Portelândia | 340,415 | 1 | Rota Agro MT-GO (Way-364) | 07/09/2026 | [pagar](https://way364.com.br) |
 
-**11 pórticos de cobrança em Goiás**, em **7 pontos tarifários**: na BR-060 eles operam em pares, um por sentido, com quilometragens distintas para cada lado; na BR-452 são pórticos únicos. Cobrem mais de 400 quilômetros, do Anel Viário de Goiânia ao Contorno de Rio Verde e de Rio Verde a Itumbiara, e formam a maior operação de Free Flow do Centro-Oeste. O panorama está em **[Free Flow em Goiás](estados/free-flow-go.md)**. A concessionária declara que **não comercializa tags**.
+**14 pórticos de cobrança em Goiás, de duas concessionárias diferentes.** Onze são da Rota Verde Goiás, em 7 pontos tarifários: na BR-060 eles operam em pares, um por sentido, com quilometragens distintas para cada lado; na BR-452 são pórticos únicos. Cobrem mais de 400 quilômetros, do Anel Viário de Goiânia ao Contorno de Rio Verde e de Rio Verde a Itumbiara. A concessionária declara que **não comercializa tags**.
+
+**Os outros três são da Rota Agro MT-GO, a Way-364, desde 7 de setembro de 2026**, e ficam no sudoeste do estado, num trecho da BR-060 e da BR-364 que segue até Rondonópolis, em Mato Grosso. São pórticos únicos, com cobrança nos dois sentidos, e ali a **moto é isenta**. Atenção ao quilômetro: a BR-060 passou a ter dois operadores de Free Flow em trechos diferentes, e o canal de pagamento de um não serve para o outro. O panorama está em **[Free Flow em Goiás](estados/free-flow-go.md)**.
 
 ---
 
@@ -161,6 +167,17 @@ O estado com mais pórticos é **São Paulo**. A operação de maior extensão c
 
 ---
 
+## Mato Grosso
+
+| Rodovia | Município | Km | Pórticos | Concessionária | Desde | Pagar |
+|---|---|---|:---:|---|:---:|---|
+| **BR-364** Rota Agro | Alto Garças | 51,6 | 1 | Rota Agro MT-GO (Way-364) | 07/09/2026 | [pagar](https://way364.com.br) |
+| **BR-364** Rota Agro | Pedra Preta | 106,106 | 1 | Rota Agro MT-GO (Way-364) | 07/09/2026 | [pagar](https://way364.com.br) |
+
+**2 pórticos de cobrança em Mato Grosso**, o estado mais novo do mapa, que estreou em **7 de setembro de 2026**. Eles fazem parte da mesma concessão que cobra em Goiás, uma faixa de 490,06 quilômetros entre Rio Verde e Rondonópolis, 100% eletrônica e sem nenhuma praça física. **Moto é isenta em todo o trecho** e o prazo para pagar sem tag é de 30 dias. O panorama está em **[Free Flow em Mato Grosso](estados/free-flow-mt.md)**.
+
+---
+
 ## Pórticos instalados que ainda não cobram
 
 Esta é a parte da lista que não existe em nenhum outro lugar, e ela tem uso prático: **cobrança de Free Flow em qualquer ponto desta tabela é motivo de desconfiança**, porque ali ainda não se cobra tarifa por pórtico.
@@ -188,7 +205,7 @@ Duas datas para observar de perto:
 
 | Quando | O que acontece |
 |---|---|
-| **10 de outubro de 2026** | Início anunciado da cobrança na **MT-130**, entre Primavera do Leste e Paranatinga, com seis pórticos. Mato Grosso vira o oitavo estado com Free Flow ativo |
+| **10 de outubro de 2026** | Início anunciado da cobrança na **MT-130**, entre Primavera do Leste e Paranatinga, com seis pórticos. É a segunda concessão de Mato Grosso, que já entrou no mapa em 7 de setembro |
 | **Sem data** | Retomada do **Sistema Anchieta-Imigrantes**, com o pórtico da subida realocado para depois do km 38 |
 
 ---
@@ -265,7 +282,7 @@ Em caso de divergência, **as fontes oficiais prevalecem sobre o que está aqui*
 
 <div align="center">
 
-### 85 pórticos, um extrato só
+### 90 pórticos, um extrato só
 
 Com uma tag ativa, a tarifa é debitada automaticamente em qualquer um deles, entra nos descontos do trecho e aparece em um lugar só.
 
