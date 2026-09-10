@@ -10,6 +10,39 @@ Todas as mudanças relevantes deste repositório são registradas aqui. O format
 
 ---
 
+## [0.13.1], 2026-08-31
+
+Manutenção. A primeira rodada da varredura semanal encontrou uma mudança: a decisão que o repositório registrava como pautada foi tomada, com objeto diferente do anunciado. Entram também as duas alterações da transferência que ficaram sem registro próprio na 0.13.0.
+
+### Alterado
+
+- **[`dados/linha-do-tempo-free-flow.csv`](dados/linha-do-tempo-free-flow.csv)**: a nota de **2026-08-24** sobre a nova etapa regulatória sai de `anunciado` para `confirmado`, porque a proposta que ela descrevia foi decidida. A observação passa a registrar que o objeto aprovado é mais estreito do que o anunciado, e trata de interoperabilidade.
+- **[`docs/novidades.md`](docs/novidades.md)**: nota nova de **27 de agosto de 2026** sobre a aprovação da audiência pública, escrita antes da nota de 24 de agosto para manter a ordem do mais recente para o mais antigo. A nota de 24 de agosto perde o condicional e passa a apontar o desfecho. A tabela de próximas datas perde a linha de 27 de agosto, que virou passado, e ganha o prazo de contribuições e a data da sessão pública.
+- **[`docs/golpe-do-falso-pedagio.md`](docs/golpe-do-falso-pedagio.md)**: os três trechos que afirmam não existir site único nacional ganham marcação temporal e uma nota datada. A afirmação continua correta e continua sendo o argumento central da página, mas passa a dizer desde quando, para não envelhecer sem aviso se o portal em teste vier a existir.
+- **README**: as duas datas de revisão passam para 31 de agosto de 2026. Nenhum número do inventário mudou.
+
+### Adicionado
+
+- **`dados/linha-do-tempo-free-flow.csv`**: registro de **2026-08-27**, a aprovação, na 1.040ª Reunião de Diretoria Pública, da abertura de audiência pública sobre a minuta de Edital de Sandbox Regulatório de interoperabilidade do sistema de livre passagem, com as datas de contribuição e de sessão pública. A base passa de 36 para 37 registros.
+
+### Registro retroativo da 0.13.0
+
+- As duas alterações do pacote de pós-transferência entraram na 0.13.0 sem entrada própria. Ficam registradas aqui: a correção dos **cinco links que apontavam para a organização antiga**, entre eles os quatro blocos de citação, e a **remoção de sete links de release do CHANGELOG** que apontavam para tags que nunca existiram.
+
+### Notas de dado
+
+- **Nenhum número do inventário mudou.** Seguem 85 pórticos de cobrança, 26 rodovias, 15 concessionárias, 58 municípios e 7 estados.
+- **O cadastro da ANTT foi conferido item a item** e continua com 52 pórticos em 9 trechos, o que bate com esta base pelo critério da Agência. Nenhum pórtico novo, nenhuma mudança de status, nenhum trecho novo.
+- **Os 29 canais de `canais-oficiais-pagamento.csv` foram testados** e todos responderam, sem endereço novo e sem troca de endereço.
+- **Nada mudou** no Sistema Anchieta-Imigrantes, que segue adiado sem nova data, nem na MT-130, que segue anunciada para 10 de outubro de 2026.
+
+### Decisão editorial declarada
+
+- **O número da audiência pública ficou de fora.** A notícia oficial da ANTT não o informa, e a numeração vista em agregador do Diário Oficial não foi confirmada na seção de Participação Social da Agência até o fechamento deste pacote. Entra quando for confirmado na fonte primária.
+- **A portaria que criou o grupo de trabalho do sandbox ficou fora de `base-legal-free-flow.csv`.** A base reúne as normas que criam obrigação de pagar ou tipificam infração, e um ato de organização interna da Agência não é nenhuma das duas coisas.
+
+---
+
 ## [0.13.0], 2026-08-26
 
 Camada geográfica fina. O repositório passa a responder **"tem Free Flow na minha cidade?"**, que nenhuma página anterior respondia, e ganha as duas páginas de rodovia que não estavam cobertas pela camada de concessionárias. Junto vêm três correções de consistência interna.
