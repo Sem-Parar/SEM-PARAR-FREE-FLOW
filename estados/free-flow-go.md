@@ -1,31 +1,33 @@
 # Free Flow em Goiás: onde tem, quem cobra e como pagar
 
-**Goiás tem 11 pórticos de cobrança de Free Flow, todos operados pela Rota Verde Goiás, em duas rodovias federais: a BR-060, entre o Anel Viário de Goiânia e o Contorno de Rio Verde, e a BR-452, entre Rio Verde e Itumbiara. A cobrança começou em 27 de maio de 2026 e foi o primeiro pedágio eletrônico do estado. É também a concessão com o maior número de pontos em fluxo livre do cadastro federal da ANTT.**
+**Goiás tem 14 pórticos de cobrança de Free Flow, de duas concessionárias diferentes. Onze são da Rota Verde Goiás, na BR-060 entre o Anel Viário de Goiânia e o Contorno de Rio Verde e na BR-452 entre Rio Verde e Itumbiara, cobrando desde 27 de maio de 2026. Os outros três são da Rota Agro MT-GO, a Way-364, no sudoeste do estado, cobrando desde 7 de setembro de 2026. As duas cobram na BR-060, em trechos diferentes, com canais de pagamento diferentes, e é por isso que conferir o quilômetro virou essencial em Goiás.**
 
-Uma particularidade goiana: na BR-060 os pórticos operam **em pares**, um por sentido, com quilometragens distintas para cada lado da pista.
+Duas particularidades goianas: na BR-060 da Rota Verde os pórticos operam **em pares**, um por sentido, com quilometragens distintas para cada lado da pista; na concessão da Way-364 cada ponto é um pórtico único, com cobrança nos dois sentidos.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 10 de setembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Base de dados em [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv).
 
 ---
 
 ## Índice
 
-- [Os 11 pórticos, um a um](#os-11-pórticos-um-a-um)
+- [Os 14 pórticos, um a um](#os-14-pórticos-um-a-um)
+- [Duas concessionárias na mesma rodovia](#duas-concessionárias-na-mesma-rodovia)
 - [Sete pontos de cobrança, onze estruturas](#sete-pontos-de-cobrança-onze-estruturas)
 - [Onde pagar](#onde-pagar)
 - [O desconto que cresce até a trigésima passagem](#o-desconto-que-cresce-até-a-trigésima-passagem)
 - [Moto não paga em Goiás](#moto-não-paga-em-goiás)
-- [A concessionária não vende tag](#a-concessionária-não-vende-tag)
-- [Uma segunda concessão a caminho](#uma-segunda-concessão-a-caminho)
+- [A Rota Verde não vende tag](#a-rota-verde-não-vende-tag)
 - [Perguntas frequentes](#perguntas-frequentes)
 - [Fontes oficiais](#fontes-oficiais)
 
 ---
 
-## Os 11 pórticos, um a um
+## Os 14 pórticos, um a um
 
-Verificado em **26 de agosto de 2026**. Quilometragens do cadastro de pórticos das concessões federais da ANTT.
+Verificado em **10 de setembro de 2026**. As quilometragens da Rota Verde vêm do cadastro de pórticos das concessões federais da ANTT; as da Way-364 vêm da Deliberação ANTT nº 248/2026, porque o cadastro ainda não listava essa concessão nesta verificação.
+
+### Rota Verde Goiás
 
 | Rodovia | Município | Km | Pórticos | Desde |
 |---|---|:---:|:---:|:---:|
@@ -37,17 +39,44 @@ Verificado em **26 de agosto de 2026**. Quilometragens do cadastro de pórticos 
 | **BR-452** | Bom Jesus de Goiás | 99,85 | 1 | 27/05/2026 |
 | **BR-452** | Bom Jesus de Goiás | 147,59 | 1 | 27/05/2026 |
 
-**Total de 11 pórticos de cobrança**, todos da **Rota Verde Goiás**, concessão federal regulada pela ANTT. Goiás é o terceiro estado do país em número de pórticos, atrás de São Paulo e Paraná.
+**Onze pórticos**, em concessão federal regulada pela ANTT, cobrindo **229,6 quilômetros na BR-060** e **196,6 quilômetros na BR-452**, da região metropolitana de Goiânia ao sul do estado e à divisa com Minas Gerais.
 
-A concessão cobre **229,6 quilômetros na BR-060** e **196,6 quilômetros na BR-452**, ligando a região metropolitana de Goiânia ao sul do estado e à divisa com Minas Gerais.
+### Rota Agro MT-GO (Way-364)
 
-O mapa nacional está em [Rodovias com Free Flow no Brasil](../RODOVIAS-COM-FREE-FLOW.md).
+| Rodovia | Município | Km | Pórticos | Desde |
+|---|---|:---:|:---:|:---:|
+| **BR-060** | Jataí | 439,15 | 1 | 07/09/2026 |
+| **BR-364** | Jataí / Mineiros | 258,66 | 1 | 07/09/2026 |
+| **BR-364** | Portelândia | 340,415 | 1 | 07/09/2026 |
+
+**Três pórticos em Goiás**, de uma concessão federal de 490,06 quilômetros que segue até Rondonópolis, em Mato Grosso, onde ficam outros dois. É uma concessão **100% eletrônica**, sem nenhuma praça física, e a moto é isenta em todo o trecho. O panorama do lado mato-grossense está em [Free Flow em Mato Grosso](free-flow-mt.md).
+
+**Total de 14 pórticos de cobrança em Goiás.** O estado é o terceiro do país em número de pórticos, atrás de São Paulo e Paraná. O mapa nacional está em [Rodovias com Free Flow no Brasil](../RODOVIAS-COM-FREE-FLOW.md).
+
+> **O município do pórtico do km 258,66 está em divergência.** A Deliberação ANTT nº 248/2026 nomeia a praça como Jataí, e a concessionária e a imprensa local situam o ponto em Mineiros. Registramos sob os dois nomes enquanto as fontes não convergem. O critério está em [Metodologia e fontes](../docs/metodologia-e-fontes.md).
+
+---
+
+## Duas concessionárias na mesma rodovia
+
+Desde 7 de setembro de 2026, **a BR-060 tem dois operadores de Free Flow em Goiás**, e eles não se comunicam.
+
+| Onde você passou | Quem cobra | Onde pagar |
+|---|---|---|
+| BR-060, do Anel Viário de Goiânia ao Contorno de Rio Verde | Rota Verde Goiás | [pedagioeletronico.rotaverdegoias.com.br](https://pedagioeletronico.rotaverdegoias.com.br) |
+| BR-060, do Contorno de Rio Verde ao Contorno de Jataí | Rota Agro MT-GO (Way-364) | [way364.com.br](https://way364.com.br) |
+| BR-452, de Rio Verde a Itumbiara | Rota Verde Goiás | [pedagioeletronico.rotaverdegoias.com.br](https://pedagioeletronico.rotaverdegoias.com.br) |
+| BR-364, de Jataí à divisa com Mato Grosso | Rota Agro MT-GO (Way-364) | [way364.com.br](https://way364.com.br) |
+
+**Como não errar:** o que separa as duas é o quilômetro, não a rodovia. Se você não sabe por qual passou, o caminho neutro é o app **CNH do Brasil**, que mostra a passagem e já indica a concessionária responsável. Ele consulta e encaminha, mas **não recebe pagamento**. O passo a passo está em [Como consultar o Free Flow no app CNH do Brasil](../docs/consulta-app-cnh-do-brasil.md).
+
+As regras também mudam entre elas: na Rota Verde o desconto de usuário frequente é progressivo até a trigésima passagem do mês, e na Way-364 o desconto adicional por frequência vale para as categorias 1, 3 e 5 no mesmo pórtico. **Moto é isenta nas duas.**
 
 ---
 
 ## Sete pontos de cobrança, onze estruturas
 
-Aqui está a informação que evita erro de conta.
+Aqui está a informação que evita erro de conta, e ela vale para a concessão da Rota Verde.
 
 Na **BR-060**, os pórticos são instalados **em pares, um por sentido**, e o cadastro da ANTT registra quilometragens diferentes para cada lado. Em Abadia de Goiás, por exemplo, um fica no km 172 e o outro no km 182,6. Em Indiara, no km 233,75 e no 233,85.
 
@@ -61,11 +90,15 @@ Na **BR-452**, os três pórticos são **únicos**, com cobrança nos dois senti
 
 Ou seja: **7 pontos tarifários, 11 estruturas físicas.** Quem atravessa a BR-060 num sentido cruza quatro pontos de cobrança, não oito.
 
-Este repositório conta **estruturas de cobrança**, e é por isso que o número publicado aqui é 11. O critério está declarado no [dicionário de dados](../dados/README.md).
+Este repositório conta **estruturas de cobrança**, e é por isso que o número publicado para a Rota Verde é 11. Somados os três pórticos únicos da Way-364, Goiás fecha em **14 estruturas**. O critério está declarado no [dicionário de dados](../dados/README.md).
 
 ---
 
 ## Onde pagar
+
+| Canal | Endereço ou local |
+|---|---|
+### Rota Verde Goiás
 
 | Canal | Endereço ou local |
 |---|---|
@@ -74,7 +107,17 @@ Este repositório conta **estruturas de cobrança**, e é por isso que o número
 | **Totens** | Nas 9 bases do Serviço de Atendimento ao Usuário |
 | **Tag** | Cobrança automática, com desconto |
 
-O prazo sem tag é de **30 dias** a partir da passagem. A concessionária permite cadastrar a placa no site para acompanhar as passagens.
+### Rota Agro MT-GO (Way-364)
+
+| Canal | Endereço ou local |
+|---|---|
+| **Site** | [way364.com.br](https://way364.com.br) |
+| **App** | WayRodovias |
+| **Totens** | Nas bases do Serviço de Atendimento ao Usuário |
+| **Presencial** | Posto Mahle, em Rio Verde, e Posto Décio, em Mineiros |
+| **Tag** | Cobrança automática, com desconto |
+
+O prazo sem tag é de **30 dias** a partir da passagem, nas duas concessões. A Rota Verde permite cadastrar a placa no site para acompanhar as passagens.
 
 O guia completo, com o de-para de concessionária para canal, está em [Como pagar o pedágio Free Flow](../docs/como-pagar.md).
 
@@ -100,7 +143,9 @@ Os percentuais mudam por contrato e ficam na tabela tarifária oficial da conces
 
 ## Moto não paga em Goiás
 
-**A Rota Verde declara que motocicletas, motonetas e triciclos são isentos da tarifa** nos onze pórticos, e informa que o sistema reconhece e abona a passagem automaticamente. **Não há cadastro a fazer**: o motociclista passa e não deve nada.
+**A Rota Verde declara que motocicletas, motonetas e triciclos são isentos da tarifa** nos onze pórticos dela, e informa que o sistema reconhece e abona a passagem automaticamente. **Não há cadastro a fazer**: o motociclista passa e não deve nada.
+
+**Na concessão da Way-364 a isenção também vale**, declarada pela concessionária para todo o trecho concedido. Ou seja: em nenhum pórtico goiano a moto paga tarifa de Free Flow hoje.
 
 A isenção de moto não é regra nacional. Ela está no contrato de cada concessão e muda de estado para estado, e às vezes dentro do mesmo estado. Em São Paulo, por exemplo, a moto paga na pista expressa da Via Dutra, no Rodoanel Norte e no Contorno Sul da Tamoios, e é isenta nas rodovias da Concessionária Novo Litoral. A tabela trecho a trecho está em [Tag em moto, carro alugado e segundo veículo](../docs/tag-em-moto-e-outros-veiculos.md).
 
@@ -108,7 +153,7 @@ Vale o alerta que acompanha qualquer conversa sobre moto e pedágio: **nenhuma t
 
 ---
 
-## A concessionária não vende tag
+## A Rota Verde não vende tag
 
 Ponto que gera dúvida e vale registrar: **a Rota Verde Goiás declara que não comercializa tags.** Ela opera a rodovia e processa o pagamento por placa; a tag é contratada com uma operadora autorizada.
 
@@ -118,26 +163,12 @@ Por isso, desconfie de qualquer oferta de tag que se apresente como sendo da con
 
 ---
 
-## Uma segunda concessão a caminho
-
-Goiás vai ganhar um segundo operador de Free Flow.
-
-| Rodovia | Concessionária | Situação |
-|---|---|---|
-| **BR-060** e **BR-364**, de Rio Verde a Rondonópolis | Rota Agro MT-GO, do grupo Way Brasil | **Previsto.** Concessão assumida em 02/04/2026, com 490 km em Goiás e Mato Grosso. Cinco pontos de cobrança contratados, em Jataí, Portelândia, Alto Garças e Pedra Preta. Sistema de livre passagem **homologado pela Senatran em 10/08/2026**, sem cobrança confirmada |
-
-Atenção ao detalhe: **homologação não é início de cobrança.** O sistema da Rota Agro foi homologado, e isso não significa que os pontos já cobrem. Enquanto não houver confirmação oficial, **cobrança apresentada em nome desse trecho é motivo de desconfiança**. A explicação está em [Homologação do Free Flow pela Senatran](../docs/homologacao-senatran-free-flow.md) e o roteiro anti-golpe em [Golpe do falso pedágio](../docs/golpe-do-falso-pedagio.md).
-
-Quando a cobrança começar, a BR-060 passará a ter dois operadores de Free Flow em trechos diferentes, o que torna ainda mais importante conferir **em que quilômetro** você passou.
-
----
-
 ## Perguntas frequentes
 
 <details>
 <summary><strong>Onde tem Free Flow em Goiás?</strong></summary>
 
-Em duas rodovias federais operadas pela Rota Verde Goiás: a BR-060, com pontos de cobrança em Abadia de Goiás, Indiara, Jandaia e Acreúna, e a BR-452, em Santa Helena de Goiás e em dois pontos de Bom Jesus de Goiás. São 11 estruturas de pórtico e 7 pontos tarifários.
+Em três rodovias federais e duas concessionárias. Pela Rota Verde Goiás: a BR-060, com pontos de cobrança em Abadia de Goiás, Indiara, Jandaia e Acreúna, e a BR-452, em Santa Helena de Goiás e em dois pontos de Bom Jesus de Goiás, num total de 11 estruturas e 7 pontos tarifários. Pela Rota Agro MT-GO, a Way-364: um ponto na BR-060 em Jataí e dois na BR-364, no km 258,66 e em Portelândia. São 14 pórticos ao todo.
 </details>
 
 <details>
@@ -149,7 +180,7 @@ Porque na BR-060 os pórticos operam em pares, um por sentido, com quilometragen
 <details>
 <summary><strong>Quando começou o pedágio eletrônico em Goiás?</strong></summary>
 
-Em 27 de maio de 2026, nas BR-060 e BR-452, com a Rota Verde Goiás. Foi o primeiro pedágio eletrônico do estado.
+Em 27 de maio de 2026, nas BR-060 e BR-452, com a Rota Verde Goiás. Foi o primeiro pedágio eletrônico do estado. A segunda concessão, da Rota Agro MT-GO, começou a cobrar em 7 de setembro de 2026.
 </details>
 
 <details>
@@ -167,7 +198,7 @@ Não. A Rota Verde declara que não comercializa tags. A tag é contratada com u
 <details>
 <summary><strong>Qual o prazo para pagar sem tag?</strong></summary>
 
-Trinta dias a partir da passagem, pelo site, pelo app ou nos totens das nove bases de atendimento ao usuário. Confirme sempre no canal oficial, porque o prazo vem do contrato de concessão.
+Trinta dias a partir da passagem, nas duas concessões. Na Rota Verde, pelo site, pelo app ou nos totens das nove bases de atendimento ao usuário. Na Way-364, pelo site, pelo app WayRodovias, pelos totens das bases SAU ou presencialmente no Posto Mahle, em Rio Verde, e no Posto Décio, em Mineiros. Confirme sempre no canal oficial, porque o prazo vem do contrato de concessão.
 </details>
 
 ---
@@ -179,7 +210,9 @@ Trinta dias a partir da passagem, pelo site, pelo app ou nos totens das nove bas
 | [ANTT, Free Flow](https://www.gov.br/antt/pt-br/free-flow) | Cadastro de pórticos, com a quilometragem de cada par na BR-060 |
 | [Rota Verde Goiás, pedágio](https://rotaverdegoias.com.br/pedagio) | Funcionamento, canais e mecânica do Desconto de Usuário Frequente |
 | [Rota Verde Goiás, pagamento](https://pedagioeletronico.rotaverdegoias.com.br) | Consulta e pagamento por placa |
-| [ANTT, projeto Rota Agro CN2](https://www.gov.br/antt/pt-br/assuntos/rodovias/novos-projetos-em-rodovias/bndes-cn2-centro-oeste-norte) | A concessão prevista para as BR-060 e BR-364 |
+| [ANTT, projeto Rota Agro CN2](https://www.gov.br/antt/pt-br/assuntos/rodovias/novos-projetos-em-rodovias/bndes-cn2-centro-oeste-norte) | A concessão das BR-060 e BR-364, com extensão, prazo e obras contratadas |
+| [Deliberação ANTT nº 248/2026](https://anttlegis.antt.gov.br/action/ActionDatalegis.php?acao=abrirTextoAto&tipo=DLB&numeroAto=00000248&seqAto=000&valorAno=2026&orgao=DG%2FANTT%2FMT&cod_modulo=623&cod_menu=9230) | A autorização de início da cobrança nas cinco praças e a nomeação de cada uma |
+| [Way-364](https://way364.com.br) | Canais de pagamento, isenção de moto e prazo |
 
 Em caso de divergência, as fontes oficiais prevalecem sobre o que está aqui.
 
