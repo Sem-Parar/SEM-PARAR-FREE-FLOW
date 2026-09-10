@@ -10,38 +10,51 @@ Todas as mudanças relevantes deste repositório são registradas aqui. O format
 
 ---
 
-## [0.13.1], 2026-08-31
+## [0.14.0], 2026-09-10
 
-Manutenção. A primeira rodada da varredura semanal encontrou uma mudança: a decisão que o repositório registrava como pautada foi tomada, com objeto diferente do anunciado. Entram também as duas alterações da transferência que ficaram sem registro próprio na 0.13.0.
-
-### Alterado
-
-- **[`dados/linha-do-tempo-free-flow.csv`](dados/linha-do-tempo-free-flow.csv)**: a nota de **2026-08-24** sobre a nova etapa regulatória sai de `anunciado` para `confirmado`, porque a proposta que ela descrevia foi decidida. A observação passa a registrar que o objeto aprovado é mais estreito do que o anunciado, e trata de interoperabilidade.
-- **[`docs/novidades.md`](docs/novidades.md)**: nota nova de **27 de agosto de 2026** sobre a aprovação da audiência pública, escrita antes da nota de 24 de agosto para manter a ordem do mais recente para o mais antigo. A nota de 24 de agosto perde o condicional e passa a apontar o desfecho. A tabela de próximas datas perde a linha de 27 de agosto, que virou passado, e ganha o prazo de contribuições e a data da sessão pública.
-- **[`docs/golpe-do-falso-pedagio.md`](docs/golpe-do-falso-pedagio.md)**: os três trechos que afirmam não existir site único nacional ganham marcação temporal e uma nota datada. A afirmação continua correta e continua sendo o argumento central da página, mas passa a dizer desde quando, para não envelhecer sem aviso se o portal em teste vier a existir.
-- **README**: as duas datas de revisão passam para 31 de agosto de 2026. Nenhum número do inventário mudou.
+Mato Grosso entra no mapa e a ANTT abre duas frentes sobre meios de pagamento. Duas mudanças independentes, decididas na mesma reunião da Diretoria Colegiada, em 27 de agosto de 2026, e que juntas mexem em nove arquivos de conteúdo e sete bases.
 
 ### Adicionado
 
-- **`dados/linha-do-tempo-free-flow.csv`**: registro de **2026-08-27**, a aprovação, na 1.040ª Reunião de Diretoria Pública, da abertura de audiência pública sobre a minuta de Edital de Sandbox Regulatório de interoperabilidade do sistema de livre passagem, com as datas de contribuição e de sessão pública. A base passa de 36 para 37 registros.
+- **[`estados/free-flow-mt.md`](estados/free-flow-mt.md)**: a página do oitavo estado com Free Flow ativo. Os 2 pórticos da BR-364, em Alto Garças e Pedra Preta, a explicação de por que eles pertencem a uma concessão que atravessa a divisa e cobra também em Goiás, a quilometragem que recomeça na divisa, a isenção de moto em toda a extensão e os três trechos mato-grossenses que ainda não cobram.
+- **Seção "Duas concessionárias na mesma rodovia"** em [Free Flow em Goiás](estados/free-flow-go.md): a tabela de qual operador cobra em qual trecho da BR-060 e da BR-364, e o caminho neutro para quem não sabe por qual pórtico passou.
+- **Seção "O que está em revisão agora"** em [Base legal do Free Flow](BASE-LEGAL-DO-FREE-FLOW.md): as duas frentes regulatórias abertas em 27 de agosto de 2026, com objeto, prazo e a diferença entre reavaliar uma norma vigente e desenhar um experimento.
+- **Seção "Mato Grosso"** em [Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md), com os dois pórticos do estado.
+- **Três notas datadas** em [Novidades](docs/novidades.md): o início da cobrança em 7 de setembro, a abertura da Audiência Pública nº 14/2026 e a abertura da Tomada de Subsídios nº 4/2026.
 
-### Registro retroativo da 0.13.0
+### Alterado
 
-- As duas alterações do pacote de pós-transferência entraram na 0.13.0 sem entrada própria. Ficam registradas aqui: a correção dos **cinco links que apontavam para a organização antiga**, entre eles os quatro blocos de citação, e a **remoção de sete links de release do CHANGELOG** que apontavam para tags que nunca existiram.
+- **O mapa nacional passou de 85 para 90 pórticos**, de 26 para 28 rodovias ativas, de 15 para 16 concessionárias, de 58 para 63 municípios e de 7 para 8 estados. Os badges, o parágrafo de abertura do README, o painel de números e todas as contagens derivadas foram refeitos a partir das bases.
+- **A Motiva deixou de operar "mais de um terço" dos pórticos do país** e passou a operar "quase um terço", porque o denominador subiu. A frase aparecia no README e em [Concessionárias com Free Flow no Brasil](CONCESSIONARIAS-FREE-FLOW.md), e as duas foram corrigidas.
+- **Goiás passou de 11 para 14 pórticos e de uma para duas concessionárias.** A página do estado foi reescrita em quatro seções para refletir isso, e a seção "Uma segunda concessão a caminho" saiu, porque a segunda concessão chegou.
+- **A nota de 24 de agosto sobre a etapa regulatória** deixou de dizer "proposta pautada, e não audiência pública aberta" e passou a registrar o que foi decidido, com ponteiro para a nota do dia 27.
+- **A Resolução ANTT nº 4.281/2014** aparece agora como `vigente, em revisão pela ANTT` na base legal, com a Tomada de Subsídios nº 4/2026 nomeada. Ela continua valendo integralmente.
+- **A tabela de isenção de motocicleta** ganhou a linha da Way-364, e a leitura passou de "em Minas Gerais e em Rondônia a moto não paga em nenhum trecho" para incluir também Goiás e Mato Grosso.
+- **A Rota Agro MT-GO saiu da lista "Quem ainda vai entrar"** em Concessionárias e da coluna `n/d` em [Homologação do Free Flow pela Senatran](docs/homologacao-senatran-free-flow.md), onde passou a ilustrar a sequência normal: homologação, autorização de cobrança, início.
+- **As bases:** `porticos-free-flow` ganhou 5 linhas e foi a 69; `linha-do-tempo-free-flow` ganhou 6 marcos e foi a 42, com o marco de 24 de agosto reclassificado de `anunciado` para `confirmado`; `canais-oficiais-pagamento` foi a 30; `tags-aceitas-free-flow` foi a 16; `rodovias-free-flow`, `concessionarias-free-flow`, `homologacao-senatran-free-flow` e `base-legal-free-flow` tiveram linhas atualizadas sem mudança de contagem.
+
+### Divergências novas, declaradas
+
+- **O município do pórtico P2, no km 258,66 da BR-364.** A Deliberação ANTT nº 248/2026 nomeia a praça como Jataí; a concessionária e a imprensa local situam o ponto em Mineiros. O registro fica sob os dois nomes, `Jataí / Mineiros`, para que quem procura qualquer uma das duas cidades encontre a cobrança que existe. É a primeira vez que a base usa a barra por divergência, e não por divisa, e a distinção está explicada em [Free Flow por município](FREE-FLOW-POR-MUNICIPIO.md).
+- **O cadastro de pórticos da ANTT ainda não lista esta concessão.** Na verificação de 10 de setembro de 2026, a fonte primária do repositório para as federais estava atrás do fato. As cinco linhas entraram pela Deliberação ANTT nº 248/2026, o ato que autorizou a cobrança, e a exceção está registrada em [Metodologia e fontes](docs/metodologia-e-fontes.md).
 
 ### Notas de dado
 
-- **Nenhum número do inventário mudou.** Seguem 85 pórticos de cobrança, 26 rodovias, 15 concessionárias, 58 municípios e 7 estados.
-- **O cadastro da ANTT foi conferido item a item** e continua com 52 pórticos em 9 trechos, o que bate com esta base pelo critério da Agência. Nenhum pórtico novo, nenhuma mudança de status, nenhum trecho novo.
-- **Os 29 canais de `canais-oficiais-pagamento.csv` foram testados** e todos responderam, sem endereço novo e sem troca de endereço.
-- **Nada mudou** no Sistema Anchieta-Imigrantes, que segue adiado sem nova data, nem na MT-130, que segue anunciada para 10 de outubro de 2026.
-
-### Decisão editorial declarada
-
-- **O número da audiência pública ficou de fora.** A notícia oficial da ANTT não o informa, e a numeração vista em agregador do Diário Oficial não foi confirmada na seção de Participação Social da Agência até o fechamento deste pacote. Entra quando for confirmado na fonte primária.
-- **A portaria que criou o grupo de trabalho do sandbox ficou fora de `base-legal-free-flow.csv`.** A base reúne as normas que criam obrigação de pagar ou tipificam infração, e um ato de organização interna da Agência não é nenhuma das duas coisas.
+- **A previsão de estreia de Mato Grosso estava certa no estado e errada na porta.** Desde a versão 0.12.0 a base apontava a MT-130, em 10 de outubro, como a entrada mato-grossense. Quem chegou primeiro foi a Way-364, em 7 de setembro, por uma concessão que a base classificava como `previsto` desde a onda 2 de concessionárias. O acerto veio da coluna `status`, que separou o anunciado do confirmado e permitiu a correção sem reescrever o histórico.
+- **Homologação continua não sendo início de cobrança, e o intervalo agora tem número.** A Rota Agro MT-GO foi homologada pela Senatran em 10 de agosto e começou a cobrar em 7 de setembro: vinte e oito dias, com a autorização da ANTT no meio, em 27 de agosto.
+- **Anúncio de início continua sendo promessa.** A cobrança da Way-364 só entrou como fato depois da Deliberação nº 248/2026 e da confirmação da própria concessionária de que a operação começou. A marcha branca de dez dias, iniciada em 28 de agosto, não gerou tarifa devida e está registrada na observação das cinco linhas.
+- **Nenhum valor de tarifa foi gravado**, aqui ou nas bases, apesar de as fontes trazerem a tabela completa. Vale a regra de sempre: fica o link da tabela oficial da concessionária, que se atualiza na origem. O desconto por tag e o desconto por frequência são nomeados e não percentualizados.
 
 ---
+
+## [0.13.1], 2026-08-27
+
+Correção de registro. As duas alterações do pós-transferência subiram dentro do release `v0.13.0` sem entrada própria aqui, e esta nota fecha a lacuna.
+
+### Corrigido
+
+- **Cinco links apontavam para a organização anterior**, entre eles os quatro blocos "Como citar". A transferência do repositório preserva o redirecionamento da URL antiga, mas não corrige o texto, e é o texto que uma IA copia quando cita a fonte.
+- **Sete links de release do changelog apontavam para tags que nunca existiram**, e davam 404 desde o primeiro dia. Os links saíram.
 
 ## [0.13.0], 2026-08-26
 
