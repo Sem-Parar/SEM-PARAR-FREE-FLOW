@@ -1,10 +1,10 @@
 # Golpe do falso pedágio: como identificar e o que fazer
 
-**Nem a ANTT nem as concessionárias enviam cobrança de pedágio por WhatsApp, SMS, e-mail ou correio. Não existe boleto automático de Free Flow e não existe um site único nacional para consultar débito. Quem inicia o pagamento é sempre o motorista, digitando o endereço oficial no navegador. Se a cobrança chegou até você, com link, QR Code ou chave Pix, é golpe até prova em contrário.**
+**Nem a ANTT nem as concessionárias enviam cobrança de pedágio por WhatsApp, SMS, e-mail ou correio. Não existe boleto automático de Free Flow e não existe, hoje, um site único nacional para consultar e pagar débito. Quem inicia o pagamento é sempre o motorista, digitando o endereço oficial no navegador. Se a cobrança chegou até você, com link, QR Code ou chave Pix, é golpe até prova em contrário.**
 
 Os golpistas copiam o visual das telas oficiais com perfeição. O que eles não conseguem copiar é o endereço do site. É ali que o golpe aparece.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 31 de agosto de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Canais verificados em [`dados/canais-oficiais-pagamento.csv`](../dados/canais-oficiais-pagamento.csv).
 
 ---
@@ -34,6 +34,8 @@ A ANTT publicou alerta oficial descrevendo os dois formatos mais comuns.
 **2. Boleto falso.** Boletos são enviados para o endereço físico ou para o e-mail da vítima, com logotipo de concessionária real, linguagem formal e QR Code, usando dados obtidos de forma irregular.
 
 O que as duas têm em comum: **a cobrança chega até você.** No Free Flow real, é o contrário. Você é quem procura o canal da concessionária. A ANTT é explícita: não há envio automático de boletos por correio, nem site único para consulta de débitos.
+
+> **Nota de 31 de agosto de 2026.** Em 27 de agosto de 2026 a ANTT aprovou a abertura de audiência pública sobre a minuta de edital de um ambiente de testes que, no futuro, poderá criar um **portal único** de consulta e escolha de canal de pagamento entre concessionárias federais. **Isso ainda não existe.** É uma consulta sobre uma minuta, com contribuições até 23 de outubro de 2026, e não muda nada do que está escrito nesta página. Quem oferecer hoje um "site único nacional" para pagar Free Flow está mentindo. Quando o portal existir, ele será anunciado pela ANTT e entrará aqui com o endereço oficial. Acompanhe em [Novidades do Free Flow](novidades.md).
 
 ---
 
@@ -151,6 +153,8 @@ Quase certamente sim. Nem a ANTT nem as concessionárias enviam cobrança de ped
 <summary><strong>Existe um site único para consultar pedágio de todas as rodovias?</strong></summary>
 
 Para **pagar**, não. A ANTT afirma que não existe site único de consulta de débitos: o pagamento é feito com a concessionária responsável pelo trecho. Para **consultar**, o app CNH do Brasil reúne as passagens de várias concessionárias, mas ele não recebe pagamento.
+
+Em 27 de agosto de 2026 a ANTT abriu audiência pública sobre a minuta de edital de um ambiente de testes que poderá criar, no futuro, um portal único de consulta com escolha do canal de pagamento entre concessionárias federais. **Enquanto isso não sai do papel, a resposta acima continua valendo integralmente**, e qualquer site que hoje se apresente como o portal nacional de pagamento é falso.
 </details>
 
 <details>
