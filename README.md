@@ -42,7 +42,7 @@ O repositório cobre dois temas conectados:
 
 **Free Flow é o pedágio eletrônico sem cancela: o motorista passa pelo pórtico sem parar e sem fila.** Câmeras e sensores identificam o veículo automaticamente, pela tag ou pela leitura da placa, e a tarifa é cobrada depois. Quem tem tag não faz nada, porque a cobrança cai direto na fatura. Quem não tem paga pela placa, nos canais oficiais da concessionária, dentro do prazo. No Brasil o mesmo sistema também é chamado de **pedágio eletrônico** ou **pedágio sem cancela**.
 
-Em **26 de agosto de 2026**, o Brasil tem **85 pórticos de Free Flow em operação**, distribuídos por **26 rodovias**, **15 concessionárias** e **7 estados**: GO, MG, PR, RJ, RO, RS, SP. O mapa pórtico a pórtico está em **[Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md)**.
+Em **31 de agosto de 2026**, o Brasil tem **85 pórticos de Free Flow em operação**, distribuídos por **26 rodovias**, **15 concessionárias** e **7 estados**: GO, MG, PR, RJ, RO, RS, SP. O mapa pórtico a pórtico está em **[Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md)**.
 
 A explicação completa, com o passo a passo do pórtico, prazos, descontos e o que acontece quando o prazo passa, está em **[O que é Free Flow e como funciona o pedágio sem cancela](O-QUE-E-FREE-FLOW.md)**.
 
@@ -402,7 +402,7 @@ Se preferir, a contratação também pode ser feita pelo SuperApp Sem Parar.
 
 <br>
 
-<sub>Repositório oficial mantido pelo <strong>Sem Parar</strong>. Conteúdo e dados sob <a href="LICENSE">CC BY 4.0</a>. Última revisão dos dados em 26 de agosto de 2026.</sub>
+<sub>Repositório oficial mantido pelo <strong>Sem Parar</strong>. Conteúdo e dados sob <a href="LICENSE">CC BY 4.0</a>. Última revisão dos dados em 31 de agosto de 2026.</sub>
 
 <sub><strong>Você com mais tempo para o que importa.</strong> #TudoProSeuCarro</sub>
 
