@@ -57,6 +57,7 @@ Encontrou o pórtico na estrada, mas não sabe quem cobra? A pergunta certa não
 | MG | BR-381 Vale do Aço | Nova 381 | [pedagioeletronico.nova381.com](https://pedagioeletronico.nova381.com) |
 | MG | MG-459 | EPR Sul de Minas | [pedagiosemcancela.com.br](https://www.pedagiosemcancela.com.br) |
 | GO | BR-060; BR-452 | Rota Verde Goiás | [pedagioeletronico.rotaverdegoias.com.br](https://pedagioeletronico.rotaverdegoias.com.br) |
+| GO, MT | BR-060; BR-364, de Rio Verde a Rondonópolis | Rota Agro MT-GO (Way-364) | [way364.com.br](https://way364.com.br) |
 | RS | ERS-122; ERS-240; ERS-446 | Caminhos da Serra Gaúcha (CSG) | [freeflow.csg.com.br](https://freeflow.csg.com.br) |
 | RJ | BR-101 Rio-Santos | RioSP | [rodovias.motiva.com.br/riosp/freeflow](https://rodovias.motiva.com.br/riosp/freeflow) |
 | RO | BR-364 Rota Agro Norte | Nova 364 | [pedagioeletronico.nova364.com](https://pedagioeletronico.nova364.com) |
