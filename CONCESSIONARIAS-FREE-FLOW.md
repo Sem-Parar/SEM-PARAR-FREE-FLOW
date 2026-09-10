@@ -1,17 +1,17 @@
 # Concessionárias com Free Flow no Brasil: quem cobra o quê
 
-**Quinze concessionárias operam Free Flow no Brasil, distribuídas em sete grupos econômicos identificados, mais três que não divulgam o controlador. A maior é a Motiva, ex-CCR, que sozinha responde por mais de um terço dos pórticos de cobrança do país. Passar por um pórtico não diz para quem você vai pagar: quem cobra é a concessionária daquele trecho, e o site onde você paga muitas vezes tem outro nome, porque boa parte das concessionárias contrata uma plataforma para processar o pagamento.**
+**Dezesseis concessionárias operam Free Flow no Brasil, distribuídas em sete grupos econômicos identificados, mais três que não divulgam o controlador. A maior é a Motiva, ex-CCR, que sozinha responde por quase um terço dos pórticos de cobrança do país. Passar por um pórtico não diz para quem você vai pagar: quem cobra é a concessionária daquele trecho, e o site onde você paga muitas vezes tem outro nome, porque boa parte das concessionárias contrata uma plataforma para processar o pagamento.**
 
 Esta página existe para resolver a pergunta que vem depois da passagem: passei, mas pago para quem, e por que o endereço que abriu não tem o nome da rodovia?
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 10 de setembro de 2026.
 > Índice do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](README.md). Base de dados em [`dados/concessionarias-free-flow.csv`](dados/concessionarias-free-flow.csv).
 
 ---
 
 ## Índice
 
-- [As quinze concessionárias em operação](#as-quinze-concessionárias-em-operação)
+- [As dezesseis concessionárias em operação](#as-dezesseis-concessionárias-em-operação)
 - [Por grupo econômico](#por-grupo-econômico)
 - [Por que o site de pagamento tem outro nome](#por-que-o-site-de-pagamento-tem-outro-nome)
 - [As quatro plataformas que processam o pagamento](#as-quatro-plataformas-que-processam-o-pagamento)
@@ -24,9 +24,9 @@ Esta página existe para resolver a pergunta que vem depois da passagem: passei,
 
 ---
 
-## As quinze concessionárias em operação
+## As dezesseis concessionárias em operação
 
-Ordenadas por número de pórticos de cobrança. Verificado em **26 de agosto de 2026**.
+Ordenadas por número de pórticos de cobrança. Verificado em **10 de setembro de 2026**.
 
 | Concessionária | Grupo | UF | Esfera | Pórticos | Plataforma de pagamento |
 |---|---|:---:|:---:|:---:|---|
@@ -37,6 +37,7 @@ Ordenadas por número de pórticos de cobrança. Verificado em **26 de agosto de
 | **Caminhos da Serra Gaúcha** | n/d | RS | estadual | 6 | própria, com parceiros |
 | **Nova 381** | 4UM e Opportunity | MG | federal | 5 | própria (Alpdex) |
 | **Concessionária Novo Litoral** | n/d | SP | estadual | 5 | Movvia |
+| **Rota Agro MT-GO** (Way-364) | Way Brasil | GO; MT | federal | 5 | própria (Way Rodovias) |
 | **EPR Iguaçu** | Grupo EPR | PR | federal | 4 | própria |
 | **Ecovias Noroeste Paulista** | EcoRodovias | SP | estadual | 4 | Pedágio Digital |
 | **Motiva Sorocabana** | Motiva (ex-CCR) | SP | estadual | 3 | Pedágio Digital |
@@ -46,7 +47,7 @@ Ordenadas por número de pórticos de cobrança. Verificado em **26 de agosto de
 | **EPR Sul de Minas** | Grupo EPR | MG | estadual | 1 | própria |
 | **Concessionária Tamoios** | n/d | SP | estadual | 1 | própria |
 
-**Total de 85 pórticos de cobrança.** O mapa pórtico a pórtico, com município e quilômetro, está em [Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md). O canal oficial de pagamento de cada uma está em [Como pagar o pedágio Free Flow](docs/como-pagar.md).
+**Total de 90 pórticos de cobrança.** O mapa pórtico a pórtico, com município e quilômetro, está em [Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md). O canal oficial de pagamento de cada uma está em [Como pagar o pedágio Free Flow](docs/como-pagar.md).
 
 **Sobre o `n/d` na coluna Grupo:** significa que não localizamos, em fonte oficial, a divulgação do grupo controlador daquela concessionária. Não significa que ela não tenha um. Preferimos registrar a lacuna a preencher por dedução.
 
@@ -62,6 +63,7 @@ O mesmo dado, agrupado. É aqui que aparece a concentração. As três últimas 
 | **Grupo EPR** | EPR Paraná; EPR Iguaçu; EPR Sul de Minas | 13 |
 | **4UM e Opportunity** | Nova 364; Nova 381 | 12 |
 | **Fundo Aviva e 4i Capital** | Rota Verde Goiás | 11 |
+| **Way Brasil** | Rota Agro MT-GO (Way-364) | 5 |
 | Controlador não divulgado | CSG | 6 |
 | Controlador não divulgado | CNL | 5 |
 | **EcoRodovias** | Ecovias Noroeste Paulista | 4 |
@@ -69,7 +71,7 @@ O mesmo dado, agrupado. É aqui que aparece a concentração. As três últimas 
 | **Via Appia e Starboard** | Via SP Serra | 2 |
 | Controlador não divulgado | Tamoios | 1 |
 
-**Motiva sozinha opera mais de um terço dos pórticos de cobrança do país**, e os três maiores grupos somados passam de metade. Para o motorista isso tem uma consequência prática boa: quem roda por trechos de um mesmo grupo paga tudo no mesmo lugar.
+**Motiva sozinha opera quase um terço dos pórticos de cobrança do país**, e os três maiores grupos somados passam de metade. O grupo **Way Brasil** aparece em duas linhas porque as duas concessões têm composições societárias diferentes: a Way-262 é dividida com a Kinea, e a Rota Agro MT-GO vem da Way Concessões. Somadas, são 7 pórticos. Para o motorista isso tem uma consequência prática boa: quem roda por trechos de um mesmo grupo paga tudo no mesmo lugar.
 
 Vale registrar o outro lado. A EcoRodovias aparece pequena nesta tabela, com quatro pórticos, mas é uma das maiores operadoras rodoviárias do país. A diferença é que a maior parte da malha dela ainda cobra em praça com cancela, e as conversões estão contratadas para os próximos anos. A tabela mede Free Flow hoje, não tamanho de concessionária.
 
@@ -92,7 +94,7 @@ O resultado é que você passa numa rodovia da Motiva e o pagamento abre em `ped
 | Plataforma | Quem usa | Pórticos atendidos |
 |---|---|:---:|
 | **Pedágio Digital** | RioSP; Motiva Sorocabana; PRVias; Ecovias Noroeste Paulista | 33 |
-| **Própria da concessionária** | EPR Paraná; EPR Iguaçu; EPR Sul de Minas; CSG; Via SP Serra; Way-262; Tamoios | 24 |
+| **Própria da concessionária** | EPR Paraná; EPR Iguaçu; EPR Sul de Minas; CSG; Via SP Serra; Way-262; Rota Agro MT-GO; Tamoios | 29 |
 | **Alpdex** | Rota Verde Goiás; Nova 364; Nova 381 | 23 |
 | **Movvia** | Concessionária Novo Litoral, e como parceiro da CSG | 5 |
 
@@ -169,9 +171,8 @@ Concessionárias com Free Flow **previsto ou adiado**, que hoje não cobram por 
 | Arteris Fluminense | RJ | previsto, BR-101 Norte |
 | CCR ViaSul | RS | previsto, conversão das praças da FreeWay em estudo |
 | Concessionária Rota dos Grãos | MT | previsto, cobrança anunciada para 10 de outubro de 2026 |
-| Rota Agro MT-GO | GO e MT | previsto, concessão assumida em 02/04/2026 e sistema homologado pela Senatran em 10/08/2026, sem cobrança confirmada |
 
-Quando a Rota dos Grãos começar a cobrar, **Mato Grosso passa a ser o oitavo estado com Free Flow**. O acompanhamento fica em [Novidades do Free Flow no Brasil](docs/novidades.md).
+**Mato Grosso já é o oitavo estado com Free Flow**, desde 7 de setembro de 2026, quando a Rota Agro MT-GO começou a cobrar. Quando a Rota dos Grãos entrar, em outubro, o estado passa a ter duas concessões cobrando por pórtico. O acompanhamento fica em [Novidades do Free Flow no Brasil](docs/novidades.md).
 
 ---
 
@@ -230,7 +231,7 @@ Em caso de divergência, as fontes oficiais prevalecem sobre o que está aqui.
 
 <div align="center">
 
-### Uma tag, quinze concessionárias, um extrato
+### Uma tag, dezesseis concessionárias, um extrato
 
 Com a Tag Sem Parar, a pergunta "pago para quem?" deixa de existir: a cobrança de qualquer pórtico cai na mesma fatura.
 
