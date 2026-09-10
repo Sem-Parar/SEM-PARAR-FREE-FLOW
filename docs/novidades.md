@@ -2,7 +2,7 @@
 
 **Esta é a linha do tempo do pedágio eletrônico brasileiro: cada mudança confirmada em pórtico, prazo ou regra entra aqui com data, resumo e fonte oficial linkada.** As notas ficam em ordem do mais recente para o mais antigo. Mudanças de status de rodovia entram em até 72 horas após o fato confirmado, e a base de dados é corrigida no mesmo movimento.
 
-> Última verificação em 26 de agosto de 2026.
+> Última verificação em 31 de agosto de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Termos técnicos estão no [glossário](glossario.md), a cronologia consolidada em [História do Free Flow no Brasil](historia-do-free-flow-no-brasil.md) e o método de levantamento em [Metodologia e fontes](metodologia-e-fontes.md).
 
 ---
@@ -18,6 +18,18 @@
 
 ## 2026
 
+### 27 de agosto de 2026: a ANTT aprova audiência pública sobre um portal único de pagamento
+
+A **ANTT** aprovou, na **1.040ª Reunião de Diretoria Pública, em 27 de agosto de 2026**, a abertura de audiência pública sobre a **minuta de Edital de Sandbox Regulatório de interoperabilidade do sistema de livre passagem**. É a decisão que estava pautada e que esta página vinha registrando como proposta, e agora está tomada.
+
+**O que está em teste.** Um **portal único** no qual o motorista consulta, de forma consolidada, as passagens registradas em **diferentes concessionárias de rodovias federais** e escolhe livremente o canal para quitar, inclusive quando passou por mais de uma concessão na mesma viagem. Duas garantias entram na modelagem: **cada concessionária continua titular dos valores** de pedágio das suas rodovias, e o **portal não faz custódia de recursos**, de modo que o valor pago vai direto para a concessionária responsável pelo trecho. O experimento pode durar até **36 meses**, com fase operacional de no mínimo **12 meses**, e nessa etapa um único sistema é selecionado por critérios técnicos, regulatórios e econômicos. A modelagem saiu de um grupo de trabalho multidisciplinar instituído pela Agência em **maio de 2026**.
+
+**Como participar.** Contribuições escritas de **8 de setembro** até as **23h59 de 23 de outubro de 2026**, horário de Brasília. Sessão pública híbrida em **8 de outubro de 2026, a partir das 14h**, no Auditório Eliseu Resende, no Setor de Clubes Esportivos Sul, em Brasília, com transmissão pelo canal da ANTT no YouTube. Os documentos e as orientações estão disponíveis **desde 31 de agosto de 2026**, na seção de Participação Social do site da Agência.
+
+**Nada muda hoje para quem dirige, e isso importa contra o golpe.** Audiência pública é etapa de consulta sobre uma minuta de edital, não é regra em vigor. Até que o experimento exista e funcione, **continua não havendo um site único nacional para pagar pedágio eletrônico**: o pagamento é feito com a concessionária responsável pelo trecho, pelo endereço oficial dela. Prazos, canais e regras seguem os de sempre, em [Como pagar o pedágio Free Flow](como-pagar.md), e a leitura completa do golpe está em [Golpe do falso pedágio](golpe-do-falso-pedagio.md).
+
+Fonte: [ANTT, abertura da audiência pública](https://www.gov.br/antt/pt-br/assuntos/noticias-defeso-eleitoral/antt-abre-audiencia-publica-sobre-teste-de-interoperabilidade-do-free-flow-entre-concessionarias). Afeta: [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv), [Golpe do falso pedágio](golpe-do-falso-pedagio.md) e [História do Free Flow no Brasil](historia-do-free-flow-no-brasil.md).
+
 ### 24 de agosto de 2026: o app CNH do Brasil passa a mostrar passagens de Free Flow
 
 O Ministério dos Transportes liberou no app **CNH do Brasil** a consulta integrada das passagens de Free Flow registradas para o veículo, em rodovias federais, estaduais e municipais integradas ao sistema. O caminho no app é Veículos, depois o veículo, depois Pedágio eletrônico. A consulta estreou com **14 concessionárias integradas**, mostra placa, data e local, valor, concessionária, prazo e situação, permite **contestar** uma passagem e envia dois alertas, um em até 24 horas após a passagem e outro cinco dias antes do vencimento. O histórico alcança os últimos cinco anos. O app **não recebe pagamento**: ele identifica a concessionária responsável e encaminha ao canal dela. Pessoas físicas também podem consultar pelo **Portal de Serviços Senatran**, com mais detalhe, e frotas e empresas consultam **exclusivamente** por ele.
@@ -30,13 +42,11 @@ Fonte: [Ministério dos Transportes](https://www.gov.br/transportes/pt-br/assunt
 
 ### 24 de agosto de 2026: a ANTT anuncia nova etapa regulatória para os meios de pagamento
 
-No mesmo evento de lançamento da consulta pela CNH do Brasil, a **ANTT** apresentou os avanços da agenda do pedágio eletrônico e anunciou a próxima etapa: uma discussão regulatória voltada especificamente às **formas de pagamento** oferecidas ao usuário do Free Flow.
+No mesmo evento de lançamento da consulta pela CNH do Brasil, a **ANTT** apresentou os avanços da agenda do pedágio eletrônico e anunciou a próxima etapa: uma discussão regulatória voltada às **formas de pagamento** oferecidas ao usuário do Free Flow.
 
-**O que está decidido e o que não está.** A proposta de abertura de audiência pública foi **pautada para a reunião da Diretoria Colegiada de 27 de agosto de 2026**. Se aprovada ali, a previsão divulgada pela Agência é de receber contribuições **entre 8 de setembro e 23 de outubro de 2026**. Enquanto a Diretoria não decide, trata-se de proposta pautada, e não de audiência pública aberta.
+**O que foi anunciado e o que saiu.** A proposta de abertura de audiência pública foi **pautada para a reunião da Diretoria Colegiada de 27 de agosto de 2026** e **aprovada nessa data**, conforme a nota acima. O objeto aprovado ficou mais estreito do que o anunciado aqui: não é uma regra geral de meios de pagamento, e sim o edital de um ambiente de testes de **interoperabilidade**.
 
 Depois da consulta, a Agência pretende avançar para um processo que permita às concessionárias apresentar projetos de meios de pagamento compatíveis com requisitos de confiabilidade, consistência e interoperabilidade. Na mesma apresentação, a ANTT listou como avanços já consolidados a regulamentação definitiva do Free Flow federal, a ampliação do prazo de pagamento de 15 para 30 dias e a criação de um grupo de trabalho de interoperabilidade.
-
-**Nada muda hoje para quem dirige.** Prazos, canais e regras de pagamento seguem os de sempre, e estão em [Como pagar o pedágio Free Flow](como-pagar.md).
 
 Fonte: [ANTT, Free Flow](https://www.gov.br/antt/pt-br/free-flow). Afeta: [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv) e [História do Free Flow no Brasil](historia-do-free-flow-no-brasil.md).
 
@@ -208,12 +218,13 @@ Fonte: [ANTT](https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/free-flow-
 
 | Quando | O que acontece | Onde |
 |---|---|---|
+| 8 de setembro a 23 de outubro de 2026 | Prazo de contribuições da audiência pública sobre o sandbox de interoperabilidade | Nacional, ANTT |
+| 8 de outubro de 2026 | Sessão pública híbrida da audiência, às 14h, em Brasília | Nacional, ANTT |
 | 10 de outubro de 2026 | Início anunciado da cobrança na MT-130, com seis pórticos | MT, Rota dos Grãos |
 | 16 de novembro de 2026 | Fim do prazo de regularização sem penalidades de trânsito | Nacional |
 | 17 de novembro de 2026 | Tarifas em aberto voltam a poder gerar auto de infração | Nacional |
 | Dezembro de 2026 | Free Flow previsto em contrato na BR-116 e BR-251, norte de Minas | MG, Ecovias das Gerais |
 | Novembro de 2026 | 14 pórticos previstos no corredor Três Lagoas, Água Clara e Campo Grande | MS, Rota da Celulose |
-| 27 de agosto de 2026 | Diretoria Colegiada da ANTT decide sobre abrir audiência pública dos meios de pagamento | Nacional, ANTT |
 | Sem data | Retomada do Sistema Anchieta-Imigrantes, com o pórtico da subida após o km 38 | SP, Ecovias dos Imigrantes |
 
 Trechos com status `previsto` ou `adiado` **não cobram tarifa por pórtico hoje**. A lista completa está na seção [Onde o Free Flow ainda vai chegar](../README.md#onde-o-free-flow-ainda-vai-chegar).
