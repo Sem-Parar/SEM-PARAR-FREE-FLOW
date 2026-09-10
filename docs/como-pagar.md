@@ -72,6 +72,7 @@ Canal oficial de cada concessionária com Free Flow **em operação**, em 26 de 
 | MG | Nova 381 | BR-381 Vale do Aço | [pedagioeletronico.nova381.com](https://pedagioeletronico.nova381.com) |
 | MG | EPR Sul de Minas | MG-459 | [pedagiosemcancela.com.br](https://www.pedagiosemcancela.com.br) |
 | GO | Rota Verde Goiás | BR-060; BR-452 | [pedagioeletronico.rotaverdegoias.com.br](https://pedagioeletronico.rotaverdegoias.com.br) |
+| GO, MT | Rota Agro MT-GO (Way-364) | BR-060; BR-364, de Rio Verde a Rondonópolis | [way364.com.br](https://way364.com.br) |
 | RS | Caminhos da Serra Gaúcha (CSG) | ERS-122; ERS-240; ERS-446 | [freeflow.csg.com.br](https://freeflow.csg.com.br) |
 | RO | Nova 364 | BR-364 Rota Agro Norte | [pedagioeletronico.nova364.com](https://pedagioeletronico.nova364.com) |
 
@@ -80,6 +81,7 @@ Canal oficial de cada concessionária com Free Flow **em operação**, em 26 de 
 - Na **Tamoios**, passagens já cobradas por tag **não aparecem** no portal de pagamento avulso. A ausência ali não significa que existe débito em aberto, e essa confusão é explorada por golpistas.
 - Na **Ecovias Noroeste Paulista**, o prazo **já foi menor** que a regra geral: no lançamento, em setembro de 2024, era de 15 dias, e hoje a concessionária divulga 30 dias. É o melhor lembrete de que prazo de trecho muda, e de que confirmar no canal da concessionária vale mais do que confiar na memória.
 - No **Rodoanel Norte**, motos **não são isentas**, ao contrário do que acontece em vários outros trechos.
+- Na **BR-060, em Goiás, há dois operadores em trechos diferentes**: a Rota Verde de Goiânia a Rio Verde e a Way-364 de Rio Verde a Jataí. O canal de uma não serve para a outra, e o que separa as duas é o quilômetro. Na dúvida, o app CNH do Brasil mostra a passagem e indica a concessionária.
 
 ---
 
