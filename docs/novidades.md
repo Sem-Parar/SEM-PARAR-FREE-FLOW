@@ -2,14 +2,14 @@
 
 **Esta é a linha do tempo do pedágio eletrônico brasileiro: cada mudança confirmada em pórtico, prazo ou regra entra aqui com data, resumo e fonte oficial linkada.** As notas ficam em ordem do mais recente para o mais antigo. Mudanças de status de rodovia entram em até 72 horas após o fato confirmado, e a base de dados é corrigida no mesmo movimento.
 
-> Última verificação em 31 de agosto de 2026.
+> Última verificação em 10 de setembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Termos técnicos estão no [glossário](glossario.md), a cronologia consolidada em [História do Free Flow no Brasil](historia-do-free-flow-no-brasil.md) e o método de levantamento em [Metodologia e fontes](metodologia-e-fontes.md).
 
 ---
 
 ## O que está valendo agora, em três linhas
 
-1. **85 pórticos de cobrança em operação**, em 26 rodovias, 15 concessionárias e 7 estados: GO, MG, PR, RJ, RO, RS e SP.
+1. **90 pórticos de cobrança em operação**, em 28 rodovias, 16 concessionárias e 8 estados: GO, MG, MT, PR, RJ, RO, RS e SP.
 2. **O prazo de regularização sem penalidade de trânsito termina em 16 de novembro de 2026.** A tarifa continua devida.
 3. **O app CNH do Brasil já mostra passagens de Free Flow**, de rodovias federais, estaduais e municipais integradas.
 4. **A Senatran começou a homologar os sistemas**, e sistema não homologado não gera a infração do art. 209-A. A lista está em [Homologação do Free Flow pela Senatran](homologacao-senatran-free-flow.md).
@@ -18,17 +18,43 @@
 
 ## 2026
 
-### 27 de agosto de 2026: a ANTT aprova audiência pública sobre um portal único de pagamento
+### 7 de setembro de 2026: Mato Grosso entra no mapa, e Goiás ganha a segunda concessão
 
-A **ANTT** aprovou, na **1.040ª Reunião de Diretoria Pública, em 27 de agosto de 2026**, a abertura de audiência pública sobre a **minuta de Edital de Sandbox Regulatório de interoperabilidade do sistema de livre passagem**. É a decisão que estava pautada e que esta página vinha registrando como proposta, e agora está tomada.
+À **zero hora de 7 de setembro de 2026**, a **Concessionária Rota Agro MT-GO**, a Way-364, começou a cobrar em **cinco pórticos** ao longo dos 490,06 quilômetros das **BR-060 e BR-364** entre Rio Verde, em Goiás, e Rondonópolis, em Mato Grosso. Três pórticos ficam em solo goiano e dois em mato-grossense, o que faz de **Mato Grosso o oitavo estado** com Free Flow ativo no país, um mês antes do previsto pela MT-130.
 
-**O que está em teste.** Um **portal único** no qual o motorista consulta, de forma consolidada, as passagens registradas em **diferentes concessionárias de rodovias federais** e escolhe livremente o canal para quitar, inclusive quando passou por mais de uma concessão na mesma viagem. Duas garantias entram na modelagem: **cada concessionária continua titular dos valores** de pedágio das suas rodovias, e o **portal não faz custódia de recursos**, de modo que o valor pago vai direto para a concessionária responsável pelo trecho. O experimento pode durar até **36 meses**, com fase operacional de no mínimo **12 meses**, e nessa etapa um único sistema é selecionado por critérios técnicos, regulatórios e econômicos. A modelagem saiu de um grupo de trabalho multidisciplinar instituído pela Agência em **maio de 2026**.
+A cobrança foi autorizada pela **Deliberação ANTT nº 248/2026**, aprovada na 1.040ª Reunião de Diretoria Pública de 27 de agosto e publicada no DOU de 31 de agosto, depois de vistoria presencial da Agência nos trechos concedidos. A autorização determinou o início em dez dias, e a concessionária rodou **marcha branca desde 28 de agosto**, com os veículos passando pelos pórticos sem cobrança.
 
-**Como participar.** Contribuições escritas de **8 de setembro** até as **23h59 de 23 de outubro de 2026**, horário de Brasília. Sessão pública híbrida em **8 de outubro de 2026, a partir das 14h**, no Auditório Eliseu Resende, no Setor de Clubes Esportivos Sul, em Brasília, com transmissão pelo canal da ANTT no YouTube. Os documentos e as orientações estão disponíveis **desde 31 de agosto de 2026**, na seção de Participação Social do site da Agência.
+**O que muda para quem dirige.** A concessão é **100% eletrônica**, sem nenhuma praça com cancela. **Motocicletas são isentas em todo o trecho.** O prazo sem tag é de **30 dias**, e os canais são o site da concessionária, o app WayRodovias, os totens das bases SAU e três postos credenciados, em Rio Verde, Mineiros e Pedra Preta. Quem faz a viagem inteira cruza os cinco pontos e paga cinco tarifas.
 
-**Nada muda hoje para quem dirige, e isso importa contra o golpe.** Audiência pública é etapa de consulta sobre uma minuta de edital, não é regra em vigor. Até que o experimento exista e funcione, **continua não havendo um site único nacional para pagar pedágio eletrônico**: o pagamento é feito com a concessionária responsável pelo trecho, pelo endereço oficial dela. Prazos, canais e regras seguem os de sempre, em [Como pagar o pedágio Free Flow](como-pagar.md), e a leitura completa do golpe está em [Golpe do falso pedágio](golpe-do-falso-pedagio.md).
+**A atenção que este trecho exige.** A BR-060 passou a ter **dois operadores de Free Flow em Goiás**, a Rota Verde no trecho de Goiânia a Rio Verde e a Way-364 de Rio Verde a Jataí, com canais de pagamento diferentes. O que separa as duas é o quilômetro, não a rodovia.
 
-Fonte: [ANTT, abertura da audiência pública](https://www.gov.br/antt/pt-br/assuntos/noticias-defeso-eleitoral/antt-abre-audiencia-publica-sobre-teste-de-interoperabilidade-do-free-flow-entre-concessionarias). Afeta: [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv), [Golpe do falso pedágio](golpe-do-falso-pedagio.md) e [História do Free Flow no Brasil](historia-do-free-flow-no-brasil.md).
+**Uma divergência registrada.** A Deliberação nº 248/2026 nomeia como Jataí a praça P2, no km 258,66 da BR-364, e a concessionária e a imprensa local situam o ponto em Mineiros. Enquanto as fontes não convergem, o registro fica sob os dois nomes.
+
+Fonte: [Deliberação ANTT nº 248/2026](https://anttlegis.antt.gov.br/action/ActionDatalegis.php?acao=abrirTextoAto&tipo=DLB&numeroAto=00000248&seqAto=000&valorAno=2026&orgao=DG%2FANTT%2FMT&cod_modulo=623&cod_menu=9230) e [Way-364](https://way364.com.br). Afeta: [Free Flow em Mato Grosso](../estados/free-flow-mt.md), [Free Flow em Goiás](../estados/free-flow-go.md), [Free Flow por município](../FREE-FLOW-POR-MUNICIPIO.md), [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv), [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv) e [`dados/concessionarias-free-flow.csv`](../dados/concessionarias-free-flow.csv).
+
+### 27 de agosto de 2026: a ANTT abre a audiência pública dos meios de pagamento
+
+A Diretoria Colegiada da ANTT **aprovou**, na 1.040ª Reunião de Diretoria Pública, a abertura da audiência pública que havia anunciado três dias antes. Ela virou a **Audiência Pública nº 14/2026**, criada pela **Deliberação ANTT nº 247/2026** e divulgada no DOU de 31 de agosto.
+
+**O que está em discussão.** A minuta de **Edital de Sandbox Regulatório de Interoperabilidade do Sistema de Livre Passagem**, e seus anexos. O experimento quer testar um portal em que o motorista consulte as passagens de concessionárias diferentes num canal só e escolha como pagar, sem ficar preso ao canal individual de cada concessão. A ANTT vai selecionar uma concessionária e a solução tecnológica proposta por ela para operar o portal, e outras concessionárias e empresas de meios de pagamento poderão aderir como parceiras. Cada concessionária continua titular da tarifa das próprias rodovias, e o portal **não faz custódia dos recursos**.
+
+**As datas.** Contribuições de **8 de setembro até as 23h59 de 23 de outubro de 2026**, horário de Brasília. Sessão pública híbrida em **8 de outubro de 2026**, às 14h, no Auditório Eliseu Resende, em Brasília, com transmissão pelo canal da ANTT no YouTube. A documentação está no ParticipANTT desde 31 de agosto. Dúvidas pelo e-mail `ap014_2026@antt.gov.br`.
+
+**Nada muda hoje para quem dirige.** Prazos, canais e regras de pagamento seguem os de sempre, e estão em [Como pagar o pedágio Free Flow](como-pagar.md). O que está em jogo é o desenho de um teste, e nem o teste começou.
+
+Fonte: [Deliberação ANTT nº 247/2026](https://anttlegis.antt.gov.br/action/ActionDatalegis.php?acao=abrirTextoAto&tipo=DLB&numeroAto=00000247&seqAto=000&valorAno=2026&orgao=DG%2FANTT%2FMT&cod_modulo=623&cod_menu=9230) e [Aviso de Audiência Pública nº 14/2026](https://anttlegis.antt.gov.br/action/ActionDatalegis.php?acao=abrirTextoAto&tipo=AUD&numeroAto=00000014&seqAto=000&valorAno=2026&orgao=DG%2FANTT%2FMT&cod_modulo=623&cod_menu=9230). Afeta: [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv) e [História do Free Flow no Brasil](historia-do-free-flow-no-brasil.md).
+
+### 27 de agosto de 2026: a ANTT abre tomada de subsídios para revisar a norma da tag
+
+No mesmo dia, e por um caminho diferente, a ANTT publicou no DOU o **Aviso de Tomada de Subsídios nº 4/2026**, para colher contribuições em complemento ao Relatório de Avaliação do Resultado Regulatório do projeto de **revisão da Resolução ANTT nº 4.281/2014**, na Agenda Regulatória 2025-2026.
+
+**Por que ela importa mais do que parece.** A Resolução nº 4.281/2014 é a norma que padroniza a arrecadação eletrônica e cria a figura da AMAP, a Administradora de Meios de Pagamento para Arrecadação de Pedágio. **É ela que garante que uma tag autorizada seja lida em qualquer pórtico federal.** Rever essa resolução é mexer na base da interoperabilidade das tags, e não num experimento.
+
+**As datas.** Contribuições das **9h de 3 de setembro às 18h de 2 de outubro de 2026**, pelo ParticipANTT.
+
+**São dois processos distintos rodando em paralelo**, com números, prazos e objetos próprios. A Audiência Pública nº 14/2026 desenha um experimento de interoperabilidade de pagamento; a Tomada de Subsídios nº 4/2026 reavalia a regra geral que já está em vigor. Quem acompanha o tema precisa dos dois.
+
+Fonte: [ParticipANTT](https://participantt.antt.gov.br) e [ANTTlegis](https://anttlegis.antt.gov.br/). Afeta: [Base legal do Free Flow](../BASE-LEGAL-DO-FREE-FLOW.md), [`dados/base-legal-free-flow.csv`](../dados/base-legal-free-flow.csv) e [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv).
 
 ### 24 de agosto de 2026: o app CNH do Brasil passa a mostrar passagens de Free Flow
 
@@ -42,11 +68,13 @@ Fonte: [Ministério dos Transportes](https://www.gov.br/transportes/pt-br/assunt
 
 ### 24 de agosto de 2026: a ANTT anuncia nova etapa regulatória para os meios de pagamento
 
-No mesmo evento de lançamento da consulta pela CNH do Brasil, a **ANTT** apresentou os avanços da agenda do pedágio eletrônico e anunciou a próxima etapa: uma discussão regulatória voltada às **formas de pagamento** oferecidas ao usuário do Free Flow.
+No mesmo evento de lançamento da consulta pela CNH do Brasil, a **ANTT** apresentou os avanços da agenda do pedágio eletrônico e anunciou a próxima etapa: uma discussão regulatória voltada especificamente às **formas de pagamento** oferecidas ao usuário do Free Flow.
 
-**O que foi anunciado e o que saiu.** A proposta de abertura de audiência pública foi **pautada para a reunião da Diretoria Colegiada de 27 de agosto de 2026** e **aprovada nessa data**, conforme a nota acima. O objeto aprovado ficou mais estreito do que o anunciado aqui: não é uma regra geral de meios de pagamento, e sim o edital de um ambiente de testes de **interoperabilidade**.
+**O que aconteceu depois.** A proposta foi **aprovada pela Diretoria Colegiada em 27 de agosto de 2026** e virou a Audiência Pública nº 14/2026, com contribuições de 8 de setembro a 23 de outubro, exatamente como a Agência havia divulgado. O registro do que foi decidido está na nota de [27 de agosto](#27-de-agosto-de-2026-a-antt-abre-a-audiência-pública-dos-meios-de-pagamento).
 
 Depois da consulta, a Agência pretende avançar para um processo que permita às concessionárias apresentar projetos de meios de pagamento compatíveis com requisitos de confiabilidade, consistência e interoperabilidade. Na mesma apresentação, a ANTT listou como avanços já consolidados a regulamentação definitiva do Free Flow federal, a ampliação do prazo de pagamento de 15 para 30 dias e a criação de um grupo de trabalho de interoperabilidade.
+
+**Nada muda hoje para quem dirige.** Prazos, canais e regras de pagamento seguem os de sempre, e estão em [Como pagar o pedágio Free Flow](como-pagar.md).
 
 Fonte: [ANTT, Free Flow](https://www.gov.br/antt/pt-br/free-flow). Afeta: [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv) e [História do Free Flow no Brasil](historia-do-free-flow-no-brasil.md).
 
@@ -54,7 +82,7 @@ Fonte: [ANTT, Free Flow](https://www.gov.br/antt/pt-br/free-flow). Afeta: [`dado
 
 A concessionária **Rota dos Grãos** anunciou o início da cobrança eletrônica na **MT-130, entre Primavera do Leste e Paranatinga**, para **10 de outubro de 2026**. O projeto substitui as duas praças físicas do trecho por **seis pórticos** distribuídos ao longo dos cerca de 140 quilômetros da rodovia, com cobrança proporcional ao trecho efetivamente percorrido. Até lá não há cobrança por pórtico na MT-130, e o portal oficial de consulta e pagamento da concessionária já está no ar.
 
-Quando a operação começar, Mato Grosso passa a ser o **oitavo estado** com Free Flow ativo no país. A rodovia entra agora na base com status `previsto`.
+A rodovia entra na base com status `previsto`. **Mato Grosso, no entanto, não esperou por ela:** o estado virou o oitavo com Free Flow ativo em 7 de setembro de 2026, pela concessão da Way-364 na BR-364. Quando a MT-130 começar, o estado passa a ter duas concessões cobrando por pórtico.
 
 Fonte: [Rota dos Grãos, portal de pedágio eletrônico](https://pedagioeletronico.rotadosgraos130.com.br). Afeta: [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv) e [`dados/concessionarias-free-flow.csv`](../dados/concessionarias-free-flow.csv).
 
@@ -218,9 +246,10 @@ Fonte: [ANTT](https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/free-flow-
 
 | Quando | O que acontece | Onde |
 |---|---|---|
-| 8 de setembro a 23 de outubro de 2026 | Prazo de contribuições da audiência pública sobre o sandbox de interoperabilidade | Nacional, ANTT |
-| 8 de outubro de 2026 | Sessão pública híbrida da audiência, às 14h, em Brasília | Nacional, ANTT |
+| 2 de outubro de 2026 | Fim do prazo de contribuições da Tomada de Subsídios nº 4/2026, sobre os meios de pagamento da tarifa | Nacional, ANTT |
+| 8 de outubro de 2026 | Sessão pública híbrida da Audiência Pública nº 14/2026, em Brasília, às 14h | Nacional, ANTT |
 | 10 de outubro de 2026 | Início anunciado da cobrança na MT-130, com seis pórticos | MT, Rota dos Grãos |
+| 23 de outubro de 2026 | Fim do prazo de contribuições da Audiência Pública nº 14/2026 | Nacional, ANTT |
 | 16 de novembro de 2026 | Fim do prazo de regularização sem penalidades de trânsito | Nacional |
 | 17 de novembro de 2026 | Tarifas em aberto voltam a poder gerar auto de infração | Nacional |
 | Dezembro de 2026 | Free Flow previsto em contrato na BR-116 e BR-251, norte de Minas | MG, Ecovias das Gerais |
@@ -236,6 +265,7 @@ Trechos com status `previsto` ou `adiado` **não cobram tarifa por pórtico hoje
 | Regra | O que define |
 |---|---|
 | Resolução ANTT nº 6.079/2026 | Sistema de livre passagem nas rodovias federais concedidas, publicada em 27/03/2026 |
+| Resolução ANTT nº 4.281/2014 | Arrecadação eletrônica e figura da AMAP; é o que garante a leitura da tag em qualquer pórtico federal. Continua em vigor, e está em revisão pela ANTT |
 | Resolução CONTRAN nº 1.013/2024 | Prazo geral de 30 dias para pagamento da tarifa, ressalvado o contrato de cada concessão |
 | Deliberação CONTRAN nº 277/2026 | Conta os 30 dias da confirmação do processamento do registro da passagem, e não da passagem; regularização sem penalidades de trânsito até 16/11/2026, mantida a obrigação de pagar a tarifa |
 | Portaria Senatran nº 442/2025 | Homologação e interoperabilidade dos sistemas de livre passagem; sistema não homologado não gera a infração do art. 209-A |
