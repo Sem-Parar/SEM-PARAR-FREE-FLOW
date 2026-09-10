@@ -4,7 +4,7 @@
 
 Esta página reúne a cadeia normativa inteira, com o que cada norma define, o que ela garante a você e onde conferir o texto oficial.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 10 de setembro de 2026.
 > Página pilar do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](README.md). Base de dados em [`dados/base-legal-free-flow.csv`](dados/base-legal-free-flow.csv).
 
 ---
@@ -15,6 +15,7 @@ Esta página reúne a cadeia normativa inteira, com o que cada norma define, o q
 - [A defesa mais comum, e por que os tribunais a rejeitam](#a-defesa-mais-comum-e-por-que-os-tribunais-a-rejeitam)
 - [Tarifa e multa são coisas diferentes](#tarifa-e-multa-são-coisas-diferentes)
 - [A cadeia normativa completa](#a-cadeia-normativa-completa)
+- [O que está em revisão agora](#o-que-está-em-revisão-agora)
 - [Duas normas contam o prazo de marcos diferentes](#duas-normas-contam-o-prazo-de-marcos-diferentes)
 - [Sistema não homologado não gera infração](#sistema-não-homologado-não-gera-infração)
 - [O que a norma garante a você](#o-que-a-norma-garante-a-você)
@@ -81,7 +82,7 @@ Onze normas sustentam o Free Flow no Brasil. A base bruta, com data, ementa e li
 |---|:---:|:---:|---|
 | **Lei nº 14.157/2021** | Congresso | 01/06/2021 | Cria o sistema de livre passagem e insere o art. 209-A no CTB |
 | **Art. 209-A do CTB** | Congresso | 01/06/2021 | Tipifica a infração: grave, penalidade de multa |
-| **Resolução ANTT nº 4.281/2014** | ANTT | 17/02/2014 | Padroniza a arrecadação eletrônica e cria a figura da AMAP |
+| **Resolução ANTT nº 4.281/2014** | ANTT | 17/02/2014 | Padroniza a arrecadação eletrônica e cria a figura da AMAP. **Em revisão pela ANTT** |
 | **Resolução ANTT nº 6.079/2026** | ANTT | 27/03/2026 | Regulamenta a livre passagem nas federais: prazos, meios de pagamento e direitos |
 | **Resolução CONTRAN nº 984/2022** | CONTRAN | 15/12/2022 | Primeiro regulamento do sistema, antecessor da 1.013 |
 | **Resolução CONTRAN nº 1.013/2024** | CONTRAN | 14/10/2024 | Prazo de 30 dias para a tarifa e dever de comunicar o usuário |
@@ -98,6 +99,25 @@ Três leituras que essa tabela permite e que raramente aparecem juntas:
 **A norma mais antiga é de 2014**, sete anos antes da lei do Free Flow. A Resolução ANTT nº 4.281/2014 já padronizava a arrecadação eletrônica para as praças com cancela, e é a mesma norma que hoje garante a interoperabilidade das tags nos pórticos.
 
 **A norma mais recente é de junho de 2025** e é a que menos se conhece, embora seja a que mais protege o motorista. Ver adiante.
+
+---
+
+## O que está em revisão agora
+
+A cadeia acima é o que vale hoje, e ela continua valendo integralmente. Mas duas frentes abertas pela ANTT em **27 de agosto de 2026** podem mudar parte dela, e vale saber que existem antes de elas virarem norma.
+
+| Frente | O que está em jogo | Prazo de contribuições |
+|---|---|---|
+| **Tomada de Subsídios nº 4/2026** | Revisão da **Resolução ANTT nº 4.281/2014**, a norma da arrecadação eletrônica e da AMAP | Das 9h de 03/09/2026 às 18h de 02/10/2026 |
+| **Audiência Pública nº 14/2026** | Minuta de Edital de **Sandbox Regulatório de Interoperabilidade** do sistema de livre passagem | De 08/09/2026 às 23h59 de 23/10/2026 |
+
+**São processos distintos, e a diferença importa.** A tomada de subsídios reavalia uma regra que já está em vigor há mais de dez anos. A audiência pública desenha um experimento controlado, um ambiente de testes, que ainda nem começou. Nenhuma das duas altera hoje o seu prazo, o seu canal de pagamento ou a sua tag.
+
+**Por que a revisão da 4.281/2014 é a mais relevante das duas.** É essa resolução que padroniza a arrecadação eletrônica e cria a figura da **AMAP**, a Administradora de Meios de Pagamento para Arrecadação de Pedágio. Na prática, é ela que garante que uma tag autorizada seja lida em qualquer pórtico das rodovias federais concedidas. Mexer nela é mexer na base da interoperabilidade das tags no Brasil.
+
+A **Audiência Pública nº 14/2026** foi aberta pela Deliberação ANTT nº 247/2026 e tem sessão pública híbrida marcada para **8 de outubro de 2026**, às 14h, no Auditório Eliseu Resende, em Brasília, com transmissão pelo canal da ANTT no YouTube. As duas frentes recebem contribuição pelo **ParticipANTT**, e qualquer pessoa pode participar.
+
+Enquanto elas correm, a regra que vale é a da tabela acima. O acompanhamento fica em [Novidades do Free Flow no Brasil](docs/novidades.md).
 
 ---
 
@@ -222,6 +242,8 @@ Em [`dados/base-legal-free-flow.csv`](dados/base-legal-free-flow.csv), com uma l
 | [ANTTlegis](https://anttlegis.antt.gov.br/) | Texto das resoluções da ANTT |
 | [Senatran, portarias](https://www.gov.br/transportes/pt-br/assuntos/transito/senatran) | Portaria nº 442/2025 e as portarias de homologação |
 | [CONTRAN, Ministério dos Transportes](https://www.gov.br/transportes/pt-br/assuntos/transito/contran) | Resoluções e deliberações do Conselho |
+| [ParticipANTT](https://participantt.antt.gov.br) | Documentação e envio de contribuições das consultas abertas da Agência |
+| [Deliberação ANTT nº 247/2026](https://anttlegis.antt.gov.br/action/ActionDatalegis.php?acao=abrirTextoAto&tipo=DLB&numeroAto=00000247&seqAto=000&valorAno=2026&orgao=DG%2FANTT%2FMT&cod_modulo=623&cod_menu=9230) | A decisão que abriu a Audiência Pública nº 14/2026 |
 
 Em caso de divergência, as fontes oficiais prevalecem sobre o que está aqui. Este material é informativo e não substitui orientação jurídica.
 
