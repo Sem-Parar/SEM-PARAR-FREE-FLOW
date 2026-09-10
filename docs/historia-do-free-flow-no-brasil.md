@@ -1,11 +1,11 @@
 # História do Free Flow no Brasil: quando começou e todas as datas
 
-**A primeira cobrança de Free Flow do Brasil começou em 31 de março de 2023, na Rio-Santos, o trecho fluminense da BR-101, operado pela RioSP. Antes dela houve um mês de operação assistida, iniciada em 30 de janeiro de 2023, em que os pórticos já liam os veículos e ainda não cobravam. De lá para cá o país saiu de três pórticos para 85, em sete estados, e o pedágio eletrônico deixou de ser experimento para virar regra com norma própria.**
+**A primeira cobrança de Free Flow do Brasil começou em 31 de março de 2023, na Rio-Santos, o trecho fluminense da BR-101, operado pela RioSP. Antes dela houve um mês de operação assistida, iniciada em 30 de janeiro de 2023, em que os pórticos já liam os veículos e ainda não cobravam. De lá para cá o país saiu de três pórticos para 90, em oito estados, e o pedágio eletrônico deixou de ser experimento para virar regra com norma própria.**
 
 Esta página reúne a cronologia completa, do primeiro regulamento à data mais recente, com fonte oficial em cada marco. É a linha do tempo estável do sistema. O que mudou nas últimas semanas fica em [Novidades do Free Flow no Brasil](novidades.md), que é a página viva.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
-> Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Base de dados em [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv), com 36 marcos datados.
+> Publicado em 26 de agosto de 2026. Última atualização em 10 de setembro de 2026.
+> Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Base de dados em [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv), com 42 marcos datados.
 
 ---
 
@@ -16,7 +16,7 @@ Esta página reúne a cronologia completa, do primeiro regulamento à data mais 
 - [2023: os três primeiros pórticos](#2023-os-três-primeiros-pórticos)
 - [2024: o modelo sai do Rio e do Sul](#2024-o-modelo-sai-do-rio-e-do-sul)
 - [2025: o ano em que a escala mudou](#2025-o-ano-em-que-a-escala-mudou)
-- [2026: o ano da regra e da consulta nacional](#2026-o-ano-da-regra-e-da-consulta-nacional)
+- [2026: o ano da regra, da consulta nacional e do oitavo estado](#2026-o-ano-da-regra-da-consulta-nacional-e-do-oitavo-estado)
 - [Quais são os marcos que mais importam?](#quais-são-os-marcos-que-mais-importam)
 - [O que ainda está marcado no calendário](#o-que-ainda-está-marcado-no-calendário)
 - [Perguntas frequentes](#perguntas-frequentes)
@@ -97,7 +97,7 @@ Foi o ano em que o Free Flow deixou de ser um caso isolado e passou a existir em
 
 ---
 
-## 2026: o ano da regra e da consulta nacional
+## 2026: o ano da regra, da consulta nacional e do oitavo estado
 
 | Data | O que aconteceu | Onde |
 |---|---|---|
@@ -116,12 +116,18 @@ Foi o ano em que o Free Flow deixou de ser um caso isolado e passou a existir em
 | 10/08/2026 | **Quatorze portarias de homologação** publicadas em onze dias | Nacional |
 | 24/08/2026 | **O app CNH do Brasil passa a mostrar passagens de Free Flow** | Nacional |
 | 24/08/2026 | A ANTT anuncia **nova etapa regulatória** para os meios de pagamento | Nacional |
+| 27/08/2026 | A ANTT **aprova a abertura da Audiência Pública nº 14/2026**, sobre o sandbox de interoperabilidade do pagamento | Nacional |
+| 27/08/2026 | A ANTT abre a **Tomada de Subsídios nº 4/2026**, para revisar a Resolução nº 4.281/2014 | Nacional |
+| 27/08/2026 | A ANTT **autoriza a cobrança** em cinco pórticos da BR-060/364, entre Goiás e Mato Grosso | GO e MT |
+| 07/09/2026 | A Way-364 começa a cobrar e **Mato Grosso vira o oitavo estado** com Free Flow ativo | GO e MT, BR-060 e BR-364 |
 
 Três leituras que a tabela não entrega sozinha:
 
 **Rondônia é o único caso do país em que a cobrança começou, parou e voltou.** Foram catorze dias de suspensão por liminar, entre 29 de janeiro e 12 de fevereiro de 2026. As passagens ocorridas durante a suspensão **não geram tarifa devida**, e a retomada valeu daqui para a frente, sem cobrança retroativa. É informação que quase ninguém reúne, e está em [Free Flow em Rondônia](../estados/free-flow-ro.md).
 
 **O Paraná fez em quatro meses o que outros estados fizeram em três anos.** Todos os 14 pórticos paranaenses entraram em operação entre fevereiro e junho de 2026, e o estado saiu de zero para o segundo lugar nacional nesse intervalo. Veja [Free Flow no Paraná](../estados/free-flow-pr.md).
+
+**Mato Grosso entrou pela porta que ninguém estava olhando.** O calendário apontava a MT-130, em 10 de outubro, como a estreia mato-grossense. Quem chegou primeiro foi a Way-364, na BR-364, em 7 de setembro, numa concessão que atravessa a divisa e cobra também em Goiás. É o exemplo mais recente da regra que este repositório aplica desde a primeira versão: data anunciada é promessa, e o mapa muda pelo que é confirmado, não pelo que foi agendado.
 
 **A consulta nacional de 24 de agosto fechou uma lacuna de três anos.** Até ela, descobrir se você tinha passado por um pórtico exigia saber qual concessionária administrava aquele trecho e procurar o canal dela. O app CNH do Brasil passou a reunir as passagens de rodovias federais, estaduais e municipais integradas, com 14 concessionárias na estreia. Ele mostra, alerta e encaminha, mas **não recebe pagamento**. O passo a passo está em [Como consultar o Free Flow no app CNH do Brasil](consulta-app-cnh-do-brasil.md).
 
@@ -147,8 +153,10 @@ Datas anunciadas ou previstas em norma. **Anúncio de início de cobrança é pr
 
 | Quando | O que acontece | Situação |
 |---|---|---|
-| 27/08/2026 | A Diretoria Colegiada da ANTT decide sobre abrir audiência pública para os meios de pagamento do Free Flow | Proposta pautada |
-| 10/10/2026 | Início anunciado da cobrança na MT-130, que faria de Mato Grosso o oitavo estado | Anunciado |
+| 02/10/2026 | Último dia de contribuições da Tomada de Subsídios nº 4/2026, sobre os meios de pagamento da tarifa | Confirmado em aviso |
+| 08/10/2026 | Sessão pública híbrida da Audiência Pública nº 14/2026, em Brasília | Confirmado em aviso |
+| 10/10/2026 | Início anunciado da cobrança na MT-130, a segunda concessão de Mato Grosso | Anunciado |
+| 23/10/2026 | Último dia de contribuições da Audiência Pública nº 14/2026 | Confirmado em aviso |
 | 16/11/2026 | Último dia da janela de regularização sem penalidades de trânsito | Confirmado em norma |
 | 17/11/2026 | A regra ordinária volta a valer e tarifas em aberto voltam a poder gerar auto de infração | Confirmado em norma |
 | Sem data | Retomada do Sistema Anchieta-Imigrantes, com o pórtico da subida após o km 38 | Adiado |
