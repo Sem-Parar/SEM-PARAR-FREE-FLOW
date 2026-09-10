@@ -1,6 +1,6 @@
 # Sites e apps oficiais para pagar o Free Flow (lista verificada)
 
-**Esta é a lista dos canais oficiais de consulta e pagamento do Free Flow no Brasil, 29 endereços conferidos um a um, com o nível de verificação declarado. A regra que organiza tudo: canal de governo nunca recebe pagamento e nunca pede dados de cartão. ANTT, app CNH do Brasil, Portal de Serviços Senatran e Siga Fácil apenas mostram a passagem e encaminham à concessionária, que é quem cobra.**
+**Esta é a lista dos canais oficiais de consulta e pagamento do Free Flow no Brasil, 30 endereços conferidos um a um, com o nível de verificação declarado. A regra que organiza tudo: canal de governo nunca recebe pagamento e nunca pede dados de cartão. ANTT, app CNH do Brasil, Portal de Serviços Senatran e Siga Fácil apenas mostram a passagem e encaminham à concessionária, que é quem cobra.**
 
 Vale para o sistema com qualquer um dos três nomes: **Free Flow**, **pedágio eletrônico** e **pedágio sem cancela**.
 
@@ -62,6 +62,7 @@ Nenhum dos cinco recebe pagamento de pedágio. Nenhum dos cinco pede dados de ca
 | **Pedágio Eletrônico EPR** | Grupo EPR | Concessões EPR. App oficial: Pedágio Eletrônico EPR. A EPR declara que não envia boletos | [eprpedagioeletronico.com.br](https://www.eprpedagioeletronico.com.br) |
 | **Pedágio sem Cancela** | EPR Sul de Minas | MG-459. Tem modalidade pré-paga | [pedagiosemcancela.com.br](https://www.pedagiosemcancela.com.br) |
 | **Pedágio Eletrônico Rota Verde** | Rota Verde Goiás | BR-060 e BR-452. A concessionária não comercializa tags | [pedagioeletronico.rotaverdegoias.com.br](https://pedagioeletronico.rotaverdegoias.com.br) |
+| **Way-364** | Rota Agro MT-GO | BR-060 e BR-364, de Rio Verde a Rondonópolis. O pagamento também sai pelo app WayRodovias, pelos totens das bases SAU e por três postos credenciados. Não há subdomínio próprio de pagamento confirmado em fonte oficial: chegue pelo site da concessionária | [way364.com.br](https://way364.com.br) |
 | **CSG FreeFlow** | Caminhos da Serra Gaúcha | ERS-122, ERS-240 e ERS-446. Paga só com a placa, sem cadastro | [freeflow.csg.com.br](https://freeflow.csg.com.br) |
 | **Tamoios Free Flow** | Concessionária Tamoios | SP-099, Contorno Sul. Passagens já cobradas por tag **não aparecem** aqui | [freeflowtamoios.com.br](https://freeflowtamoios.com.br) |
 | **Pedágio Eletrônico CNL** | Concessionária Novo Litoral, portal operado pela Movvia | SP-055, SP-088 e SP-098 | [cnl.pedagioeletronico.com.br](https://cnl.pedagioeletronico.com.br) |
