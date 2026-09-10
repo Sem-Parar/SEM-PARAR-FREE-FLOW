@@ -1,10 +1,10 @@
-# Free Flow por município: as 58 cidades com pórtico de cobrança no Brasil
+# Free Flow por município: as 63 cidades com pórtico de cobrança no Brasil
 
-**Cinquenta e oito municípios brasileiros têm pelo menos um pórtico de Free Flow cobrando tarifa hoje, distribuídos por 26 rodovias, 15 concessionárias e 7 estados: São Paulo, Paraná, Goiás, Minas Gerais, Rondônia, Rio Grande do Sul e Rio de Janeiro. A tabela abaixo lista todos, com a rodovia, o quilômetro, quantos pórticos e quem cobra. Use Ctrl+F, ou Cmd+F no Mac, e procure o nome da sua cidade.**
+**Sessenta e três municípios brasileiros têm pelo menos um pórtico de Free Flow cobrando tarifa hoje, distribuídos por 28 rodovias, 16 concessionárias e 8 estados: São Paulo, Paraná, Goiás, Minas Gerais, Rondônia, Rio Grande do Sul, Rio de Janeiro e Mato Grosso. A tabela abaixo lista todos, com a rodovia, o quilômetro, quantos pórticos e quem cobra. Use Ctrl+F, ou Cmd+F no Mac, e procure o nome da sua cidade.**
 
 Se a sua cidade não estiver na lista, **não existe cobrança de Free Flow nela**, e qualquer mensagem dizendo o contrário merece desconfiança.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 10 de setembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](README.md). Gerada a partir de [`dados/porticos-free-flow.csv`](dados/porticos-free-flow.csv).
 
 ---
@@ -22,12 +22,13 @@ Se a sua cidade não estiver na lista, **não existe cobrança de Free Flow nela
 
 ## Sua cidade tem Free Flow?
 
-Todos os municípios com pórtico de cobrança **em operação**, em ordem alfabética. São 56 registros para 58 municípios, porque alguns pórticos ficam na divisa entre duas cidades.
+Todos os municípios com pórtico de cobrança **em operação**, em ordem alfabética. São 61 registros para 63 municípios, porque alguns pórticos ficam na divisa entre duas cidades e um deles tem o município em divergência entre as fontes.
 
 | Município | UF | Rodovia | km | Pórticos | Quem cobra |
 |---|:---:|---|---|:---:|---|
 | **Abadia de Goiás** | GO | BR-060 | 172 / 182,6 | 2 | [Rota Verde](concessionarias/free-flow-rota-verde.md) |
 | **Acreúna** | GO | BR-060 | 325,89 / 326 | 2 | [Rota Verde](concessionarias/free-flow-rota-verde.md) |
+| **Alto Garças** | MT | BR-364 | 51,6 | 1 | [Way-364](estados/free-flow-mt.md) |
 | **Alto Paraíso** | RO | BR-364 | 562,3 | 1 | [Nova 364](concessionarias/free-flow-nova-364.md) |
 | **Alumínio / Sorocaba** | SP | SP-270 | 83 | 1 | [Motiva Sorocabana](concessionarias/free-flow-motiva-ccr.md) |
 | **Ampére** | PR | PR-182 | 517,4 | 1 | [EPR Iguaçu](concessionarias/free-flow-epr.md) |
@@ -56,6 +57,8 @@ Todos os municípios com pórtico de cobrança **em operação**, em ordem alfab
 | **Jaboticabal** | SP | SP-333 | 110 | 1 | [Ecovias Noroeste Paulista](concessionarias/free-flow-ecovias.md) |
 | **Jaguaraçu** | MG | BR-381 | 280,15 | 1 | [Nova 381](concessionarias/free-flow-nova-381.md) |
 | **Jandaia** | GO | BR-060 | 281,6 / 281,7 | 2 | [Rota Verde](concessionarias/free-flow-rota-verde.md) |
+| **Jataí** | GO | BR-060 | 439,15 | 1 | [Way-364](estados/free-flow-go.md) |
+| **Jataí / Mineiros** | GO | BR-364 | 258,66 | 1 | [Way-364](estados/free-flow-go.md) |
 | **Jataizinho** | PR | BR-369 | 126 | 2 | [EPR Paraná](concessionarias/free-flow-epr.md) |
 | **João Monlevade** | MG | BR-381 | 342,27 | 1 | [Nova 381](concessionarias/free-flow-nova-381.md) |
 | **Mangaratiba** | RJ | BR-101 | 447,3 | 1 | [RioSP](concessionarias/free-flow-motiva-ccr.md) |
@@ -67,8 +70,10 @@ Todos os municípios com pórtico de cobrança **em operação**, em ordem alfab
 | **Nova Serrana** | MG | BR-262 | 452,95 | 1 | [Way-262](concessionarias/free-flow-way-262.md) |
 | **Ouro Preto do Oeste** | RO | BR-364 | 399,3 | 1 | [Nova 364](concessionarias/free-flow-nova-364.md) |
 | **Paraty** | RJ | BR-101 | 538,5 | 1 | [RioSP](concessionarias/free-flow-motiva-ccr.md) |
+| **Pedra Preta** | MT | BR-364 | 106,106 | 1 | [Way-364](estados/free-flow-mt.md) |
 | **Pimenta Bueno** | RO | BR-364 | 122,2 | 1 | [Nova 364](concessionarias/free-flow-nova-364.md) |
 | **Pimenta Bueno** | RO | BR-364 | 221,3 | 1 | [Nova 364](concessionarias/free-flow-nova-364.md) |
+| **Portelândia** | GO | BR-364 | 340,415 | 1 | [Way-364](estados/free-flow-go.md) |
 | **Presidente Castelo Branco / Mandaguaçu** | PR | BR-376 | 145,8 | 2 | [EPR Paraná](concessionarias/free-flow-epr.md) |
 | **Rolândia / Arapongas** | PR | BR-369 | 180,2 | 2 | [EPR Paraná](concessionarias/free-flow-epr.md) |
 | **Santa Helena de Goiás** | GO | BR-452 | 44,9 | 1 | [Rota Verde](concessionarias/free-flow-rota-verde.md) |
@@ -83,7 +88,7 @@ Todos os municípios com pórtico de cobrança **em operação**, em ordem alfab
 | **Theobroma / Jaru** | RO | BR-364 | 452,3 | 1 | [Nova 364](concessionarias/free-flow-nova-364.md) |
 | **Vitorino** | PR | PR-280 | 234,3 | 1 | [EPR Iguaçu](concessionarias/free-flow-epr.md) |
 
-**Total de 85 pórticos de cobrança em operação.**
+**Total de 90 pórticos de cobrança em operação.**
 
 ---
 
@@ -93,9 +98,11 @@ Três coisas evitam leitura errada.
 
 **Pórtico na divisa aparece com os dois nomes.** Cinco registros trazem duas cidades separadas por barra, como `Rolândia / Arapongas` e `Theobroma / Jaru`. É um pórtico só, registrado sob os dois municípios porque fica exatamente na divisa. Procure pelo nome da sua cidade e você encontra.
 
+**Um registro tem o município em divergência, e não em divisa.** O pórtico P2 da Way-364, no km 258,66 da BR-364, aparece como `Jataí / Mineiros`. A Deliberação ANTT nº 248/2026 nomeia a praça como Jataí, e a concessionária e a imprensa local situam o ponto em Mineiros. Enquanto as fontes discordam, o registro fica sob os dois nomes, para que quem procura qualquer uma das duas cidades encontre a cobrança que existe.
+
 **A Via Dutra é um registro só para três cidades.** O trecho metropolitano da BR-116 tem 21 pontos de cobrança distribuídos entre **São Paulo, Guarulhos e Arujá**, e a fonte oficial não publica quantos ficam em cada município. Registramos como o dado existe, sem inventar a divisão. É o único registro ativo da base que agrega mais de um ponto por linha, e o motivo está explicado em [Metodologia e fontes](docs/metodologia-e-fontes.md).
 
-**A coluna Pórticos conta estruturas que cobram.** Onde há uma estrutura por sentido no mesmo ponto, as duas contam, e você paga uma vez por travessia. É o caso dos pares da BR-060, em Goiás, e do Rodoanel Norte, em Guarulhos.
+**A coluna Pórticos conta estruturas que cobram.** Onde há uma estrutura por sentido no mesmo ponto, as duas contam, e você paga uma vez por travessia. É o caso dos pares da BR-060 da Rota Verde, em Goiás, e do Rodoanel Norte, em Guarulhos. Na concessão da Way-364, também em Goiás, cada ponto é um pórtico único, com cobrança nos dois sentidos.
 
 ---
 
