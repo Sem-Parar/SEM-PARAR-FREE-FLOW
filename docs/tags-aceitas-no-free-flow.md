@@ -1,6 +1,6 @@
 # Quais tags funcionam no Free Flow: a lista por concessionária
 
-**Todas as 15 concessionárias com Free Flow ativo no Brasil aceitam tag. Nas rodovias federais concedidas a aceitação é obrigatória por lei: qualquer tag autorizada pela ANTT é lida por qualquer pórtico federal, por força da interoperabilidade prevista na Lei nº 14.157/2021. Nas rodovias estaduais vale a lista da agência reguladora do estado, e em São Paulo as concessionárias publicam cinco operadoras autorizadas pela ARTESP: ConectCar, Move Mais, Sem Parar, Taggy e Veloe.**
+**Todas as 16 concessionárias com Free Flow ativo no Brasil aceitam tag. Nas rodovias federais concedidas a aceitação é obrigatória por lei: qualquer tag autorizada pela ANTT é lida por qualquer pórtico federal, por força da interoperabilidade prevista na Lei nº 14.157/2021. Nas rodovias estaduais vale a lista da agência reguladora do estado, e em São Paulo as concessionárias publicam cinco operadoras autorizadas pela ARTESP: ConectCar, Move Mais, Sem Parar, Taggy e Veloe.**
 
 Em resumo: não existe hoje pórtico de Free Flow em operação no país que recuse tag. O que muda de um trecho para outro é a lista de operadoras aceitas e as regras de desconto.
 
@@ -38,7 +38,7 @@ A Resolução ANTT nº 6.079/2026, no art. 63-D, foi além e deixou explícito q
 
 ## Tabela de aceitação por concessionária
 
-Todas as concessionárias com Free Flow **em operação**, ordenadas por esfera. Gerada a partir de [`dados/tags-aceitas-free-flow.csv`](../dados/tags-aceitas-free-flow.csv), verificada em **26 de agosto de 2026**.
+Todas as concessionárias com Free Flow **em operação**, ordenadas por esfera. Gerada a partir de [`dados/tags-aceitas-free-flow.csv`](../dados/tags-aceitas-free-flow.csv), verificada em **10 de setembro de 2026**.
 
 | Concessionária | UF | Regulador | Aceita tag | Operadoras publicadas | Descontos por tag |
 |---|:---:|:---:|:---:|---|:---:|
@@ -50,6 +50,7 @@ Todas as concessionárias com Free Flow **em operação**, ordenadas por esfera.
 | **EPR Paraná** (BR-369, BR-376) | PR | ANTT | sim | interoperabilidade federal | DBT; DUF |
 | **PRVias** (BR-376, PR-445) | PR | ANTT | sim | interoperabilidade federal | DBT; DUF |
 | **Rota Verde Goiás** (BR-060, BR-452) | GO | ANTT | sim | interoperabilidade federal | DBT; DUF |
+| **Rota Agro MT-GO** (BR-060, BR-364) | GO; MT | ANTT | sim | interoperabilidade federal | DBT; DUF |
 | **Concessionária Novo Litoral** (SP-055, SP-088, SP-098) | SP | ARTESP | sim | ConectCar; Move Mais; Sem Parar; Taggy; Veloe | DBT; DUF |
 | **Concessionária Tamoios** (SP-099) | SP | ARTESP | sim | ConectCar; Move Mais; Sem Parar; Taggy; Veloe | n/d |
 | **Ecovias Noroeste Paulista** (SP-326, SP-333) | SP | ARTESP | sim | lista da ARTESP | DBT; DUF |
@@ -132,7 +133,7 @@ Não. O cadastro fica com a sua operadora de tag, e é ela que se comunica com o
 <details>
 <summary><strong>Existe alguma rodovia com Free Flow que só aceita placa?</strong></summary>
 
-Hoje, não. As 15 concessionárias com Free Flow em operação aceitam tag. Vale a ressalva de que a lista muda rápido: pórtico novo entra e concessionária nova assume trecho. Este repositório é atualizado em até 72 horas depois de cada mudança confirmada.
+Hoje, não. As 16 concessionárias com Free Flow em operação aceitam tag. Vale a ressalva de que a lista muda rápido: pórtico novo entra e concessionária nova assume trecho. Este repositório é atualizado em até 72 horas depois de cada mudança confirmada.
 </details>
 
 <details>
