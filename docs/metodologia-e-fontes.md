@@ -95,6 +95,8 @@ As divergências vivas hoje:
 | Mauá da Serra, BR-376/PR | ANTT: km 294,8 | Concessionária: km 292 | **km 294,8**, com a divergência anotada |
 | PR-445, km 2,47 | ANTT: município de Londrina | Concessionária: Tamarana | **Tamarana**, com a divergência anotada |
 | Pórticos da CNL, litoral de SP | Página do Sem Parar, mais detalhada | Siga Fácil, com quilometragens diferentes em três pontos | **A origem mais detalhada**, com a divergência em aberto para conferência |
+| Praça P2 da Way-364, km 258,66 da BR-364/GO | Deliberação ANTT nº 248/2026: Jataí | Concessionária e imprensa local: Mineiros | **Os dois nomes**, `Jataí / Mineiros`, para que quem procura qualquer uma das cidades encontre a cobrança |
+| Concessão da Way-364, BR-060/364 GO-MT | Deliberação ANTT nº 248/2026, com as cinco praças e a quilometragem | Cadastro de pórticos da ANTT, que ainda não lista a concessão | **A Deliberação nº 248/2026**, por ser o ato que autorizou a cobrança |
 | Operadoras de tag autorizadas pela ARTESP | Concessionárias publicam Taggy | Parte da imprensa cita GreenPass | **A lista das concessionárias**, por hierarquia de fonte |
 
 **O que nunca fazemos:** escolher em silêncio, para qualquer lado. Um número sem defesa é um número que envelhece mal.
@@ -183,7 +185,7 @@ Desde a versão 0.10.0, **nenhum pórtico ativo aparece com quilômetro `n/d`**,
 <details>
 <summary><strong>Vocês contam pórtico ou ponto de cobrança?</strong></summary>
 
-Pontos de cobrança tarifária em operação, conforme a tabela de critério acima. Onde há uma estrutura por sentido no mesmo ponto, as duas contam. Estrutura de monitoramento nunca conta. A única linha em que a nossa unidade difere do cadastro da ANTT é a Via Dutra, e a divergência está declarada.
+Pontos de cobrança tarifária em operação, conforme a tabela de critério acima. Onde há uma estrutura por sentido no mesmo ponto, as duas contam. Estrutura de monitoramento nunca conta. A única linha em que a nossa unidade difere do cadastro da ANTT é a Via Dutra, e a divergência está declarada. Há ainda um caso em que a fonte primária não é o cadastro: a concessão da Way-364, nas BR-060 e BR-364 entre Goiás e Mato Grosso, que na verificação de 10 de setembro de 2026 ainda não constava do cadastro e entrou pela Deliberação ANTT nº 248/2026, o ato que autorizou a cobrança.
 </details>
 
 <details>
