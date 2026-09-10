@@ -59,7 +59,7 @@ Homologações localizadas na página de portarias da Senatran, verificadas em *
 | Concessionária da Rodovia BR 262 MG S.A. | Way-262 | MG | 621 | 05/08/2026 |
 | Concessionária de Rodovia Nova 364 S.A. | Nova 364 | RO | 622 | 05/08/2026 |
 | Companhia de Concessões Rodoviárias do Novo Litoral de São Paulo | Concessionária Novo Litoral | SP | 638 | 07/08/2026 |
-| Concessionária Rota Agro MT-GO S.A. | ainda não consta | MT e GO | 640 | 10/08/2026 |
+| Concessionária Rota Agro MT-GO S.A. | Rota Agro MT-GO (Way-364) | MT e GO | 640 | 10/08/2026 |
 
 **Quatorze homologações em onze dias**, todas em julho e agosto de 2026. Os nomes na coluna da esquerda são as razões sociais como aparecem nas portarias, que nem sempre coincidem com o nome comercial pelo qual a concessionária é conhecida. É por isso que a segunda coluna existe.
 
@@ -126,7 +126,7 @@ Dito com todas as letras, porque credibilidade de dado depende disso:
 
 **A lista encolheu na revisão de 26 de agosto de 2026.** A Way-262 e a Nova 364 constavam aqui como não localizadas e foram encontradas na varredura mensal da página de portarias: são as portarias 621 e 622, ambas publicadas em 5 de agosto de 2026. É o funcionamento normal de uma base viva, e o motivo de esta seção existir.
 
-**A Rota Agro MT-GO aparece homologada e ainda não consta no nosso inventário de pórticos**, porque não localizamos confirmação oficial de cobrança por pórtico em operação. Ela está registrada como `n/d` na base.
+**A Rota Agro MT-GO saiu da lista de espera.** Ela foi homologada em 10 de agosto de 2026 e passou a cobrar em 7 de setembro, vinte e oito dias depois, em cinco pórticos das BR-060 e BR-364. É o caso que mostra a sequência normal: primeiro a homologação, depois a autorização de cobrança pela ANTT, depois o início. O registro está em [Free Flow em Mato Grosso](../estados/free-flow-mt.md) e em [Free Flow em Goiás](../estados/free-flow-go.md).
 
 Encontrou uma portaria que falta aqui? [Abra uma issue](../../../issues/new) com o número e a data, e a linha entra.
 
