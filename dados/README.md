@@ -5,13 +5,13 @@ Esta pasta é o coração do repositório: oito bases públicas sobre o pedágio
 | Base | O que traz | Linhas |
 |---|---|:---:|
 | [rodovias-free-flow](rodovias-free-flow.csv) | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 46 |
-| [porticos-free-flow](porticos-free-flow.csv) | Inventário pórtico a pórtico, com município, quilômetro, sentido e situação | 64 |
+| [porticos-free-flow](porticos-free-flow.csv) | Inventário pórtico a pórtico, com município, quilômetro, sentido e situação | 69 |
 | [concessionarias-free-flow](concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 24 |
-| [canais-oficiais-pagamento](canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 29 |
-| [tags-aceitas-free-flow](tags-aceitas-free-flow.csv) | Aceitação de tag por concessionária, com regime de autorização, operadoras publicadas e descontos | 15 |
+| [canais-oficiais-pagamento](canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 30 |
+| [tags-aceitas-free-flow](tags-aceitas-free-flow.csv) | Aceitação de tag por concessionária, com regime de autorização, operadoras publicadas e descontos | 16 |
 | [base-legal-free-flow](base-legal-free-flow.csv) | As leis, resoluções e portarias que sustentam o Free Flow, com o que cada uma define | 12 |
 | [homologacao-senatran-free-flow](homologacao-senatran-free-flow.csv) | Homologações de sistema de livre passagem pela Senatran, com número e data de portaria | 14 |
-| [linha-do-tempo-free-flow](linha-do-tempo-free-flow.csv) | Cronologia do Free Flow no Brasil, do primeiro regulamento às datas ainda marcadas | 36 |
+| [linha-do-tempo-free-flow](linha-do-tempo-free-flow.csv) | Cronologia do Free Flow no Brasil, do primeiro regulamento às datas ainda marcadas | 42 |
 
 Codificação **UTF-8**, separador **vírgula**, quebra de linha **CRLF** (padrão RFC 4180, que é o que o Excel espera), datas em **ISO** (`AAAA-MM-DD`). Listas dentro de uma célula usam **ponto e vírgula** como separador.
 
