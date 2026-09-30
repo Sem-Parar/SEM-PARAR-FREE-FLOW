@@ -10,6 +10,31 @@ Todas as mudanças relevantes deste repositório são registradas aqui. O format
 
 ---
 
+## [0.15.0], 2026-09-22
+
+Três trechos entram na lista do que ainda vai chegar. Nenhum deles cobra hoje, e por isso o mapa ativo não muda: seguem 90 pórticos de cobrança, 28 rodovias, 16 concessionárias, 63 municípios e 8 estados.
+
+### Adicionado
+
+- **O pórtico da Elovias na BR-040**, no km 831, em Simão Pereira (MG), com operação anunciada para 4 de novembro de 2026. Entrou em [Free Flow em Minas Gerais](estados/free-flow-mg.md), com a história de por que o ponto saiu do km 3, no Rio de Janeiro; em "Quem ainda vai entrar", em [Concessionárias com Free Flow no Brasil](CONCESSIONARIAS-FREE-FLOW.md); e na tabela "Onde o Free Flow ainda vai chegar" do README.
+- **A Rota 2 de Julho, na Bahia, e a Rota Agro Central, entre Mato Grosso e Rondônia**, com editais aprovados pela ANTT em 3 de setembro de 2026 e leilões em 17 e 18 de dezembro. A Rota 2 de Julho é a primeira concessão rodoviária federal concebida para operar integralmente em Free Flow. Entraram na tabela do README e, a Rota Agro Central, também em [Free Flow em Mato Grosso](estados/free-flow-mt.md).
+- **Duas notas datadas** em [Novidades](docs/novidades.md), de 3 e de 9 de setembro, e três datas novas em "Próximas datas a observar".
+- **Quatro marcos** em [História do Free Flow no Brasil](docs/historia-do-free-flow-no-brasil.md): um confirmado, na tabela de 2026, e três anunciados, no calendário.
+
+### Alterado
+
+- **As bases:** `rodovias-free-flow` ganhou 3 linhas e foi a 49; `concessionarias-free-flow` ganhou 1 e foi a 25; `linha-do-tempo-free-flow` ganhou 4 marcos e foi a 46, sendo 1 `confirmado` e 3 `anunciado`. As contagens do README e do dicionário de dados foram refeitas.
+- **Mato Grosso passou de três para quatro trechos previstos.**
+
+### Notas de dado
+
+- **O pórtico da BR-040 não entrou em `porticos-free-flow`.** A base registra estrutura instalada, e esta ainda está em obra. Entra quando for instalada, com o status correspondente, e vira `ativo` só quando a cobrança começar.
+- **A Elovias ainda não divulgou canais de pagamento**, e por isso `canais-oficiais-pagamento` não mudou. O campo `plataforma_pagamento` ficou `n/d`.
+- **O número de pórticos das duas concessões a licitar ficou em zero**, porque nenhuma fonte oficial consultada publica a quantidade. O zero significa "sem pórtico hoje", não "sem pórtico previsto".
+- **Nenhum valor de tarifa foi gravado**, apesar de as fontes das duas concessões trazerem a tarifa-teto por quilômetro.
+
+---
+
 ## [0.14.0], 2026-09-10
 
 Mato Grosso entra no mapa e a ANTT abre duas frentes sobre meios de pagamento. Duas mudanças independentes, decididas na mesma reunião da Diretoria Colegiada, em 27 de agosto de 2026, e que juntas mexem em nove arquivos de conteúdo e sete bases.
