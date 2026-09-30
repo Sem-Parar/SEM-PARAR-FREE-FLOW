@@ -10,6 +10,35 @@ Todas as mudanças relevantes deste repositório são registradas aqui. O format
 
 ---
 
+## [0.15.1], 2026-09-30
+
+Uma correção de cadeia normativa, um canal de pagamento que saiu no dia seguinte ao pacote anterior e dois fatos regulatórios da semana. Nada aqui muda o mapa ativo: seguem 90 pórticos de cobrança, 28 rodovias, 16 concessionárias, 63 municípios e 8 estados.
+
+### Corrigido
+
+- **Faltava a Resolução CONTRAN nº 1.028/2026 na base legal.** Ela foi assinada em 17 de agosto de 2026, publicada no Diário Oficial da União em 25 de agosto de 2026, e é o ato que **aprova a Deliberação nº 277/2026**. O repositório vinha atribuindo a nova redação do art. 7º da Resolução nº 1.013/2024 apenas à Deliberação, o que estava certo na regra e incompleto na cadeia. A atribuição foi corrigida nos cinco lugares em que aparece: [Base legal do Free Flow](BASE-LEGAL-DO-FREE-FLOW.md), o README em dois pontos, [O que é Free Flow](O-QUE-E-FREE-FLOW.md) e [Como pagar o pedágio Free Flow](docs/como-pagar.md). A regra de contagem do prazo **não mudou**.
+- **A nota de dado da versão 0.15.0 dizia que a Elovias ainda não havia divulgado canais de pagamento**, e isso deixou de ser verdade. A página de [Free Flow em Minas Gerais](estados/free-flow-mg.md) e a nota de 9 de setembro em [Novidades](docs/novidades.md) foram atualizadas, com remissão à nota nova.
+
+### Adicionado
+
+- **O canal oficial de pagamento da Elovias**, `pedagioeletronico.elovias.com.br`, publicado antes do início da cobrança, com consulta por placa, conta única, Pix, cartão e aplicativo próprio. Entrou em [`dados/canais-oficiais-pagamento.csv`](dados/canais-oficiais-pagamento.csv) e preencheu `plataforma_pagamento` e `canais` na linha da Elovias em [`dados/concessionarias-free-flow.csv`](dados/concessionarias-free-flow.csv), que estavam em `n/d`.
+- **A decisão do TCU de 25 de setembro de 2026** que manteve a cobrança em livre passagem na BR-060/364 e arquivou a representação contra a Deliberação ANTT nº 248/2026. Decisão unânime do plenário, relator o ministro Benjamin Zymler. Entrou na linha do tempo, na tabela de 2026 de [História do Free Flow no Brasil](docs/historia-do-free-flow-no-brasil.md) e em Novidades.
+- **O projeto de lei apresentado na Alesp em 21 de setembro de 2026**, que obrigaria as concessionárias paulistas a avisar o proprietário por meio eletrônico depois de cada passagem por pórtico. Entrou como `anunciado`, com o registro explícito de que está em tramitação e não é norma vigente.
+- **Quatro notas datadas** em [Novidades](docs/novidades.md), de 25 de agosto, 21 de setembro, 25 de setembro e 30 de setembro de 2026, e dois marcos na tabela de 2026 da página de história.
+
+### Alterado
+
+- **As bases:** `base-legal-free-flow` ganhou 1 linha e foi a 13; `canais-oficiais-pagamento` ganhou 1 e foi a 31; `linha-do-tempo-free-flow` ganhou 3 marcos e foi a 49, sendo 2 `confirmado` e 1 `anunciado`; `concessionarias-free-flow` teve a linha da Elovias atualizada, sem mudança de contagem. As demais quatro bases não mudaram. As contagens do README e do dicionário de dados foram refeitas.
+- **A contagem de normas na página de base legal passou de onze para doze.**
+
+### Notas de dado
+
+- **Nenhum pórtico entrou ou saiu**, e nenhum contador nacional mudou. O pórtico da BR-040 segue fora de `porticos-free-flow`, em obra, pela mesma regra declarada na versão 0.15.0.
+- **Canal de pagamento publicado não é cobrança iniciada.** A operação da BR-040 segue anunciada para 4 de novembro de 2026, e o registro do canal traz essa ressalva na coluna `observacao`.
+- **A decisão do TCU entrou por fonte de imprensa regional**, porque a decisão foi localizada pela publicação no Diário Oficial da União de 25 de setembro de 2026 e o número do acórdão não foi confirmado em fonte primária até o fechamento deste pacote. A exceção está registrada aqui e o número deve ser fixado no próximo pacote.
+
+---
+
 ## [0.15.0], 2026-09-22
 
 Três trechos entram na lista do que ainda vai chegar. Nenhum deles cobra hoje, e por isso o mapa ativo não muda: seguem 90 pórticos de cobrança, 28 rodovias, 16 concessionárias, 63 municípios e 8 estados.
