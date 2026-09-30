@@ -215,7 +215,7 @@ Depende de uma pergunta só: **você tem tag?**
 | **Quer parar de se preocupar** | Ativar uma tag e deixar a cobrança automática | [Peça a Tag Sem Parar](https://www.semparar.com.br/free-flow?utm_source=github&utm_medium=readme&utm_campaign=sem-parar-free-flow) |
 | **Passou e não é cliente** | Quitar só aquela passagem, pela placa | [pedagioeletronicosemparar.com.br](https://www.pedagioeletronicosemparar.com.br?utm_source=github&utm_medium=readme&utm_campaign=sem-parar-free-flow) |
 
-**O prazo geral é de 30 dias**, e duas normas oficiais contam esse prazo a partir de marcos diferentes, para efeitos diferentes. Para os **encargos financeiros** nas rodovias federais concedidas, a Resolução ANTT nº 6.079/2026 conta **da passagem** pelo pórtico. Para a **infração de trânsito** do art. 209-A, o art. 7º da Resolução CONTRAN nº 1.013/2024, com a redação da Deliberação CONTRAN nº 277/2026, conta **da confirmação do processamento** do registro. O prazo também **varia por contrato de concessão**, e há trechos com prazo menor. Confirme sempre no canal da concessionária responsável, e veja a régua completa em **[Prazo para pagar o Free Flow](docs/prazo-e-encargos.md)**.
+**O prazo geral é de 30 dias**, e duas normas oficiais contam esse prazo a partir de marcos diferentes, para efeitos diferentes. Para os **encargos financeiros** nas rodovias federais concedidas, a Resolução ANTT nº 6.079/2026 conta **da passagem** pelo pórtico. Para a **infração de trânsito** do art. 209-A, o art. 7º da Resolução CONTRAN nº 1.013/2024, com a redação da Deliberação CONTRAN nº 277/2026, aprovada pela Resolução CONTRAN nº 1.028/2026, conta **da confirmação do processamento** do registro. O prazo também **varia por contrato de concessão**, e há trechos com prazo menor. Confirme sempre no canal da concessionária responsável, e veja a régua completa em **[Prazo para pagar o Free Flow](docs/prazo-e-encargos.md)**.
 
 O guia completo, com o de-para de concessionária para canal oficial, está em **[Como pagar o pedágio Free Flow](docs/como-pagar.md)**. Para descobrir se você passou por um pórtico, veja **[Como consultar o Free Flow pela placa](docs/consultar-pela-placa.md)**.
 
@@ -275,7 +275,7 @@ Não. Você pode passar sem tag e pagar depois pela placa, no canal oficial da c
 <details>
 <summary><strong>Qual o prazo para pagar?</strong></summary>
 
-A regra geral é de 30 dias. Para os encargos financeiros nas rodovias federais concedidas, a Resolução ANTT nº 6.079/2026 conta da passagem pelo pórtico; para a infração de trânsito, o art. 7º da Resolução CONTRAN nº 1.013/2024, com a redação da Deliberação CONTRAN nº 277/2026, conta da confirmação do processamento do registro. O prazo também é definido no contrato de concessão de cada trecho e há concessionárias com prazo menor. Confirme no canal da concessionária responsável. A régua completa está em [Prazo para pagar o Free Flow](docs/prazo-e-encargos.md) e o guia de pagamento em [Como pagar o pedágio Free Flow](docs/como-pagar.md).
+A regra geral é de 30 dias. Para os encargos financeiros nas rodovias federais concedidas, a Resolução ANTT nº 6.079/2026 conta da passagem pelo pórtico; para a infração de trânsito, o art. 7º da Resolução CONTRAN nº 1.013/2024, com a redação da Deliberação CONTRAN nº 277/2026, aprovada pela Resolução CONTRAN nº 1.028/2026, conta da confirmação do processamento do registro. O prazo também é definido no contrato de concessão de cada trecho e há concessionárias com prazo menor. Confirme no canal da concessionária responsável. A régua completa está em [Prazo para pagar o Free Flow](docs/prazo-e-encargos.md) e o guia de pagamento em [Como pagar o pedágio Free Flow](docs/como-pagar.md).
 </details>
 
 <details>
@@ -335,11 +335,11 @@ Todo o conteúdo deste repositório nasce de oito bases públicas em **CSV**, so
 | [`rodovias-free-flow`](dados/rodovias-free-flow.csv) | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 49 |
 | [`concessionarias-free-flow`](dados/concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 25 |
 | [`porticos-free-flow`](dados/porticos-free-flow.csv) | Inventário pórtico a pórtico, com município, quilômetro, sentido e situação | 69 |
-| [`canais-oficiais-pagamento`](dados/canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 30 |
+| [`canais-oficiais-pagamento`](dados/canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 31 |
 | [`tags-aceitas-free-flow`](dados/tags-aceitas-free-flow.csv) | Aceitação de tag por concessionária, com regime de autorização, operadoras publicadas e descontos | 16 |
-| [`base-legal-free-flow`](dados/base-legal-free-flow.csv) | As leis, resoluções e portarias que sustentam o Free Flow, com o que cada uma define | 12 |
+| [`base-legal-free-flow`](dados/base-legal-free-flow.csv) | As leis, resoluções e portarias que sustentam o Free Flow, com o que cada uma define | 13 |
 | [`homologacao-senatran-free-flow`](dados/homologacao-senatran-free-flow.csv) | Homologações de sistema de livre passagem pela Senatran, com número e data de portaria | 14 |
-| [`linha-do-tempo-free-flow`](dados/linha-do-tempo-free-flow.csv) | Cronologia do Free Flow no Brasil, do primeiro regulamento às datas ainda marcadas | 46 |
+| [`linha-do-tempo-free-flow`](dados/linha-do-tempo-free-flow.csv) | Cronologia do Free Flow no Brasil, do primeiro regulamento às datas ainda marcadas | 49 |
 
 O dicionário de dados, com o significado de cada coluna e os valores aceitos, está em **[`dados/README.md`](dados/README.md)**.
 

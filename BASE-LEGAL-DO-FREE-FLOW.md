@@ -76,7 +76,7 @@ O caminho de cada uma está em [Multa do Free Flow](docs/multa-free-flow.md) e e
 
 ## A cadeia normativa completa
 
-Onze normas sustentam o Free Flow no Brasil. A base bruta, com data, ementa e link de cada uma, está em [`dados/base-legal-free-flow.csv`](dados/base-legal-free-flow.csv).
+Doze normas sustentam o Free Flow no Brasil. A base bruta, com data, ementa e link de cada uma, está em [`dados/base-legal-free-flow.csv`](dados/base-legal-free-flow.csv).
 
 | Norma | Órgão | Data | O que define |
 |---|:---:|:---:|---|
@@ -87,6 +87,7 @@ Onze normas sustentam o Free Flow no Brasil. A base bruta, com data, ementa e li
 | **Resolução CONTRAN nº 984/2022** | CONTRAN | 15/12/2022 | Primeiro regulamento do sistema, antecessor da 1.013 |
 | **Resolução CONTRAN nº 1.013/2024** | CONTRAN | 14/10/2024 | Prazo de 30 dias para a tarifa e dever de comunicar o usuário |
 | **Deliberação CONTRAN nº 277/2026** | CONTRAN | 29/04/2026 | Janela de regularização até 16/11/2026 |
+| **Resolução CONTRAN nº 1.028/2026** | CONTRAN | 25/08/2026 | Aprova a Deliberação nº 277/2026 e consolida o regime de transição em resolução |
 | **Portaria Senatran nº 442/2025** | Senatran | 12/06/2025 | Homologação e interoperabilidade dos sistemas |
 | **Resolução CONTRAN nº 918/2022** | CONTRAN | 28/03/2022 | Rito de defesa e recurso |
 | **Lei nº 13.711/2018** | Congresso | 24/08/2018 | Eixo suspenso não paga em veículo de carga vazio |
@@ -128,7 +129,7 @@ Este é o ponto técnico mais mal explicado do Free Flow, e ele importa porque m
 | Para que serve | Norma | O prazo de 30 dias conta a partir de |
 |---|---|---|
 | **Encargos financeiros** sobre a tarifa, nas rodovias federais concedidas | Resolução ANTT nº 6.079/2026, art. 63-C, § 3º | **da passagem** pelo pórtico |
-| **Infração de trânsito** do art. 209-A | Resolução CONTRAN nº 1.013/2024, art. 7º, com a redação da Deliberação nº 277/2026 | **da confirmação do processamento** do registro da passagem |
+| **Infração de trânsito** do art. 209-A | Resolução CONTRAN nº 1.013/2024, art. 7º, com a redação da Deliberação nº 277/2026, aprovada pela Resolução CONTRAN nº 1.028/2026 | **da confirmação do processamento** do registro da passagem |
 
 Não é contradição, são efeitos diferentes: uma norma trata do dinheiro devido à concessionária, a outra trata da penalidade de trânsito. Mas a consequência prática é real: **o mesmo dia de passagem pode ter duas datas de vencimento**, uma para cada efeito.
 
@@ -215,7 +216,7 @@ Esse argumento vem sendo rejeitado pelos tribunais. O art. 209-A tipifica duas c
 <details>
 <summary><strong>Qual é o prazo, afinal: 30 dias de quando?</strong></summary>
 
-Depende do efeito. Para os encargos financeiros sobre a tarifa nas federais concedidas, a Resolução ANTT nº 6.079/2026 conta da passagem. Para a infração de trânsito, a Resolução CONTRAN nº 1.013/2024 conta da confirmação do processamento do registro. E o contrato de concessão de cada trecho pode fixar prazo próprio. Confirme sempre no canal da concessionária.
+Depende do efeito. Para os encargos financeiros sobre a tarifa nas federais concedidas, a Resolução ANTT nº 6.079/2026 conta da passagem. Para a infração de trânsito, a Resolução CONTRAN nº 1.013/2024, com a redação da Deliberação nº 277/2026, aprovada pela Resolução CONTRAN nº 1.028/2026, conta da confirmação do processamento do registro. E o contrato de concessão de cada trecho pode fixar prazo próprio. Confirme sempre no canal da concessionária.
 </details>
 
 <details>

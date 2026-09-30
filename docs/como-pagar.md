@@ -92,7 +92,7 @@ A regra geral é de **30 dias**, e duas normas oficiais tratam desse prazo para 
 | O que está em jogo | Norma | Conta a partir de |
 |---|---|---|
 | **Encargos financeiros** sobre a tarifa, nas federais concedidas | Resolução ANTT nº 6.079/2026 | Da **passagem** pelo pórtico |
-| **Infração de trânsito** do art. 209-A | Resolução CONTRAN nº 1.013/2024, com a redação da Deliberação CONTRAN nº 277/2026 | Da **confirmação do processamento** do registro da passagem |
+| **Infração de trânsito** do art. 209-A | Resolução CONTRAN nº 1.013/2024, com a redação da Deliberação CONTRAN nº 277/2026, aprovada pela Resolução CONTRAN nº 1.028/2026 | Da **confirmação do processamento** do registro da passagem |
 
 Não é contradição: a ANTT regula a relação tarifária das concessões federais e o CONTRAN define quando a passagem não paga vira infração de trânsito. Para o motorista, a orientação prática é simples: **oriente-se pela data mais próxima**. A régua completa está em [Prazo para pagar o Free Flow](prazo-e-encargos.md).
 
@@ -183,7 +183,7 @@ Depende do canal. Vários permitem consultar e pagar informando apenas a placa, 
 <details>
 <summary><strong>O prazo de 30 dias conta da passagem ou do processamento?</strong></summary>
 
-Depende do que está em jogo. Para os **encargos financeiros** nas rodovias federais concedidas, a Resolução ANTT nº 6.079/2026 conta da **passagem** pelo pórtico. Para a **infração de trânsito** do art. 209-A, a Resolução CONTRAN nº 1.013/2024, com a redação da Deliberação nº 277/2026, conta da **confirmação do processamento** do registro. Se o último dia não for útil, estende-se ao próximo dia útil, e o contrato de cada concessão pode fixar prazo próprio. A explicação completa está em [Prazo para pagar o Free Flow](prazo-e-encargos.md).
+Depende do que está em jogo. Para os **encargos financeiros** nas rodovias federais concedidas, a Resolução ANTT nº 6.079/2026 conta da **passagem** pelo pórtico. Para a **infração de trânsito** do art. 209-A, a Resolução CONTRAN nº 1.013/2024, com a redação da Deliberação nº 277/2026, aprovada pela Resolução CONTRAN nº 1.028/2026, conta da **confirmação do processamento** do registro. Se o último dia não for útil, estende-se ao próximo dia útil, e o contrato de cada concessão pode fixar prazo próprio. A explicação completa está em [Prazo para pagar o Free Flow](prazo-e-encargos.md).
 </details>
 
 <details>

@@ -2,7 +2,7 @@
 
 **Esta é a linha do tempo do pedágio eletrônico brasileiro: cada mudança confirmada em pórtico, prazo ou regra entra aqui com data, resumo e fonte oficial linkada.** As notas ficam em ordem do mais recente para o mais antigo. Mudanças de status de rodovia entram em até 72 horas após o fato confirmado, e a base de dados é corrigida no mesmo movimento.
 
-> Última verificação em 22 de setembro de 2026.
+> Última verificação em 30 de setembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Termos técnicos estão no [glossário](glossario.md), a cronologia consolidada em [História do Free Flow no Brasil](historia-do-free-flow-no-brasil.md) e o método de levantamento em [Metodologia e fontes](metodologia-e-fontes.md).
 
 ---
@@ -18,13 +18,41 @@
 
 ## 2026
 
+### 30 de setembro de 2026: a Elovias publica o canal de pagamento do Free Flow da BR-040
+
+A **Elovias** colocou no ar o canal oficial de pagamento do pórtico do **km 831, em Simão Pereira (MG)**, em [pedagioeletronico.elovias.com.br](https://pedagioeletronico.elovias.com.br), antes do início da cobrança. A página traz consulta por placa, conta única para acompanhar pendências e adicionar crédito, pagamento por Pix e por cartão e um aplicativo próprio da concessionária.
+
+**Canal publicado não é cobrança iniciada.** A operação segue **anunciada para 4 de novembro de 2026**, e até lá a praça física do km 819,3 continua cobrando do jeito tradicional. Concessionária abrir o canal semanas antes da estreia é o comportamento esperado, porque o motorista precisa encontrar o endereço certo antes de precisar dele. O que não é esperado é cobrança lançada antes da data anunciada.
+
+Esta nota corrige a de 9 de setembro de 2026, que registrava que os canais ainda não haviam sido divulgados.
+
+Fonte: [Pedágio Eletrônico Elovias](https://pedagioeletronico.elovias.com.br). Afeta: [`dados/canais-oficiais-pagamento.csv`](../dados/canais-oficiais-pagamento.csv), [`dados/concessionarias-free-flow.csv`](../dados/concessionarias-free-flow.csv) e [Free Flow em Minas Gerais](../estados/free-flow-mg.md).
+
+### 25 de setembro de 2026: o TCU mantém a cobrança na BR-060/364 e arquiva a representação
+
+O **Tribunal de Contas da União** negou, por unanimidade do plenário e sob relatoria do ministro Benjamin Zymler, o pedido para suspender a cobrança em livre passagem nas **BR-060 e BR-364**, entre Goiás e Mato Grosso. A decisão foi publicada no Diário Oficial da União em **25 de setembro de 2026**, e o processo foi arquivado.
+
+A representação era do deputado federal Rodrigo da Zaeli (PL-MT) contra a **Deliberação ANTT nº 248/2026**, o ato que autorizou o início da cobrança nos cinco pórticos da **Concessionária Rota Agro MT-GO**, a Way-364. O tribunal não encontrou indício de irregularidade e registrou que acolher a cautelar significaria, na prática, submeter a eficácia do ato regulatório a uma chancela prévia do controle externo, o que considerou incompatível com as competências do controle externo.
+
+**O que muda para quem dirige, nada.** A cobrança começou em 7 de setembro de 2026 e segue valendo nos mesmos cinco pontos. O que muda é o risco: o único questionamento judicial ou de controle conhecido sobre o trecho mais novo do país foi encerrado.
+
+Fonte: [Fatos de Mato Grosso](https://www.fatosdematogrosso.com.br/geral/tcu-rejeita-pedido-de-deputado-de-mt-e-mantem-pedagio-eletronico-na-br-364/16564). Afeta: [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv), [História do Free Flow no Brasil](historia-do-free-flow-no-brasil.md), [Free Flow em Goiás](../estados/free-flow-go.md) e [Free Flow em Mato Grosso](../estados/free-flow-mt.md).
+
+### 21 de setembro de 2026: projeto de lei na Alesp propõe aviso a cada passagem por pórtico
+
+Um projeto de lei apresentado na **Assembleia Legislativa de São Paulo** em 21 de setembro de 2026, de autoria do deputado estadual Rogério Nogueira (PSD), obrigaria as concessionárias de rodovias estaduais paulistas a comunicar o proprietário do veículo por meio eletrônico depois de cada passagem validada por pórtico, com ou sem tag. A mensagem traria placa, data, hora, rodovia, pórtico, sentido, valor da tarifa, se houve pagamento automático e, havendo débito, o prazo e os canais oficiais.
+
+**Está em tramitação e não é norma.** Depende de aprovação na Casa e de sanção ou veto. Entra aqui porque, se avançar, mexe no ponto que mais gera reclamação no modelo: o motorista sem tag que só descobre a passagem quando procura. Hoje o dever de comunicar já existe na Resolução CONTRAN nº 1.013/2024, em termos mais gerais.
+
+Fonte: [Correio da Manhã](https://www.correiodamanha.com.br/nacional/sao-paulo/estado-de-sao-paulo/2026/09/320828-projeto-de-lei-preve-aviso-a-motorista-sobre-cobranca-de-pedagio-free-flow.html). Afeta: [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv) e [Base legal do Free Flow](../BASE-LEGAL-DO-FREE-FLOW.md).
+
 ### 9 de setembro de 2026: a Elovias começa a obra do primeiro Free Flow da BR-040
 
 A **Elovias**, que administra 218,9 quilômetros da BR-040/495 entre Juiz de Fora e o Rio de Janeiro desde novembro de 2025, começou a instalar um pórtico de Free Flow no **km 831, em Simão Pereira (MG)**. A operação está **anunciada para 4 de novembro de 2026**, e o pórtico substitui a praça física do km 819,3, no mesmo município.
 
 **Por que o pórtico não ficou onde o contrato mandava.** O ponto previsto era o km 3, em Comendador Levy Gasparian, no Rio de Janeiro. A prefeitura fluminense apontou impacto sobre cerca de dois mil moradores, e as duas cidades fecharam acordo numa audiência de conciliação do Ministério Público Federal, com a ANTT e a concessionária, levando a estrutura para o km 831, ainda em Minas.
 
-**O que muda para quem dirige, por enquanto nada.** Até a data anunciada a praça do km 819,3 segue cobrando do jeito tradicional, e **não existe cobrança por pórtico na BR-040**. A Elovias informou que vai divulgar os canais de pagamento mais perto do início. Mensagem pedindo pagamento de Free Flow na BR-040 antes disso é motivo de desconfiança.
+**O que muda para quem dirige, por enquanto nada.** Até a data anunciada a praça do km 819,3 segue cobrando do jeito tradicional, e **não existe cobrança por pórtico na BR-040**. A Elovias publicou o canal oficial de pagamento em 30 de setembro de 2026, e a nota daquele dia traz o endereço. Mensagem pedindo pagamento de Free Flow na BR-040 antes do início da operação é motivo de desconfiança.
 
 Fonte: [Elovias](https://elovias.com.br/noticias/elovias-inicia-obras-para-implantacao-do-free-flow-na-br-040-operacao-do-novo-sistema-comeca-em-novembro). Afeta: [Free Flow em Minas Gerais](../estados/free-flow-mg.md), [Concessionárias com Free Flow no Brasil](../CONCESSIONARIAS-FREE-FLOW.md), [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv), [`dados/concessionarias-free-flow.csv`](../dados/concessionarias-free-flow.csv) e [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv).
 
@@ -75,6 +103,16 @@ No mesmo dia, e por um caminho diferente, a ANTT publicou no DOU o **Aviso de To
 **São dois processos distintos rodando em paralelo**, com números, prazos e objetos próprios. A Audiência Pública nº 14/2026 desenha um experimento de interoperabilidade de pagamento; a Tomada de Subsídios nº 4/2026 reavalia a regra geral que já está em vigor. Quem acompanha o tema precisa dos dois.
 
 Fonte: [ParticipANTT](https://participantt.antt.gov.br) e [ANTTlegis](https://anttlegis.antt.gov.br/). Afeta: [Base legal do Free Flow](../BASE-LEGAL-DO-FREE-FLOW.md), [`dados/base-legal-free-flow.csv`](../dados/base-legal-free-flow.csv) e [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv).
+
+### 25 de agosto de 2026: a Resolução CONTRAN nº 1.028/2026 aprova o regime de transição
+
+O **CONTRAN** publicou no Diário Oficial da União, em 25 de agosto de 2026, a **Resolução nº 1.028/2026**, assinada em 17 de agosto, que **aprova a Deliberação nº 277/2026** e consolida em resolução o regime de transição do Free Flow.
+
+**O que ela confirma.** Que o prazo de 30 dias para pagar a tarifa, para efeito da infração de trânsito, conta da **confirmação do processamento do registro de passagem** junto ao órgão máximo executivo de trânsito da União, e não da passagem em si. E que o prazo de **cem dias** para as concessionárias homologarem seus sistemas conta da publicação da Deliberação nº 277/2026.
+
+**Por que ela importa mesmo sem mudar a regra.** A janela de regularização até 16 de novembro de 2026 e a nova contagem do prazo nasceram numa deliberação, e esta resolução é o ato que lhes deu força de resolução do CONTRAN. Quem cita a norma do prazo cita a Resolução nº 1.013/2024 com a redação da Deliberação nº 277/2026, aprovada por esta.
+
+Fonte: [Resolução CONTRAN nº 1.028/2026](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/resolucao10282026.pdf). Afeta: [`dados/base-legal-free-flow.csv`](../dados/base-legal-free-flow.csv), [Base legal do Free Flow](../BASE-LEGAL-DO-FREE-FLOW.md), [O que é Free Flow](../O-QUE-E-FREE-FLOW.md), [Como pagar o pedágio Free Flow](como-pagar.md) e [História do Free Flow no Brasil](historia-do-free-flow-no-brasil.md).
 
 ### 24 de agosto de 2026: o app CNH do Brasil passa a mostrar passagens de Free Flow
 

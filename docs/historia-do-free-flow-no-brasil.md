@@ -116,11 +116,13 @@ Foi o ano em que o Free Flow deixou de ser um caso isolado e passou a existir em
 | 10/08/2026 | **Quatorze portarias de homologação** publicadas em onze dias | Nacional |
 | 24/08/2026 | **O app CNH do Brasil passa a mostrar passagens de Free Flow** | Nacional |
 | 24/08/2026 | A ANTT anuncia **nova etapa regulatória** para os meios de pagamento | Nacional |
+| 25/08/2026 | A **Resolução CONTRAN nº 1.028/2026** aprova a Deliberação nº 277/2026 e consolida o regime de transição | Nacional |
 | 27/08/2026 | A ANTT **aprova a abertura da Audiência Pública nº 14/2026**, sobre o sandbox de interoperabilidade do pagamento | Nacional |
 | 27/08/2026 | A ANTT abre a **Tomada de Subsídios nº 4/2026**, para revisar a Resolução nº 4.281/2014 | Nacional |
 | 27/08/2026 | A ANTT **autoriza a cobrança** em cinco pórticos da BR-060/364, entre Goiás e Mato Grosso | GO e MT |
 | 03/09/2026 | A ANTT aprova os editais da **Rota 2 de Julho** e da **Rota Agro Central**, duas concessões federais desenhadas com Free Flow | BA, MT e RO |
 | 07/09/2026 | A Way-364 começa a cobrar e **Mato Grosso vira o oitavo estado** com Free Flow ativo | GO e MT, BR-060 e BR-364 |
+| 25/09/2026 | O **TCU mantém a cobrança** na BR-060/364 e arquiva a representação contra a autorização da ANTT | GO e MT, BR-060 e BR-364 |
 
 Três leituras que a tabela não entrega sozinha:
 
