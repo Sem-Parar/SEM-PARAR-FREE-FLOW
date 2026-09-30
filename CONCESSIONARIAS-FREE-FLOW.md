@@ -167,6 +167,7 @@ Concessionárias com Free Flow **previsto ou adiado**, que hoje não cobram por 
 | Via Campo | PR | adiado, sistema em homologação sem previsão |
 | Ecovias Raposo Castello | SP | previsto, Nova Raposo |
 | Ecovias das Gerais | MG | previsto, contrato prevê a partir de dezembro de 2026 |
+| Elovias | MG | previsto, pórtico da BR-040 em Simão Pereira com operação anunciada para 4 de novembro de 2026 |
 | Ecovias Rio Minas | RJ | previsto, sem cronograma público |
 | Arteris Fluminense | RJ | previsto, BR-101 Norte |
 | CCR ViaSul | RS | previsto, conversão das praças da FreeWay em estudo |

@@ -2,7 +2,7 @@
 
 **Esta é a linha do tempo do pedágio eletrônico brasileiro: cada mudança confirmada em pórtico, prazo ou regra entra aqui com data, resumo e fonte oficial linkada.** As notas ficam em ordem do mais recente para o mais antigo. Mudanças de status de rodovia entram em até 72 horas após o fato confirmado, e a base de dados é corrigida no mesmo movimento.
 
-> Última verificação em 10 de setembro de 2026.
+> Última verificação em 22 de setembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Termos técnicos estão no [glossário](glossario.md), a cronologia consolidada em [História do Free Flow no Brasil](historia-do-free-flow-no-brasil.md) e o método de levantamento em [Metodologia e fontes](metodologia-e-fontes.md).
 
 ---
@@ -18,6 +18,16 @@
 
 ## 2026
 
+### 9 de setembro de 2026: a Elovias começa a obra do primeiro Free Flow da BR-040
+
+A **Elovias**, que administra 218,9 quilômetros da BR-040/495 entre Juiz de Fora e o Rio de Janeiro desde novembro de 2025, começou a instalar um pórtico de Free Flow no **km 831, em Simão Pereira (MG)**. A operação está **anunciada para 4 de novembro de 2026**, e o pórtico substitui a praça física do km 819,3, no mesmo município.
+
+**Por que o pórtico não ficou onde o contrato mandava.** O ponto previsto era o km 3, em Comendador Levy Gasparian, no Rio de Janeiro. A prefeitura fluminense apontou impacto sobre cerca de dois mil moradores, e as duas cidades fecharam acordo numa audiência de conciliação do Ministério Público Federal, com a ANTT e a concessionária, levando a estrutura para o km 831, ainda em Minas.
+
+**O que muda para quem dirige, por enquanto nada.** Até a data anunciada a praça do km 819,3 segue cobrando do jeito tradicional, e **não existe cobrança por pórtico na BR-040**. A Elovias informou que vai divulgar os canais de pagamento mais perto do início. Mensagem pedindo pagamento de Free Flow na BR-040 antes disso é motivo de desconfiança.
+
+Fonte: [Elovias](https://elovias.com.br/noticias/elovias-inicia-obras-para-implantacao-do-free-flow-na-br-040-operacao-do-novo-sistema-comeca-em-novembro). Afeta: [Free Flow em Minas Gerais](../estados/free-flow-mg.md), [Concessionárias com Free Flow no Brasil](../CONCESSIONARIAS-FREE-FLOW.md), [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv), [`dados/concessionarias-free-flow.csv`](../dados/concessionarias-free-flow.csv) e [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv).
+
 ### 7 de setembro de 2026: Mato Grosso entra no mapa, e Goiás ganha a segunda concessão
 
 À **zero hora de 7 de setembro de 2026**, a **Concessionária Rota Agro MT-GO**, a Way-364, começou a cobrar em **cinco pórticos** ao longo dos 490,06 quilômetros das **BR-060 e BR-364** entre Rio Verde, em Goiás, e Rondonópolis, em Mato Grosso. Três pórticos ficam em solo goiano e dois em mato-grossense, o que faz de **Mato Grosso o oitavo estado** com Free Flow ativo no país, um mês antes do previsto pela MT-130.
@@ -31,6 +41,16 @@ A cobrança foi autorizada pela **Deliberação ANTT nº 248/2026**, aprovada na
 **Uma divergência registrada.** A Deliberação nº 248/2026 nomeia como Jataí a praça P2, no km 258,66 da BR-364, e a concessionária e a imprensa local situam o ponto em Mineiros. Enquanto as fontes não convergem, o registro fica sob os dois nomes.
 
 Fonte: [Deliberação ANTT nº 248/2026](https://anttlegis.antt.gov.br/action/ActionDatalegis.php?acao=abrirTextoAto&tipo=DLB&numeroAto=00000248&seqAto=000&valorAno=2026&orgao=DG%2FANTT%2FMT&cod_modulo=623&cod_menu=9230) e [Way-364](https://way364.com.br). Afeta: [Free Flow em Mato Grosso](../estados/free-flow-mt.md), [Free Flow em Goiás](../estados/free-flow-go.md), [Free Flow por município](../FREE-FLOW-POR-MUNICIPIO.md), [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv), [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv) e [`dados/concessionarias-free-flow.csv`](../dados/concessionarias-free-flow.csv).
+
+### 3 de setembro de 2026: a ANTT aprova dois editais de concessão com Free Flow
+
+Na 102ª Reunião Extraordinária de Diretoria, a ANTT aprovou por unanimidade os editais de duas concessões federais novas. A **Rota 2 de Julho**, pela **Deliberação ANTT nº 262/2026**, reúne 653,3 quilômetros da BR-324, de Salvador a Feira de Santana, e da BR-116, de Feira de Santana à divisa com Minas Gerais, e é a **primeira concessão rodoviária federal concebida para operar integralmente em Free Flow**. A **Rota Agro Central**, pela **Deliberação ANTT nº 263/2026**, soma 887,6 quilômetros da BR-070, da BR-174 e da BR-364, entre Cuiabá e Vilhena, e o edital fixa diretrizes para a implantação do sistema.
+
+**Os leilões** estão marcados para 17 de dezembro de 2026, a Rota Agro Central, e 18 de dezembro de 2026, a Rota 2 de Julho, ambos na B3.
+
+**Edital aprovado não é cobrança.** Nenhum dos dois trechos tem pórtico hoje, e o Free Flow só começa depois do leilão, da assinatura do contrato e do cronograma que ele fixar. A notícia confirma a tendência que as concessões recentes já mostravam: o pedágio eletrônico deixou de ser conversão de praça antiga e virou desenho de origem das concessões novas.
+
+Fonte: [ANTT, edital da Rota 2 de Julho](https://www.gov.br/antt/pt-br/assuntos/noticias-defeso-eleitoral/antt-aprova-edital-da-rota-2-de-julho-para-concessao-de-653-3-quilometros-de-rodovias-na-bahia), [Deliberação ANTT nº 263/2026](https://anttlegis.antt.gov.br/action/ActionDatalegis.php?acao=abrirTextoAto&tipo=DLB&numeroAto=00000263&seqAto=000&valorAno=2026&orgao=DG%2FANTT%2FMT&cod_modulo=623&cod_menu=9230) e [pauta da 102ª Reunião Extraordinária](https://portal.antt.gov.br/reuniao/-/asset_publisher/9NmL6MbUt7f1/content/id/7220203/102-reuniao-extraordinaria-de-diretoria). Afeta: [Onde o Free Flow ainda vai chegar](../README.md#onde-o-free-flow-ainda-vai-chegar), [Free Flow em Mato Grosso](../estados/free-flow-mt.md), [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv) e [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv).
 
 ### 27 de agosto de 2026: a ANTT abre a audiência pública dos meios de pagamento
 
@@ -250,10 +270,13 @@ Fonte: [ANTT](https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/free-flow-
 | 8 de outubro de 2026 | Sessão pública híbrida da Audiência Pública nº 14/2026, em Brasília, às 14h | Nacional, ANTT |
 | 10 de outubro de 2026 | Início anunciado da cobrança na MT-130, com seis pórticos | MT, Rota dos Grãos |
 | 23 de outubro de 2026 | Fim do prazo de contribuições da Audiência Pública nº 14/2026 | Nacional, ANTT |
+| 4 de novembro de 2026 | Início anunciado da operação do pórtico da BR-040 no km 831, em Simão Pereira | MG, Elovias |
 | 16 de novembro de 2026 | Fim do prazo de regularização sem penalidades de trânsito | Nacional |
 | 17 de novembro de 2026 | Tarifas em aberto voltam a poder gerar auto de infração | Nacional |
 | Dezembro de 2026 | Free Flow previsto em contrato na BR-116 e BR-251, norte de Minas | MG, Ecovias das Gerais |
 | Novembro de 2026 | 14 pórticos previstos no corredor Três Lagoas, Água Clara e Campo Grande | MS, Rota da Celulose |
+| 17 de dezembro de 2026 | Leilão da Rota Agro Central, na B3 | MT e RO, ANTT |
+| 18 de dezembro de 2026 | Leilão da Rota 2 de Julho, na B3 | BA, ANTT |
 | Sem data | Retomada do Sistema Anchieta-Imigrantes, com o pórtico da subida após o km 38 | SP, Ecovias dos Imigrantes |
 
 Trechos com status `previsto` ou `adiado` **não cobram tarifa por pórtico hoje**. A lista completa está na seção [Onde o Free Flow ainda vai chegar](../README.md#onde-o-free-flow-ainda-vai-chegar).

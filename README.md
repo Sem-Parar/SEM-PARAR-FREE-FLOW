@@ -189,6 +189,7 @@ Trechos com Free Flow **previsto** ou com início **adiado**. Nenhum deles cobra
 | PR | **BR-153** EPR Litoral Pioneiro | EPR Litoral Pioneiro | previsto | ANTT lista termo aditivo previsto; a concessionária declarou não haver previsão (fontes divergentes) |
 | PR | **BR-163** Lote 5 - Via Campo | Via Campo | **adiado** | Corbélia, Mamborê e Floresta; sistema em homologação, sem previsão de início da cobrança |
 | MG | **BR-116** Rota das Gerais | Ecovias das Gerais | previsto | BR-116 e BR-251, norte de MG; contrato prevê Free Flow a partir de dezembro de 2026 |
+| MG | **BR-040** Juiz de Fora-Rio de Janeiro | Elovias | previsto | Simão Pereira, km 831; um pórtico substitui a praça física do km 819,3; operação anunciada para 04/11/2026 |
 | RS | **BR-116** Rota Portuária do Sul | a licitar | previsto | Camaquã à ponte sobre o Rio Jaguarão; 14 pórticos previstos no projeto (BR-116 e BR-392) |
 | RS | **BR-290** FreeWay e malha ViaSul | CCR ViaSul | previsto | Conversão das 7 praças físicas em estudo, sem prazo definido |
 | RJ | **BR-101** BR-101/RJ Norte | Arteris Fluminense | previsto | Pórticos previstos em Tanguá, Itaboraí e São Gonçalo; sem cronograma público |
@@ -197,6 +198,8 @@ Trechos com Free Flow **previsto** ou com início **adiado**. Nenhum deles cobra
 | MT | **MT-130** Primavera do Leste a Paranatinga | Concessionária de Rodovias Rota dos Grãos | previsto | Seis pórticos substituem as duas praças físicas em cerca de 140 km; início da cobrança anunciado para 10/10/2026 |
 | MS | **BR-262** Rota da Celulose | a definir | previsto | Corredor Três Lagoas-Água Clara-Campo Grande; 14 pórticos previstos para novembro de 2026 |
 | MT | **MT-449** Rodovia da Mudança | Rodovia da Mudança | previsto | Lucas do Rio Verde e Tapurah; 6 pórticos em 3 corredores tarifários aprovados pela AGER-MT |
+| MT; RO | **BR-364** Rota Agro Central | a licitar | previsto | BR-070, BR-174 e BR-364, de Cuiabá/MT a Vilhena/RO, 887,6 km; edital fixa diretrizes para o Free Flow; leilão em 17/12/2026 |
+| BA | **BR-324** Rota 2 de Julho | a licitar | previsto | BR-324 de Salvador a Feira de Santana e BR-116 de Feira de Santana à divisa com MG, 653,3 km; primeira concessão federal concebida para operar integralmente em Free Flow; leilão em 18/12/2026 |
 
 ---
 
@@ -329,14 +332,14 @@ Todo o conteúdo deste repositório nasce de oito bases públicas em **CSV**, so
 
 | Base | O que traz | Linhas |
 |---|---|:---:|
-| [`rodovias-free-flow`](dados/rodovias-free-flow.csv) | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 46 |
-| [`concessionarias-free-flow`](dados/concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 24 |
+| [`rodovias-free-flow`](dados/rodovias-free-flow.csv) | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 49 |
+| [`concessionarias-free-flow`](dados/concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 25 |
 | [`porticos-free-flow`](dados/porticos-free-flow.csv) | Inventário pórtico a pórtico, com município, quilômetro, sentido e situação | 69 |
 | [`canais-oficiais-pagamento`](dados/canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 30 |
 | [`tags-aceitas-free-flow`](dados/tags-aceitas-free-flow.csv) | Aceitação de tag por concessionária, com regime de autorização, operadoras publicadas e descontos | 16 |
 | [`base-legal-free-flow`](dados/base-legal-free-flow.csv) | As leis, resoluções e portarias que sustentam o Free Flow, com o que cada uma define | 12 |
 | [`homologacao-senatran-free-flow`](dados/homologacao-senatran-free-flow.csv) | Homologações de sistema de livre passagem pela Senatran, com número e data de portaria | 14 |
-| [`linha-do-tempo-free-flow`](dados/linha-do-tempo-free-flow.csv) | Cronologia do Free Flow no Brasil, do primeiro regulamento às datas ainda marcadas | 42 |
+| [`linha-do-tempo-free-flow`](dados/linha-do-tempo-free-flow.csv) | Cronologia do Free Flow no Brasil, do primeiro regulamento às datas ainda marcadas | 46 |
 
 O dicionário de dados, com o significado de cada coluna e os valores aceitos, está em **[`dados/README.md`](dados/README.md)**.
 

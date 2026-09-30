@@ -5,7 +5,7 @@
 Esta página reúne a cronologia completa, do primeiro regulamento à data mais recente, com fonte oficial em cada marco. É a linha do tempo estável do sistema. O que mudou nas últimas semanas fica em [Novidades do Free Flow no Brasil](novidades.md), que é a página viva.
 
 > Publicado em 26 de agosto de 2026. Última atualização em 10 de setembro de 2026.
-> Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Base de dados em [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv), com 42 marcos datados.
+> Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Base de dados em [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv), com 46 marcos datados.
 
 ---
 
@@ -119,6 +119,7 @@ Foi o ano em que o Free Flow deixou de ser um caso isolado e passou a existir em
 | 27/08/2026 | A ANTT **aprova a abertura da Audiência Pública nº 14/2026**, sobre o sandbox de interoperabilidade do pagamento | Nacional |
 | 27/08/2026 | A ANTT abre a **Tomada de Subsídios nº 4/2026**, para revisar a Resolução nº 4.281/2014 | Nacional |
 | 27/08/2026 | A ANTT **autoriza a cobrança** em cinco pórticos da BR-060/364, entre Goiás e Mato Grosso | GO e MT |
+| 03/09/2026 | A ANTT aprova os editais da **Rota 2 de Julho** e da **Rota Agro Central**, duas concessões federais desenhadas com Free Flow | BA, MT e RO |
 | 07/09/2026 | A Way-364 começa a cobrar e **Mato Grosso vira o oitavo estado** com Free Flow ativo | GO e MT, BR-060 e BR-364 |
 
 Três leituras que a tabela não entrega sozinha:
@@ -157,8 +158,11 @@ Datas anunciadas ou previstas em norma. **Anúncio de início de cobrança é pr
 | 08/10/2026 | Sessão pública híbrida da Audiência Pública nº 14/2026, em Brasília | Confirmado em aviso |
 | 10/10/2026 | Início anunciado da cobrança na MT-130, a segunda concessão de Mato Grosso | Anunciado |
 | 23/10/2026 | Último dia de contribuições da Audiência Pública nº 14/2026 | Confirmado em aviso |
+| 04/11/2026 | Início anunciado da operação do pórtico da Elovias na BR-040, em Simão Pereira | Anunciado |
 | 16/11/2026 | Último dia da janela de regularização sem penalidades de trânsito | Confirmado em norma |
 | 17/11/2026 | A regra ordinária volta a valer e tarifas em aberto voltam a poder gerar auto de infração | Confirmado em norma |
+| 17/12/2026 | Leilão da Rota Agro Central, na B3 | Anunciado |
+| 18/12/2026 | Leilão da Rota 2 de Julho, na B3 | Anunciado |
 | Sem data | Retomada do Sistema Anchieta-Imigrantes, com o pórtico da subida após o km 38 | Adiado |
 
 A lista completa de trechos previstos e adiados está em [Onde o Free Flow ainda vai chegar](../README.md#onde-o-free-flow-ainda-vai-chegar).

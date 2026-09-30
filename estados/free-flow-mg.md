@@ -126,6 +126,9 @@ A EPR Sul de Minas oferece modalidade pré-paga no aplicativo, com resgate do sa
 | Rodovia | Concessionária | Situação |
 |---|---|---|
 | **BR-116 e BR-251**, norte de Minas | Ecovias das Gerais | Previsto. O contrato prevê Free Flow **a partir de dezembro de 2026** |
+| **BR-040**, km 831, em Simão Pereira | Elovias | Previsto. Pórtico em obras desde setembro de 2026, com operação anunciada para **4 de novembro de 2026**. Substitui a praça física do km 819,3 |
+
+**O pórtico da BR-040 mudou de lugar antes de existir.** O contrato da Elovias previa o ponto no km 3, em Comendador Levy Gasparian, já no Rio de Janeiro. As prefeituras das duas cidades fecharam acordo numa audiência de conciliação do Ministério Público Federal, com a ANTT e a concessionária, e o pórtico foi para o km 831, ainda em Minas. É o primeiro Free Flow da BR-040 e o primeiro da Zona da Mata mineira. A Elovias ainda não divulgou os canais de pagamento, e **até o início da operação não existe cobrança por pórtico nesse trecho**.
 
 Enquanto isso não acontece, vale a regra que protege contra golpe: **cobrança de Free Flow apresentada em nome de uma rodovia que ainda não cobra é motivo de desconfiança.** A lista completa dos trechos previstos e adiados está em [Rodovias com Free Flow no Brasil](../RODOVIAS-COM-FREE-FLOW.md), e o roteiro anti-golpe em [Golpe do falso pedágio](../docs/golpe-do-falso-pedagio.md).
 

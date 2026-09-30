@@ -94,13 +94,14 @@ Vale o alerta que acompanha qualquer conversa sobre moto e pedágio: **nenhuma t
 
 ## O que ainda vai chegar em Mato Grosso
 
-Três trechos mato-grossenses têm Free Flow previsto e **não cobram por pórtico hoje**. Cobrança apresentada em nome de qualquer um deles é motivo de desconfiança.
+Quatro trechos mato-grossenses têm Free Flow previsto e **não cobram por pórtico hoje**. Cobrança apresentada em nome de qualquer um deles é motivo de desconfiança.
 
 | Rodovia | Concessionária | Situação |
 |---|---|---|
 | **MT-130**, de Primavera do Leste a Paranatinga | Concessionária de Rodovias Rota dos Grãos | Previsto. Seis pórticos substituem as duas praças físicas em cerca de 140 km; início anunciado para 10 de outubro de 2026 |
 | **BR-163**, de Itiquira a Sinop | Nova Rota do Oeste | Previsto. A ANTT lista termo aditivo previsto para a adoção do Free Flow |
 | **MT-449**, em Lucas do Rio Verde e Tapurah | Rodovia da Mudança | Previsto. Seis pórticos em três corredores tarifários aprovados pela AGER-MT |
+| **BR-070, BR-174 e BR-364**, de Cuiabá a Vilhena (RO) | A licitar, Rota Agro Central | Previsto. Edital aprovado pela ANTT em 3 de setembro de 2026, com diretrizes para o Free Flow; leilão marcado para 17 de dezembro de 2026 |
 
 Lembre da regra que este repositório aplica desde a primeira versão: **anúncio de início é promessa, não fato.** Uma data anunciada só vira cobrança na base quando a concessionária ou o regulador confirma que a cobrança começou. O acompanhamento fica em [Novidades do Free Flow no Brasil](../docs/novidades.md).
 
