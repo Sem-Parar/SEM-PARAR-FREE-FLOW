@@ -36,6 +36,8 @@ O repositório cobre dois temas conectados:
 1. **Free Flow**, o pedágio eletrônico sem cancela: onde já existe, como funciona, como pagar e o que acontece quando o prazo passa.
 2. **Tag de Pedágio**, a camada que transforma tudo isso em automático: como a cobrança funciona, o que muda com os descontos e onde a tag vale além do pedágio.
 
+**Praças com cabine** estão em outro repositório aberto do Sem Parar, [Praças de pedágio do Brasil](https://github.com/Sem-Parar/SEM-PARAR-PEDAGIOS), com cada praça física por rodovia, km, município e concessionária.
+
 ---
 
 ## O que é o Free Flow
@@ -194,7 +196,7 @@ Trechos com Free Flow **previsto** ou com início **adiado**. Nenhum deles cobra
 | PR | **BR-153** EPR Litoral Pioneiro | EPR Litoral Pioneiro | previsto | ANTT lista termo aditivo previsto; a concessionária declarou não haver previsão (fontes divergentes) |
 | PR | **BR-163** Lote 5 - Via Campo | Via Campo | **adiado** | Corbélia, Mamborê e Floresta; sistema em homologação, sem previsão de início da cobrança |
 | MG | **BR-116** Rota das Gerais | Ecovias das Gerais | previsto | BR-116 e BR-251, norte de MG; contrato prevê Free Flow a partir de dezembro de 2026 |
-| MG | **BR-040** Juiz de Fora-Rio de Janeiro | Elovias | **adiado** | Simão Pereira, km 831; um pórtico substituirá a praça física do km 819,3; início anunciado para 04/11/2026 e adiado no mesmo dia, sem nova data |
+| MG | **BR-040** Juiz de Fora-Rio de Janeiro | Elovias | previsto | Simão Pereira, km 831; um pórtico substituirá a praça física do km 819,3; adiado em 04/11/2026, autorizado pela ANTT no mesmo dia e com início anunciado para 16/11/2026 |
 | RS | **BR-116** Rota Portuária do Sul | a licitar | previsto | Camaquã à ponte sobre o Rio Jaguarão; 14 pórticos previstos no projeto (BR-116 e BR-392) |
 | RS | **BR-290** FreeWay e malha ViaSul | CCR ViaSul | previsto | Conversão das 7 praças físicas em estudo, sem prazo definido |
 | RJ | **BR-101** BR-101/RJ Norte | Arteris Fluminense | previsto | Pórticos previstos em Tanguá, Itaboraí e São Gonçalo; sem cronograma público |
@@ -343,7 +345,7 @@ Todo o conteúdo deste repositório nasce de oito bases públicas em **CSV**, so
 | [`tags-aceitas-free-flow`](dados/tags-aceitas-free-flow.csv) | Aceitação de tag por concessionária, com regime de autorização, operadoras publicadas e descontos | 18 |
 | [`base-legal-free-flow`](dados/base-legal-free-flow.csv) | As leis, resoluções e portarias que sustentam o Free Flow, com o que cada uma define | 13 |
 | [`homologacao-senatran-free-flow`](dados/homologacao-senatran-free-flow.csv) | Homologações de sistema de livre passagem pela Senatran, com número e data de portaria | 15 |
-| [`linha-do-tempo-free-flow`](dados/linha-do-tempo-free-flow.csv) | Cronologia do Free Flow no Brasil, do primeiro regulamento às datas ainda marcadas | 54 |
+| [`linha-do-tempo-free-flow`](dados/linha-do-tempo-free-flow.csv) | Cronologia do Free Flow no Brasil, do primeiro regulamento às datas ainda marcadas | 56 |
 
 O dicionário de dados, com o significado de cada coluna e os valores aceitos, está em **[`dados/README.md`](dados/README.md)**.
 
