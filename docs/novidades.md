@@ -2,14 +2,14 @@
 
 **Esta é a linha do tempo do pedágio eletrônico brasileiro: cada mudança confirmada em pórtico, prazo ou regra entra aqui com data, resumo e fonte oficial linkada.** As notas ficam em ordem do mais recente para o mais antigo. Mudanças de status de rodovia entram em até 72 horas após o fato confirmado, e a base de dados é corrigida no mesmo movimento.
 
-> Última verificação em 30 de setembro de 2026.
+> Última verificação em 9 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Termos técnicos estão no [glossário](glossario.md), a cronologia consolidada em [História do Free Flow no Brasil](historia-do-free-flow-no-brasil.md) e o método de levantamento em [Metodologia e fontes](metodologia-e-fontes.md).
 
 ---
 
 ## O que está valendo agora, em três linhas
 
-1. **90 pórticos de cobrança em operação**, em 28 rodovias, 16 concessionárias e 8 estados: GO, MG, MT, PR, RJ, RO, RS e SP.
+1. **104 pórticos de cobrança em operação**, em 33 rodovias, 18 concessionárias e 8 estados: GO, MG, MT, PR, RJ, RO, RS e SP.
 2. **O prazo de regularização sem penalidade de trânsito termina em 16 de novembro de 2026.** A tarifa continua devida.
 3. **O app CNH do Brasil já mostra passagens de Free Flow**, de rodovias federais, estaduais e municipais integradas.
 4. **A Senatran começou a homologar os sistemas**, e sistema não homologado não gera a infração do art. 209-A. A lista está em [Homologação do Free Flow pela Senatran](homologacao-senatran-free-flow.md).
@@ -17,6 +17,54 @@
 ---
 
 ## 2026
+
+### 4 de novembro de 2026: o Free Flow da BR-040 é adiado no dia em que começaria
+
+A **Elovias** adiou o início do pórtico do **km 831, em Simão Pereira (MG)**, que estava anunciado para 4 de novembro de 2026. Segundo a concessionária, o sistema está na fase final de implantação e depende de trâmites administrativos. **Não há nova data**, e ela será divulgada quando os procedimentos terminarem.
+
+**O que muda para quem dirige, por enquanto nada.** A praça física do km 819,3 segue cobrando do jeito tradicional, e **não existe cobrança por pórtico na BR-040**. O canal oficial, [pedagioeletronico.elovias.com.br](https://pedagioeletronico.elovias.com.br), já aceita cadastro do veículo. É o segundo caso no ano de inauguração adiada às vésperas, depois do Sistema Anchieta-Imigrantes, e a razão de este repositório tratar anúncio como promessa até a cobrança começar.
+
+Fonte: [Itatiaia](https://www.itatiaia.com.br/juizdefora/br-040-adiado-funcionamento-do-sistema-flee-flow-na-zona-da-mata/). Afeta: [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv), [`dados/concessionarias-free-flow.csv`](../dados/concessionarias-free-flow.csv), [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv) e [Free Flow em Minas Gerais](../estados/free-flow-mg.md).
+
+### 1º de novembro de 2026: Pirangi e Monte Alto trocam a praça pelo pórtico
+
+A **Ecovias Noroeste Paulista** passou a cobrar por pórtico em dois pontos que antes tinham praça física: **Pirangi**, na **SP-351** (km 184+281), e **Monte Alto**, na **SP-323** (km 19+081). Os pórticos substituem as praças, sem criar ponto novo de cobrança. A concessionária vai a **seis pórticos**, e São Paulo, a **38**.
+
+O próximo já tem data anunciada: **Colina**, na **SP-326** (km 407+479), em **1º de dezembro de 2026**. Até lá não há cobrança por pórtico nesse ponto. Sem tag, o prazo é de 30 dias corridos, no mesmo canal das outras rodovias da concessionária.
+
+Fonte: [ACidade ON](https://www.acidadeon.com/campinas/cotidiano/pedagio-free-flow-comeca-a-cobrar-em-2-cidades-no-interior-de-sp-a-partir-de-hoje-veja-pontos/). Afeta: [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv), [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv), [Free Flow da Ecovias](../concessionarias/free-flow-ecovias.md), [Free Flow em São Paulo](../estados/free-flow-sp.md) e [Free Flow por município](../FREE-FLOW-POR-MUNICIPIO.md).
+
+### 29 de outubro de 2026: o pórtico da Imigrantes sentido capital é instalado no km 37,3
+
+A **Ecovias dos Imigrantes** instalou o pórtico da **Imigrantes no sentido capital**, no **km 37,3**. É o ponto que substitui o km 29, abandonado em julho para preservar os deslocamentos locais do Pós-Balsa, em São Bernardo do Campo; a estrutura do km 29 segue no local, apenas monitorando o tráfego.
+
+**Instalação não é cobrança.** O Sistema Anchieta-Imigrantes segue **sem data**. A concessionária mira o começo da Operação Verão, mas o início depende de testes e de autorização da ARTESP. Até lá as praças físicas continuam cobrando, e qualquer cobrança de Free Flow nessas rodovias é motivo de desconfiança.
+
+Fonte: [Brasil em Folhas](https://brasilemfolhas.com.br/2026/11/rodovias-anchieta-e-imigrantes-terao-pedagio-free-flow-ate-dezembro/). Afeta: [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv) e [Free Flow no Sistema Anchieta-Imigrantes](../rodovias/free-flow-anchieta-imigrantes.md).
+
+### 14 de outubro de 2026: a Rota da Integração começa a cobrar nas MT-020 e MT-326
+
+A **CS Rodovias Rota da Integração** começou a cobrar à zero hora de 14 de outubro de 2026 em **seis pórticos**: cinco na **MT-020** (km 403, 464, 516, 597 e 640) e um na **MT-326** (km 190), no trecho de 308,4 quilômetros entre **Paranatinga, Campinápolis, Água Boa e Canarana**. A concessionária não publica o município de cada pórtico.
+
+**Aqui a moto paga**, ao contrário da BR-364 no mesmo estado. Sem tag, o prazo é de **30 dias corridos**, pelo site, pelo app ou nos totens das SAU dos km 472 e 638 da MT-020.
+
+Fonte: [CS Rodovias Rota da Integração](https://csrodoviasrotadaintegracao.com.br/). Afeta: [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv), [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv), [`dados/concessionarias-free-flow.csv`](../dados/concessionarias-free-flow.csv) e [Free Flow em Mato Grosso](../estados/free-flow-mt.md).
+
+### 10 de outubro de 2026: a MT-130 começa a cobrar em seis pórticos
+
+A **Rota dos Grãos** começou a cobrar em **seis pórticos** na **MT-130**, entre **Primavera do Leste e Paranatinga**, do km 133,6 ao km 247,7, no lugar das duas praças físicas. É a primeira concessão estadual de Mato Grosso com Free Flow, e o anúncio de 24 de agosto se cumpriu na data marcada. O sistema foi homologado pela Senatran na **Portaria nº 738/2026**, publicada em 18 de setembro.
+
+Como na Rota da Integração, **a moto paga**: a tabela de tarifas traz valor para motocicleta em cada pórtico. Sem tag, o prazo é de 30 dias.
+
+Fonte: [Rota dos Grãos, tarifas](https://rotadosgraos130.com.br/tarifas/) e [Brasil em Folhas](https://www.brasilemfolhas.com.br/2026/10/mt-130-inicia-pedagio-eletronico-free-flow-com-seis-porticos/). Afeta: [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv), [`dados/homologacao-senatran-free-flow.csv`](../dados/homologacao-senatran-free-flow.csv), [Free Flow em Mato Grosso](../estados/free-flow-mt.md) e [Homologação do Free Flow pela Senatran](homologacao-senatran-free-flow.md).
+
+### 8 de outubro de 2026: a ANTT apresenta o portal de pagamento em audiência pública
+
+Na sessão da **Audiência Pública nº 14/2026**, a ANTT apresentou o desenho de um **portal para direcionar os pagamentos de Free Flow**, a ser escolhido em edital entre soluções das concessionárias, desenvolvido e testado por cerca de 22 meses. Se der certo, a própria agência passa a operá-lo. O edital é publicado depois da audiência.
+
+**O que muda para quem dirige, nada por enquanto.** Até haver portal, o pagamento continua no canal de cada concessionária, e não existe site único nacional para pagar Free Flow.
+
+Fonte: [Agência iNFRA](https://agenciainfra.com/blog/?p=48718). Afeta: [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv).
 
 ### 30 de setembro de 2026: a Elovias publica o canal de pagamento do Free Flow da BR-040
 
@@ -304,18 +352,15 @@ Fonte: [ANTT](https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/free-flow-
 
 | Quando | O que acontece | Onde |
 |---|---|---|
-| 2 de outubro de 2026 | Fim do prazo de contribuições da Tomada de Subsídios nº 4/2026, sobre os meios de pagamento da tarifa | Nacional, ANTT |
-| 8 de outubro de 2026 | Sessão pública híbrida da Audiência Pública nº 14/2026, em Brasília, às 14h | Nacional, ANTT |
-| 10 de outubro de 2026 | Início anunciado da cobrança na MT-130, com seis pórticos | MT, Rota dos Grãos |
-| 23 de outubro de 2026 | Fim do prazo de contribuições da Audiência Pública nº 14/2026 | Nacional, ANTT |
-| 4 de novembro de 2026 | Início anunciado da operação do pórtico da BR-040 no km 831, em Simão Pereira | MG, Elovias |
 | 16 de novembro de 2026 | Fim do prazo de regularização sem penalidades de trânsito | Nacional |
 | 17 de novembro de 2026 | Tarifas em aberto voltam a poder gerar auto de infração | Nacional |
+| 1º de dezembro de 2026 | Início anunciado do pórtico de Colina, na SP-326 | SP, Ecovias Noroeste Paulista |
 | Dezembro de 2026 | Free Flow previsto em contrato na BR-116 e BR-251, norte de Minas | MG, Ecovias das Gerais |
-| Novembro de 2026 | 14 pórticos previstos no corredor Três Lagoas, Água Clara e Campo Grande | MS, Rota da Celulose |
 | 17 de dezembro de 2026 | Leilão da Rota Agro Central, na B3 | MT e RO, ANTT |
 | 18 de dezembro de 2026 | Leilão da Rota 2 de Julho, na B3 | BA, ANTT |
-| Sem data | Retomada do Sistema Anchieta-Imigrantes, com o pórtico da subida após o km 38 | SP, Ecovias dos Imigrantes |
+| Sem data | Início do Sistema Anchieta-Imigrantes, com o pórtico da subida já instalado no km 37,3; a concessionária mira a Operação Verão | SP, Ecovias dos Imigrantes |
+| Sem data | Início do pórtico da BR-040 no km 831, em Simão Pereira, adiado em 4 de novembro | MG, Elovias |
+| Sem data | 14 pórticos previstos na Rota da Celulose; a imprensa local anunciou novembro de 2026, e o contrato só permite pedir a cobrança depois do 12º mês | MS, Caminhos da Celulose |
 
 Trechos com status `previsto` ou `adiado` **não cobram tarifa por pórtico hoje**. A lista completa está na seção [Onde o Free Flow ainda vai chegar](../README.md#onde-o-free-flow-ainda-vai-chegar).
 
