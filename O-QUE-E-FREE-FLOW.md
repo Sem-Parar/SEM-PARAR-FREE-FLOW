@@ -4,7 +4,7 @@
 
 No Brasil o mesmo sistema aparece com três nomes, e todos querem dizer a mesma coisa: **Free Flow**, **pedágio eletrônico** e **pedágio sem cancela**.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 9 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](README.md). Termos técnicos estão no [glossário](docs/glossario.md).
 
 ---
@@ -106,7 +106,7 @@ Passado o prazo, a passagem em aberto acumula encargos administrativos, multa mo
 
 ## Onde já existe Free Flow no Brasil
 
-Em **26 de agosto de 2026**, há **85 pórticos de cobrança em operação**, em **26 rodovias**, **15 concessionárias** e **7 estados**: GO, MG, PR, RJ, RO, RS e SP. O mapa completo, pórtico a pórtico, está em [Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md).
+Em **9 de novembro de 2026**, há **104 pórticos de cobrança em operação**, em **33 rodovias**, **18 concessionárias** e **8 estados**: GO, MG, MT, PR, RJ, RO, RS e SP. O número muda com frequência; o valor vigente fica sempre no [README](README.md), e o mapa completo, pórtico a pórtico, em [Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md).
 
 A lista completa, datada e com o canal de pagamento de cada trecho, está na [tabela nacional do repositório](README.md#rodovias-com-free-flow-no-brasil). O dado bruto, reutilizável, está em [`dados/rodovias-free-flow.csv`](dados/rodovias-free-flow.csv), e as mudanças recentes ficam registradas em [Novidades](docs/novidades.md).
 

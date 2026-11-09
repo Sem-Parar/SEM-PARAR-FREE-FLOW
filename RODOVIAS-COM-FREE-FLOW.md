@@ -1,8 +1,8 @@
 # Rodovias com Free Flow no Brasil: lista completa e atualizada
 
-**Em 10 de setembro de 2026, o Brasil tem 90 pórticos de cobrança de Free Flow em operação, distribuídos por 28 rodovias, 16 concessionárias e 8 estados: GO, MG, MT, PR, RJ, RO, RS e SP. Esta é a lista completa, pórtico a pórtico, com município, quilômetro, concessionária responsável e canal oficial de pagamento. Ela inclui também os pórticos instalados que ainda não cobram, informação que ninguém mais reúne e que serve para reconhecer cobrança falsa.**
+**Em 9 de novembro de 2026, o Brasil tem 104 pórticos de cobrança de Free Flow em operação, distribuídos por 33 rodovias, 18 concessionárias e 8 estados: GO, MG, MT, PR, RJ, RO, RS e SP. Esta é a lista completa, pórtico a pórtico, com município, quilômetro, concessionária responsável e canal oficial de pagamento. Ela inclui também os pórticos instalados que ainda não cobram, informação que ninguém mais reúne e que serve para reconhecer cobrança falsa.**
 
-> Publicado em 26 de agosto de 2026. Última verificação dos dados em 10 de setembro de 2026.
+> Publicado em 26 de agosto de 2026. Última verificação dos dados em 9 de novembro de 2026.
 > Página do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](README.md). Dado bruto em [`dados/porticos-free-flow.csv`](dados/porticos-free-flow.csv) e [`dados/rodovias-free-flow.csv`](dados/rodovias-free-flow.csv).
 
 ---
@@ -30,12 +30,12 @@
 
 | Indicador | Hoje |
 |---|:---:|
-| Pórticos de cobrança em operação | **90** |
-| Rodovias com cobrança ativa | **28** |
-| Concessionárias com Free Flow ativo | **16** |
+| Pórticos de cobrança em operação | **104** |
+| Rodovias com cobrança ativa | **33** |
+| Concessionárias com Free Flow ativo | **18** |
 | Estados com cobrança ativa | **8** |
-| Rodovias com Free Flow previsto ou adiado | **18** |
-| Estados que entram quando os previstos ativarem | MS |
+| Rodovias com Free Flow previsto ou adiado | **20** |
+| Estados que entram quando os previstos ativarem | BA e MS |
 
 O estado com mais pórticos é **São Paulo**. A operação de maior extensão contínua é a **BR-364, em Rondônia**, com 686,7 quilômetros. A mais antiga é a **BR-101, Rio-Santos**, primeira do país.
 
@@ -56,12 +56,14 @@ O estado com mais pórticos é **São Paulo**. A operação de maior extensão c
 | **SP-270** Raposo Tavares | São Roque | 48 | 1 | Motiva Sorocabana | 01/10/2025 | [pagar](https://rodovias.motiva.com.br/sorocabana/freeflow/) |
 | **SP-270** Raposo Tavares | Alumínio e Sorocaba | 83 | 1 | Motiva Sorocabana | 01/10/2025 | [pagar](https://rodovias.motiva.com.br/sorocabana/freeflow/) |
 | **SP-270** Raposo Tavares | Araçoiaba da Serra | 111 | 1 | Motiva Sorocabana | 01/10/2025 | [pagar](https://rodovias.motiva.com.br/sorocabana/freeflow/) |
+| **SP-323** José Della Vechia | Monte Alto | 19+081 | 1 | Ecovias Noroeste Paulista | 01/11/2026 | [pagar](https://freeflow.eco.br) |
 | **SP-326** Brigadeiro Faria Lima | Dobrada | 307 | 1 | Ecovias Noroeste Paulista | 01/11/2025 | [pagar](https://freeflow.eco.br) |
 | **SP-326** Brigadeiro Faria Lima | Taiúva | 357 | 1 | Ecovias Noroeste Paulista | 01/12/2025 | [pagar](https://freeflow.eco.br) |
 | **SP-333** Carlos Tonanni | Jaboticabal | 110 | 1 | Ecovias Noroeste Paulista | 04/09/2024 | [pagar](https://freeflow.eco.br) |
 | **SP-333** Laurentino Mascari | Itápolis | 179 | 1 | Ecovias Noroeste Paulista | 04/09/2024 | [pagar](https://freeflow.eco.br) |
+| **SP-351** Comendador Pedro Monteleone | Pirangi | 184+281 | 1 | Ecovias Noroeste Paulista | 01/11/2026 | [pagar](https://freeflow.eco.br) |
 
-**36 pórticos de cobrança em São Paulo**, o maior número do país. O panorama do estado está em **[Free Flow em São Paulo](estados/free-flow-sp.md)**, e as páginas de rodovia em **[Via Dutra](rodovias/free-flow-dutra.md)**, **[Raposo Tavares](rodovias/free-flow-raposo-tavares.md)**, **[Tamoios](rodovias/free-flow-tamoios.md)** e **[Mogi-Bertioga](rodovias/free-flow-mogi-bertioga.md)**. Duas cidades paulistas têm duas concessionárias cobrando ao mesmo tempo, e por isso têm página própria: **[Guarulhos](municipios/free-flow-guarulhos.md)** e **[Arujá](municipios/free-flow-aruja.md)**.
+**38 pórticos de cobrança em São Paulo**, o maior número do país. Os dois mais novos, em Pirangi e Monte Alto, substituíram praças físicas em 1º de novembro de 2026, e um terceiro, em Colina (SP-326, km 407+479), está anunciado para 1º de dezembro. O panorama do estado está em **[Free Flow em São Paulo](estados/free-flow-sp.md)**, e as páginas de rodovia em **[Via Dutra](rodovias/free-flow-dutra.md)**, **[Raposo Tavares](rodovias/free-flow-raposo-tavares.md)**, **[Tamoios](rodovias/free-flow-tamoios.md)** e **[Mogi-Bertioga](rodovias/free-flow-mogi-bertioga.md)**. Duas cidades paulistas têm duas concessionárias cobrando ao mesmo tempo, e por isso têm página própria: **[Guarulhos](municipios/free-flow-guarulhos.md)** e **[Arujá](municipios/free-flow-aruja.md)**.
 
 ---
 
@@ -145,7 +147,7 @@ O estado com mais pórticos é **São Paulo**. A operação de maior extensão c
 | **BR-101** Rio-Santos | Mangaratiba | 447,3 | 1 | RioSP | 31/03/2023 | [pagar](https://pedagiodigital.com) |
 | **BR-101** Rio-Santos | Paraty | 538,5 | 1 | RioSP | 31/03/2023 | [pagar](https://pedagiodigital.com) |
 
-**Procurando por cidade, e não por rodovia?** A lista dos 58 municípios com pórtico de cobrança está em **[Free Flow por município](FREE-FLOW-POR-MUNICIPIO.md)**.
+**Procurando por cidade, e não por rodovia?** A lista dos 65 municípios com pórtico de cobrança está em **[Free Flow por município](FREE-FLOW-POR-MUNICIPIO.md)**.
 
 **3 pórticos de cobrança no Rio de Janeiro**, e eles têm valor histórico: foi aqui que o Free Flow estreou no Brasil. O panorama do estado está em **[Free Flow no Rio de Janeiro](estados/free-flow-rj.md)** e a página do trecho em **[Free Flow na Rio-Santos](rodovias/free-flow-rio-santos.md)**.
 
@@ -173,8 +175,20 @@ O estado com mais pórticos é **São Paulo**. A operação de maior extensão c
 |---|---|---|:---:|---|:---:|---|
 | **BR-364** Rota Agro | Alto Garças | 51,6 | 1 | Rota Agro MT-GO (Way-364) | 07/09/2026 | [pagar](https://way364.com.br) |
 | **BR-364** Rota Agro | Pedra Preta | 106,106 | 1 | Rota Agro MT-GO (Way-364) | 07/09/2026 | [pagar](https://way364.com.br) |
+| **MT-130** Rota dos Grãos | n/d | 133,6 | 1 | Rota dos Grãos | 10/10/2026 | [pagar](https://pedagioeletronico.rotadosgraos130.com.br) |
+| **MT-130** Rota dos Grãos | n/d | 145,6 | 1 | Rota dos Grãos | 10/10/2026 | [pagar](https://pedagioeletronico.rotadosgraos130.com.br) |
+| **MT-130** Rota dos Grãos | n/d | 171,1 | 1 | Rota dos Grãos | 10/10/2026 | [pagar](https://pedagioeletronico.rotadosgraos130.com.br) |
+| **MT-130** Rota dos Grãos | n/d | 195,9 | 1 | Rota dos Grãos | 10/10/2026 | [pagar](https://pedagioeletronico.rotadosgraos130.com.br) |
+| **MT-130** Rota dos Grãos | n/d | 225,8 | 1 | Rota dos Grãos | 10/10/2026 | [pagar](https://pedagioeletronico.rotadosgraos130.com.br) |
+| **MT-130** Rota dos Grãos | n/d | 247,7 | 1 | Rota dos Grãos | 10/10/2026 | [pagar](https://pedagioeletronico.rotadosgraos130.com.br) |
+| **MT-020** Rota da Integração | n/d | 403 | 1 | Rota da Integração | 14/10/2026 | [pagar](https://pedagioeletronico.csrodoviasrotadaintegracao.com.br/inicio) |
+| **MT-020** Rota da Integração | n/d | 464 | 1 | Rota da Integração | 14/10/2026 | [pagar](https://pedagioeletronico.csrodoviasrotadaintegracao.com.br/inicio) |
+| **MT-020** Rota da Integração | n/d | 516 | 1 | Rota da Integração | 14/10/2026 | [pagar](https://pedagioeletronico.csrodoviasrotadaintegracao.com.br/inicio) |
+| **MT-020** Rota da Integração | n/d | 597 | 1 | Rota da Integração | 14/10/2026 | [pagar](https://pedagioeletronico.csrodoviasrotadaintegracao.com.br/inicio) |
+| **MT-020** Rota da Integração | n/d | 640 | 1 | Rota da Integração | 14/10/2026 | [pagar](https://pedagioeletronico.csrodoviasrotadaintegracao.com.br/inicio) |
+| **MT-326** Rota da Integração | n/d | 190 | 1 | Rota da Integração | 14/10/2026 | [pagar](https://pedagioeletronico.csrodoviasrotadaintegracao.com.br/inicio) |
 
-**2 pórticos de cobrança em Mato Grosso**, o estado mais novo do mapa, que estreou em **7 de setembro de 2026**. Eles fazem parte da mesma concessão que cobra em Goiás, uma faixa de 490,06 quilômetros entre Rio Verde e Rondonópolis, 100% eletrônica e sem nenhuma praça física. **Moto é isenta em todo o trecho** e o prazo para pagar sem tag é de 30 dias. O panorama está em **[Free Flow em Mato Grosso](estados/free-flow-mt.md)**.
+**14 pórticos de cobrança em Mato Grosso**, em três concessões, e o estado que mais cresceu no mapa. Estreou em **7 de setembro de 2026** com os 2 pórticos da Way-364 na BR-364, parte da concessão federal de 490,06 quilômetros que também cobra em Goiás, onde **moto é isenta**. Em outubro chegaram duas concessões estaduais, reguladas pela AGER-MT: a **MT-130**, da Rota dos Grãos, com 6 pórticos entre Primavera do Leste e Paranatinga desde **10 de outubro**, e as **MT-020 e MT-326**, da Rota da Integração, com 6 pórticos entre Paranatinga, Campinápolis, Água Boa e Canarana desde **14 de outubro**. **Nas duas estaduais a moto paga.** As concessionárias não publicam o município de cada pórtico, e por isso a coluna aparece como `n/d`. O prazo para pagar sem tag é de 30 dias nas três. O panorama está em **[Free Flow em Mato Grosso](estados/free-flow-mt.md)**.
 
 ---
 
@@ -185,8 +199,8 @@ Esta é a parte da lista que não existe em nenhum outro lugar, e ela tem uso pr
 | Rodovia | Município | Km | Situação | Concessionária |
 |---|---|---|---|---|
 | **SP-150** Via Anchieta | São Bernardo do Campo | 33 | Instalado nos dois sentidos, cobrança adiada sem data | Ecovias dos Imigrantes |
-| **SP-160** Imigrantes, descida | São Bernardo do Campo | 29 | Instalado, cobrança adiada sem data | Ecovias dos Imigrantes |
-| **SP-160** Imigrantes, subida | São Bernardo do Campo | após o 38 | Realocado do km 29 em julho de 2026, ponto exato em definição | Ecovias dos Imigrantes |
+| **SP-160** Imigrantes, descida | São Bernardo do Campo | 29 | Só monitoramento de tráfego, sem cobrança | Ecovias dos Imigrantes |
+| **SP-160** Imigrantes, subida | São Bernardo do Campo | 37,3 | Instalado em 29/10/2026, cobrança sem data | Ecovias dos Imigrantes |
 | **SP-055** Padre Manoel da Nóbrega | Itariri | 369+860 e 360+200 | Duas estruturas, só monitoramento de tráfego, sem cobrança | CNL |
 | **SP-079** Tenente Celestino Américo | Piedade e Tapiraí | 114, 138 e 193 | Instalados, cobrança adiada | Motiva Sorocabana |
 | **SP-139** Rota Sorocabana | São Miguel Arcanjo | 110 | Instalado, cobrança adiada | Motiva Sorocabana |
@@ -199,14 +213,15 @@ O caso mais relevante é o **Sistema Anchieta-Imigrantes**, o corredor de acesso
 
 ## Onde o Free Flow ainda vai chegar
 
-Dezoito trechos têm Free Flow previsto em contrato ou com início adiado. Nenhum deles cobra por pórtico hoje. A tabela completa, com concessionária e detalhe de cada um, está na seção [Onde o Free Flow ainda vai chegar](README.md#onde-o-free-flow-ainda-vai-chegar) do hub.
+Vinte trechos têm Free Flow previsto em contrato ou com início adiado. Nenhum deles cobra por pórtico hoje. A tabela completa, com concessionária e detalhe de cada um, está na seção [Onde o Free Flow ainda vai chegar](README.md#onde-o-free-flow-ainda-vai-chegar) do hub.
 
-Duas datas para observar de perto:
+Três datas para observar de perto:
 
 | Quando | O que acontece |
 |---|---|
-| **10 de outubro de 2026** | Início anunciado da cobrança na **MT-130**, entre Primavera do Leste e Paranatinga, com seis pórticos. É a segunda concessão de Mato Grosso, que já entrou no mapa em 7 de setembro |
-| **Sem data** | Retomada do **Sistema Anchieta-Imigrantes**, com o pórtico da subida realocado para depois do km 38 |
+| **1º de dezembro de 2026** | Início anunciado do pórtico de **Colina**, na SP-326, o terceiro da Ecovias Noroeste Paulista na mesma rodovia |
+| **Sem data** | Início do **Sistema Anchieta-Imigrantes**. O pórtico da subida foi instalado no km 37,3 em 29 de outubro, e a concessionária mira a Operação Verão |
+| **Sem data** | Início do pórtico da **Elovias na BR-040**, em Simão Pereira, anunciado para 4 de novembro e adiado no mesmo dia |
 
 ---
 
@@ -231,19 +246,19 @@ Duas datas para observar de perto:
 <details>
 <summary><strong>Quantas rodovias têm Free Flow no Brasil?</strong></summary>
 
-Em 26 de agosto de 2026 são 26 rodovias com cobrança ativa, somando 85 pórticos de cobrança, operados por 15 concessionárias em 7 estados: GO, MG, PR, RJ, RO, RS e SP. Outros 18 trechos têm Free Flow previsto ou adiado.
+Em 9 de novembro de 2026 são 33 rodovias com cobrança ativa, somando 104 pórticos de cobrança, operados por 18 concessionárias em 8 estados: GO, MG, MT, PR, RJ, RO, RS e SP. Outros 20 trechos têm Free Flow previsto ou adiado.
 </details>
 
 <details>
 <summary><strong>Onde tem Free Flow em São Paulo?</strong></summary>
 
-São Paulo concentra 35 pórticos de cobrança, na Via Dutra (trecho metropolitano), no Rodoanel Norte, nas SP-055, SP-088 e SP-098 da CNL, no Contorno Sul da Tamoios, na Raposo Tavares e nas SP-326 e SP-333 da Ecovias Noroeste Paulista. A lista pórtico a pórtico está [nesta página](#são-paulo).
+São Paulo concentra 38 pórticos de cobrança, na Via Dutra (trecho metropolitano), no Rodoanel Norte, nas SP-055, SP-088 e SP-098 da CNL, no Contorno Sul da Tamoios, na Raposo Tavares e nas SP-323, SP-326, SP-333 e SP-351 da Ecovias Noroeste Paulista. A lista pórtico a pórtico está [nesta página](#são-paulo).
 </details>
 
 <details>
 <summary><strong>A Anchieta e a Imigrantes já cobram Free Flow?</strong></summary>
 
-Não. Os pórticos estão instalados, mas a cobrança foi adiada em 27 de julho de 2026 e não tem nova data. As praças físicas seguem em operação normal. Qualquer cobrança de Free Flow nessas rodovias hoje é motivo de desconfiança.
+Não. Os pórticos estão instalados, o da Imigrantes sentido capital no km 37,3 desde 29 de outubro de 2026, mas a cobrança foi adiada em 27 de julho de 2026 e não tem nova data. As praças físicas seguem em operação normal. Qualquer cobrança de Free Flow nessas rodovias hoje é motivo de desconfiança.
 </details>
 
 <details>
@@ -282,7 +297,7 @@ Em caso de divergência, **as fontes oficiais prevalecem sobre o que está aqui*
 
 <div align="center">
 
-### 90 pórticos, um extrato só
+### 104 pórticos, um extrato só
 
 Com uma tag ativa, a tarifa é debitada automaticamente em qualquer um deles, entra nos descontos do trecho e aparece em um lugar só.
 

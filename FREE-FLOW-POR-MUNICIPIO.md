@@ -1,10 +1,10 @@
-# Free Flow por município: as 63 cidades com pórtico de cobrança no Brasil
+# Free Flow por município: as 65 cidades com pórtico de cobrança no Brasil
 
-**Sessenta e três municípios brasileiros têm pelo menos um pórtico de Free Flow cobrando tarifa hoje, distribuídos por 28 rodovias, 16 concessionárias e 8 estados: São Paulo, Paraná, Goiás, Minas Gerais, Rondônia, Rio Grande do Sul, Rio de Janeiro e Mato Grosso. A tabela abaixo lista todos, com a rodovia, o quilômetro, quantos pórticos e quem cobra. Use Ctrl+F, ou Cmd+F no Mac, e procure o nome da sua cidade.**
+**Sessenta e cinco municípios brasileiros têm pelo menos um pórtico de Free Flow cobrando tarifa hoje, distribuídos por 33 rodovias, 18 concessionárias e 8 estados: São Paulo, Paraná, Goiás, Minas Gerais, Rondônia, Rio Grande do Sul, Rio de Janeiro e Mato Grosso. A tabela abaixo lista todos, com a rodovia, o quilômetro, quantos pórticos e quem cobra. Use Ctrl+F, ou Cmd+F no Mac, e procure o nome da sua cidade.**
 
-Se a sua cidade não estiver na lista, **não existe cobrança de Free Flow nela**, e qualquer mensagem dizendo o contrário merece desconfiança.
+Se a sua cidade não estiver na lista, **não existe cobrança de Free Flow nela**, e qualquer mensagem dizendo o contrário merece desconfiança. **Há uma exceção, em Mato Grosso:** os 12 pórticos das MT-130, MT-020 e MT-326 começaram a cobrar em outubro de 2026 e as concessionárias não publicam o município de cada um. Eles estão num [bloco próprio](#pórticos-sem-município-divulgado), com as cidades dos trechos.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 10 de setembro de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 9 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](README.md). Gerada a partir de [`dados/porticos-free-flow.csv`](dados/porticos-free-flow.csv).
 
 ---
@@ -12,6 +12,7 @@ Se a sua cidade não estiver na lista, **não existe cobrança de Free Flow nela
 ## Índice
 
 - [Sua cidade tem Free Flow?](#sua-cidade-tem-free-flow)
+- [Pórticos sem município divulgado](#pórticos-sem-município-divulgado)
 - [Como ler esta tabela](#como-ler-esta-tabela)
 - [Os dois municípios onde duas regras se encontram](#os-dois-municípios-onde-duas-regras-se-encontram)
 - [Cidades que têm pórtico e não têm cobrança](#cidades-que-têm-pórtico-e-não-têm-cobrança)
@@ -22,7 +23,7 @@ Se a sua cidade não estiver na lista, **não existe cobrança de Free Flow nela
 
 ## Sua cidade tem Free Flow?
 
-Todos os municípios com pórtico de cobrança **em operação**, em ordem alfabética. São 61 registros para 63 municípios, porque alguns pórticos ficam na divisa entre duas cidades e um deles tem o município em divergência entre as fontes.
+Todos os municípios com pórtico de cobrança **em operação**, em ordem alfabética. São 63 registros para 65 municípios, porque alguns pórticos ficam na divisa entre duas cidades e um deles tem o município em divergência entre as fontes.
 
 | Município | UF | Rodovia | km | Pórticos | Quem cobra |
 |---|:---:|---|---|:---:|---|
@@ -66,6 +67,7 @@ Todos os municípios com pórtico de cobrança **em operação**, em ordem alfab
 | **Mauá da Serra** | PR | BR-376 | 294,8 | 1 | [PRVias](concessionarias/free-flow-motiva-ccr.md) |
 | **Miracatu** | SP | SP-055 | 389+560 | 1 | [Novo Litoral](concessionarias/free-flow-novo-litoral.md) |
 | **Mogi das Cruzes** | SP | SP-088 | 41+600 (norte) e 40+800 (sul) | 1 | [Novo Litoral](concessionarias/free-flow-novo-litoral.md) |
+| **Monte Alto** | SP | SP-323 | 19+081 | 1 | [Ecovias Noroeste Paulista](concessionarias/free-flow-ecovias.md) |
 | **Monte Sião** | MG | MG-459 | 12,7 | 1 | [EPR Sul de Minas](concessionarias/free-flow-epr.md) |
 | **Nova Serrana** | MG | BR-262 | 452,95 | 1 | [Way-262](concessionarias/free-flow-way-262.md) |
 | **Ouro Preto do Oeste** | RO | BR-364 | 399,3 | 1 | [Nova 364](concessionarias/free-flow-nova-364.md) |
@@ -73,6 +75,7 @@ Todos os municípios com pórtico de cobrança **em operação**, em ordem alfab
 | **Pedra Preta** | MT | BR-364 | 106,106 | 1 | [Way-364](estados/free-flow-mt.md) |
 | **Pimenta Bueno** | RO | BR-364 | 122,2 | 1 | [Nova 364](concessionarias/free-flow-nova-364.md) |
 | **Pimenta Bueno** | RO | BR-364 | 221,3 | 1 | [Nova 364](concessionarias/free-flow-nova-364.md) |
+| **Pirangi** | SP | SP-351 | 184+281 | 1 | [Ecovias Noroeste Paulista](concessionarias/free-flow-ecovias.md) |
 | **Portelândia** | GO | BR-364 | 340,415 | 1 | [Way-364](estados/free-flow-go.md) |
 | **Presidente Castelo Branco / Mandaguaçu** | PR | BR-376 | 145,8 | 2 | [EPR Paraná](concessionarias/free-flow-epr.md) |
 | **Rolândia / Arapongas** | PR | BR-369 | 180,2 | 2 | [EPR Paraná](concessionarias/free-flow-epr.md) |
@@ -88,7 +91,21 @@ Todos os municípios com pórtico de cobrança **em operação**, em ordem alfab
 | **Theobroma / Jaru** | RO | BR-364 | 452,3 | 1 | [Nova 364](concessionarias/free-flow-nova-364.md) |
 | **Vitorino** | PR | PR-280 | 234,3 | 1 | [EPR Iguaçu](concessionarias/free-flow-epr.md) |
 
-**Total de 90 pórticos de cobrança em operação.**
+**Total de 104 pórticos de cobrança em operação**, somando a tabela acima e o bloco de Mato Grosso abaixo.
+
+---
+
+## Pórticos sem município divulgado
+
+Duas concessões estaduais de Mato Grosso começaram a cobrar em outubro de 2026 e publicam o quilômetro de cada pórtico, mas não o município. Preferimos registrar a lacuna a atribuir cidade por dedução. **Se você mora ou passa por uma das cidades destes trechos, considere que pode haver cobrança.**
+
+| Trecho | Cidades do trecho | Rodovia | km | Pórticos | Quem cobra |
+|---|---|---|---|:---:|---|
+| Rota dos Grãos | Primavera do Leste e Paranatinga (MT) | MT-130 | 133,6; 145,6; 171,1; 195,9; 225,8; 247,7 | 6 | [Rota dos Grãos](estados/free-flow-mt.md) |
+| Rota da Integração | Paranatinga, Campinápolis, Água Boa e Canarana (MT) | MT-020 | 403; 464; 516; 597; 640 | 5 | [Rota da Integração](estados/free-flow-mt.md) |
+| Rota da Integração | idem | MT-326 | 190 | 1 | [Rota da Integração](estados/free-flow-mt.md) |
+
+Quando as concessionárias divulgarem o município de cada pórtico, os registros entram na tabela principal.
 
 ---
 
@@ -126,7 +143,7 @@ Existem estruturas de pórtico instaladas que **não cobram nada**, e saber diss
 | Onde | Situação |
 |---|---|
 | **Itariri (SP)**, SP-055, km 369+860 e 360+200 | Duas estruturas que operam apenas como monitoramento de tráfego |
-| **São Bernardo do Campo (SP)**, SP-150 km 33 e SP-160 km 29 e depois do km 38 | Sistema Anchieta-Imigrantes: instalados, início adiado e sem nova data. A estrutura do km 29 passou a cumprir função de monitoramento |
+| **São Bernardo do Campo (SP)**, SP-150 km 33 e SP-160 km 29 e km 37,3 | Sistema Anchieta-Imigrantes: instalados, início adiado e sem nova data. A estrutura do km 29 passou a cumprir função de monitoramento, e o pórtico do km 37,3 foi instalado em 29/10/2026 |
 | **Ibiúna, Piedade, Tapiraí, Pilar do Sul, Capão Bonito, São Miguel Arcanjo e Salto de Pirapora (SP)**, nas SP-079, SP-139, SP-250 e SP-264 | Estruturas da 2ª etapa da Rota Sorocabana, instaladas e sem cobrança, com início adiado |
 
 **Cobrança apresentada como sendo de qualquer um desses pontos é motivo de desconfiança.** A lista completa, com status por estrutura, está em [`dados/porticos-free-flow.csv`](dados/porticos-free-flow.csv), e como reconhecer uma página falsa está em [Golpe do falso pedágio](docs/golpe-do-falso-pedagio.md).
@@ -138,7 +155,7 @@ Existem estruturas de pórtico instaladas que **não cobram nada**, e saber diss
 <details>
 <summary><strong>Minha cidade não está na lista. Posso receber cobrança de Free Flow?</strong></summary>
 
-Pela passagem dentro da sua cidade, não: se ela não aparece na tabela, não há pórtico cobrando ali. Mas você pode receber cobrança legítima por ter passado por um pórtico em **outra** cidade, numa viagem. A cobrança é do trecho por onde você passou, não do lugar onde você mora.
+Pela passagem dentro da sua cidade, não: se ela não aparece na tabela, não há pórtico cobrando ali, com a exceção das cidades dos trechos de Mato Grosso listados no [bloco próprio](#pórticos-sem-município-divulgado). Mas você pode receber cobrança legítima por ter passado por um pórtico em **outra** cidade, numa viagem. A cobrança é do trecho por onde você passou, não do lugar onde você mora.
 
 O que nunca acontece é cobrança chegando por WhatsApp, SMS ou e-mail. Quem inicia o pagamento é sempre o motorista.
 </details>
@@ -152,7 +169,7 @@ A forma oficial mais simples é o app **CNH do Brasil**, com o app atualizado, n
 <details>
 <summary><strong>Quantos municípios têm Free Flow no Brasil?</strong></summary>
 
-Cinquenta e oito, em 26 de agosto de 2026, somando 85 pórticos de cobrança em operação. O número muda com frequência: em 10 de outubro de 2026 está anunciado o início da MT-130, em Mato Grosso, o que faria do estado o oitavo do país.
+Sessenta e cinco identificados, em 9 de novembro de 2026, mais os trechos de Mato Grosso cujos pórticos ainda não têm município divulgado. Ao todo são 104 pórticos de cobrança em operação. O número muda com frequência: o próximo anunciado é o de Colina (SP), na SP-326, para 1º de dezembro de 2026.
 </details>
 
 <details>
@@ -164,7 +181,7 @@ Depende do caso. Em Goiás, na BR-060, há uma estrutura para cada sentido da pi
 <details>
 <summary><strong>Onde vejo o que muda de cidade para cidade?</strong></summary>
 
-A regra é definida no contrato de cada concessão, então o que muda mesmo é a concessionária, não o município. O panorama por estado está nas páginas de [São Paulo](estados/free-flow-sp.md), [Paraná](estados/free-flow-pr.md), [Goiás](estados/free-flow-go.md), [Minas Gerais](estados/free-flow-mg.md), [Rondônia](estados/free-flow-ro.md), [Rio Grande do Sul](estados/free-flow-rs.md) e [Rio de Janeiro](estados/free-flow-rj.md), e quem cobra o quê está em [Concessionárias com Free Flow no Brasil](CONCESSIONARIAS-FREE-FLOW.md).
+A regra é definida no contrato de cada concessão, então o que muda mesmo é a concessionária, não o município. O panorama por estado está nas páginas de [São Paulo](estados/free-flow-sp.md), [Paraná](estados/free-flow-pr.md), [Goiás](estados/free-flow-go.md), [Minas Gerais](estados/free-flow-mg.md), [Rondônia](estados/free-flow-ro.md), [Rio Grande do Sul](estados/free-flow-rs.md), [Rio de Janeiro](estados/free-flow-rj.md) e [Mato Grosso](estados/free-flow-mt.md), e quem cobra o quê está em [Concessionárias com Free Flow no Brasil](CONCESSIONARIAS-FREE-FLOW.md).
 </details>
 
 ---
