@@ -219,9 +219,9 @@ Três datas para observar de perto:
 
 | Quando | O que acontece |
 |---|---|
+| **16 de novembro de 2026** | Início anunciado do pórtico da **Elovias na BR-040**, em Simão Pereira, autorizado pela ANTT em 4 de novembro, no lugar da praça do km 819,3 |
 | **1º de dezembro de 2026** | Início anunciado do pórtico de **Colina**, na SP-326, o terceiro da Ecovias Noroeste Paulista na mesma rodovia |
 | **Sem data** | Início do **Sistema Anchieta-Imigrantes**. O pórtico da subida foi instalado no km 37,3 em 29 de outubro, e a concessionária mira a Operação Verão |
-| **Sem data** | Início do pórtico da **Elovias na BR-040**, em Simão Pereira, anunciado para 4 de novembro e adiado no mesmo dia |
 
 ---
 

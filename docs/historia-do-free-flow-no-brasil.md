@@ -127,7 +127,8 @@ Foi o ano em que o Free Flow deixou de ser um caso isolado e passou a existir em
 | 14/10/2026 | A **Rota da Integração** começa a cobrar em seis pórticos nas MT-020 e MT-326 | MT, MT-020 e MT-326 |
 | 29/10/2026 | O pórtico da Imigrantes sentido capital é **instalado no km 37,3**, ainda sem cobrança | SP, SP-160 |
 | 01/11/2026 | A Ecovias Noroeste Paulista troca as praças de **Pirangi e Monte Alto** por pórticos | SP, SP-351 e SP-323 |
-| 04/11/2026 | O pórtico da Elovias na BR-040 é **adiado** no dia em que começaria, sem nova data | MG, BR-040 |
+| 04/11/2026 | O pórtico da Elovias na BR-040 é **adiado** no dia em que começaria | MG, BR-040 |
+| 04/11/2026 | A ANTT **autoriza** o Free Flow no ponto P3A da BR-040, em Simão Pereira, no lugar da praça P3 | MG, BR-040 |
 
 Três leituras que a tabela não entrega sozinha:
 
@@ -162,12 +163,12 @@ Datas anunciadas ou previstas em norma. **Anúncio de início de cobrança é pr
 | Quando | O que acontece | Situação |
 |---|---|---|
 | 16/11/2026 | Último dia da janela de regularização sem penalidades de trânsito | Confirmado em norma |
+| 16/11/2026 | Início anunciado do pórtico da Elovias na BR-040, em Simão Pereira | Anunciado |
 | 17/11/2026 | A regra ordinária volta a valer e tarifas em aberto voltam a poder gerar auto de infração | Confirmado em norma |
 | 01/12/2026 | Início anunciado do pórtico de Colina, na SP-326 | Anunciado |
 | 17/12/2026 | Leilão da Rota Agro Central, na B3 | Anunciado |
 | 18/12/2026 | Leilão da Rota 2 de Julho, na B3 | Anunciado |
 | Sem data | Início do Sistema Anchieta-Imigrantes, com o pórtico da subida já instalado no km 37,3 | Adiado |
-| Sem data | Início do pórtico da Elovias na BR-040, em Simão Pereira | Adiado |
 
 A lista completa de trechos previstos e adiados está em [Onde o Free Flow ainda vai chegar](../README.md#onde-o-free-flow-ainda-vai-chegar).
 

@@ -18,9 +18,19 @@
 
 ## 2026
 
+### 5 de novembro de 2026: a ANTT autoriza o Free Flow da BR-040, e a Elovias marca o início para 16 de novembro
+
+A **ANTT** autorizou, pela **Deliberação nº 310, de 4 de novembro de 2026**, publicada no dia seguinte, a cobrança por Free Flow no ponto **P3A, no km 831 da BR-040, em Simão Pereira (MG)**. O início fica para até dez dias depois do ato e depende do relatório da comissão que confere as obras iniciais. A **Elovias** confirmou o começo para **0h de 16 de novembro de 2026**.
+
+**A praça sai no mesmo momento em que o pórtico entra.** A autorização veda a operação simultânea dos dois pontos: a praça física P3, do km 819,3, é desativada quando o pórtico começa a cobrar. Até lá ela segue cobrando do jeito tradicional, e **não existe cobrança por pórtico na BR-040**. O canal oficial, [pedagioeletronico.elovias.com.br](https://pedagioeletronico.elovias.com.br), já aceita cadastro do veículo.
+
+**Por que o status é `previsto`, e não `ativo`.** O mesmo início já foi adiado uma vez, no próprio dia 4 de novembro. Este repositório muda o status quando a cobrança começa, e não quando ela é anunciada.
+
+Fonte: [Diário do Transporte](https://diariodotransporte.com.br/2026/11/06/antt-libera-novo-pedagio-eletronico-na-br-040-formaliza-concessao-de-502-km-a-116-sertoes-e-avanca-em-leilao-de-rodovia-com-r-108-bilhoes-previstos/) e [Mobilidade BH](https://mobilidadebh.com.br/br-040-pedagio-free-flow-comeca-operar-16-novembro/). Afeta: [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv), [`dados/concessionarias-free-flow.csv`](../dados/concessionarias-free-flow.csv), [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv), [`dados/canais-oficiais-pagamento.csv`](../dados/canais-oficiais-pagamento.csv) e [Free Flow em Minas Gerais](../estados/free-flow-mg.md).
+
 ### 4 de novembro de 2026: o Free Flow da BR-040 é adiado no dia em que começaria
 
-A **Elovias** adiou o início do pórtico do **km 831, em Simão Pereira (MG)**, que estava anunciado para 4 de novembro de 2026. Segundo a concessionária, o sistema está na fase final de implantação e depende de trâmites administrativos. **Não há nova data**, e ela será divulgada quando os procedimentos terminarem.
+A **Elovias** adiou o início do pórtico do **km 831, em Simão Pereira (MG)**, que estava anunciado para 4 de novembro de 2026. Segundo a concessionária, o sistema está na fase final de implantação e depende de trâmites administrativos. Naquele dia não havia nova data. A autorização da ANTT e a data de 16 de novembro estão na nota de 5 de novembro.
 
 **O que muda para quem dirige, por enquanto nada.** A praça física do km 819,3 segue cobrando do jeito tradicional, e **não existe cobrança por pórtico na BR-040**. O canal oficial, [pedagioeletronico.elovias.com.br](https://pedagioeletronico.elovias.com.br), já aceita cadastro do veículo. É o segundo caso no ano de inauguração adiada às vésperas, depois do Sistema Anchieta-Imigrantes, e a razão de este repositório tratar anúncio como promessa até a cobrança começar.
 
@@ -353,13 +363,13 @@ Fonte: [ANTT](https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/free-flow-
 | Quando | O que acontece | Onde |
 |---|---|---|
 | 16 de novembro de 2026 | Fim do prazo de regularização sem penalidades de trânsito | Nacional |
+| 16 de novembro de 2026 | Início anunciado do pórtico da BR-040 no km 831, em Simão Pereira, com a desativação da praça do km 819,3 | MG, Elovias |
 | 17 de novembro de 2026 | Tarifas em aberto voltam a poder gerar auto de infração | Nacional |
 | 1º de dezembro de 2026 | Início anunciado do pórtico de Colina, na SP-326 | SP, Ecovias Noroeste Paulista |
 | Dezembro de 2026 | Free Flow previsto em contrato na BR-116 e BR-251, norte de Minas | MG, Ecovias das Gerais |
 | 17 de dezembro de 2026 | Leilão da Rota Agro Central, na B3 | MT e RO, ANTT |
 | 18 de dezembro de 2026 | Leilão da Rota 2 de Julho, na B3 | BA, ANTT |
 | Sem data | Início do Sistema Anchieta-Imigrantes, com o pórtico da subida já instalado no km 37,3; a concessionária mira a Operação Verão | SP, Ecovias dos Imigrantes |
-| Sem data | Início do pórtico da BR-040 no km 831, em Simão Pereira, adiado em 4 de novembro | MG, Elovias |
 | Sem data | 14 pórticos previstos na Rota da Celulose; a imprensa local anunciou novembro de 2026, e o contrato só permite pedir a cobrança depois do 12º mês | MS, Caminhos da Celulose |
 
 Trechos com status `previsto` ou `adiado` **não cobram tarifa por pórtico hoje**. A lista completa está na seção [Onde o Free Flow ainda vai chegar](../README.md#onde-o-free-flow-ainda-vai-chegar).

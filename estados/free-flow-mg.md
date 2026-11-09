@@ -126,7 +126,7 @@ A EPR Sul de Minas oferece modalidade pré-paga no aplicativo, com resgate do sa
 | Rodovia | Concessionária | Situação |
 |---|---|---|
 | **BR-116 e BR-251**, norte de Minas | Ecovias das Gerais | Previsto. O contrato prevê Free Flow **a partir de dezembro de 2026** |
-| **BR-040**, km 831, em Simão Pereira | Elovias | **Adiado.** Operação anunciada para 4 de novembro de 2026 e adiada no mesmo dia, sem nova data, por trâmites administrativos pendentes. Substituirá a praça física do km 819,3, que segue cobrando |
+| **BR-040**, km 831, em Simão Pereira | Elovias | Previsto. Operação **anunciada para 16 de novembro de 2026**, autorizada pela ANTT em 4 de novembro, no mesmo dia de um adiamento. Substituirá a praça física do km 819,3, que segue cobrando até lá e é desativada no mesmo momento |
 
 **O pórtico da BR-040 mudou de lugar antes de existir.** O contrato da Elovias previa o ponto no km 3, em Comendador Levy Gasparian, já no Rio de Janeiro. As prefeituras das duas cidades fecharam acordo numa audiência de conciliação do Ministério Público Federal, com a ANTT e a concessionária, e o pórtico foi para o km 831, ainda em Minas. É o primeiro Free Flow da BR-040 e o primeiro da Zona da Mata mineira. A Elovias já publicou o canal oficial de pagamento, o [pedagioeletronico.elovias.com.br](https://pedagioeletronico.elovias.com.br), com consulta por placa, conta única, Pix, cartão e aplicativo próprio, mas **até o início da operação não existe cobrança por pórtico nesse trecho**. Canal publicado antes da cobrança é normal, cobrança antes da data anunciada não é.
 
