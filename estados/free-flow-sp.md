@@ -1,10 +1,10 @@
 # Free Flow em São Paulo: onde tem, quanto tempo você tem e como pagar
 
-**São Paulo é o estado com mais Free Flow do Brasil: 36 pórticos de cobrança, em 9 trechos de rodovia, operados por 6 concessionárias. E ele tem uma particularidade que confunde: aqui convivem dois regimes. A Via Dutra é federal, regulada pela ANTT, e as rodovias SP são estaduais, reguladas pela ARTESP dentro do programa Siga Fácil. Isso muda quem aceita qual tag, quem é isento e onde se paga.**
+**São Paulo é o estado com mais Free Flow do Brasil: 38 pórticos de cobrança, em 11 trechos de rodovia, operados por 6 concessionárias. E ele tem uma particularidade que confunde: aqui convivem dois regimes. A Via Dutra é federal, regulada pela ANTT, e as rodovias SP são estaduais, reguladas pela ARTESP dentro do programa Siga Fácil. Isso muda quem aceita qual tag, quem é isento e onde se paga.**
 
 Este é o panorama do estado. Cada trecho tem canal de pagamento próprio, e é sempre a concessionária quem recebe.
 
-> Publicado em 26 de agosto de 2026. Última verificação dos dados em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última verificação dos dados em 9 de novembro de 2026.
 > Página do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Dado bruto em [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv).
 
 ---
@@ -30,14 +30,16 @@ Este é o panorama do estado. Cada trecho tem canal de pagamento próprio, e é 
 | **BR-116** Via Dutra | Do km 204 (Arujá) ao km 231 (São Paulo), passando por Guarulhos, só nas pistas expressas | **21** | RioSP | federal | 06/12/2025 |
 | **SP-021** Rodoanel, Trecho Norte | Guarulhos, km 135 | 2 | Via SP Serra | estadual | 23/12/2025 |
 | **SP-270** Raposo Tavares | São Roque (km 48), Alumínio e Sorocaba (km 83), Araçoiaba da Serra (km 111) | 3 | Motiva Sorocabana | estadual | 01/10/2025 |
-| **SP-326** Brigadeiro Faria Lima | Dobrada (km 307) e Taiúva (km 357) | 2 | Ecovias Noroeste Paulista | estadual | 01/11/2025 |
+| **SP-323** José Della Vechia | Monte Alto (km 19+081) | 1 | Ecovias Noroeste Paulista | estadual | 01/11/2026 |
+| **SP-326** Brigadeiro Faria Lima | Dobrada (km 307) e Taiúva (km 357); Colina (km 407+479) anunciado para 01/12/2026 | 2 | Ecovias Noroeste Paulista | estadual | 01/11/2025 |
 | **SP-333** Laurentino Mascari e Carlos Tonanni | Jaboticabal (km 110) e Itápolis (km 179) | 2 | Ecovias Noroeste Paulista | estadual | 04/09/2024 |
+| **SP-351** Comendador Pedro Monteleone | Pirangi (km 184+281) | 1 | Ecovias Noroeste Paulista | estadual | 01/11/2026 |
 | **SP-088** Pedro Eroles, Mogi-Dutra | Arujá (km 37) e Mogi das Cruzes (km 41) | 2 | CNL | estadual | 01/11/2025 |
 | **SP-098** Dom Paulo Rolim Loureiro, Mogi-Bertioga | Bertioga (km 92+740) | 1 | CNL | estadual | 01/11/2025 |
 | **SP-055** Manoel Hipólito do Rego e Padre Manoel da Nóbrega | Santos (km 236) e Miracatu | 2 | CNL | estadual | 01/11/2025 |
 | **SP-099** Tamoios, Contorno Sul | Caraguatatuba (km 13+500) | 1 | Tamoios | estadual | 18/11/2024 |
 
-**Total de 36 pórticos de cobrança**, o maior número entre os estados brasileiros. A relação pórtico a pórtico, com quilômetro e sentido, está em [Rodovias com Free Flow no Brasil](../RODOVIAS-COM-FREE-FLOW.md#são-paulo).
+**Total de 38 pórticos de cobrança**, o maior número entre os estados brasileiros. Os mais novos são os de Pirangi e Monte Alto, que substituíram praças físicas da Ecovias Noroeste Paulista em 1º de novembro de 2026. A relação pórtico a pórtico, com quilômetro e sentido, está em [Rodovias com Free Flow no Brasil](../RODOVIAS-COM-FREE-FLOW.md#são-paulo).
 
 Páginas completas: **[Via Dutra](../rodovias/free-flow-dutra.md)**, **[Tamoios](../rodovias/free-flow-tamoios.md)** e **[Mogi-Bertioga](../rodovias/free-flow-mogi-bertioga.md)**.
 
@@ -96,7 +98,7 @@ São Paulo concentra também o maior número de pórticos instalados que **não 
 | Rodovia | Municípios | Situação |
 |---|---|---|
 | **SP-150** Via Anchieta | São Bernardo do Campo, km 33 | Instalado nos dois sentidos, cobrança **adiada sem data** |
-| **SP-160** Rodovia dos Imigrantes | São Bernardo do Campo, km 29 na descida e após o km 38 na subida | Instalado, cobrança **adiada sem data** |
+| **SP-160** Rodovia dos Imigrantes | São Bernardo do Campo, km 29 na descida (hoje só monitoramento) e km 37,3 na subida, instalado em 29/10/2026 | Cobrança **adiada sem data** |
 | **SP-079** Tenente Celestino Américo | Piedade e Tapiraí | Instalados, cobrança adiada |
 | **SP-139** Rota Sorocabana | São Miguel Arcanjo | Instalado, cobrança adiada |
 | **SP-250** Bunjiro Nakao | Ibiúna, Piedade, Pilar do Sul e Capão Bonito | Instalados, cobrança adiada |
@@ -116,7 +118,7 @@ O caso mais relevante é o **Sistema Anchieta-Imigrantes**, o corredor de acesso
 | BR-116 Via Dutra | [pedagiodigital.com](https://pedagiodigital.com) |
 | SP-021 Rodoanel Norte | [viaappia.com.br/sigafacil](https://viaappia.com.br/sigafacil/) |
 | SP-270 Raposo Tavares | [rodovias.motiva.com.br/sorocabana/freeflow](https://rodovias.motiva.com.br/sorocabana/freeflow/) |
-| SP-326 e SP-333 | [freeflow.eco.br](https://freeflow.eco.br) |
+| SP-323, SP-326, SP-333 e SP-351 | [freeflow.eco.br](https://freeflow.eco.br) |
 | SP-055, SP-088 e SP-098 (CNL) | [cnl.pedagioeletronico.com.br](https://cnl.pedagioeletronico.com.br) |
 | SP-099 Tamoios | [freeflowtamoios.com.br](https://freeflowtamoios.com.br) |
 
@@ -141,7 +143,7 @@ Passado o prazo, a passagem em aberto pode configurar a infração do art. 209-A
 <details>
 <summary><strong>Onde tem Free Flow em São Paulo?</strong></summary>
 
-Em 9 trechos de rodovia, somando 36 pórticos de cobrança: Via Dutra (trecho metropolitano), Rodoanel Norte, Raposo Tavares, SP-326, SP-333, Mogi-Dutra, Mogi-Bertioga, SP-055 da CNL e o Contorno Sul da Tamoios. A tabela completa está [nesta página](#onde-tem-free-flow-em-são-paulo).
+Em 11 trechos de rodovia, somando 38 pórticos de cobrança: Via Dutra (trecho metropolitano), Rodoanel Norte, Raposo Tavares, SP-323, SP-326, SP-333, SP-351, Mogi-Dutra, Mogi-Bertioga, SP-055 da CNL e o Contorno Sul da Tamoios. A tabela completa está [nesta página](#onde-tem-free-flow-em-são-paulo).
 </details>
 
 <details>
@@ -165,7 +167,7 @@ Depende do trecho. Paga na pista expressa da Via Dutra (meia tarifa), no Rodoane
 <details>
 <summary><strong>A Anchieta e a Imigrantes já cobram Free Flow?</strong></summary>
 
-Não. Os pórticos estão instalados desde fevereiro de 2026, mas a cobrança foi adiada em 27 de julho de 2026 e não tem nova data. As praças físicas seguem operando normalmente.
+Não. Os pórticos estão instalados, o da Imigrantes sentido capital no km 37,3 desde 29 de outubro de 2026, mas a cobrança foi adiada em 27 de julho de 2026 e não tem nova data. A concessionária mira a Operação Verão, e o início depende de autorização da ARTESP. As praças físicas seguem operando normalmente.
 </details>
 
 <details>
@@ -198,7 +200,7 @@ Em caso de divergência, **as fontes oficiais prevalecem sobre o que está aqui*
 
 <div align="center">
 
-### 36 pórticos, seis concessionárias, um extrato só
+### 38 pórticos, seis concessionárias, um extrato só
 
 Com uma tag ativa, a tarifa é debitada automaticamente em qualquer trecho, federal ou estadual, com os descontos de cada um.
 

@@ -1,6 +1,6 @@
 # Free Flow no Paraná: onde tem, quem cobra e como pagar
 
-**O Paraná tem 14 pórticos de cobrança de Free Flow em operação, o segundo maior número do país, atrás apenas de São Paulo. Eles estão em cinco rodovias e pertencem a três concessionárias: EPR Paraná, com 8; EPR Iguaçu, com 4; e PRVias, com 2. Todos os trechos são concessões federais reguladas pela ANTT, mesmo os que têm sigla estadual, como a PR-182, a PR-280 e a PR-445, porque essas rodovias foram incluídas em lotes federais.**
+**O Paraná tem 14 pórticos de cobrança de Free Flow em operação, empatado com Goiás e Mato Grosso no segundo maior número do país, atrás apenas de São Paulo. Eles estão em cinco rodovias e pertencem a três concessionárias: EPR Paraná, com 8; EPR Iguaçu, com 4; e PRVias, com 2. Todos os trechos são concessões federais reguladas pela ANTT, mesmo os que têm sigla estadual, como a PR-182, a PR-280 e a PR-445, porque essas rodovias foram incluídas em lotes federais.**
 
 Essa é a particularidade paranaense e a origem de boa parte da confusão: rodovia com sigla de estado, sob regra federal.
 

@@ -4,7 +4,7 @@
 
 O Rio tem poucos pórticos e uma posição histórica: é o berço do pedágio eletrônico brasileiro.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 9 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Base de dados em [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv).
 
 ---
@@ -45,7 +45,7 @@ A Rio-Santos foi o **primeiro Free Flow do Brasil**. A operação assistida come
 
 O projeto nasceu no **sandbox regulatório da ANTT**, um ambiente de teste controlado que permitiu operar o modelo antes de a regulação estar consolidada. Foi a experiência dali que abriu caminho para o que veio depois: a Lei nº 14.157/2021 já existia, mas foi a Rio-Santos que provou o modelo na prática.
 
-Vale a comparação de escala. Em março de 2023 o Brasil tinha **3 pórticos**, todos aqui. Em agosto de 2026 são **85**, em sete estados. O Rio saiu de 100% do total nacional para pouco mais de 3% em três anos e meio, não porque perdeu pórticos, mas porque o resto do país correu atrás.
+Vale a comparação de escala. Em março de 2023 o Brasil tinha **3 pórticos**, todos aqui. Em novembro de 2026 são **104**, em oito estados. O Rio saiu de 100% do total nacional para menos de 3% em três anos e meio, não porque perdeu pórticos, mas porque o resto do país correu atrás.
 
 A linha do tempo completa está em [Novidades do Free Flow no Brasil](../docs/novidades.md).
 
