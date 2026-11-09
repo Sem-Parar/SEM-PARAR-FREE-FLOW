@@ -8,9 +8,9 @@
 
 <p>
 <img src="https://img.shields.io/badge/mantido%20pelo-Sem%20Parar-D60B52?style=flat-square" alt="Mantido pelo Sem Parar">
-<img src="https://img.shields.io/badge/rodovias%20com%20free%20flow-28-D60B52?style=flat-square" alt="Rodovias com Free Flow mapeadas">
-<img src="https://img.shields.io/badge/p%C3%B3rticos-90-525251?style=flat-square" alt="Pórticos de cobrança em operação">
-<img src="https://img.shields.io/badge/concession%C3%A1rias-16-525251?style=flat-square" alt="Concessionárias com Free Flow ativo">
+<img src="https://img.shields.io/badge/rodovias%20com%20free%20flow-33-D60B52?style=flat-square" alt="Rodovias com Free Flow mapeadas">
+<img src="https://img.shields.io/badge/p%C3%B3rticos-104-525251?style=flat-square" alt="Pórticos de cobrança em operação">
+<img src="https://img.shields.io/badge/concession%C3%A1rias-18-525251?style=flat-square" alt="Concessionárias com Free Flow ativo">
 <img src="https://img.shields.io/badge/bases%20abertas-8-525251?style=flat-square" alt="Bases abertas em CSV">
 <br>
 <img src="https://img.shields.io/github/last-commit/Sem-Parar/SEM-PARAR-FREE-FLOW?label=atualizado%20em&color=525251&style=flat-square" alt="Última atualização">
@@ -42,9 +42,9 @@ O repositório cobre dois temas conectados:
 
 **Free Flow é o pedágio eletrônico sem cancela: o motorista passa pelo pórtico sem parar e sem fila.** Câmeras e sensores identificam o veículo automaticamente, pela tag ou pela leitura da placa, e a tarifa é cobrada depois. Quem tem tag não faz nada, porque a cobrança cai direto na fatura. Quem não tem paga pela placa, nos canais oficiais da concessionária, dentro do prazo. No Brasil o mesmo sistema também é chamado de **pedágio eletrônico** ou **pedágio sem cancela**.
 
-Em **10 de setembro de 2026**, o Brasil tem **90 pórticos de Free Flow em operação**, distribuídos por **28 rodovias**, **16 concessionárias** e **8 estados**: GO, MG, MT, PR, RJ, RO, RS, SP. O mapa pórtico a pórtico está em **[Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md)**.
+Em **9 de novembro de 2026**, o Brasil tem **104 pórticos de Free Flow em operação**, distribuídos por **33 rodovias**, **18 concessionárias** e **8 estados**: GO, MG, MT, PR, RJ, RO, RS e SP. O mapa pórtico a pórtico está em **[Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md)**.
 
-**Mato Grosso entrou no mapa em 7 de setembro de 2026**, com os cinco pórticos da Way-364 nas BR-060 e BR-364, entre Rio Verde e Rondonópolis. Dois deles ficam em solo mato-grossense e três em Goiás, que passa a ter duas concessões cobrando por pórtico.
+**Mato Grosso foi o estado que mais cresceu.** Entrou no mapa em 7 de setembro de 2026, com os pórticos da Way-364 na BR-364, e em outubro ganhou duas concessões estaduais com seis pórticos cada: a **MT-130**, da Rota dos Grãos, desde 10 de outubro, e as **MT-020 e MT-326**, da Rota da Integração, desde 14 de outubro. Com 14 pórticos, o estado empata com Paraná e Goiás, atrás só de São Paulo. Em São Paulo, Pirangi e Monte Alto trocaram a praça física por pórtico em 1º de novembro.
 
 A explicação completa, com o passo a passo do pórtico, prazos, descontos e o que acontece quando o prazo passa, está em **[O que é Free Flow e como funciona o pedágio sem cancela](O-QUE-E-FREE-FLOW.md)**.
 
@@ -55,9 +55,9 @@ A explicação completa, com o passo a passo do pórtico, prazos, descontos e o 
 | Página | O que responde |
 |---|---|
 | [Rodovias com Free Flow no Brasil: lista completa e atualizada](RODOVIAS-COM-FREE-FLOW.md) | O mapa nacional pórtico a pórtico, por estado, mais os pórticos instalados que ainda não cobram |
-| [Concessionárias com Free Flow no Brasil: quem cobra o quê](CONCESSIONARIAS-FREE-FLOW.md) | As 16 concessionárias em operação, por grupo econômico, e por que o site de pagamento tem outro nome |
+| [Concessionárias com Free Flow no Brasil: quem cobra o quê](CONCESSIONARIAS-FREE-FLOW.md) | As 18 concessionárias em operação, por grupo econômico, e por que o site de pagamento tem outro nome |
 | [Free Flow da Motiva, ex-CCR](concessionarias/free-flow-motiva-ccr.md) | As três concessões do maior grupo, o Pedágio Digital, a janela de reentrada e a regra da moto na Dutra |
-| [Free Flow da Ecovias](concessionarias/free-flow-ecovias.md) | A pioneira estadual paulista, os quatro pórticos, a mudança de endereço e de prazo, e o Anchieta-Imigrantes |
+| [Free Flow da Ecovias](concessionarias/free-flow-ecovias.md) | A pioneira estadual paulista, os seis pórticos, a mudança de endereço e de prazo, e o Anchieta-Imigrantes |
 | [Free Flow da CSG](concessionarias/free-flow-csg.md) | Os seis pórticos gaúchos, o primeiro pórtico estadual do país, o caminho do motociclista e o Bloco 3 |
 | [Free Flow do Grupo EPR](concessionarias/free-flow-epr.md) | As três concessões que já cobram, o pagamento na praça física e a regra do eixo suspenso com MDF-e |
 | [Free Flow da Rota Verde Goiás](concessionarias/free-flow-rota-verde.md) | Os 11 pórticos em 7 pontos, os pares por sentido, a isenção de moto e por que a concessionária não vende tag |
@@ -73,22 +73,22 @@ A explicação completa, com o passo a passo do pórtico, prazos, descontos e o 
 | [Free Flow na Mogi-Bertioga (SP-098)](rodovias/free-flow-mogi-bertioga.md) | O ponto do km 92+740, as quatro rodovias da CNL, a isenção de motos e os pórticos de Itariri que não cobram |
 | [Free Flow na BR-376: a única rodovia com duas concessionárias](rodovias/free-flow-br-376.md) | Os 5 pórticos, os dois operadores, a janela de duas horas da PRVias e a divergência de Mauá da Serra |
 | [Free Flow na Raposo Tavares (SP-270)](rodovias/free-flow-raposo-tavares.md) | Os 3 pórticos, os pórticos da região que não cobram e a primeira leva de homologações da Senatran |
-| [Free Flow por município: as 63 cidades com pórtico](FREE-FLOW-POR-MUNICIPIO.md) | A lista completa por cidade, o que fazer se a sua não estiver nela e onde existe pórtico que não cobra |
+| [Free Flow por município: as 65 cidades com pórtico](FREE-FLOW-POR-MUNICIPIO.md) | A lista completa por cidade, o que fazer se a sua não estiver nela e onde existe pórtico que não cobra |
 | [Free Flow em Guarulhos](municipios/free-flow-guarulhos.md) | As duas cobranças da cidade, como saber qual é a sua e por que a regra da moto muda entre elas |
 | [Free Flow em Arujá](municipios/free-flow-aruja.md) | O pórtico, a praça física que continua ali e as duas concessionárias com regras opostas |
 | [Free Flow em São Paulo](estados/free-flow-sp.md) | O panorama do estado com mais Free Flow do país, a diferença entre federal e estadual, o Siga Fácil e a isenção trecho a trecho |
-| [Free Flow no Paraná](estados/free-flow-pr.md) | Os 14 pórticos do segundo estado do país, por que rodovia com sigla estadual segue regra federal e as duas divergências de cadastro |
+| [Free Flow no Paraná](estados/free-flow-pr.md) | Os 14 pórticos de um dos três estados logo atrás de São Paulo, por que rodovia com sigla estadual segue regra federal e as duas divergências de cadastro |
 | [Free Flow em Goiás](estados/free-flow-go.md) | Os 14 pórticos de duas concessões, os pares por sentido da BR-060 e as duas cobranças diferentes na mesma rodovia |
 | [Free Flow em Minas Gerais](estados/free-flow-mg.md) | Os 8 pórticos em três concessionárias, as duas esferas de regulação e por que moto não paga em nenhum deles |
 | [Free Flow em Rondônia](estados/free-flow-ro.md) | A maior extensão contínua do país, a liminar que parou a cobrança por duas semanas e quem precisa se cadastrar para ser isento |
 | [Free Flow no Rio de Janeiro](estados/free-flow-rj.md) | Onde o Free Flow do Brasil começou, a tarifa fixa por pórtico e a armadilha das duas Rio-Santos |
 | [Free Flow no Rio Grande do Sul](estados/free-flow-rs.md) | Os 6 pórticos da Serra, por que a FreeWay ainda não tem Free Flow e o que é o Bloco 3 |
-| [Free Flow em Mato Grosso](estados/free-flow-mt.md) | O estado que estreou em 7 de setembro de 2026, os 2 pórticos da BR-364 e a MT-130 que vem em outubro |
+| [Free Flow em Mato Grosso](estados/free-flow-mt.md) | O estado que mais cresceu: 14 pórticos em três concessões, a BR-364 federal, a MT-130 e as MT-020 e MT-326 |
 | [O que é Free Flow e como funciona o pedágio sem cancela](O-QUE-E-FREE-FLOW.md) | Como o pórtico lê o carro, o que muda com tag e sem tag, prazos, descontos DBT e DUF, e o que acontece se não pagar |
 | [Como pagar o pedágio Free Flow: todos os canais oficiais](docs/como-pagar.md) | O caminho com tag e sem tag, a tabela de canais por concessionária, o prazo e o que acontece se ele passar |
 | [Como consultar o Free Flow pela placa do carro](docs/consultar-pela-placa.md) | Os três caminhos de consulta, o roteador de rodovia para concessionária e como contestar uma cobrança |
 | [Como consultar o Free Flow no app CNH do Brasil](docs/consulta-app-cnh-do-brasil.md) | O passo a passo da consulta nacional, o que a tela mostra, os alertas do app e o que ele não faz |
-| [Sites e apps oficiais para pagar o Free Flow](docs/sites-e-apps-oficiais.md) | A lista verificada dos 30 canais legítimos, separada por governo, concessionária e operadora de tag |
+| [Sites e apps oficiais para pagar o Free Flow](docs/sites-e-apps-oficiais.md) | A lista verificada dos 33 canais legítimos, separada por governo, concessionária e operadora de tag |
 | [Passei num Free Flow sem tag: prazo e como pagar pela placa](docs/passei-sem-tag.md) | Por que passar sem tag não é infração, os três passos para resolver e o que você perde sem tag |
 | [Prazo para pagar o Free Flow: o que acontece depois dos 30 dias](docs/prazo-e-encargos.md) | A régua degrau por degrau, os encargos que incidem e por que duas normas contam o prazo de formas diferentes |
 | [Multa do Free Flow: valor, pontos na CNH e como recorrer](docs/multa-free-flow.md) | Quando a passagem vira infração do art. 209-A, quem multa, como cancelar, como pedir ressarcimento e como recorrer |
@@ -97,7 +97,7 @@ A explicação completa, com o passo a passo do pórtico, prazos, descontos e o 
 | [Novidades do Free Flow no Brasil](docs/novidades.md) | O que mudou e quando, com fonte oficial em cada nota, e as próximas datas a observar |
 | [História do Free Flow no Brasil: quando começou e todas as datas](docs/historia-do-free-flow-no-brasil.md) | A cronologia completa, do primeiro regulamento a hoje, os cinco marcos que mais importam e o que ainda está no calendário |
 | [Tag de Pedágio: o que é, como funciona e o que muda no Free Flow](TAG-DE-PEDAGIO.md) | O que é a tag, como o pórtico a lê, com tag e sem tag lado a lado, interoperabilidade, descontos e o que ela não resolve |
-| [Quais tags funcionam no Free Flow: a lista por concessionária](docs/tags-aceitas-no-free-flow.md) | A tabela de aceitação nas 16 concessionárias em operação, as cinco operadoras autorizadas pela ARTESP e onde a tag não entra |
+| [Quais tags funcionam no Free Flow: a lista por concessionária](docs/tags-aceitas-no-free-flow.md) | A tabela de aceitação nas 18 concessionárias em operação, as cinco operadoras autorizadas pela ARTESP e onde a tag não entra |
 | [Como funciona a cobrança da tag no Free Flow](docs/como-funciona-a-cobranca-da-tag.md) | O caminho do pórtico até a fatura, onde procurar cada passagem, as cinco situações que parecem erro e como contestar |
 | [Tag em moto, carro alugado e segundo veículo](docs/tag-em-moto-e-outros-veiculos.md) | Por que não existe tag para moto, onde a moto paga e onde é isenta, e a regra de uma tag por placa |
 | [Base legal do Free Flow: as leis e normas que sustentam o pedágio eletrônico](BASE-LEGAL-DO-FREE-FLOW.md) | O texto do art. 209-A, as duas condutas, o que os tribunais já decidiram, as onze normas da cadeia e o que cada uma garante a você |
@@ -119,7 +119,7 @@ Novas páginas entram por pacote, e cada uma delas é linkada aqui.
 - [Conteúdos deste repositório](#conteúdos-deste-repositório), as páginas completas
 - [Rodovias com Free Flow no Brasil](#rodovias-com-free-flow-no-brasil), a tabela nacional (o mapa pórtico a pórtico fica em [RODOVIAS-COM-FREE-FLOW.md](RODOVIAS-COM-FREE-FLOW.md), e quem cobra em [CONCESSIONARIAS-FREE-FLOW.md](CONCESSIONARIAS-FREE-FLOW.md))
 - [Onde o Free Flow ainda vai chegar](#onde-o-free-flow-ainda-vai-chegar)
-- [Free Flow por município](FREE-FLOW-POR-MUNICIPIO.md), a lista das 63 cidades com pórtico de cobrança
+- [Free Flow por município](FREE-FLOW-POR-MUNICIPIO.md), a lista das 65 cidades com pórtico de cobrança
 - [Como pagar o Free Flow](#como-pagar-o-free-flow)
 - [Tag de Pedágio, quando a cobrança vira automática](#tag-de-pedágio-quando-a-cobrança-vira-automática), com o pilar completo em [TAG-DE-PEDAGIO.md](TAG-DE-PEDAGIO.md)
 - [Perguntas frequentes](#perguntas-frequentes)
@@ -132,7 +132,7 @@ Novas páginas entram por pacote, e cada uma delas é linkada aqui.
 
 ## Rodovias com Free Flow no Brasil
 
-Rodovias com cobrança eletrônica **em operação**, ordenadas por estado. Gerada a partir de [`dados/rodovias-free-flow.csv`](dados/rodovias-free-flow.csv), atualizada em **10 de setembro de 2026**.
+Rodovias com cobrança eletrônica **em operação**, ordenadas por estado. Gerada a partir de [`dados/rodovias-free-flow.csv`](dados/rodovias-free-flow.csv), atualizada em **9 de novembro de 2026**.
 
 | UF | Rodovia | Trecho e pórticos | Concessionária | Pórticos | Desde | Pagar |
 |---|---|---|---|:---:|:---:|---|
@@ -143,8 +143,10 @@ Rodovias com cobrança eletrônica **em operação**, ordenadas por estado. Gera
 | SP | **SP-098** Dom Paulo Rolim Loureiro (Mogi-Bertioga) | Bertioga (km 092+740) | Concessionária Novo Litoral (CNL) | 1 | 01/11/2025 | [pagar](https://cnl.pedagioeletronico.com.br) |
 | SP | **SP-099** Rodovia dos Tamoios - Contorno Sul | Contorno Sul, km 13+500, Caraguatatuba (ligação Caraguatatuba-São Sebastião) | Concessionária Tamoios | 1 | 18/11/2024 | [pagar](https://freeflowtamoios.com.br) |
 | SP | **SP-270** Raposo Tavares | São Roque (km 48), Alumínio/Sorocaba (km 83) e Araçoiaba da Serra (km 111) | Motiva Sorocabana (CCR Sorocabana) | 3 | 01/10/2025 | [pagar](https://rodovias.motiva.com.br/sorocabana/freeflow/) |
-| SP | **SP-326** Brigadeiro Faria Lima | Dobrada (km 307, desde 01/11/2025) e Taiúva (km 357, desde 01/12/2025) | Ecovias Noroeste Paulista | 2 | 01/11/2025 | [pagar](https://freeflow.eco.br) |
+| SP | **SP-323** José Della Vechia | Monte Alto (km 19+081) | Ecovias Noroeste Paulista | 1 | 01/11/2026 | [pagar](https://freeflow.eco.br) |
+| SP | **SP-326** Brigadeiro Faria Lima | Dobrada (km 307, desde 01/11/2025) e Taiúva (km 357, desde 01/12/2025); Colina (km 407+479) anunciado para 01/12/2026 | Ecovias Noroeste Paulista | 2 | 01/11/2025 | [pagar](https://freeflow.eco.br) |
 | SP | **SP-333** Laurentino Mascari / Carlos Tonanni | Itápolis (km 179) e Jaboticabal (km 110) | Ecovias Noroeste Paulista | 2 | 04/09/2024 | [pagar](https://freeflow.eco.br) |
+| SP | **SP-351** Comendador Pedro Monteleone | Pirangi (km 184+281) | Ecovias Noroeste Paulista | 1 | 01/11/2026 | [pagar](https://freeflow.eco.br) |
 | PR | **BR-163** Lote Iguaçu | Santa Lúcia (km 154 e km 156,1), Oeste do Paraná | EPR Iguaçu | 2 | 23/02/2026 | [pagar](https://www.eprpedagioeletronico.com.br) |
 | PR | **BR-369** Lote 4 - Norte e Noroeste do Paraná | Jataizinho (km 126) e Rolândia/Arapongas (km 180,2) | EPR Paraná | 4 | 04/05/2026 | [pagar](https://www.eprpedagioeletronico.com.br) |
 | PR | **BR-376** Lote 4 - Norte e Noroeste do Paraná | Pres. Castelo Branco/Mandaguaçu (km 145,8) e Marialva/Mandaguari (km 196) | EPR Paraná | 4 | 04/05/2026 | [pagar](https://www.eprpedagioeletronico.com.br) |
@@ -164,14 +166,17 @@ Rodovias com cobrança eletrônica **em operação**, ordenadas por estado. Gera
 | RO | **BR-364** Rota Agro Norte | Porto Velho/Candeias do Jamari a Vilhena/Pimenta Bueno, 686,7 km | Concessionária de Rodovia Nova 364 | 7 | 12/01/2026 | [pagar](https://pedagioeletronico.nova364.com) |
 | GO | **BR-060** Rota Agro (CN2 Centro-Oeste Norte) | Contorno de Rio Verde ao Contorno de Jataí; um ponto de cobrança, o P1, no km 439,15, em Jataí | Concessionária Rota Agro MT-GO | 1 | 07/09/2026 | [pagar](https://way364.com.br) |
 | GO, MT | **BR-364** Rota Agro (CN2 Centro-Oeste Norte) | Jataí/GO a Rondonópolis/MT, pela divisa em Santa Rita do Araguaia/GO e Alto Araguaia/MT; quatro pontos de cobrança, do P2 ao P5 | Concessionária Rota Agro MT-GO | 4 | 07/09/2026 | [pagar](https://way364.com.br) |
+| MT | **MT-020** Rota da Integração | Entre Paranatinga, Campinápolis, Água Boa e Canarana; km 403, 464, 516, 597 e 640 | CS Rodovias Rota da Integração | 5 | 14/10/2026 | [pagar](https://pedagioeletronico.csrodoviasrotadaintegracao.com.br/inicio) |
+| MT | **MT-130** Rota dos Grãos | Primavera do Leste a Paranatinga, 140,6 km; do km 133,6 ao km 247,7; substitui as duas praças físicas | Concessionária de Rodovias Rota dos Grãos | 6 | 10/10/2026 | [pagar](https://pedagioeletronico.rotadosgraos130.com.br) |
+| MT | **MT-326** Rota da Integração | km 190, no mesmo contrato da MT-020 | CS Rodovias Rota da Integração | 1 | 14/10/2026 | [pagar](https://pedagioeletronico.csrodoviasrotadaintegracao.com.br/inicio) |
 
-**Total de 90 pórticos em operação.** Alguns pórticos instalados nessas mesmas rodovias operam apenas como monitoramento de tráfego, sem cobrança. Eles não entram nesta contagem, e agora têm registro próprio em [`dados/porticos-free-flow.csv`](dados/porticos-free-flow.csv), com o mapa completo em [Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md).
+**Total de 104 pórticos em operação.** Alguns pórticos instalados nessas mesmas rodovias operam apenas como monitoramento de tráfego, sem cobrança. Eles não entram nesta contagem, e agora têm registro próprio em [`dados/porticos-free-flow.csv`](dados/porticos-free-flow.csv), com o mapa completo em [Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md).
 
-As 16 concessionárias responsáveis por esses pórticos se distribuem em **sete grupos econômicos identificados**, mais três que não divulgam o controlador, e a Motiva, ex-CCR, sozinha opera quase um terço dos pórticos.
+As 18 concessionárias responsáveis por esses pórticos se distribuem em **oito grupos econômicos identificados**, mais quatro que não divulgam o controlador, e a Motiva, ex-CCR, sozinha opera mais de um quarto dos pórticos.
 
 **Os oito estados com Free Flow ativo têm página própria**, com os pórticos um a um, quem cobra, onde pagar e as regras que mudam de um para outro: [São Paulo](estados/free-flow-sp.md), [Paraná](estados/free-flow-pr.md), [Goiás](estados/free-flow-go.md), [Minas Gerais](estados/free-flow-mg.md), [Rondônia](estados/free-flow-ro.md), [Rio Grande do Sul](estados/free-flow-rs.md), [Rio de Janeiro](estados/free-flow-rj.md) e [Mato Grosso](estados/free-flow-mt.md). Quem é quem, e por que o site onde você paga costuma ter outro nome, está em **[Concessionárias com Free Flow no Brasil](CONCESSIONARIAS-FREE-FLOW.md)**.
 
-**Procurando pela sua cidade?** A lista dos **63 municípios com pórtico de cobrança** está em **[Free Flow por município](FREE-FLOW-POR-MUNICIPIO.md)**, com a rodovia, o quilômetro e quem cobra em cada um. Se a sua cidade não estiver lá, não existe cobrança de Free Flow nela.
+**Procurando pela sua cidade?** A lista dos **65 municípios com pórtico de cobrança** está em **[Free Flow por município](FREE-FLOW-POR-MUNICIPIO.md)**, com a rodovia, o quilômetro e quem cobra em cada um. Os 12 pórticos das MT-130, MT-020 e MT-326 ainda não têm município divulgado pelas concessionárias e aparecem num bloco próprio da lista. Fora desses trechos, se a sua cidade não estiver lá, não existe cobrança de Free Flow nela.
 
 ### Onde o Free Flow ainda vai chegar
 
@@ -182,21 +187,20 @@ Trechos com Free Flow **previsto** ou com início **adiado**. Nenhum deles cobra
 | SP | **SP-079** Tenente Celestino Américo (Rota Sorocabana, 2ª etapa) | Motiva Sorocabana (CCR Sorocabana) | **adiado** | Piedade e Tapiraí (km 114, 138 e 193); pórticos instalados, hoje só monitoramento |
 | SP | **SP-139** Rota Sorocabana - 2ª etapa | Motiva Sorocabana (CCR Sorocabana) | **adiado** | São Miguel Arcanjo (km 110); pórtico instalado, hoje só monitoramento |
 | SP | **SP-150** Via Anchieta (Sistema Anchieta-Imigrantes) | Ecovias dos Imigrantes | **adiado** | km 33, descida e subida da serra; praça física do km 31 (Riacho Grande) segue em operação |
-| SP | **SP-160** Rodovia dos Imigrantes (Sistema Anchieta-Imigrantes) | Ecovias dos Imigrantes | **adiado** | km 29 na descida; na subida o pórtico foi realocado para a região do km 38 (ponto exato em estudo) |
+| SP | **SP-160** Rodovia dos Imigrantes (Sistema Anchieta-Imigrantes) | Ecovias dos Imigrantes | **adiado** | km 29 na descida, hoje só monitoramento; na subida, pórtico instalado no km 37,3 em 29/10/2026, sem data para cobrar |
 | SP | **SP-250** Bunjiro Nakao (Rota Sorocabana, 2ª etapa) | Motiva Sorocabana (CCR Sorocabana) | **adiado** | Ibiúna (km 56), Piedade (km 93), Pilar do Sul (km 122) e Capão Bonito (km 162 e 188) |
 | SP | **SP-264** João Leme dos Santos (Rota Sorocabana, 2ª etapa) | Motiva Sorocabana (CCR Sorocabana) | **adiado** | Salto de Pirapora (km 114 e km 230); pórticos instalados, hoje só monitoramento |
 | SP | **SP-280** Nova Raposo | Ecovias Raposo Castello | previsto | Castello Branco e Raposo Tavares, RMSP; primeiros pórticos a partir de 2026 |
 | PR | **BR-153** EPR Litoral Pioneiro | EPR Litoral Pioneiro | previsto | ANTT lista termo aditivo previsto; a concessionária declarou não haver previsão (fontes divergentes) |
 | PR | **BR-163** Lote 5 - Via Campo | Via Campo | **adiado** | Corbélia, Mamborê e Floresta; sistema em homologação, sem previsão de início da cobrança |
 | MG | **BR-116** Rota das Gerais | Ecovias das Gerais | previsto | BR-116 e BR-251, norte de MG; contrato prevê Free Flow a partir de dezembro de 2026 |
-| MG | **BR-040** Juiz de Fora-Rio de Janeiro | Elovias | previsto | Simão Pereira, km 831; um pórtico substitui a praça física do km 819,3; operação anunciada para 04/11/2026 |
+| MG | **BR-040** Juiz de Fora-Rio de Janeiro | Elovias | **adiado** | Simão Pereira, km 831; um pórtico substituirá a praça física do km 819,3; início anunciado para 04/11/2026 e adiado no mesmo dia, sem nova data |
 | RS | **BR-116** Rota Portuária do Sul | a licitar | previsto | Camaquã à ponte sobre o Rio Jaguarão; 14 pórticos previstos no projeto (BR-116 e BR-392) |
 | RS | **BR-290** FreeWay e malha ViaSul | CCR ViaSul | previsto | Conversão das 7 praças físicas em estudo, sem prazo definido |
 | RJ | **BR-101** BR-101/RJ Norte | Arteris Fluminense | previsto | Pórticos previstos em Tanguá, Itaboraí e São Gonçalo; sem cronograma público |
 | RJ | **BR-116** Trecho Metropolitano do Rio | Ecovias Rio Minas | previsto | km 161,70 ao km 205,87; Free Flow previsto no contrato, sem cronograma público |
 | MT | **BR-163** Nova Rota do Oeste | Nova Rota do Oeste | previsto | Itiquira a Sinop; ANTT lista termo aditivo previsto para adoção do Free Flow |
-| MT | **MT-130** Primavera do Leste a Paranatinga | Concessionária de Rodovias Rota dos Grãos | previsto | Seis pórticos substituem as duas praças físicas em cerca de 140 km; início da cobrança anunciado para 10/10/2026 |
-| MS | **BR-262** Rota da Celulose | a definir | previsto | Corredor Três Lagoas-Água Clara-Campo Grande; 14 pórticos previstos para novembro de 2026 |
+| MS | **BR-262** Rota da Celulose | Caminhos da Celulose | previsto | Corredor Três Lagoas-Água Clara-Campo Grande; 14 pórticos previstos; data em divergência, entre novembro de 2026 anunciado pela imprensa local e 2027 pela regra do contrato |
 | MT | **MT-449** Rodovia da Mudança | Rodovia da Mudança | previsto | Lucas do Rio Verde e Tapurah; 6 pórticos em 3 corredores tarifários aprovados pela AGER-MT |
 | MT; RO | **BR-364** Rota Agro Central | a licitar | previsto | BR-070, BR-174 e BR-364, de Cuiabá/MT a Vilhena/RO, 887,6 km; edital fixa diretrizes para o Free Flow; leilão em 17/12/2026 |
 | BA | **BR-324** Rota 2 de Julho | a licitar | previsto | BR-324 de Salvador a Feira de Santana e BR-116 de Feira de Santana à divisa com MG, 653,3 km; primeira concessão federal concebida para operar integralmente em Free Flow; leilão em 18/12/2026 |
@@ -315,7 +319,7 @@ Um sinal prático de autenticidade: canais oficiais costumam exibir eles própri
 <details>
 <summary><strong>Onde tem Free Flow no Brasil?</strong></summary>
 
-Hoje em GO, MG, PR, RJ, RO, RS, SP. A lista completa e datada está na [tabela nacional](#rodovias-com-free-flow-no-brasil) acima, e o dado bruto em [`dados/rodovias-free-flow.csv`](dados/rodovias-free-flow.csv). A lista muda rápido, porque pórticos são inaugurados e adiados com frequência, e este repositório é atualizado a cada mudança confirmada.
+Hoje em GO, MG, MT, PR, RJ, RO, RS e SP. A lista completa e datada está na [tabela nacional](#rodovias-com-free-flow-no-brasil) acima, e o dado bruto em [`dados/rodovias-free-flow.csv`](dados/rodovias-free-flow.csv). A lista muda rápido, porque pórticos são inaugurados e adiados com frequência, e este repositório é atualizado a cada mudança confirmada.
 </details>
 
 <details>
@@ -332,14 +336,14 @@ Todo o conteúdo deste repositório nasce de oito bases públicas em **CSV**, so
 
 | Base | O que traz | Linhas |
 |---|---|:---:|
-| [`rodovias-free-flow`](dados/rodovias-free-flow.csv) | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 49 |
-| [`concessionarias-free-flow`](dados/concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 25 |
-| [`porticos-free-flow`](dados/porticos-free-flow.csv) | Inventário pórtico a pórtico, com município, quilômetro, sentido e situação | 69 |
-| [`canais-oficiais-pagamento`](dados/canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 31 |
-| [`tags-aceitas-free-flow`](dados/tags-aceitas-free-flow.csv) | Aceitação de tag por concessionária, com regime de autorização, operadoras publicadas e descontos | 16 |
+| [`rodovias-free-flow`](dados/rodovias-free-flow.csv) | Inventário nacional de rodovias com Free Flow ativo, previsto ou adiado | 53 |
+| [`concessionarias-free-flow`](dados/concessionarias-free-flow.csv) | Quem opera cada trecho, com plataforma de pagamento e canais | 26 |
+| [`porticos-free-flow`](dados/porticos-free-flow.csv) | Inventário pórtico a pórtico, com município, quilômetro, sentido e situação | 83 |
+| [`canais-oficiais-pagamento`](dados/canais-oficiais-pagamento.csv) | Lista verificada de canais legítimos de consulta e pagamento | 33 |
+| [`tags-aceitas-free-flow`](dados/tags-aceitas-free-flow.csv) | Aceitação de tag por concessionária, com regime de autorização, operadoras publicadas e descontos | 18 |
 | [`base-legal-free-flow`](dados/base-legal-free-flow.csv) | As leis, resoluções e portarias que sustentam o Free Flow, com o que cada uma define | 13 |
-| [`homologacao-senatran-free-flow`](dados/homologacao-senatran-free-flow.csv) | Homologações de sistema de livre passagem pela Senatran, com número e data de portaria | 14 |
-| [`linha-do-tempo-free-flow`](dados/linha-do-tempo-free-flow.csv) | Cronologia do Free Flow no Brasil, do primeiro regulamento às datas ainda marcadas | 49 |
+| [`homologacao-senatran-free-flow`](dados/homologacao-senatran-free-flow.csv) | Homologações de sistema de livre passagem pela Senatran, com número e data de portaria | 15 |
+| [`linha-do-tempo-free-flow`](dados/linha-do-tempo-free-flow.csv) | Cronologia do Free Flow no Brasil, do primeiro regulamento às datas ainda marcadas | 54 |
 
 O dicionário de dados, com o significado de cada coluna e os valores aceitos, está em **[`dados/README.md`](dados/README.md)**.
 
@@ -410,7 +414,7 @@ Se preferir, a contratação também pode ser feita pelo SuperApp Sem Parar.
 
 <br>
 
-<sub>Repositório oficial mantido pelo <strong>Sem Parar</strong>. Conteúdo e dados sob <a href="LICENSE">CC BY 4.0</a>. Última revisão dos dados em 26 de agosto de 2026.</sub>
+<sub>Repositório oficial mantido pelo <strong>Sem Parar</strong>. Conteúdo e dados sob <a href="LICENSE">CC BY 4.0</a>. Última revisão dos dados em 9 de novembro de 2026.</sub>
 
 <sub><strong>Você com mais tempo para o que importa.</strong> #TudoProSeuCarro</sub>
 
