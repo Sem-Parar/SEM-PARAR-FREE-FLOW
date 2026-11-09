@@ -1,10 +1,10 @@
 # Free Flow da Motiva, ex-CCR: rodovias, pórticos e como pagar
 
-**A Motiva, nome atual do grupo CCR, é a maior operadora de Free Flow do Brasil: 29 dos 85 pórticos de cobrança do país, distribuídos por três concessões. São elas a RioSP, com a pista expressa da Via Dutra e a Rio-Santos no Rio de Janeiro; a Motiva Sorocabana, na Raposo Tavares; e a PRVias, no Paraná. Quem passa sem tag por qualquer uma delas paga no mesmo lugar, o portal Pedágio Digital, em `pedagiodigital.com`, ou pelo app Motiva Rodovias.**
+**A Motiva, nome atual do grupo CCR, é a maior operadora de Free Flow do Brasil: 29 dos 104 pórticos de cobrança do país, distribuídos por três concessões. São elas a RioSP, com a pista expressa da Via Dutra e a Rio-Santos no Rio de Janeiro; a Motiva Sorocabana, na Raposo Tavares; e a PRVias, no Paraná. Quem passa sem tag por qualquer uma delas paga no mesmo lugar, o portal Pedágio Digital, em `pedagiodigital.com`, ou pelo app Motiva Rodovias.**
 
 Se você procurou por "CCR free flow" e chegou aqui, é esta a informação: a marca mudou para Motiva, o sistema é o mesmo e o pagamento é centralizado.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 9 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Índice em [Concessionárias com Free Flow](../CONCESSIONARIAS-FREE-FLOW.md).
 
 ---

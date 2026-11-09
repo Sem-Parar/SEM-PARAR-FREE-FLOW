@@ -1,10 +1,10 @@
 # Free Flow da Ecovias: pórticos, prazo e como pagar
 
-**A Ecovias Noroeste Paulista, do grupo EcoRodovias, foi a primeira concessionária estadual de São Paulo a operar Free Flow, em setembro de 2024, e hoje tem quatro pórticos de cobrança: Itápolis e Jaboticabal, na SP-333, e Dobrada e Taiúva, na SP-326. O pagamento sem tag é feito em `freeflow.eco.br` ou pelo portal Pedágio Digital, com prazo de 30 dias. O Sistema Anchieta-Imigrantes, da Ecovias dos Imigrantes, tem pórticos instalados mas ainda não cobra.**
+**A Ecovias Noroeste Paulista, do grupo EcoRodovias, foi a primeira concessionária estadual de São Paulo a operar Free Flow, em setembro de 2024, e hoje tem seis pórticos de cobrança: Itápolis e Jaboticabal, na SP-333, Dobrada e Taiúva, na SP-326, Pirangi, na SP-351, e Monte Alto, na SP-323. Os dois últimos substituíram praças físicas em 1º de novembro de 2026, e um sétimo, em Colina, está anunciado para 1º de dezembro. O pagamento sem tag é feito em `freeflow.eco.br` ou pelo portal Pedágio Digital, com prazo de 30 dias. O Sistema Anchieta-Imigrantes, da Ecovias dos Imigrantes, tem pórticos instalados mas ainda não cobra.**
 
 Duas informações desta página mudaram desde o lançamento do sistema, e é comum encontrar a versão antiga por aí: o endereço de pagamento e o prazo.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 9 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Índice em [Concessionárias com Free Flow](../CONCESSIONARIAS-FREE-FLOW.md).
 
 ---
@@ -34,7 +34,7 @@ Esses dois pontos são o melhor argumento para a regra geral deste repositório:
 
 ## Onde a Ecovias cobra por pórtico
 
-Verificado em **26 de agosto de 2026**.
+Verificado em **9 de novembro de 2026**.
 
 | Rodovia | Município | Km | Pórticos | Desde |
 |---|---|:---:|:---:|:---:|
@@ -42,10 +42,14 @@ Verificado em **26 de agosto de 2026**.
 | **SP-333** Carlos Tonanni | Jaboticabal | 110 | 1 | 04/09/2024 |
 | **SP-326** Brigadeiro Faria Lima | Dobrada | 307 | 1 | 01/11/2025 |
 | **SP-326** Brigadeiro Faria Lima | Taiúva | 357 | 1 | 01/12/2025 |
+| **SP-351** Comendador Pedro Monteleone | Pirangi | 184+281 | 1 | 01/11/2026 |
+| **SP-323** José Della Vechia | Monte Alto | 19+081 | 1 | 01/11/2026 |
 
-**Total de 4 pórticos de cobrança.** O pórtico de Itápolis foi o **primeiro Free Flow do estado de São Paulo**, e uma das primeiras operações estaduais do país.
+**Total de 6 pórticos de cobrança.** O pórtico de Itápolis foi o **primeiro Free Flow do estado de São Paulo**, e uma das primeiras operações estaduais do país.
 
-A concessionária administra cerca de 600 quilômetros no noroeste paulista, nas SP-310, SP-323, SP-326, SP-333 e SP-351, formando um corredor logístico de produtos agropecuários e fertilizantes. As demais praças da malha seguem convencionais, com cabine.
+**O próximo já tem data anunciada:** Colina, na SP-326, km 407+479, para 1º de dezembro de 2026. Até lá, não há cobrança por pórtico nesse ponto, e anúncio de início só vira fato quando a cobrança começa.
+
+A concessionária administra cerca de 600 quilômetros no noroeste paulista, nas SP-310, SP-323, SP-326, SP-333 e SP-351, formando um corredor logístico de produtos agropecuários e fertilizantes. Em novembro de 2026 a malha passou a ter pórtico em quatro dessas cinco rodovias; as demais praças seguem convencionais, com cabine.
 
 O panorama do estado está em [Free Flow em São Paulo](../estados/free-flow-sp.md).
 
@@ -70,7 +74,7 @@ O prazo é de **30 dias** a partir da passagem. Nos totens é possível pagar co
 
 ## O Sistema Anchieta-Imigrantes ainda não cobra
 
-Esta é a dúvida mais frequente sobre a Ecovias, e a resposta é direta: **os pórticos da Via Anchieta e da Rodovia dos Imigrantes estão instalados, mas não cobram tarifa.** O início foi adiado, e não há nova data divulgada. As praças físicas do sistema, incluindo a do km 31 em Riacho Grande, seguem em operação normal.
+Esta é a dúvida mais frequente sobre a Ecovias, e a resposta é direta: **os pórticos da Via Anchieta e da Rodovia dos Imigrantes estão instalados, mas não cobram tarifa.** O início foi adiado, e não há nova data divulgada. Em 29 de outubro de 2026 o pórtico da Imigrantes sentido capital foi instalado no km 37,3, e a concessionária mira a Operação Verão, mas o começo depende de autorização da ARTESP. As praças físicas do sistema, incluindo a do km 31 em Riacho Grande, seguem em operação normal.
 
 Isso importa por um motivo prático: **qualquer cobrança apresentada em nome do Free Flow da Anchieta ou da Imigrantes hoje é motivo de desconfiança.** A página de acompanhamento, com a linha do tempo dos adiamentos e a realocação do pórtico da subida da Imigrantes, está em [Free Flow no Sistema Anchieta-Imigrantes](../rodovias/free-flow-anchieta-imigrantes.md), e é atualizada em até 72 horas quando houver data.
 
@@ -107,7 +111,7 @@ Trinta dias a partir da passagem, conforme a concessionária divulga hoje. No la
 <details>
 <summary><strong>Onde pago o Free Flow da Ecovias Noroeste Paulista?</strong></summary>
 
-Em `freeflow.eco.br`, no portal `pedagiodigital.com`, no app da Ecovias Noroeste Paulista, no app Pedágio Digital, pelo WhatsApp 0800-326-3663 ou nos totens das bases SAU nas SP-326 e SP-333. O antigo `freeflow.econoroeste.com.br` saiu de uso.
+Em `freeflow.eco.br`, no portal `pedagiodigital.com`, no app da Ecovias Noroeste Paulista, no app Pedágio Digital, pelo WhatsApp 0800-326-3663 ou nos totens das bases SAU da concessionária. O antigo `freeflow.econoroeste.com.br` saiu de uso.
 </details>
 
 <details>
