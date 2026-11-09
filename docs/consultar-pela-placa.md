@@ -4,7 +4,7 @@
 
 O sistema também é chamado de **pedágio eletrônico** e de **pedágio sem cancela**, e a consulta é a mesma nos três casos.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 9 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Termos técnicos estão no [glossário](glossario.md).
 
 ---
@@ -49,7 +49,7 @@ Encontrou o pórtico na estrada, mas não sabe quem cobra? A pergunta certa não
 | SP | SP-055; SP-088; SP-098 | Concessionária Novo Litoral (CNL) | [cnl.pedagioeletronico.com.br](https://cnl.pedagioeletronico.com.br) |
 | SP | SP-099 Tamoios, Contorno Sul | Concessionária Tamoios | [freeflowtamoios.com.br](https://freeflowtamoios.com.br) |
 | SP | SP-270 Raposo Tavares | Motiva Sorocabana | [rodovias.motiva.com.br/sorocabana/freeflow](https://rodovias.motiva.com.br/sorocabana/freeflow/) |
-| SP | SP-326; SP-333 | Ecovias Noroeste Paulista | [freeflow.eco.br](https://freeflow.eco.br) |
+| SP | SP-323; SP-326; SP-333; SP-351 | Ecovias Noroeste Paulista | [freeflow.eco.br](https://freeflow.eco.br) |
 | PR | BR-163; PR-182; PR-280 | EPR Iguaçu | [eprpedagioeletronico.com.br](https://www.eprpedagioeletronico.com.br) |
 | PR | BR-369; BR-376 lote 4 | EPR Paraná | [eprpedagioeletronico.com.br](https://www.eprpedagioeletronico.com.br) |
 | PR | BR-376 Rodovia do Café; PR-445 | PRVias (Motiva Paraná) | [pedagiodigital.com](https://pedagiodigital.com) |
@@ -58,6 +58,8 @@ Encontrou o pórtico na estrada, mas não sabe quem cobra? A pergunta certa não
 | MG | MG-459 | EPR Sul de Minas | [pedagiosemcancela.com.br](https://www.pedagiosemcancela.com.br) |
 | GO | BR-060; BR-452 | Rota Verde Goiás | [pedagioeletronico.rotaverdegoias.com.br](https://pedagioeletronico.rotaverdegoias.com.br) |
 | GO, MT | BR-060; BR-364, de Rio Verde a Rondonópolis | Rota Agro MT-GO (Way-364) | [way364.com.br](https://way364.com.br) |
+| MT | MT-130, de Primavera do Leste a Paranatinga | Rota dos Grãos | [pedagioeletronico.rotadosgraos130.com.br](https://pedagioeletronico.rotadosgraos130.com.br) |
+| MT | MT-020; MT-326 | Rota da Integração | [pedagioeletronico.csrodoviasrotadaintegracao.com.br](https://pedagioeletronico.csrodoviasrotadaintegracao.com.br/inicio) |
 | RS | ERS-122; ERS-240; ERS-446 | Caminhos da Serra Gaúcha (CSG) | [freeflow.csg.com.br](https://freeflow.csg.com.br) |
 | RJ | BR-101 Rio-Santos | RioSP | [rodovias.motiva.com.br/riosp/freeflow](https://rodovias.motiva.com.br/riosp/freeflow) |
 | RO | BR-364 Rota Agro Norte | Nova 364 | [pedagioeletronico.nova364.com](https://pedagioeletronico.nova364.com) |

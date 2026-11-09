@@ -2,9 +2,9 @@
 
 **Todo sistema de Free Flow no Brasil precisa ser homologado pela Secretaria Nacional de Trânsito. A exigência vem da Portaria Senatran nº 442/2025, e o efeito é direto: pelo art. 8º, § 2º, sistema não homologado não pode ser usado para identificar o veículo para fins de infração, o que afasta a aplicação do art. 209-A do Código de Trânsito Brasileiro. A tarifa continua devida de qualquer forma, porque é obrigação civil. O que a falta de homologação derruba é a multa.**
 
-A Senatran começou a publicar as homologações no fim de julho de 2026. Esta página reúne as **quatorze** que localizamos, com número e data de portaria.
+A Senatran começou a publicar as homologações no fim de julho de 2026. Esta página reúne as **quinze** que localizamos, com número e data de portaria.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 9 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Base de dados em [`dados/homologacao-senatran-free-flow.csv`](../dados/homologacao-senatran-free-flow.csv).
 
 ---
@@ -42,7 +42,7 @@ Duas ressalvas honestas, porque elas mudam o alcance disso:
 
 ## Quem já foi homologado
 
-Homologações localizadas na página de portarias da Senatran, verificadas em **26 de agosto de 2026**. Ordenadas por data de publicação.
+Homologações localizadas na página de portarias da Senatran, verificadas em **9 de novembro de 2026**. Ordenadas por data de publicação.
 
 | Concessionária | Como aparece no repositório | UF | Portaria | Publicação |
 |---|---|:---:|:---:|:---:|
@@ -60,8 +60,9 @@ Homologações localizadas na página de portarias da Senatran, verificadas em *
 | Concessionária de Rodovia Nova 364 S.A. | Nova 364 | RO | 622 | 05/08/2026 |
 | Companhia de Concessões Rodoviárias do Novo Litoral de São Paulo | Concessionária Novo Litoral | SP | 638 | 07/08/2026 |
 | Concessionária Rota Agro MT-GO S.A. | Rota Agro MT-GO (Way-364) | MT e GO | 640 | 10/08/2026 |
+| Concessionaria de Rodovias Rota dos Grãos S/A. | Rota dos Grãos | MT | 738 | 18/09/2026 |
 
-**Quatorze homologações em onze dias**, todas em julho e agosto de 2026. Os nomes na coluna da esquerda são as razões sociais como aparecem nas portarias, que nem sempre coincidem com o nome comercial pelo qual a concessionária é conhecida. É por isso que a segunda coluna existe.
+**Quatorze homologações em onze dias**, entre julho e agosto de 2026, e uma décima quinta em setembro, a da Rota dos Grãos, publicada no Diário Oficial de 18 de setembro. Os nomes na coluna da esquerda são as razões sociais como aparecem nas portarias, que nem sempre coincidem com o nome comercial pelo qual a concessionária é conhecida. É por isso que a segunda coluna existe.
 
 O dado bruto, com CNPJ de cada uma, está em [`dados/homologacao-senatran-free-flow.csv`](../dados/homologacao-senatran-free-flow.csv).
 
@@ -120,13 +121,15 @@ O rito de defesa, com as instâncias e os prazos, está em [Multa do Free Flow](
 
 Dito com todas as letras, porque credibilidade de dado depende disso:
 
-**Esta lista reúne as homologações que localizamos** na página de portarias da Senatran até 26 de agosto de 2026. Não é uma extração oficial consolidada, e o órgão não publica um arquivo único que possamos citar como fonte fechada.
+**Esta lista reúne as homologações que localizamos** na página de portarias da Senatran até 9 de novembro de 2026. Não é uma extração oficial consolidada, e o órgão não publica um arquivo único que possamos citar como fonte fechada.
 
-**Concessionárias com Free Flow ativo que não aparecem aqui** podem ter sido homologadas em portaria que não localizamos, ou ainda não ter sido. Entre as que operam hoje e não constam desta lista estão a **Caminhos da Serra Gaúcha**, a **Rota Verde Goiás** e a **EPR Paraná**. **A ausência nesta tabela não é afirmação de que não foram homologadas.**
+**Concessionárias com Free Flow ativo que não aparecem aqui** podem ter sido homologadas em portaria que não localizamos, ou ainda não ter sido. Entre as que operam hoje e não constam desta lista estão a **Caminhos da Serra Gaúcha**, a **Rota Verde Goiás**, a **EPR Paraná** e a **Rota da Integração**, que começou a cobrar nas MT-020 e MT-326 em outubro de 2026. **A ausência nesta tabela não é afirmação de que não foram homologadas.**
 
 **A lista encolheu na revisão de 26 de agosto de 2026.** A Way-262 e a Nova 364 constavam aqui como não localizadas e foram encontradas na varredura mensal da página de portarias: são as portarias 621 e 622, ambas publicadas em 5 de agosto de 2026. É o funcionamento normal de uma base viva, e o motivo de esta seção existir.
 
 **A Rota Agro MT-GO saiu da lista de espera.** Ela foi homologada em 10 de agosto de 2026 e passou a cobrar em 7 de setembro, vinte e oito dias depois, em cinco pórticos das BR-060 e BR-364. É o caso que mostra a sequência normal: primeiro a homologação, depois a autorização de cobrança pela ANTT, depois o início. O registro está em [Free Flow em Mato Grosso](../estados/free-flow-mt.md) e em [Free Flow em Goiás](../estados/free-flow-go.md).
+
+**A Rota dos Grãos repetiu a sequência.** Homologada pela Portaria nº 738, de 4 de setembro de 2026, publicada em 18 de setembro, começou a cobrar na MT-130 em 10 de outubro, vinte e dois dias depois.
 
 Encontrou uma portaria que falta aqui? [Abra uma issue](../../../issues/new) com o número e a data, e a linha entra.
 

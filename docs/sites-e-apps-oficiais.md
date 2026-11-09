@@ -1,10 +1,10 @@
 # Sites e apps oficiais para pagar o Free Flow (lista verificada)
 
-**Esta é a lista dos canais oficiais de consulta e pagamento do Free Flow no Brasil, 30 endereços conferidos um a um, com o nível de verificação declarado. A regra que organiza tudo: canal de governo nunca recebe pagamento e nunca pede dados de cartão. ANTT, app CNH do Brasil, Portal de Serviços Senatran e Siga Fácil apenas mostram a passagem e encaminham à concessionária, que é quem cobra.**
+**Esta é a lista dos canais oficiais de consulta e pagamento do Free Flow no Brasil, 33 endereços conferidos um a um, com o nível de verificação declarado. A regra que organiza tudo: canal de governo nunca recebe pagamento e nunca pede dados de cartão. ANTT, app CNH do Brasil, Portal de Serviços Senatran e Siga Fácil apenas mostram a passagem e encaminham à concessionária, que é quem cobra.**
 
 Vale para o sistema com qualquer um dos três nomes: **Free Flow**, **pedágio eletrônico** e **pedágio sem cancela**.
 
-> Publicado em 26 de agosto de 2026. Última verificação dos canais em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última verificação dos canais em 9 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). O dado bruto está em [`dados/canais-oficiais-pagamento.csv`](../dados/canais-oficiais-pagamento.csv).
 
 ---
@@ -55,7 +55,7 @@ Nenhum dos cinco recebe pagamento de pedágio. Nenhum dos cinco pede dados de ca
 | **Pedágio Digital** | Motiva e EcoRodovias, operado por Inovap 5 | Trechos das concessionárias Motiva e Ecovias. Também tem app | [pedagiodigital.com](https://pedagiodigital.com) |
 | **Rede CCR Pagamentos** | Motiva | Consulta avulsa sem cadastro. O pagamento se conclui no Pedágio Digital | [rede.ccrpagamentos.com.br](https://rede.ccrpagamentos.com.br) |
 | **Free Flow Sistema Ecovias** | EcoRodovias | Trechos Ecovias. Encaminha o pagamento ao Pedágio Digital | [freeflow.ecovias.com.br](https://freeflow.ecovias.com.br) |
-| **Free Flow Ecovias Noroeste Paulista** | EcoRodovias | SP-326 e SP-333. Endereço atual da concessionária; o antigo `freeflow.econoroeste.com.br` saiu de uso | [freeflow.eco.br](https://freeflow.eco.br) |
+| **Free Flow Ecovias Noroeste Paulista** | EcoRodovias | SP-323, SP-326, SP-333 e SP-351. Endereço atual da concessionária; o antigo `freeflow.econoroeste.com.br` saiu de uso | [freeflow.eco.br](https://freeflow.eco.br) |
 | **Pedágio Eletrônico Nova 381** | Nova 381 | BR-381/MG. Passagem disponível para consulta em até 2 horas, mais 25 totens no trecho | [pedagioeletronico.nova381.com](https://pedagioeletronico.nova381.com) |
 | **Pedágio Eletrônico Nova 364** | Nova 364 | BR-364/RO. Isenções exigem cadastro prévio. 14 totens nas bases SAU | [pedagioeletronico.nova364.com](https://pedagioeletronico.nova364.com) |
 | **Pedágio Eletrônico Way-262** | Way-262 | BR-262/MG. Também por app Way Rodovias e por totens | [pedagioeletronico.way262.com.br](https://pedagioeletronico.way262.com.br) |
@@ -63,6 +63,9 @@ Nenhum dos cinco recebe pagamento de pedágio. Nenhum dos cinco pede dados de ca
 | **Pedágio sem Cancela** | EPR Sul de Minas | MG-459. Tem modalidade pré-paga | [pedagiosemcancela.com.br](https://www.pedagiosemcancela.com.br) |
 | **Pedágio Eletrônico Rota Verde** | Rota Verde Goiás | BR-060 e BR-452. A concessionária não comercializa tags | [pedagioeletronico.rotaverdegoias.com.br](https://pedagioeletronico.rotaverdegoias.com.br) |
 | **Way-364** | Rota Agro MT-GO | BR-060 e BR-364, de Rio Verde a Rondonópolis. O pagamento também sai pelo app WayRodovias, pelos totens das bases SAU e por três postos credenciados. Não há subdomínio próprio de pagamento confirmado em fonte oficial: chegue pelo site da concessionária | [way364.com.br](https://way364.com.br) |
+| **Pedágio Eletrônico Rota dos Grãos** | Rota dos Grãos | MT-130, de Primavera do Leste a Paranatinga. Também por totens no SAU e pelo 0800 130 0 130 | [pedagioeletronico.rotadosgraos130.com.br](https://pedagioeletronico.rotadosgraos130.com.br) |
+| **Pedágio Eletrônico Rota da Integração** | CS Rodovias Rota da Integração | MT-020 e MT-326, entre Paranatinga, Campinápolis, Água Boa e Canarana. Também por app e pelos totens das SAU dos km 472 e 638 da MT-020 | [pedagioeletronico.csrodoviasrotadaintegracao.com.br](https://pedagioeletronico.csrodoviasrotadaintegracao.com.br/inicio) |
+| **Pedágio Eletrônico Elovias** | Elovias | Pórtico do km 831 da BR-040, em Simão Pereira. **Ainda não cobra:** o início, anunciado para 4 de novembro de 2026, foi adiado sem nova data. O canal já aceita cadastro do veículo | [pedagioeletronico.elovias.com.br](https://pedagioeletronico.elovias.com.br) |
 | **CSG FreeFlow** | Caminhos da Serra Gaúcha | ERS-122, ERS-240 e ERS-446. Paga só com a placa, sem cadastro | [freeflow.csg.com.br](https://freeflow.csg.com.br) |
 | **Tamoios Free Flow** | Concessionária Tamoios | SP-099, Contorno Sul. Passagens já cobradas por tag **não aparecem** aqui | [freeflowtamoios.com.br](https://freeflowtamoios.com.br) |
 | **Pedágio Eletrônico CNL** | Concessionária Novo Litoral, portal operado pela Movvia | SP-055, SP-088 e SP-098 | [cnl.pedagioeletronico.com.br](https://cnl.pedagioeletronico.com.br) |

@@ -4,7 +4,7 @@
 
 O sistema também aparece com os nomes **pedágio eletrônico** e **pedágio sem cancela**, e a forma de pagar é a mesma nos três casos.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 9 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Termos técnicos estão no [glossário](glossario.md).
 
 ---
@@ -55,7 +55,7 @@ Os dois descontos oficiais do Free Flow têm nome próprio: **DBT, Desconto Bás
 
 ## Onde pagar, concessionária por concessionária
 
-Canal oficial de cada concessionária com Free Flow **em operação**, em 26 de agosto de 2026. Gerada a partir de [`dados/concessionarias-free-flow.csv`](../dados/concessionarias-free-flow.csv) e de [`dados/canais-oficiais-pagamento.csv`](../dados/canais-oficiais-pagamento.csv).
+Canal oficial de cada concessionária com Free Flow **em operação**, em 9 de novembro de 2026. Gerada a partir de [`dados/concessionarias-free-flow.csv`](../dados/concessionarias-free-flow.csv) e de [`dados/canais-oficiais-pagamento.csv`](../dados/canais-oficiais-pagamento.csv).
 
 | UF | Concessionária | Rodovias com Free Flow | Onde pagar |
 |---|---|---|---|
@@ -64,7 +64,7 @@ Canal oficial de cada concessionária com Free Flow **em operação**, em 26 de 
 | SP | Concessionária Novo Litoral (CNL) | SP-055; SP-088; SP-098 | [cnl.pedagioeletronico.com.br](https://cnl.pedagioeletronico.com.br) |
 | SP | Concessionária Tamoios | SP-099 Contorno Sul | [freeflowtamoios.com.br](https://freeflowtamoios.com.br) |
 | SP | Motiva Sorocabana | SP-270 Raposo Tavares | [rodovias.motiva.com.br/sorocabana/freeflow](https://rodovias.motiva.com.br/sorocabana/freeflow/) |
-| SP | Ecovias Noroeste Paulista | SP-326; SP-333 | [freeflow.eco.br](https://freeflow.eco.br) |
+| SP | Ecovias Noroeste Paulista | SP-323; SP-326; SP-333; SP-351 | [freeflow.eco.br](https://freeflow.eco.br) |
 | PR | EPR Iguaçu | BR-163; PR-182; PR-280 | [eprpedagioeletronico.com.br](https://www.eprpedagioeletronico.com.br) |
 | PR | EPR Paraná | BR-369; BR-376 | [eprpedagioeletronico.com.br](https://www.eprpedagioeletronico.com.br) |
 | PR | PRVias (Motiva Paraná) | BR-376 Rodovia do Café; PR-445 | [pedagiodigital.com](https://pedagiodigital.com) |
@@ -73,6 +73,8 @@ Canal oficial de cada concessionária com Free Flow **em operação**, em 26 de 
 | MG | EPR Sul de Minas | MG-459 | [pedagiosemcancela.com.br](https://www.pedagiosemcancela.com.br) |
 | GO | Rota Verde Goiás | BR-060; BR-452 | [pedagioeletronico.rotaverdegoias.com.br](https://pedagioeletronico.rotaverdegoias.com.br) |
 | GO, MT | Rota Agro MT-GO (Way-364) | BR-060; BR-364, de Rio Verde a Rondonópolis | [way364.com.br](https://way364.com.br) |
+| MT | Rota dos Grãos | MT-130, de Primavera do Leste a Paranatinga | [pedagioeletronico.rotadosgraos130.com.br](https://pedagioeletronico.rotadosgraos130.com.br) |
+| MT | Rota da Integração | MT-020; MT-326 | [pedagioeletronico.csrodoviasrotadaintegracao.com.br](https://pedagioeletronico.csrodoviasrotadaintegracao.com.br/inicio) |
 | RS | Caminhos da Serra Gaúcha (CSG) | ERS-122; ERS-240; ERS-446 | [freeflow.csg.com.br](https://freeflow.csg.com.br) |
 | RO | Nova 364 | BR-364 Rota Agro Norte | [pedagioeletronico.nova364.com](https://pedagioeletronico.nova364.com) |
 

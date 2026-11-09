@@ -4,7 +4,7 @@
 
 Esta página existe para que qualquer pessoa possa auditar o que está publicado aqui: de onde veio cada número, o que conta como um pórtico, o que fazemos diante de fontes conflitantes e com que frequência tudo isso é revisto.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 9 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). O significado de cada coluna das bases está no [dicionário de dados](../dados/README.md).
 
 ---
@@ -58,7 +58,7 @@ Todo número que conta coisas depende de uma definição, e a nossa está escrit
 | Praça física convencional na mesma concessão | Não. Este inventário é de Free Flow |
 | Trecho com cobrança suspensa por decisão judicial | Não, enquanto durar a suspensão |
 
-Por esse critério, em 26 de agosto de 2026 o Brasil tem **85 pórticos de cobrança em operação**, em 26 rodovias, 15 concessionárias e sete estados. A distribuição por UF está em [Rodovias com Free Flow no Brasil](../RODOVIAS-COM-FREE-FLOW.md).
+Por esse critério, em 9 de novembro de 2026 o Brasil tem **104 pórticos de cobrança em operação**, em 33 rodovias, 18 concessionárias e oito estados. O número vigente fica sempre no [README](../README.md), e as demais páginas apontam para ele. A distribuição por UF está em [Rodovias com Free Flow no Brasil](../RODOVIAS-COM-FREE-FLOW.md).
 
 **Um exemplo de por que a definição importa.** Em Goiás, a Rota Verde opera **onze pórticos em sete pontos tarifários**: na BR-060 há um pórtico por sentido no mesmo ponto, e na BR-452 há pórticos únicos. Quem conta pontos tarifários diz sete. Quem conta estruturas que cobram diz onze. Nós dizemos onze, porque a definição acima manda contar cada estrutura que cobra. Sem a definição escrita, os dois números pareceriam erro um do outro.
 
@@ -79,7 +79,7 @@ Por esse critério, em 26 de agosto de 2026 o Brasil tem **85 pórticos de cobra
 
 **A escolha está declarada em três lugares**, e não embutida no número: aqui, no [dicionário de dados](../dados/README.md), e na observação da linha da Dutra em [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv).
 
-**O que mudaria se adotássemos o critério da ANTT:** o total nacional cairia de 85 para 74, e São Paulo, de 36 para 25. Registramos isso para que qualquer pessoa que precise da contagem por estruturas possa fazer a conversão sem refazer o levantamento.
+**O que mudaria se adotássemos o critério da ANTT:** o total nacional cairia de 104 para 93, e São Paulo, de 38 para 27. Registramos isso para que qualquer pessoa que precise da contagem por estruturas possa fazer a conversão sem refazer o levantamento.
 
 ---
 
