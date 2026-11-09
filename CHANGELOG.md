@@ -10,6 +10,46 @@ Todas as mudanças relevantes deste repositório são registradas aqui. O format
 
 ---
 
+## [0.16.0], 2026-11-09
+
+Três concessões novas no mapa, dois status vencidos e a correção de um repositório que vinha se contradizendo. O total nacional vai de 90 para **104 pórticos de cobrança**, em **33 rodovias**, **18 concessionárias** e os mesmos **8 estados**. Mato Grosso vai de 2 para 14 pórticos e empata com Paraná e Goiás, atrás de São Paulo, que vai a 38.
+
+### Adicionado
+
+- **MT-130, da Rota dos Grãos**, cobrando desde 10/10/2026 em seis pórticos, do km 133,6 ao km 247,7, no lugar das duas praças físicas entre Primavera do Leste e Paranatinga. Saiu de `previsto` para `ativo` em [`dados/rodovias-free-flow.csv`](dados/rodovias-free-flow.csv) e [`dados/concessionarias-free-flow.csv`](dados/concessionarias-free-flow.csv), e ganhou seis linhas em [`dados/porticos-free-flow.csv`](dados/porticos-free-flow.csv).
+- **MT-020 e MT-326, da CS Rodovias Rota da Integração**, cobrando desde 14/10/2026 em seis pórticos, cinco na MT-020 e um na MT-326, entre Paranatinga, Campinápolis, Água Boa e Canarana. Concessionária nova em todas as bases.
+- **Pirangi (SP-351) e Monte Alto (SP-323)**, da Ecovias Noroeste Paulista, cobrando desde 01/11/2026 no lugar de praças físicas. A concessionária vai a seis pórticos.
+- **Colina (SP-326)**, anunciado para 01/12/2026, entra na linha do tempo como `anunciado` e não entra no total.
+- **A Portaria Senatran nº 738/2026**, que homologou o sistema da Rota dos Grãos, publicada em 18/09/2026. A base de homologações vai a 15.
+- **Os canais de pagamento** da Rota dos Grãos e da Rota da Integração em [`dados/canais-oficiais-pagamento.csv`](dados/canais-oficiais-pagamento.csv), e as duas concessionárias em [`dados/tags-aceitas-free-flow.csv`](dados/tags-aceitas-free-flow.csv).
+- **Seis notas datadas** em [Novidades](docs/novidades.md), de 8 de outubro a 4 de novembro de 2026, e os marcos correspondentes em [História do Free Flow no Brasil](docs/historia-do-free-flow-no-brasil.md).
+- **Uma seção nova em [Free Flow por município](FREE-FLOW-POR-MUNICIPIO.md)**, "Pórticos sem município divulgado", para os 12 pórticos de Mato Grosso cujas concessionárias publicam o quilômetro e não o município.
+
+### Alterado
+
+- **BR-040, da Elovias:** de `previsto` para `adiado`. O início, anunciado para 04/11/2026, foi adiado no mesmo dia, sem nova data.
+- **Imigrantes sentido capital:** o pórtico foi instalado em 29/10/2026 no **km 37,3**, e não "depois do km 38", como o repositório registrava desde julho. Corrigido na base de pórticos, na de rodovias, na de concessionárias e nas páginas do Sistema Anchieta-Imigrantes, da Ecovias, de São Paulo e do mapa nacional. Segue sem cobrança e sem data.
+- **BR-262/MS, Rota da Celulose:** a concessionária passou a ser identificada como Caminhos da Celulose, e a data de início deixou de constar como novembro de 2026. Fica registrada a divergência entre o anúncio da imprensa local e a regra do contrato, que só permite pedir o início da cobrança depois do 12º mês.
+- **As duas consultas públicas da ANTT** sobre meios de pagamento passaram de `anunciado` para `confirmado`, com o registro da sessão de 08/10/2026 da Audiência Pública nº 14/2026.
+- **[Free Flow em Mato Grosso](estados/free-flow-mt.md)** foi reescrita para as três concessões, com a comparação lado a lado e a regra de moto, que agora muda dentro do estado.
+- **[Tag em moto, carro alugado e segundo veículo](docs/tag-em-moto-e-outros-veiculos.md):** a página dizia que em Mato Grosso a moto não paga em nenhum trecho. Deixou de ser verdade: nas duas concessões estaduais a moto paga.
+
+### Corrigido
+
+- **Sete páginas ainda citavam o total de agosto**, 85 pórticos em 26 rodovias e 7 estados, enquanto o README já dizia 90: [O que é Free Flow](O-QUE-E-FREE-FLOW.md), [Rodovias com Free Flow](RODOVIAS-COM-FREE-FLOW.md) numa pergunta frequente, [História](docs/historia-do-free-flow-no-brasil.md), [Metodologia e fontes](docs/metodologia-e-fontes.md), [Motiva](concessionarias/free-flow-motiva-ccr.md), [Rio de Janeiro](estados/free-flow-rj.md) e [Free Flow por município](FREE-FLOW-POR-MUNICIPIO.md). Todas foram atualizadas, e as que não são o mapa passaram a apontar para o README como fonte do número vigente.
+- **A conversão pelo critério da ANTT** em [Metodologia e fontes](docs/metodologia-e-fontes.md) foi refeita: o total cairia de 104 para 93, e São Paulo, de 38 para 27.
+- **As contagens de linhas** do README e do [dicionário de dados](dados/README.md), que estavam defasadas desde a versão 0.14.0.
+- **A lista de canais** em [Sites e apps oficiais](docs/sites-e-apps-oficiais.md) não trazia o canal da Elovias, que estava na base desde a 0.15.1.
+
+### Notas de dado
+
+- **Município `n/d` em Mato Grosso.** Rota dos Grãos e Rota da Integração publicam o quilômetro de cada pórtico, mas não o município. Preferimos registrar a lacuna a atribuir cidade por dedução, e a página por município traz as cidades de cada trecho num bloco próprio.
+- **Sentido `n/d` em Pirangi e Monte Alto.** A fonte não informa se os pórticos cobram nos dois sentidos. Cada um conta como um ponto de cobrança.
+- **O número do acórdão do TCU** sobre a BR-060/364, pendente desde a 0.15.1, segue sem confirmação em fonte primária.
+- **A regra de transição da Deliberação CONTRAN nº 277/2026 não foi tocada nesta versão.** Ela vale até 16/11/2026, e a atualização das páginas que falam dela sai depois do fim do prazo.
+
+---
+
 ## [0.15.1], 2026-09-30
 
 Uma correção de cadeia normativa, um canal de pagamento que saiu no dia seguinte ao pacote anterior e dois fatos regulatórios da semana. Nada aqui muda o mapa ativo: seguem 90 pórticos de cobrança, 28 rodovias, 16 concessionárias, 63 municípios e 8 estados.
