@@ -1,10 +1,10 @@
 # Free Flow no Sistema Anchieta-Imigrantes: o que muda e por que ainda não começou
 
-**Os pórticos de Free Flow da Anchieta e da Imigrantes estão instalados, mas ainda não cobram. O início da operação foi adiado em 27 de julho de 2026 e não tem nova data. Até que ela seja divulgada, a cobrança continua acontecendo normalmente nas praças físicas do sistema. Qualquer cobrança de Free Flow nessas duas rodovias hoje é motivo de desconfiança.**
+**Os pórticos de Free Flow da Anchieta e da Imigrantes estão instalados, mas ainda não cobram. O início da operação foi adiado em 27 de julho de 2026 e não tem nova data. Em 29 de outubro de 2026 o último pórtico que faltava, o da Imigrantes sentido capital, foi instalado no km 37,3, e a concessionária mira a Operação Verão, mas o começo depende de testes e de autorização da ARTESP. Até que ela seja divulgada, a cobrança continua acontecendo normalmente nas praças físicas do sistema. Qualquer cobrança de Free Flow nessas duas rodovias hoje é motivo de desconfiança.**
 
 Quando começar, a mudança será estrutural: a tarifa que hoje é cobrada só na descida da serra passa a ser dividida entre os dois sentidos.
 
-> Publicado em 26 de agosto de 2026. Última verificação dos dados em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última verificação dos dados em 9 de novembro de 2026.
 > Página do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Esta é uma página de acompanhamento: ela é atualizada em até 72 horas a cada fato novo.
 
 ---
@@ -26,12 +26,12 @@ Quando começar, a mudança será estrutural: a tarifa que hoje é cobrada só n
 
 ## A situação hoje, em uma tabela
 
-| Pergunta | Resposta em 26 de agosto de 2026 |
+| Pergunta | Resposta em 9 de novembro de 2026 |
 |---|---|
 | A Anchieta cobra Free Flow? | **Não** |
 | A Imigrantes cobra Free Flow? | **Não** |
-| Os pórticos estão instalados? | **Sim**, desde fevereiro de 2026 |
-| Existe data para começar? | **Não.** O início foi adiado em 27/07/2026, sem nova data |
+| Os pórticos estão instalados? | **Sim**. Os primeiros desde fevereiro de 2026, e o da Imigrantes sentido capital desde 29/10/2026, no km 37,3 |
+| Existe data para começar? | **Não.** O início foi adiado em 27/07/2026, sem nova data. A concessionária mira a Operação Verão |
 | Como se paga o pedágio hoje? | Normalmente, nas **praças físicas** do sistema |
 | Motos pagam? | **Não**, e continuarão isentas no novo modelo |
 | Quem opera | Ecovias dos Imigrantes, sob regulação da ARTESP |
@@ -44,8 +44,8 @@ Quando começar, a mudança será estrutural: a tarifa que hoje é cobrada só n
 | Rodovia | Local | Km | Sentido | Situação |
 |---|---|---|---|---|
 | **SP-150** Via Anchieta | São Bernardo do Campo | 33 | Ambos | Instalado, sem cobrança |
-| **SP-160** Rodovia dos Imigrantes | São Bernardo do Campo | 29 | Descida, sentido litoral | Instalado, sem cobrança |
-| **SP-160** Rodovia dos Imigrantes | São Bernardo do Campo | após o 38 | Subida, sentido capital | Realocado em julho de 2026, ponto exato em definição |
+| **SP-160** Rodovia dos Imigrantes | São Bernardo do Campo | 29 | Descida, sentido litoral | Só monitoramento de tráfego |
+| **SP-160** Rodovia dos Imigrantes | São Bernardo do Campo | 37,3 | Subida, sentido capital | Instalado em 29/10/2026, sem cobrança |
 
 Os pórticos foram instalados em **fevereiro de 2026**, perto das praças de pedágio existentes. Os testes de validação de tecnologia e de processos operacionais começaram no fim de maio de 2026.
 
@@ -59,7 +59,7 @@ Essa é a mudança que mais afeta quem mora na região, e ela explica boa parte 
 
 O pórtico da Imigrantes no sentido capital estava previsto para o **km 29**. Moradores da região do Pós-Balsa, em São Bernardo do Campo, argumentaram que deslocamentos curtos e cotidianos, que usam pouco a rodovia, acabariam gerando cobrança repetida ao longo do dia para quem circula entre bairros da própria cidade.
 
-Em **19 de julho de 2026**, a Secretaria de Parcerias em Investimentos do Estado de São Paulo e a ARTESP anunciaram a **realocação do pórtico para um ponto mais próximo do trecho de serra, depois do km 38**, preservando esses deslocamentos locais. O ponto exato ainda está em definição, e é justamente essa redefinição que motivou o adiamento seguinte.
+Em **19 de julho de 2026**, a Secretaria de Parcerias em Investimentos do Estado de São Paulo e a ARTESP anunciaram a **realocação do pórtico para um ponto mais próximo do trecho de serra, depois do km 38**, preservando esses deslocamentos locais. A redefinição do ponto motivou o adiamento seguinte. **O ponto foi fixado no km 37,3**, antes do km 40, onde começa a serra, que segundo a concessionária não tem viabilidade técnica para a estrutura. O pórtico foi instalado ali na madrugada de 29 de outubro de 2026, e a estrutura do km 29 passou a cumprir só a função de monitoramento.
 
 ---
 
@@ -96,6 +96,7 @@ O Sistema Anchieta-Imigrantes é hoje o adiamento mais relevante do país, porqu
 | **19 de julho de 2026** | Anunciada a **realocação** do pórtico da Imigrantes sentido capital, do km 29 para depois do km 38 |
 | **27 de julho de 2026** | O início é **adiado de novo, sem nova data**, em razão da redefinição do ponto de cobrança |
 | **26 de agosto de 2026** | Situação inalterada: pórticos instalados, sem cobrança, sem data |
+| **29 de outubro de 2026** | Instalado o pórtico da Imigrantes sentido capital, no **km 37,3**. A cobrança segue sem data |
 
 Um dado do período de testes ajuda a entender o tamanho da mudança: segundo a concessionária, **93% dos veículos comerciais** e **71% dos veículos de passeio** que passaram pelos pórticos no período de experiência **já tinham tag ativa**. Ou seja, a maior parte do fluxo não vai precisar fazer nada quando a cobrança começar.
 
@@ -151,13 +152,13 @@ Os pórticos estão instalados desde fevereiro de 2026, mas **não cobram**. O i
 <details>
 <summary><strong>Quando começa o Free Flow no Sistema Anchieta-Imigrantes?</strong></summary>
 
-Não há data divulgada. O início estava previsto para 1º de julho de 2026, foi remarcado para 1º de agosto e adiado de novo em 27 de julho, em razão da realocação do pórtico da Imigrantes no sentido capital.
+Não há data divulgada. O início estava previsto para 1º de julho de 2026, foi remarcado para 1º de agosto e adiado de novo em 27 de julho, em razão da realocação do pórtico da Imigrantes no sentido capital. Com o pórtico instalado em 29 de outubro, a concessionária mira a Operação Verão, mas a data depende de autorização da ARTESP e ainda não foi anunciada.
 </details>
 
 <details>
 <summary><strong>Onde vai ficar o pórtico da Imigrantes?</strong></summary>
 
-Na descida, sentido litoral, no km 29. Na subida, sentido capital, o ponto foi realocado do km 29 para a região **após o km 38**, mais próximo do trecho de serra, com o ponto exato ainda em definição.
+Na subida, sentido capital, no **km 37,3**, onde foi instalado em 29 de outubro de 2026, depois de sair do km 29 para preservar os deslocamentos locais de São Bernardo do Campo. A estrutura do km 29 permanece no local apenas monitorando o tráfego.
 </details>
 
 <details>
