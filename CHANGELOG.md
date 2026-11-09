@@ -10,6 +10,26 @@ Todas as mudanças relevantes deste repositório são registradas aqui. O format
 
 ---
 
+## [0.16.1], 2026-11-09
+
+Manutenção: a BR-040 ganhou data e o repositório passou a apontar para a base irmã das praças com cabine.
+
+### Alterado
+
+- **BR-040, da Elovias:** de `adiado` para `previsto`. A ANTT autorizou o pórtico do km 831, em Simão Pereira, pela Deliberação nº 310, de 04/11/2026, e a concessionária confirmou o início para 16/11/2026, com a desativação da praça física do km 819,3 no mesmo momento. O total de pórticos em operação não muda até a cobrança começar.
+- **As bases:** `linha-do-tempo-free-flow` ganhou 2 marcos e foi a 56, sendo 1 `confirmado` e 1 `anunciado`; `rodovias-free-flow`, `concessionarias-free-flow` e `canais-oficiais-pagamento` tiveram a linha da Elovias atualizada, sem mudança de contagem.
+- **Uma nota datada** em [Novidades](docs/novidades.md), a de 5 de novembro de 2026, e as tabelas de próximas datas em Novidades, em [História do Free Flow no Brasil](docs/historia-do-free-flow-no-brasil.md) e em [Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md).
+
+### Adicionado
+
+- **Link para [Praças de pedágio do Brasil](https://github.com/Sem-Parar/SEM-PARAR-PEDAGIOS)** no README, o repositório aberto do Sem Parar com as praças físicas, que ficam fora desta base.
+
+### Corrigido
+
+- **O formato de atribuição do [LICENSE](LICENSE)** ainda trazia o endereço antigo do repositório. Agora aponta para github.com/Sem-Parar/SEM-PARAR-FREE-FLOW.
+
+---
+
 ## [0.16.0], 2026-11-09
 
 Três concessões novas no mapa, dois status vencidos e a correção de um repositório que vinha se contradizendo. O total nacional vai de 90 para **104 pórticos de cobrança**, em **33 rodovias**, **18 concessionárias** e os mesmos **8 estados**. Mato Grosso vai de 2 para 14 pórticos e empata com Paraná e Goiás, atrás de São Paulo, que vai a 38.
