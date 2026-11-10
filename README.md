@@ -38,6 +38,8 @@ O repositório cobre dois temas conectados:
 
 **Praças com cabine** estão em outro repositório aberto do Sem Parar, [Praças de pedágio do Brasil](https://github.com/Sem-Parar/SEM-PARAR-PEDAGIOS), com cada praça física por rodovia, km, município e concessionária.
 
+**Telefones de socorro e guincho** de cada concessionária estão em [Guincho e socorro nas rodovias do Brasil](https://github.com/Sem-Parar/SEM-PARAR-GUINCHO), também aberto, com quem chamar quando o carro para na rodovia.
+
 ---
 
 ## O que é o Free Flow

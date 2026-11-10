@@ -6,6 +6,7 @@ Todas as mudanças relevantes deste repositório são registradas aqui. O format
 
 ## [Não publicado]
 
+- **Link para o repositório irmão [Guincho e socorro nas rodovias do Brasil](https://github.com/Sem-Parar/SEM-PARAR-GUINCHO)** no README, com o telefone de socorro de cada concessionária.
 - **Comparativo de tags de pedágio**, a peça do Programa Escolher: seis critérios de decisão, tabela das cinco operadoras autorizadas pela ARTESP e veredito por perfil de motorista. Produzida e revisada, **aguardando aprovação do cliente** antes de publicar.
 
 ---
