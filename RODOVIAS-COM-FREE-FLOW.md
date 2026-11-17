@@ -1,8 +1,8 @@
 # Rodovias com Free Flow no Brasil: lista completa e atualizada
 
-**Em 9 de novembro de 2026, o Brasil tem 104 pórticos de cobrança de Free Flow em operação, distribuídos por 33 rodovias, 18 concessionárias e 8 estados: GO, MG, MT, PR, RJ, RO, RS e SP. Esta é a lista completa, pórtico a pórtico, com município, quilômetro, concessionária responsável e canal oficial de pagamento. Ela inclui também os pórticos instalados que ainda não cobram, informação que ninguém mais reúne e que serve para reconhecer cobrança falsa.**
+**Em 17 de novembro de 2026, o Brasil tem 105 pórticos de cobrança de Free Flow em operação, distribuídos por 34 rodovias, 19 concessionárias e 8 estados: GO, MG, MT, PR, RJ, RO, RS e SP. Esta é a lista completa, pórtico a pórtico, com município, quilômetro, concessionária responsável e canal oficial de pagamento. Ela inclui também os pórticos instalados que ainda não cobram, informação que ninguém mais reúne e que serve para reconhecer cobrança falsa.**
 
-> Publicado em 26 de agosto de 2026. Última verificação dos dados em 9 de novembro de 2026.
+> Publicado em 26 de agosto de 2026. Última verificação dos dados em 17 de novembro de 2026.
 > Página do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](README.md). Dado bruto em [`dados/porticos-free-flow.csv`](dados/porticos-free-flow.csv) e [`dados/rodovias-free-flow.csv`](dados/rodovias-free-flow.csv).
 
 ---
@@ -30,11 +30,11 @@
 
 | Indicador | Hoje |
 |---|:---:|
-| Pórticos de cobrança em operação | **104** |
-| Rodovias com cobrança ativa | **33** |
-| Concessionárias com Free Flow ativo | **18** |
+| Pórticos de cobrança em operação | **105** |
+| Rodovias com cobrança ativa | **34** |
+| Concessionárias com Free Flow ativo | **19** |
 | Estados com cobrança ativa | **8** |
-| Rodovias com Free Flow previsto ou adiado | **20** |
+| Rodovias com Free Flow previsto ou adiado | **19** |
 | Estados que entram quando os previstos ativarem | BA e MS |
 
 O estado com mais pórticos é **São Paulo**. A operação de maior extensão contínua é a **BR-364, em Rondônia**, com 686,7 quilômetros. A mais antiga é a **BR-101, Rio-Santos**, primeira do país.
@@ -98,8 +98,9 @@ O estado com mais pórticos é **São Paulo**. A operação de maior extensão c
 | **BR-381** Vale do Aço | João Monlevade | 342,27 | 1 | Nova 381 | 27/09/2025 | [pagar](https://pedagioeletronico.nova381.com) |
 | **BR-381** Vale do Aço | Caeté | 411,85 | 1 | Nova 381 | 27/09/2025 | [pagar](https://pedagioeletronico.nova381.com) |
 | **MG-459** Francisco Bueno Brandão | Monte Sião | 12,7 | 1 | EPR Sul de Minas | 04/06/2024 | [pagar](https://www.pedagiosemcancela.com.br) |
+| **BR-040** Juiz de Fora-Rio de Janeiro | Simão Pereira | 831 | 1 | Elovias | 16/11/2026 | [pagar](https://pedagioeletronico.elovias.com.br) |
 
-**8 pórticos de cobrança em Minas Gerais**, e agora todos com quilometragem individual, vinda do cadastro de pórticos das concessões federais da ANTT. O panorama está em **[Free Flow em Minas Gerais](estados/free-flow-mg.md)**. Duas notas: o pórtico da MG-459 fica em **Monte Sião**, e não em Camanducaia, como circula em algumas listas; e **motocicleta não paga em nenhum dos três trechos mineiros**.
+**9 pórticos de cobrança em Minas Gerais**, e agora todos com quilometragem individual, vinda do cadastro de pórticos das concessões federais da ANTT. O panorama está em **[Free Flow em Minas Gerais](estados/free-flow-mg.md)**. Duas notas: o pórtico da MG-459 fica em **Monte Sião**, e não em Camanducaia, como circula em algumas listas; e **motocicleta não paga na BR-381, na BR-262 nem na MG-459**; na BR-040, a regra da moto ainda não foi confirmada em fonte oficial.
 
 ---
 
@@ -147,7 +148,7 @@ O estado com mais pórticos é **São Paulo**. A operação de maior extensão c
 | **BR-101** Rio-Santos | Mangaratiba | 447,3 | 1 | RioSP | 31/03/2023 | [pagar](https://pedagiodigital.com) |
 | **BR-101** Rio-Santos | Paraty | 538,5 | 1 | RioSP | 31/03/2023 | [pagar](https://pedagiodigital.com) |
 
-**Procurando por cidade, e não por rodovia?** A lista dos 65 municípios com pórtico de cobrança está em **[Free Flow por município](FREE-FLOW-POR-MUNICIPIO.md)**.
+**Procurando por cidade, e não por rodovia?** A lista dos 66 municípios com pórtico de cobrança está em **[Free Flow por município](FREE-FLOW-POR-MUNICIPIO.md)**.
 
 **3 pórticos de cobrança no Rio de Janeiro**, e eles têm valor histórico: foi aqui que o Free Flow estreou no Brasil. O panorama do estado está em **[Free Flow no Rio de Janeiro](estados/free-flow-rj.md)** e a página do trecho em **[Free Flow na Rio-Santos](rodovias/free-flow-rio-santos.md)**.
 
@@ -213,15 +214,15 @@ O caso mais relevante é o **Sistema Anchieta-Imigrantes**, o corredor de acesso
 
 ## Onde o Free Flow ainda vai chegar
 
-Vinte trechos têm Free Flow previsto em contrato ou com início adiado. Nenhum deles cobra por pórtico hoje. A tabela completa, com concessionária e detalhe de cada um, está na seção [Onde o Free Flow ainda vai chegar](README.md#onde-o-free-flow-ainda-vai-chegar) do hub.
+Dezenove trechos têm Free Flow previsto em contrato ou com início adiado. Nenhum deles cobra por pórtico hoje. A tabela completa, com concessionária e detalhe de cada um, está na seção [Onde o Free Flow ainda vai chegar](README.md#onde-o-free-flow-ainda-vai-chegar) do hub.
 
 Três datas para observar de perto:
 
 | Quando | O que acontece |
 |---|---|
-| **16 de novembro de 2026** | Início anunciado do pórtico da **Elovias na BR-040**, em Simão Pereira, autorizado pela ANTT em 4 de novembro, no lugar da praça do km 819,3 |
 | **1º de dezembro de 2026** | Início anunciado do pórtico de **Colina**, na SP-326, o terceiro da Ecovias Noroeste Paulista na mesma rodovia |
-| **Sem data** | Início do **Sistema Anchieta-Imigrantes**. O pórtico da subida foi instalado no km 37,3 em 29 de outubro, e a concessionária mira a Operação Verão |
+| **Até 14 de dezembro de 2026** | Início estimado pela concessionária para o **Sistema Anchieta-Imigrantes**, na abertura da Operação Verão. É estimativa, não data confirmada: depende de testes e de autorização da ARTESP |
+| **Dezembro de 2026** | Início previsto em contrato do Free Flow da **Ecovias das Gerais**, nas BR-116 e BR-251, no norte de Minas |
 
 ---
 
@@ -246,7 +247,7 @@ Três datas para observar de perto:
 <details>
 <summary><strong>Quantas rodovias têm Free Flow no Brasil?</strong></summary>
 
-Em 9 de novembro de 2026 são 33 rodovias com cobrança ativa, somando 104 pórticos de cobrança, operados por 18 concessionárias em 8 estados: GO, MG, MT, PR, RJ, RO, RS e SP. Outros 20 trechos têm Free Flow previsto ou adiado.
+Em 17 de novembro de 2026 são 34 rodovias com cobrança ativa, somando 105 pórticos de cobrança, operados por 19 concessionárias em 8 estados: GO, MG, MT, PR, RJ, RO, RS e SP. Outros 19 trechos têm Free Flow previsto ou adiado.
 </details>
 
 <details>
@@ -258,7 +259,7 @@ São Paulo concentra 38 pórticos de cobrança, na Via Dutra (trecho metropolita
 <details>
 <summary><strong>A Anchieta e a Imigrantes já cobram Free Flow?</strong></summary>
 
-Não. Os pórticos estão instalados, o da Imigrantes sentido capital no km 37,3 desde 29 de outubro de 2026, mas a cobrança foi adiada em 27 de julho de 2026 e não tem nova data. As praças físicas seguem em operação normal. Qualquer cobrança de Free Flow nessas rodovias hoje é motivo de desconfiança.
+Não. Os pórticos estão instalados, o da Imigrantes sentido capital no km 37,3 desde 29 de outubro de 2026, mas a cobrança foi adiada em 27 de julho de 2026 e não tem data confirmada; a concessionária estima começar até 14 de dezembro de 2026, na abertura da Operação Verão. As praças físicas seguem em operação normal. Qualquer cobrança de Free Flow nessas rodovias hoje é motivo de desconfiança.
 </details>
 
 <details>
@@ -297,7 +298,7 @@ Em caso de divergência, **as fontes oficiais prevalecem sobre o que está aqui*
 
 <div align="center">
 
-### 104 pórticos, um extrato só
+### 105 pórticos, um extrato só
 
 Com uma tag ativa, a tarifa é debitada automaticamente em qualquer um deles, entra nos descontos do trecho e aparece em um lugar só.
 

@@ -1,10 +1,10 @@
-# Free Flow por município: as 65 cidades com pórtico de cobrança no Brasil
+# Free Flow por município: as 66 cidades com pórtico de cobrança no Brasil
 
-**Sessenta e cinco municípios brasileiros têm pelo menos um pórtico de Free Flow cobrando tarifa hoje, distribuídos por 33 rodovias, 18 concessionárias e 8 estados: São Paulo, Paraná, Goiás, Minas Gerais, Rondônia, Rio Grande do Sul, Rio de Janeiro e Mato Grosso. A tabela abaixo lista todos, com a rodovia, o quilômetro, quantos pórticos e quem cobra. Use Ctrl+F, ou Cmd+F no Mac, e procure o nome da sua cidade.**
+**Sessenta e seis municípios brasileiros têm pelo menos um pórtico de Free Flow cobrando tarifa hoje, distribuídos por 34 rodovias, 19 concessionárias e 8 estados: São Paulo, Paraná, Goiás, Minas Gerais, Rondônia, Rio Grande do Sul, Rio de Janeiro e Mato Grosso. A tabela abaixo lista todos, com a rodovia, o quilômetro, quantos pórticos e quem cobra. Use Ctrl+F, ou Cmd+F no Mac, e procure o nome da sua cidade.**
 
 Se a sua cidade não estiver na lista, **não existe cobrança de Free Flow nela**, e qualquer mensagem dizendo o contrário merece desconfiança. **Há uma exceção, em Mato Grosso:** os 12 pórticos das MT-130, MT-020 e MT-326 começaram a cobrar em outubro de 2026 e as concessionárias não publicam o município de cada um. Eles estão num [bloco próprio](#pórticos-sem-município-divulgado), com as cidades dos trechos.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 9 de novembro de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 17 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](README.md). Gerada a partir de [`dados/porticos-free-flow.csv`](dados/porticos-free-flow.csv).
 
 ---
@@ -23,7 +23,7 @@ Se a sua cidade não estiver na lista, **não existe cobrança de Free Flow nela
 
 ## Sua cidade tem Free Flow?
 
-Todos os municípios com pórtico de cobrança **em operação**, em ordem alfabética. São 63 registros para 65 municípios, porque alguns pórticos ficam na divisa entre duas cidades e um deles tem o município em divergência entre as fontes.
+Todos os municípios com pórtico de cobrança **em operação**, em ordem alfabética. São 64 registros para 66 municípios, porque alguns pórticos ficam na divisa entre duas cidades e um deles tem o município em divergência entre as fontes.
 
 | Município | UF | Rodovia | km | Pórticos | Quem cobra |
 |---|:---:|---|---|:---:|---|
@@ -86,12 +86,13 @@ Todos os municípios com pórtico de cobrança **em operação**, em ordem alfab
 | **São Paulo; Guarulhos; Arujá** | SP | BR-116 | 204 a 231 | 21 | [RioSP](concessionarias/free-flow-motiva-ccr.md) |
 | **São Roque** | SP | SP-270 | 48 | 1 | [Motiva Sorocabana](concessionarias/free-flow-motiva-ccr.md) |
 | **São Sebastião do Caí** | RS | ERS-122 | 4,6 | 1 | [CSG](concessionarias/free-flow-csg.md) |
+| **Simão Pereira** | MG | BR-040 | 831 | 1 | [Elovias](estados/free-flow-mg.md#br-040-o-pórtico-que-trocou-de-lugar-antes-de-existir) |
 | **Taiúva** | SP | SP-326 | 357 | 1 | [Ecovias Noroeste Paulista](concessionarias/free-flow-ecovias.md) |
 | **Tamarana** | PR | PR-445 | 2,47 | 1 | [PRVias](concessionarias/free-flow-motiva-ccr.md) |
 | **Theobroma / Jaru** | RO | BR-364 | 452,3 | 1 | [Nova 364](concessionarias/free-flow-nova-364.md) |
 | **Vitorino** | PR | PR-280 | 234,3 | 1 | [EPR Iguaçu](concessionarias/free-flow-epr.md) |
 
-**Total de 104 pórticos de cobrança em operação**, somando a tabela acima e o bloco de Mato Grosso abaixo.
+**Total de 105 pórticos de cobrança em operação**, somando a tabela acima e o bloco de Mato Grosso abaixo.
 
 ---
 
@@ -169,7 +170,7 @@ A forma oficial mais simples é o app **CNH do Brasil**, com o app atualizado, n
 <details>
 <summary><strong>Quantos municípios têm Free Flow no Brasil?</strong></summary>
 
-Sessenta e cinco identificados, em 9 de novembro de 2026, mais os trechos de Mato Grosso cujos pórticos ainda não têm município divulgado. Ao todo são 104 pórticos de cobrança em operação. O número muda com frequência: o próximo anunciado é o de Colina (SP), na SP-326, para 1º de dezembro de 2026.
+Sessenta e seis identificados, em 17 de novembro de 2026, mais os trechos de Mato Grosso cujos pórticos ainda não têm município divulgado. Ao todo são 105 pórticos de cobrança em operação. O número muda com frequência: o próximo anunciado é o de Colina (SP), na SP-326, para 1º de dezembro de 2026.
 </details>
 
 <details>
