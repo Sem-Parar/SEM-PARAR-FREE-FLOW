@@ -1,10 +1,10 @@
 # Free Flow no Sistema Anchieta-Imigrantes: o que muda e por que ainda não começou
 
-**Os pórticos de Free Flow da Anchieta e da Imigrantes estão instalados, mas ainda não cobram. O início da operação foi adiado em 27 de julho de 2026 e não tem nova data. Em 29 de outubro de 2026 o último pórtico que faltava, o da Imigrantes sentido capital, foi instalado no km 37,3, e a concessionária mira a Operação Verão, mas o começo depende de testes e de autorização da ARTESP. Até que ela seja divulgada, a cobrança continua acontecendo normalmente nas praças físicas do sistema. Qualquer cobrança de Free Flow nessas duas rodovias hoje é motivo de desconfiança.**
+**Os pórticos de Free Flow da Anchieta e da Imigrantes estão instalados, mas ainda não cobram. O início da operação foi adiado em 27 de julho de 2026 e não tem nova data. Em 29 de outubro de 2026 o último pórtico que faltava, o da Imigrantes sentido capital, foi instalado no km 37,3, e a concessionária estima começar até 14 de dezembro de 2026, na abertura da Operação Verão, mas o começo depende de testes e de autorização da ARTESP. Até que ela saia, a cobrança continua acontecendo normalmente nas praças físicas do sistema. Qualquer cobrança de Free Flow nessas duas rodovias hoje é motivo de desconfiança.**
 
 Quando começar, a mudança será estrutural: a tarifa que hoje é cobrada só na descida da serra passa a ser dividida entre os dois sentidos.
 
-> Publicado em 26 de agosto de 2026. Última verificação dos dados em 9 de novembro de 2026.
+> Publicado em 26 de agosto de 2026. Última verificação dos dados em 17 de novembro de 2026.
 > Página do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Esta é uma página de acompanhamento: ela é atualizada em até 72 horas a cada fato novo.
 
 ---
@@ -31,7 +31,7 @@ Quando começar, a mudança será estrutural: a tarifa que hoje é cobrada só n
 | A Anchieta cobra Free Flow? | **Não** |
 | A Imigrantes cobra Free Flow? | **Não** |
 | Os pórticos estão instalados? | **Sim**. Os primeiros desde fevereiro de 2026, e o da Imigrantes sentido capital desde 29/10/2026, no km 37,3 |
-| Existe data para começar? | **Não.** O início foi adiado em 27/07/2026, sem nova data. A concessionária mira a Operação Verão |
+| Existe data para começar? | **Não confirmada.** O início foi adiado em 27/07/2026. A concessionária estima começar até 14/12/2026, na abertura da Operação Verão, se a ARTESP autorizar |
 | Como se paga o pedágio hoje? | Normalmente, nas **praças físicas** do sistema |
 | Motos pagam? | **Não**, e continuarão isentas no novo modelo |
 | Quem opera | Ecovias dos Imigrantes, sob regulação da ARTESP |
@@ -152,7 +152,7 @@ Os pórticos estão instalados desde fevereiro de 2026, mas **não cobram**. O i
 <details>
 <summary><strong>Quando começa o Free Flow no Sistema Anchieta-Imigrantes?</strong></summary>
 
-Não há data divulgada. O início estava previsto para 1º de julho de 2026, foi remarcado para 1º de agosto e adiado de novo em 27 de julho, em razão da realocação do pórtico da Imigrantes no sentido capital. Com o pórtico instalado em 29 de outubro, a concessionária mira a Operação Verão, mas a data depende de autorização da ARTESP e ainda não foi anunciada.
+Não há data confirmada. O início estava previsto para 1º de julho de 2026, foi remarcado para 1º de agosto e adiado de novo em 27 de julho, em razão da realocação do pórtico da Imigrantes no sentido capital. Com o pórtico instalado em 29 de outubro, a concessionária passou a estimar o início para até 14 de dezembro de 2026, na abertura da Operação Verão, mas é estimativa: a data depende de autorização da ARTESP e ainda não foi confirmada.
 </details>
 
 <details>

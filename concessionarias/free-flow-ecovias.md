@@ -4,7 +4,7 @@
 
 Duas informações desta página mudaram desde o lançamento do sistema, e é comum encontrar a versão antiga por aí: o endereço de pagamento e o prazo.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 9 de novembro de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 17 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Índice em [Concessionárias com Free Flow](../CONCESSIONARIAS-FREE-FLOW.md).
 
 ---
@@ -74,7 +74,7 @@ O prazo é de **30 dias** a partir da passagem. Nos totens é possível pagar co
 
 ## O Sistema Anchieta-Imigrantes ainda não cobra
 
-Esta é a dúvida mais frequente sobre a Ecovias, e a resposta é direta: **os pórticos da Via Anchieta e da Rodovia dos Imigrantes estão instalados, mas não cobram tarifa.** O início foi adiado, e não há nova data divulgada. Em 29 de outubro de 2026 o pórtico da Imigrantes sentido capital foi instalado no km 37,3, e a concessionária mira a Operação Verão, mas o começo depende de autorização da ARTESP. As praças físicas do sistema, incluindo a do km 31 em Riacho Grande, seguem em operação normal.
+Esta é a dúvida mais frequente sobre a Ecovias, e a resposta é direta: **os pórticos da Via Anchieta e da Rodovia dos Imigrantes estão instalados, mas não cobram tarifa.** O início foi adiado, e não há data confirmada. Em 29 de outubro de 2026 o pórtico da Imigrantes sentido capital foi instalado no km 37,3, e a concessionária estima começar até 14 de dezembro de 2026, na abertura da Operação Verão, mas o começo depende de autorização da ARTESP. As praças físicas do sistema, incluindo a do km 31 em Riacho Grande, seguem em operação normal.
 
 Isso importa por um motivo prático: **qualquer cobrança apresentada em nome do Free Flow da Anchieta ou da Imigrantes hoje é motivo de desconfiança.** A página de acompanhamento, com a linha do tempo dos adiamentos e a realocação do pórtico da subida da Imigrantes, está em [Free Flow no Sistema Anchieta-Imigrantes](../rodovias/free-flow-anchieta-imigrantes.md), e é atualizada em até 72 horas quando houver data.
 
