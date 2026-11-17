@@ -4,7 +4,7 @@
 
 Ou seja: nada aconteceu de errado. Você só tem uma tarefa a fazer, e ela leva alguns minutos.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 17 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Termos técnicos estão no [glossário](glossario.md).
 
 ---
@@ -65,7 +65,7 @@ Duas normas tratam desse prazo, e elas contam de formas diferentes. Vale conhece
 
 Some a isso o contrato de cada concessão, que pode fixar prazo próprio, e há trechos com prazo menor. Na dúvida, o canal oficial da concessionária é a palavra final. A régua completa está em [Prazo para pagar o Free Flow](prazo-e-encargos.md).
 
-**E há uma regra de transição valendo agora.** Até **16 de novembro de 2026**, a Deliberação CONTRAN nº 277/2026 permite regularizar tarifas de Free Flow **sem as penalidades de trânsito**. A partir de **17 de novembro de 2026**, a regra ordinária volta a valer integralmente. A tarifa continua devida nos dois cenários.
+**A regra de transição acabou.** A janela da Deliberação CONTRAN nº 277/2026, que permitia regularizar tarifas de Free Flow **sem as penalidades de trânsito**, terminou em **16 de novembro de 2026**, sem prorrogação. Desde **17 de novembro de 2026** vale integralmente a regra ordinária. A tarifa continua devida em qualquer cenário.
 
 ---
 
@@ -75,8 +75,8 @@ Some a isso o contrato de cada concessão, que pode fixar prazo próprio, e há 
 |---|:---:|
 | Passei sem tag e paguei dentro do prazo | **Não.** Fim da história, sem encargo nenhum |
 | Passei sem tag e ainda estou dentro do prazo | **Não.** Você tem tempo, é só resolver |
-| Passei sem tag, o prazo passou, e estamos antes de 16/11/2026 | **Dá para resolver sem multa.** Veja [Não paguei o Free Flow](nao-paguei-e-agora.md) |
-| Passei sem tag e o prazo passou, depois de 17/11/2026 | **Sim.** Entram encargos e a passagem pode virar infração do art. 209-A |
+| Passei sem tag, o prazo passou e quitei a tarifa até 16/11/2026 | **Não mais.** A janela de regularização cancelou a penalidade de trânsito |
+| Passei sem tag e o prazo passou, sem quitar até 16/11/2026 | **Sim.** Entram encargos e a passagem pode virar infração do art. 209-A. Veja [Não paguei o Free Flow](nao-paguei-e-agora.md) |
 | Passei sem tag e o pórtico só monitora tráfego | **Não.** Nem toda estrutura instalada cobra tarifa |
 | Passei numa rodovia com Free Flow apenas previsto ou adiado | **Não.** Ali ainda não se cobra por pórtico |
 
@@ -172,7 +172,7 @@ Em alguns trechos, sim. A Resolução ANTT nº 6.079/2026 admite pagamento antes
 |---|---|
 | [Resolução ANTT nº 6.079/2026](https://anttlegis.antt.gov.br/) | Prazos, encargos, meios de pagamento obrigatórios e requisitos técnicos do sistema nas federais |
 | [Resolução CONTRAN nº 1.013/2024](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/Resolucao10132024.pdf) | Prazo de pagamento, canais válidos de recebimento e contestação |
-| [Deliberação CONTRAN nº 277/2026](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/deliberacoes/Deliberacao2772026.pdf) | Regime de transição e contagem do prazo do art. 7º |
+| [Deliberação CONTRAN nº 277/2026](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/deliberacoes/Deliberacao2772026.pdf) | Regime de transição, encerrado em 16/11/2026, e contagem do prazo do art. 7º |
 | [Portaria Senatran nº 442/2025](https://www.gov.br/transportes/pt-br/assuntos/transito) | Homologação, interoperabilidade e nova tentativa de cobrança em caso de falha |
 | [CNH do Brasil](https://www.gov.br/transportes/pt-br/cnh-do-brasil) | Consulta nacional de passagens por veículo |
 | [ANTT, Free Flow](https://www.gov.br/antt/pt-br/free-flow) | Painel oficial e localizador de pórticos das rodovias federais |

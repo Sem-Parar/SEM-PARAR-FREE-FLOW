@@ -4,7 +4,7 @@
 
 O projeto da BR-290 existe, mas está em análise e sem prazo. Enquanto isso, as praças físicas continuam funcionando normalmente lá.
 
-> Publicado em 26 de agosto de 2026. Última verificação dos dados em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última verificação dos dados em 26 de agosto de 2026. Última atualização em 17 de novembro de 2026.
 > Página do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Dado bruto em [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv).
 
 ---
@@ -120,7 +120,7 @@ Passado o prazo, a passagem em aberto pode configurar a infração do art. 209-A
 
 **Quem aplica a multa aqui é o DAER**, o Departamento Autônomo de Estradas de Rodagem, e não a concessionária. Essa distinção é decisiva: o cancelamento de multa, o ressarcimento e a defesa correm com o órgão autuador, que está identificado no próprio auto de infração. O detalhe está em [Multa do Free Flow](../docs/multa-free-flow.md).
 
-**Até 16 de novembro de 2026** vale o regime de transição da Deliberação CONTRAN nº 277/2026. Quem quitar a tarifa dentro do prazo tem a multa e a pontuação canceladas pelo próprio órgão autuador, sem precisar pedir. O Rio Grande do Sul foi um dos estados mais afetados pelas autuações que motivaram a medida, então isso vale especialmente por aqui. O caminho está em [Não paguei o Free Flow](../docs/nao-paguei-e-agora.md).
+O regime de transição da Deliberação CONTRAN nº 277/2026 **terminou em 16 de novembro de 2026, sem prorrogação**. Quem quitou a tarifa dentro do prazo teve a multa e a pontuação canceladas pelo próprio órgão autuador; desde 17 de novembro, tarifa não paga no prazo volta a gerar multa e pontos. O Rio Grande do Sul foi um dos estados mais afetados pelas autuações que motivaram a medida, então vale atenção redobrada por aqui. O caminho de quem está em atraso está em [Não paguei o Free Flow](../docs/nao-paguei-e-agora.md).
 
 ---
 

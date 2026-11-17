@@ -4,7 +4,7 @@
 
 Esta página reúne a cadeia normativa inteira, com o que cada norma define, o que ela garante a você e onde conferir o texto oficial.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 10 de setembro de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 17 de novembro de 2026.
 > Página pilar do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](README.md). Base de dados em [`dados/base-legal-free-flow.csv`](dados/base-legal-free-flow.csv).
 
 ---
@@ -19,7 +19,7 @@ Esta página reúne a cadeia normativa inteira, com o que cada norma define, o q
 - [Duas normas contam o prazo de marcos diferentes](#duas-normas-contam-o-prazo-de-marcos-diferentes)
 - [Sistema não homologado não gera infração](#sistema-não-homologado-não-gera-infração)
 - [O que a norma garante a você](#o-que-a-norma-garante-a-você)
-- [A janela aberta até 16 de novembro de 2026](#a-janela-aberta-até-16-de-novembro-de-2026)
+- [A janela de regularização terminou em 16 de novembro de 2026: o que fica?](#a-janela-de-regularização-terminou-em-16-de-novembro-de-2026-o-que-fica)
 - [Perguntas frequentes](#perguntas-frequentes)
 - [Fontes oficiais](#fontes-oficiais)
 
@@ -86,7 +86,7 @@ Doze normas sustentam o Free Flow no Brasil. A base bruta, com data, ementa e li
 | **Resolução ANTT nº 6.079/2026** | ANTT | 27/03/2026 | Regulamenta a livre passagem nas federais: prazos, meios de pagamento e direitos |
 | **Resolução CONTRAN nº 984/2022** | CONTRAN | 15/12/2022 | Primeiro regulamento do sistema, antecessor da 1.013 |
 | **Resolução CONTRAN nº 1.013/2024** | CONTRAN | 14/10/2024 | Prazo de 30 dias para a tarifa e dever de comunicar o usuário |
-| **Deliberação CONTRAN nº 277/2026** | CONTRAN | 29/04/2026 | Janela de regularização até 16/11/2026 |
+| **Deliberação CONTRAN nº 277/2026** | CONTRAN | 29/04/2026 | Janela de regularização encerrada em 16/11/2026, sem prorrogação; nova contagem do prazo do art. 7º, em vigor |
 | **Resolução CONTRAN nº 1.028/2026** | CONTRAN | 25/08/2026 | Aprova a Deliberação nº 277/2026 e consolida o regime de transição em resolução |
 | **Portaria Senatran nº 442/2025** | Senatran | 12/06/2025 | Homologação e interoperabilidade dos sistemas |
 | **Resolução CONTRAN nº 918/2022** | CONTRAN | 28/03/2022 | Rito de defesa e recurso |
@@ -173,17 +173,17 @@ Como exercer cada um deles está em [Como funciona a cobrança da tag](docs/como
 
 ---
 
-## A janela aberta até 16 de novembro de 2026
+## A janela de regularização terminou em 16 de novembro de 2026: o que fica?
 
-A **Deliberação CONTRAN nº 277/2026** abriu um prazo de 200 dias, que termina em **16 de novembro de 2026**, para regularizar tarifas de Free Flow em aberto. Nesse período:
+A **Deliberação CONTRAN nº 277/2026** abriu um prazo de 200 dias, que **terminou em 16 de novembro de 2026, sem prorrogação**, para regularizar tarifas de Free Flow em aberto. Para quem quitou a tarifa dentro dele:
 
-- infrações do art. 209-A são canceladas;
-- a pontuação é excluída da CNH;
-- multa já paga pode ser restituída, mas o ressarcimento **depende de pedido**, não é automático.
+- as infrações do art. 209-A foram canceladas;
+- a pontuação foi excluída da CNH;
+- multa já paga pode ser restituída, mas o ressarcimento **depende de pedido** ao órgão autuador, não é automático.
 
-**A anistia dispensa a multa, não a tarifa.** A obrigação de pagar o pedágio continua, e é justamente pagando que se aciona o benefício.
+**A janela dispensou a multa, nunca a tarifa.** A obrigação de pagar o pedágio continua.
 
-A partir de **17 de novembro de 2026** volta a regra ordinária. Se você tem passagem em aberto, o caminho está em [Não paguei o Free Flow](docs/nao-paguei-e-agora.md).
+**O que fica em vigor.** A nova redação do art. 7º da Resolução CONTRAN nº 1.013/2024, que conta os 30 dias da confirmação do processamento do registro, veio da mesma Deliberação, foi aprovada pela Resolução CONTRAN nº 1.028/2026 e **não acabou com a janela**. Desde **17 de novembro de 2026** vale a regra ordinária. Se você tem passagem em aberto, o caminho está em [Não paguei o Free Flow](docs/nao-paguei-e-agora.md).
 
 ---
 

@@ -4,7 +4,7 @@
 
 O restante da Tamoios não tem Free Flow: a cobrança eletrônica está apenas no Contorno Sul.
 
-> Publicado em 26 de agosto de 2026. Última verificação dos dados em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última verificação dos dados em 26 de agosto de 2026. Última atualização em 17 de novembro de 2026.
 > Página do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Dado bruto em [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv).
 
 ---
@@ -113,7 +113,7 @@ O prazo é de **30 dias** após a passagem. A régua completa está em [Prazo pa
 
 Um detalhe deste trecho que ajuda a entender quem faz o quê: quando a tarifa não é paga, **a concessionária envia os dados ao DER**, o Departamento de Estradas de Rodagem, que é o órgão autuador. A concessionária cobra a tarifa; a multa é aplicada pelo órgão de trânsito. Os dois caminhos são separados, e é isso que explica por que reclamar de multa com a concessionária não resolve. O detalhe está em [Multa do Free Flow](../docs/multa-free-flow.md).
 
-**Até 16 de novembro de 2026** vale o regime de transição da Deliberação CONTRAN nº 277/2026, que permite regularizar tarifas em aberto sem as penalidades de trânsito. O caminho está em [Não paguei o Free Flow](../docs/nao-paguei-e-agora.md).
+A janela de regularização da Deliberação CONTRAN nº 277/2026, que permitia quitar tarifas em aberto sem as penalidades de trânsito, **terminou em 16 de novembro de 2026, sem prorrogação**. Desde 17 de novembro, tarifa não paga no prazo volta a gerar multa e pontos. O caminho de quem está em atraso está em [Não paguei o Free Flow](../docs/nao-paguei-e-agora.md).
 
 ---
 

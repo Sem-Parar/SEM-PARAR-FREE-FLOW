@@ -4,7 +4,7 @@
 
 Se você vai para Angra dos Reis, Paraty, Ubatuba ou qualquer ponto da Costa Verde saindo do Rio, é por aqui que você passa.
 
-> Publicado em 26 de agosto de 2026. Última verificação dos dados em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última verificação dos dados em 26 de agosto de 2026. Última atualização em 17 de novembro de 2026.
 > Página do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Dado bruto em [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv).
 
 ---
@@ -118,7 +118,7 @@ O prazo geral é de **30 dias**, e a régua completa está em [Prazo para pagar 
 
 Passado o prazo, incidem encargos administrativos, multa moratória e juros sobre a tarifa, e a passagem em aberto pode configurar a infração do art. 209-A do Código de Trânsito Brasileiro, grave, com 5 pontos na CNH.
 
-**Até 16 de novembro de 2026** vale o regime de transição da Deliberação CONTRAN nº 277/2026, que permite regularizar tarifas em aberto sem as penalidades de trânsito. O caminho está em [Não paguei o Free Flow](../docs/nao-paguei-e-agora.md).
+A janela de regularização da Deliberação CONTRAN nº 277/2026, que permitia quitar tarifas em aberto sem as penalidades de trânsito, **terminou em 16 de novembro de 2026, sem prorrogação**. Desde 17 de novembro, tarifa não paga no prazo volta a gerar multa e pontos. O caminho de quem está em atraso está em [Não paguei o Free Flow](../docs/nao-paguei-e-agora.md).
 
 Para conferir suas passagens, o app **CNH do Brasil** mostra a lista com data, local, concessionária, prazo e situação. O passo a passo está em [Como consultar o Free Flow no app CNH do Brasil](../docs/consulta-app-cnh-do-brasil.md).
 

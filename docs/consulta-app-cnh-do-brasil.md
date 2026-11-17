@@ -4,7 +4,7 @@
 
 A funcionalidade entrou no ar em **24 de agosto de 2026**, liberada pelo Ministério dos Transportes, e cobre rodovias federais, estaduais e municipais integradas.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 17 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Termos técnicos estão no [glossário](glossario.md).
 
 ---
@@ -64,7 +64,7 @@ A tela abre mostrando as passagens dos **últimos 30 dias**. Nos controles do to
 - **Ampliar o período** para 60 ou 90 dias.
 - **Escolher uma data específica**, com histórico que alcança os últimos cinco anos.
 
-Esse alcance de cinco anos é o que torna o app útil também para quem tem passivo antigo em aberto e quer resolver dentro do prazo de regularização.
+Esse alcance de cinco anos é o que torna o app útil também para quem tem passivo antigo em aberto e quer resolver o quanto antes.
 
 ---
 
@@ -106,7 +106,7 @@ Localizada a passagem, o caminho é o botão **"Como pagar"**, que traz as orien
 
 Se preferir ir direto, o de-para de concessionária para canal oficial está em **[Como pagar o pedágio Free Flow](como-pagar.md#onde-pagar-concessionária-por-concessionária)**, e a lista verificada de endereços em **[Sites e apps oficiais](sites-e-apps-oficiais.md)**.
 
-**Sobre o prazo.** A regra geral é de 30 dias. Para a infração de trânsito, eles contam da confirmação do processamento do registro da passagem, conforme o art. 7º da Resolução CONTRAN nº 1.013/2024 com a redação da Deliberação CONTRAN nº 277/2026. Para os encargos financeiros nas federais concedidas, a Resolução ANTT nº 6.079/2026 conta da passagem pelo pórtico. A régua completa está em [Prazo para pagar o Free Flow](prazo-e-encargos.md). Até **16 de novembro de 2026** vale o regime de transição, que permite regularizar tarifas sem as penalidades de trânsito. A partir de **17 de novembro de 2026** a regra ordinária volta a valer integralmente. A tarifa continua devida nos dois cenários.
+**Sobre o prazo.** A regra geral é de 30 dias. Para a infração de trânsito, eles contam da confirmação do processamento do registro da passagem, conforme o art. 7º da Resolução CONTRAN nº 1.013/2024 com a redação da Deliberação CONTRAN nº 277/2026. Para os encargos financeiros nas federais concedidas, a Resolução ANTT nº 6.079/2026 conta da passagem pelo pórtico. A régua completa está em [Prazo para pagar o Free Flow](prazo-e-encargos.md). O regime de transição, que permitia regularizar tarifas sem as penalidades de trânsito, terminou em **16 de novembro de 2026**, sem prorrogação, e desde **17 de novembro de 2026** a regra ordinária vale integralmente. A tarifa continua devida nos dois cenários.
 
 ---
 
@@ -193,7 +193,7 @@ O app envia dois alertas legítimos: um em até 24 horas após a passagem e outr
 | [Portal de Serviços Senatran](https://portalservicos.senatran.serpro.gov.br) | Consulta detalhada e acesso obrigatório para empresas |
 | [Serpro, nota sobre a integração](https://www.serpro.gov.br/menu/noticias/noticias-2026/free-flow) | Arquitetura da solução, escala de registros e regra de contagem do prazo |
 | [Resolução CONTRAN nº 1.013/2024](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/Resolucao10132024.pdf) | Prazo de pagamento, canais válidos de recebimento e contestação |
-| [Deliberação CONTRAN nº 277/2026](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/deliberacoes/Deliberacao2772026.pdf) | Regime de transição e nova contagem do prazo do art. 7º |
+| [Deliberação CONTRAN nº 277/2026](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/deliberacoes/Deliberacao2772026.pdf) | Regime de transição, encerrado em 16/11/2026, e nova contagem do prazo do art. 7º |
 
 Em caso de divergência, **as fontes oficiais prevalecem sobre o que está aqui**.
 

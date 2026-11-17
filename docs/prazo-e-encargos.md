@@ -2,7 +2,7 @@
 
 **O prazo geral para pagar a tarifa do Free Flow é de 30 dias, e dentro dele não incide encargo nenhum. Passado esse prazo, a régua tem três degraus: encargos administrativos, multa moratória e juros legais sobre a tarifa; e, em outro plano, a passagem não paga pode configurar a infração de trânsito do art. 209-A do Código de Trânsito Brasileiro. Pagar a multa não elimina a tarifa: as duas coisas são independentes.**
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 17 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Termos técnicos estão no [glossário](glossario.md).
 
 ---
@@ -14,7 +14,7 @@
 - [O que são os encargos que incidem depois](#o-que-são-os-encargos-que-incidem-depois)
 - [Tarifa e multa são coisas separadas](#tarifa-e-multa-são-coisas-separadas)
 - [O prazo pode ser menor que 30 dias](#o-prazo-pode-ser-menor-que-30-dias)
-- [A regra de transição que vale até novembro de 2026](#a-regra-de-transição-que-vale-até-novembro-de-2026)
+- [A regra de transição terminou em 16 de novembro de 2026: o que fica?](#a-regra-de-transição-terminou-em-16-de-novembro-de-2026-o-que-fica)
 - [O que a norma exige da concessionária](#o-que-a-norma-exige-da-concessionária)
 - [Perguntas frequentes](#perguntas-frequentes)
 - [Fontes oficiais](#fontes-oficiais)
@@ -90,22 +90,20 @@ Um exemplo concreto e verificado, que mostra que esse prazo **muda com o tempo**
 
 ---
 
-## A regra de transição que vale até novembro de 2026
+## A regra de transição terminou em 16 de novembro de 2026: o que fica?
 
-Enquanto você lê isto, uma regra excepcional está em vigor e ela muda o cálculo de quem está em atraso.
+A **Deliberação CONTRAN nº 277/2026**, publicada em 29 de abril de 2026, abriu um prazo de **200 dias**, até **16 de novembro de 2026**, para regularizar tarifas de Free Flow sem as penalidades de trânsito. **O prazo terminou sem prorrogação**, e desde 17 de novembro de 2026 a régua desta página vale inteira, sem exceção.
 
-A **Deliberação CONTRAN nº 277/2026**, publicada em 29 de abril de 2026, abriu um prazo de **200 dias**, até **16 de novembro de 2026**, para regularizar tarifas de Free Flow sem as penalidades de trânsito.
+O que a transição fez, para registro e para quem ainda tem pedido de ressarcimento a fazer:
 
-| O que a transição faz | O que ela não faz |
+| O que a transição fez | O que ela não fez |
 |---|---|
-| Suspende a aplicação da infração do art. 209-A no período | Não perdoa a tarifa, que continua devida |
-| Cancela processos de infração quando a tarifa é quitada | Não dispensa os encargos, a moratória e os juros da esfera tarifária |
-| Exclui a pontuação já lançada na CNH após a regularização | Não é automática para quem já pagou a multa: o ressarcimento precisa ser pedido |
-| Vale para passagens anteriores à própria Deliberação | Não vale para quem deixar passar 16 de novembro de 2026 |
+| Suspendeu a aplicação da infração do art. 209-A no período | Não perdoou a tarifa, que continua devida |
+| Cancelou processos de infração quando a tarifa foi quitada no prazo | Não dispensou os encargos, a moratória e os juros da esfera tarifária |
+| Excluiu a pontuação já lançada na CNH após a regularização | Não foi automática para quem já tinha pago a multa: o ressarcimento precisa ser pedido |
+| Valeu para passagens anteriores à própria Deliberação | Não vale para quem deixou passar 16 de novembro de 2026 |
 
-Para as passagens feitas dentro do período de transição, prevalece o prazo **mais favorável ao usuário** entre o regime excepcional e a regra geral de 30 dias.
-
-A partir de **17 de novembro de 2026**, a sistemática ordinária volta a valer integralmente e os processos administrativos retomam o curso regular. O caminho prático de quem está em atraso está em [Não paguei o Free Flow](nao-paguei-e-agora.md).
+**O que fica.** A nova contagem do art. 7º da Resolução CONTRAN nº 1.013/2024, que conta os 30 dias da confirmação do processamento do registro, foi dada pela mesma Deliberação e **segue em vigor** depois do fim da janela. Desde **17 de novembro de 2026**, a sistemática ordinária vale integralmente e os processos administrativos retomam o curso regular. O caminho prático de quem está em atraso está em [Não paguei o Free Flow](nao-paguei-e-agora.md).
 
 ---
 
@@ -176,7 +174,7 @@ Não como risco. Com tag ativa, a cobrança é automática e a tarifa entra na f
 |---|---|
 | [Resolução ANTT nº 6.079/2026](https://anttlegis.antt.gov.br/) | Prazos, encargos administrativos, multa moratória, juros legais e obrigações da concessionária |
 | [Resolução CONTRAN nº 1.013/2024](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/Resolucao10132024.pdf) | Prazo do art. 7º, canais válidos de recebimento e contestação |
-| [Deliberação CONTRAN nº 277/2026](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/deliberacoes/Deliberacao2772026.pdf) | Regime de transição de 200 dias e contagem do prazo |
+| [Deliberação CONTRAN nº 277/2026](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/deliberacoes/Deliberacao2772026.pdf) | Regime de transição de 200 dias, encerrado em 16/11/2026, e contagem do prazo |
 | [Lei nº 14.157/2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14157.htm) | Incluiu o art. 209-A no Código de Trânsito Brasileiro e o § 10 do art. 115 |
 | [Código de Defesa do Consumidor, art. 52](https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm) | Limite da multa moratória |
 | [Código Civil, arts. 395, 397 e 406](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm) | Juros legais de mora |

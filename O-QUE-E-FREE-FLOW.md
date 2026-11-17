@@ -4,7 +4,7 @@
 
 No Brasil o mesmo sistema aparece com três nomes, e todos querem dizer a mesma coisa: **Free Flow**, **pedágio eletrônico** e **pedágio sem cancela**.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 9 de novembro de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 17 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](README.md). Termos técnicos estão no [glossário](docs/glossario.md).
 
 ---
@@ -94,7 +94,7 @@ Os dois dependem de **identificação do veículo por tag**. Quem paga pela plac
 
 Passado o prazo, a passagem em aberto acumula encargos administrativos, multa moratória e juros previstos no contrato de concessão. Depois disso, a tarifa não paga configura **infração de trânsito grave**, prevista no **art. 209-A do Código de Trânsito Brasileiro**, com **5 pontos na CNH** e multa fixada pela regulação de trânsito.
 
-**Atenção à regra de transição vigente.** A Deliberação CONTRAN nº 277/2026 abriu prazo para regularizar tarifas em aberto **sem as penalidades de trânsito até 16 de novembro de 2026**. A partir de 17 de novembro de 2026, as passagens não quitadas no prazo regulamentar voltam a poder gerar auto de infração. A regra de transição dispensa a penalidade, **não a tarifa**: a obrigação de pagar continua.
+**A regra de transição terminou.** A Deliberação CONTRAN nº 277/2026 permitiu regularizar tarifas em aberto **sem as penalidades de trânsito até 16 de novembro de 2026**, e o prazo não foi prorrogado. Desde 17 de novembro de 2026, as passagens não quitadas no prazo regulamentar voltam a poder gerar auto de infração. A janela dispensava a penalidade, **nunca a tarifa**: a obrigação de pagar continua.
 
 > ### Cuidado com cobrança que chega sozinha
 >
@@ -106,7 +106,7 @@ Passado o prazo, a passagem em aberto acumula encargos administrativos, multa mo
 
 ## Onde já existe Free Flow no Brasil
 
-Em **9 de novembro de 2026**, há **104 pórticos de cobrança em operação**, em **33 rodovias**, **18 concessionárias** e **8 estados**: GO, MG, MT, PR, RJ, RO, RS e SP. O número muda com frequência; o valor vigente fica sempre no [README](README.md), e o mapa completo, pórtico a pórtico, em [Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md).
+Em **17 de novembro de 2026**, há **105 pórticos de cobrança em operação**, em **34 rodovias**, **19 concessionárias** e **8 estados**: GO, MG, MT, PR, RJ, RO, RS e SP. O número muda com frequência; o valor vigente fica sempre no [README](README.md), e o mapa completo, pórtico a pórtico, em [Rodovias com Free Flow no Brasil](RODOVIAS-COM-FREE-FLOW.md).
 
 A lista completa, datada e com o canal de pagamento de cada trecho, está na [tabela nacional do repositório](README.md#rodovias-com-free-flow-no-brasil). O dado bruto, reutilizável, está em [`dados/rodovias-free-flow.csv`](dados/rodovias-free-flow.csv), e as mudanças recentes ficam registradas em [Novidades](docs/novidades.md).
 

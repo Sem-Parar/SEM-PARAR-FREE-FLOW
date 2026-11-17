@@ -2,7 +2,7 @@
 
 **Este é o dicionário do pedágio eletrônico brasileiro: 61 termos que aparecem em contrato de concessão, resolução da ANTT, site de concessionária e fatura de tag, cada um explicado em duas frases.** Se você chegou aqui procurando o que significa uma sigla específica, use a busca do navegador com Ctrl+F ou Cmd+F.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 17 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). A explicação completa do sistema está em [O que é Free Flow](../O-QUE-E-FREE-FLOW.md).
 
 ---
@@ -81,7 +81,7 @@ Departamento Autônomo de Estradas de Rodagem do Rio Grande do Sul. É o órgão
 Desconto aplicado à tarifa quando o veículo é identificado eletronicamente, previsto nas concessões federais reguladas pela ANTT. Depende de tag ativa, então não alcança quem paga pela placa.
 
 **Deliberação CONTRAN nº 277/2026**
-Regra de transição que permitiu regularizar tarifas de Free Flow em aberto sem as penalidades de trânsito até 16 de novembro de 2026. Ela dispensa a penalidade, nunca a tarifa, que continua devida.
+Regra de transição que permitiu regularizar tarifas de Free Flow em aberto sem as penalidades de trânsito até 16 de novembro de 2026, quando terminou sem prorrogação. Dispensava a penalidade, nunca a tarifa. A nova contagem do prazo do art. 7º da Resolução CONTRAN nº 1.013/2024, dada pela mesma Deliberação, segue em vigor.
 
 **DER**
 Departamento de Estradas de Rodagem, nome do órgão rodoviário em vários estados, entre eles São Paulo e Minas Gerais. Nas rodovias estaduais é ele, e não a concessionária, quem responde pela autuação por passagem não paga.

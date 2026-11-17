@@ -1,10 +1,10 @@
 # Não paguei o Free Flow: como regularizar passagens atrasadas
 
-**Dá para resolver, e agora é o melhor momento para isso. Até 16 de novembro de 2026 vale um regime de transição que permite quitar tarifas de Free Flow em aberto sem as penalidades de trânsito: pagando a tarifa, a multa não paga e os pontos na CNH são cancelados pelo órgão autuador. O caminho tem três passos: consultar o que está em aberto, identificar a concessionária de cada passagem e pagar no canal oficial dela.**
+**Dá para resolver, e quanto antes melhor. O caminho tem três passos: consultar o que está em aberto, identificar a concessionária de cada passagem e pagar no canal oficial dela. A janela que permitia quitar sem as penalidades de trânsito, aberta pela Deliberação CONTRAN nº 277/2026, terminou em 16 de novembro de 2026 sem prorrogação: desde 17 de novembro, tarifa não paga no prazo volta a gerar multa e pontos na CNH.**
 
-A tarifa continua devida em qualquer cenário. O que a janela suspende é a penalidade, não a dívida.
+A tarifa continua devida em qualquer cenário. Pagá-la é sempre o primeiro passo, com ou sem multa lançada.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 17 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Termos técnicos estão no [glossário](glossario.md).
 
 ---
@@ -13,10 +13,10 @@ A tarifa continua devida em qualquer cenário. O que a janela suspende é a pena
 
 - [Os três passos, agora](#os-três-passos-agora)
 - [Encontre o seu cenário](#encontre-o-seu-cenário)
-- [Por que resolver antes de 16 de novembro de 2026](#por-que-resolver-antes-de-16-de-novembro-de-2026)
+- [O que mudou com o fim da janela, em 16 de novembro de 2026?](#o-que-mudou-com-o-fim-da-janela-em-16-de-novembro-de-2026)
 - [Quando falar com a concessionária e quando falar com o órgão autuador](#quando-falar-com-a-concessionária-e-quando-falar-com-o-órgão-autuador)
 - [Passagem antiga: até onde dá para olhar](#passagem-antiga-até-onde-dá-para-olhar)
-- [Cuidado redobrado com golpe nesta janela](#cuidado-redobrado-com-golpe-nesta-janela)
+- [Cuidado redobrado com golpe depois do prazo](#cuidado-redobrado-com-golpe-depois-do-prazo)
 - [Depois de regularizar, o que fazer para não repetir](#depois-de-regularizar-o-que-fazer-para-não-repetir)
 - [Perguntas frequentes](#perguntas-frequentes)
 - [Fontes oficiais](#fontes-oficiais)
@@ -40,29 +40,29 @@ A tarifa continua devida em qualquer cenário. O que a janela suspende é a pena
 | Sua situação | O que fazer | O que esperar |
 |---|---|---|
 | **Passei há poucos dias e ainda não paguei** | Pagar no canal da concessionária | Dentro do prazo, sem acréscimo nenhum |
-| **Perdi o prazo, mas não recebi multa** | Pagar a tarifa agora | Encargos sobre a tarifa. Sem penalidade de trânsito, dentro do regime de transição |
-| **Recebi multa e ainda não paguei** | Pagar a **tarifa** até 16/11/2026 | O órgão autuador cancela a multa e os pontos, **sem que você precise pedir** |
-| **Já paguei a multa** | Pagar a tarifa e **solicitar ressarcimento** ao órgão autuador | Devolução do valor da multa, mediante comprovação |
+| **Perdi o prazo, mas não recebi multa** | Pagar a tarifa agora | Encargos sobre a tarifa. Desde 17/11/2026 a passagem em aberto pode gerar autuação |
+| **Recebi multa e ainda não paguei** | Pagar a **tarifa** e tratar a multa com o órgão autuador | A janela de cancelamento automático acabou em 16/11/2026. Pagar a tarifa não cancela mais a multa, e a defesa segue o rito da notificação |
+| **Quitei a tarifa dentro da janela e já tinha pago a multa** | **Solicitar ressarcimento** ao órgão autuador | Devolução do valor da multa, mediante comprovação. Confirme com o órgão o prazo do pedido |
 | **A passagem não é do meu veículo** | Contestar, não pagar | Caminho em [Como consultar pela placa](consultar-pela-placa.md#a-cobrança-não-é-minha-como-contestar) |
 | **Tenho tag e a passagem aparece em aberto** | Conferir o extrato da operadora antes de pagar | Pode ser falha de leitura ou de confirmação, e existe regra específica para isso |
-| **Sou empresa ou frota** | Consultar pelo Portal de Serviços Senatran | Visão por conjunto de veículos, com o mesmo direito ao benefício da transição |
+| **Sou empresa ou frota** | Consultar pelo Portal de Serviços Senatran | Visão por conjunto de veículos, com as mesmas regras de prazo e autuação |
 
 ---
 
-## Por que resolver antes de 16 de novembro de 2026
+## O que mudou com o fim da janela, em 16 de novembro de 2026?
 
-A **Deliberação CONTRAN nº 277/2026**, publicada em 29 de abril de 2026, abriu uma janela de 200 dias para regularização. Ela termina em **16 de novembro de 2026**, e a partir de **17 de novembro de 2026** a regra ordinária volta a valer integralmente.
+A **Deliberação CONTRAN nº 277/2026**, publicada em 29 de abril de 2026, abriu uma janela de 200 dias para regularização. Ela **terminou em 16 de novembro de 2026, sem prorrogação**, e desde **17 de novembro de 2026** a regra ordinária vale integralmente.
 
-**Dentro da janela:**
+**O que a janela garantiu a quem quitou dentro dela:**
 
 - Não se configura a infração do art. 209-A do Código de Trânsito Brasileiro pelo não pagamento no período.
 - O pagamento da tarifa, inclusive de passagens anteriores à própria Deliberação, cancela os processos de infração correspondentes.
 - A pontuação já lançada na CNH é excluída.
 - Quem já pagou a multa pode pedir revisão e restituição do valor.
 
-**Depois dela:** os processos administrativos retomam o curso regular, com lavratura dos autos de infração, e quem não regularizou perde o benefício. A tarifa segue devida de qualquer forma, agora acrescida de encargos.
+**Agora, depois dela:** os processos administrativos retomam o curso regular, com lavratura dos autos de infração, e quem não regularizou perdeu o benefício. A tarifa segue devida de qualquer forma, agora acrescida de encargos.
 
-**Não espere o dia 16.** O cancelamento da multa e da pontuação é processado pelo órgão autuador assim que a tarifa é quitada, então pagar hoje resolve mais rápido do que pagar em novembro. E o prazo é uma janela nacional única, não um prazo individual por multa.
+**O que não mudou.** Quem passou por um pórtico há menos de 30 dias ainda está no prazo normal e paga sem penalidade nenhuma. E a contagem do art. 7º trazida pela Deliberação, que conta os 30 dias da confirmação do processamento do registro, segue valendo depois do fim da janela.
 
 A régua completa de prazos e encargos está em [Prazo para pagar o Free Flow](prazo-e-encargos.md), e o detalhamento da penalidade em [Multa do Free Flow](multa-free-flow.md).
 
@@ -97,9 +97,9 @@ Uma ressalva honesta: a consulta nacional estreou em 24 de agosto de 2026 com **
 
 ---
 
-## Cuidado redobrado com golpe nesta janela
+## Cuidado redobrado com golpe depois do prazo
 
-Prazo com data marcada é combustível de fraude, e o volume envolvido é grande: o Ministério dos Transportes informou a suspensão de **3,4 milhões de multas** ao anunciar a medida, em 28 de abril de 2026. Muita gente está procurando como regularizar, e é exatamente isso que os golpes exploram.
+O fim de um prazo com data marcada é combustível de fraude, e o volume envolvido é grande: o Ministério dos Transportes informou a suspensão de **3,4 milhões de multas** ao anunciar a medida, em 28 de abril de 2026. Muita gente agora procura como regularizar, e mensagem prometendo "prorrogação" ou "última chance de anistia" é exatamente o que os golpes exploram. A janela acabou, e nenhum canal oficial a reabre por mensagem.
 
 Três regras que não falham:
 
@@ -128,25 +128,25 @@ Se por ora você só quer quitar a passagem, sem virar cliente de nada, o caminh
 <details>
 <summary><strong>Não paguei o Free Flow. O que acontece?</strong></summary>
 
-Passado o prazo, incidem encargos administrativos, multa moratória e juros sobre a tarifa, e a passagem em aberto pode configurar a infração do art. 209-A do Código de Trânsito Brasileiro. Até 16 de novembro de 2026, porém, o regime de transição permite regularizar sem as penalidades de trânsito.
+Passado o prazo, incidem encargos administrativos, multa moratória e juros sobre a tarifa, e a passagem em aberto pode configurar a infração do art. 209-A do Código de Trânsito Brasileiro. O regime de transição que permitia regularizar sem as penalidades de trânsito terminou em 16 de novembro de 2026, sem prorrogação.
 </details>
 
 <details>
 <summary><strong>Como regularizar pedágio Free Flow atrasado?</strong></summary>
 
-Consulte as passagens em aberto no app CNH do Brasil, identifique a concessionária de cada uma e pague no canal oficial dela. Guarde os comprovantes: são eles que sustentam o cancelamento da multa e o pedido de ressarcimento.
+Consulte as passagens em aberto no app CNH do Brasil, identifique a concessionária de cada uma e pague no canal oficial dela. Guarde os comprovantes: são eles que sustentam qualquer contestação, defesa ou pedido de ressarcimento.
 </details>
 
 <details>
 <summary><strong>Preciso pedir para cancelar a multa depois de pagar a tarifa?</strong></summary>
 
-Para a multa ainda não paga e para os pontos, não: o cancelamento é feito pelo próprio órgão autuador após a regularização. Para o ressarcimento de multa **já paga**, sim: o pedido é seu, ao órgão autuador, com os comprovantes.
+Depende de quando você pagou. Se quitou a tarifa **até 16 de novembro de 2026**, dentro da janela, o cancelamento da multa não paga e dos pontos é feito pelo próprio órgão autuador, e o ressarcimento de multa **já paga** é pedido por você, ao órgão autuador, com os comprovantes. Se pagou **depois**, a quitação da tarifa não cancela mais a multa, e o caminho é a defesa no prazo da notificação.
 </details>
 
 <details>
-<summary><strong>E se eu não pagar até 16 de novembro de 2026?</strong></summary>
+<summary><strong>Perdi o prazo de 16 de novembro de 2026. E agora?</strong></summary>
 
-A partir de 17 de novembro de 2026 os processos administrativos retomam o curso regular, com autuação, multa e pontos. E a dívida da tarifa continua, agora com encargos.
+Desde 17 de novembro de 2026 os processos administrativos retomam o curso regular, com autuação, multa e pontos. Pague a tarifa mesmo assim, porque a dívida continua e acumula encargos, e trate eventual multa com o órgão autuador, pelo rito da notificação.
 </details>
 
 <details>
@@ -158,7 +158,7 @@ Não em um único canal. Cada concessionária recebe as suas. O app CNH do Brasi
 <details>
 <summary><strong>Minha dívida é muito antiga. Ainda dá para regularizar?</strong></summary>
 
-Dá. O regime de transição alcança inclusive passagens anteriores à publicação da Deliberação, e o histórico disponível na consulta nacional chega a cinco anos. Comece consultando o período completo.
+Dá para pagar, sim: o histórico disponível na consulta nacional chega a cinco anos, e a tarifa continua devida. O que acabou em 16 de novembro de 2026 foi o benefício da janela, que cancelava a penalidade de trânsito de quem quitava. Comece consultando o período completo.
 </details>
 
 <details>
@@ -179,7 +179,7 @@ Não é caso de pagar, é caso de defesa. Apresente a defesa da autuação no pr
 
 | Fonte | O que traz |
 |---|---|
-| [Deliberação CONTRAN nº 277/2026](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/deliberacoes/Deliberacao2772026.pdf) | Regime de transição de 200 dias, cancelamento de multas e ressarcimento |
+| [Deliberação CONTRAN nº 277/2026](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/deliberacoes/Deliberacao2772026.pdf) | Regime de transição de 200 dias, encerrado em 16/11/2026, cancelamento de multas e ressarcimento |
 | [Ministério dos Transportes, anúncio de 24/08/2026](https://www.gov.br/transportes/pt-br/assuntos/noticias-/2026/08/app-cnh-do-brasil-oferece-consulta-ao-free-flow-a-partir-desta-segunda-24) | Consulta nacional e perguntas frequentes oficiais sobre o período de transição |
 | [CNH do Brasil](https://www.gov.br/transportes/pt-br/cnh-do-brasil) | Consulta nacional de passagens por veículo |
 | [Portal de Serviços Senatran](https://portalservicos.senatran.serpro.gov.br) | Consulta detalhada e acesso obrigatório para empresas |

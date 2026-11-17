@@ -4,7 +4,7 @@
 
 Esta página separa o que é erro do que só parece erro, e dá o roteiro de cada caso.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 17 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Termos técnicos estão no [glossário](glossario.md).
 
 ---
@@ -111,7 +111,7 @@ Depende do risco, e a resposta honesta tem duas partes.
 
 **Se a passagem não é sua**, não pague antes de contestar. Pagar pode ser lido como reconhecimento da passagem, e o caminho correto é registrar a contestação e, se houver indício de clonagem, o boletim de ocorrência.
 
-Vale lembrar da janela aberta pela Deliberação CONTRAN nº 277/2026, que vai até **16 de novembro de 2026**: nela é possível regularizar tarifa em aberto sem a penalidade de trânsito. Ela dispensa a multa, não a tarifa. O caminho está em [Não paguei o Free Flow](nao-paguei-e-agora.md).
+A janela aberta pela Deliberação CONTRAN nº 277/2026, que permitia regularizar tarifa em aberto sem a penalidade de trânsito, **terminou em 16 de novembro de 2026, sem prorrogação**. Por isso, se a cobrança é legítima e está em aberto, pague logo, e conteste só o que de fato é indevido. O caminho de quem está em atraso está em [Não paguei o Free Flow](nao-paguei-e-agora.md).
 
 ---
 

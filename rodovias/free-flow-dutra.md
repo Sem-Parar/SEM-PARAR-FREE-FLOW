@@ -4,7 +4,7 @@
 
 A cobrança aqui é diferente da maioria dos trechos do país: ela é **proporcional ao caminho percorrido na expressa** e o valor **varia conforme o dia e o horário**.
 
-> Publicado em 26 de agosto de 2026. Última verificação dos dados em 26 de agosto de 2026.
+> Publicado em 26 de agosto de 2026. Última verificação dos dados em 26 de agosto de 2026. Última atualização em 17 de novembro de 2026.
 > Página do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Dado bruto em [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv).
 
 ---
@@ -142,7 +142,7 @@ O prazo geral é de **30 dias**. A régua completa, com os encargos que incidem 
 
 Passado o prazo, incidem encargos administrativos, multa moratória e juros sobre a tarifa, e a passagem em aberto pode configurar a infração do art. 209-A do Código de Trânsito Brasileiro, que é grave e vale 5 pontos na CNH.
 
-**Enquanto isso, uma janela está aberta.** Até **16 de novembro de 2026**, a Deliberação CONTRAN nº 277/2026 permite regularizar tarifas em aberto sem as penalidades de trânsito. O caminho está em [Não paguei o Free Flow](../docs/nao-paguei-e-agora.md).
+**A janela de regularização terminou.** A da Deliberação CONTRAN nº 277/2026, que permitia quitar tarifas em aberto sem as penalidades de trânsito, **terminou em 16 de novembro de 2026, sem prorrogação**. Desde 17 de novembro, tarifa não paga no prazo volta a gerar multa e pontos. O caminho de quem está em atraso está em [Não paguei o Free Flow](../docs/nao-paguei-e-agora.md).
 
 Para descobrir se você passou por algum dos pórticos, use o app **CNH do Brasil**, em Veículos, depois o veículo, depois Pedágio eletrônico. O passo a passo está em [Como consultar o Free Flow no app CNH do Brasil](../docs/consulta-app-cnh-do-brasil.md).
 

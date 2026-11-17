@@ -4,7 +4,7 @@
 
 O sistema também aparece com os nomes **pedágio eletrônico** e **pedágio sem cancela**, e a forma de pagar é a mesma nos três casos.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 9 de novembro de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 17 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Termos técnicos estão no [glossário](glossario.md).
 
 ---
@@ -103,9 +103,9 @@ Duas ressalvas valem sempre:
 - Se o último dia cair em data não útil, o prazo se estende até o próximo dia útil.
 - O **contrato de cada concessão** pode definir prazo próprio, e há concessionária com prazo menor. O canal oficial do trecho é a palavra final.
 
-**Regra de transição vigente.** A Deliberação CONTRAN nº 277/2026, publicada em 29 de abril de 2026, abriu um prazo excepcional de 200 dias, até **16 de novembro de 2026**, para regularizar tarifas de Free Flow **sem as penalidades de trânsito**. Durante esse período não se configura a infração do art. 209-A do Código de Trânsito Brasileiro pelo não pagamento. A partir de **17 de novembro de 2026** volta a valer integralmente a regra ordinária.
+**A regra de transição terminou.** A Deliberação CONTRAN nº 277/2026, publicada em 29 de abril de 2026, abriu um prazo excepcional de 200 dias, até **16 de novembro de 2026**, para regularizar tarifas de Free Flow **sem as penalidades de trânsito**. O prazo terminou sem prorrogação, e desde **17 de novembro de 2026** vale integralmente a regra ordinária: a tarifa não paga no prazo volta a configurar a infração do art. 209-A do Código de Trânsito Brasileiro.
 
-> **A anistia é da multa, não da tarifa.** O valor da passagem continua devido em qualquer cenário.
+> **A janela foi da multa, nunca da tarifa.** O valor da passagem continua devido em qualquer cenário.
 
 ---
 
@@ -131,9 +131,9 @@ Passado o prazo, a tarifa não desaparece. O que acontece, em ordem:
 | 2. Envio para autuação | A passagem não paga configura a infração do art. 209-A do Código de Trânsito Brasileiro |
 | 3. Penalidade | Infração **grave**, com **5 pontos na CNH** e multa em valor definido pela regulação de trânsito |
 
-Duas condições limitam esse caminho hoje, e as duas são boas notícias para quem está em atraso:
+Duas observações sobre esse caminho, depois do fim da janela de regularização:
 
-1. **Até 16 de novembro de 2026** vale o regime de transição. Quitar a tarifa dentro dele cancela os processos de infração correspondentes e exclui penalidade e pontuação. Nos casos em que a multa já tinha sido paga, cabe pedido de revisão e restituição do valor ao órgão que autuou. O caminho está em [Não paguei o Free Flow](nao-paguei-e-agora.md) e o detalhe da penalidade em [Multa do Free Flow](multa-free-flow.md).
+1. **O regime de transição terminou em 16 de novembro de 2026, sem prorrogação.** Quem quitou a tarifa dentro dele teve os processos de infração cancelados e a pontuação excluída, e, se já tinha pago a multa, pode pedir a restituição ao órgão que autuou. Desde 17 de novembro de 2026 a régua acima vale inteira. O caminho está em [Não paguei o Free Flow](nao-paguei-e-agora.md) e o detalhe da penalidade em [Multa do Free Flow](multa-free-flow.md).
 2. **Sistema não homologado não gera infração.** A Portaria Senatran nº 442/2025 condiciona a autuação por evasão à homologação do sistema de livre passagem junto à Senatran, e a relação dos sistemas homologados é publicada pela própria Senatran.
 
 ---
@@ -207,7 +207,7 @@ Não. Nem a ANTT nem as concessionárias enviam cobrança de pedágio por WhatsA
 | Fonte | O que traz |
 |---|---|
 | [Resolução CONTRAN nº 1.013/2024](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/Resolucao10132024.pdf) | Regras dos sistemas de livre passagem, prazo de pagamento e canais válidos de recebimento |
-| [Deliberação CONTRAN nº 277/2026](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/deliberacoes/Deliberacao2772026.pdf) | Regime de transição de 200 dias e nova contagem do prazo do art. 7º |
+| [Deliberação CONTRAN nº 277/2026](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/deliberacoes/Deliberacao2772026.pdf) | Regime de transição de 200 dias, encerrado em 16/11/2026, e nova contagem do prazo do art. 7º |
 | [Resolução ANTT nº 6.079/2026](https://anttlegis.antt.gov.br/) | Sistema de livre passagem nas rodovias federais concedidas |
 | [ANTT, Free Flow](https://www.gov.br/antt/pt-br/free-flow) | Painel oficial e localizador de pórticos das rodovias federais |
 | [CNH do Brasil](https://www.gov.br/transportes/pt-br/cnh-do-brasil) | Consulta nacional de passagens por veículo |

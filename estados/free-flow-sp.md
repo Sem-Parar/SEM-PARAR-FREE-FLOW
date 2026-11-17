@@ -4,7 +4,7 @@
 
 Este é o panorama do estado. Cada trecho tem canal de pagamento próprio, e é sempre a concessionária quem recebe.
 
-> Publicado em 26 de agosto de 2026. Última verificação dos dados em 9 de novembro de 2026.
+> Publicado em 26 de agosto de 2026. Última verificação dos dados em 9 de novembro de 2026. Última atualização em 17 de novembro de 2026.
 > Página do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Dado bruto em [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv).
 
 ---
@@ -134,7 +134,7 @@ O prazo geral é de **30 dias**, e cada contrato de concessão pode fixar prazo 
 
 Passado o prazo, a passagem em aberto pode configurar a infração do art. 209-A do Código de Trânsito Brasileiro, grave, com 5 pontos na CNH. **Quem aplica a multa não é a concessionária:** nas rodovias estaduais paulistas, os dados vão ao órgão de trânsito competente, e é com ele que corre todo o processo de defesa, cancelamento e ressarcimento. O detalhe está em [Multa do Free Flow](../docs/multa-free-flow.md).
 
-**Até 16 de novembro de 2026** vale o regime de transição da Deliberação CONTRAN nº 277/2026, que permite regularizar tarifas em aberto sem as penalidades de trânsito. O caminho está em [Não paguei o Free Flow](../docs/nao-paguei-e-agora.md).
+A janela de regularização da Deliberação CONTRAN nº 277/2026, que permitia quitar tarifas em aberto sem as penalidades de trânsito, **terminou em 16 de novembro de 2026, sem prorrogação**. Desde 17 de novembro, tarifa não paga no prazo volta a gerar multa e pontos. O caminho de quem está em atraso está em [Não paguei o Free Flow](../docs/nao-paguei-e-agora.md).
 
 ---
 
@@ -167,7 +167,7 @@ Depende do trecho. Paga na pista expressa da Via Dutra (meia tarifa), no Rodoane
 <details>
 <summary><strong>A Anchieta e a Imigrantes já cobram Free Flow?</strong></summary>
 
-Não. Os pórticos estão instalados, o da Imigrantes sentido capital no km 37,3 desde 29 de outubro de 2026, mas a cobrança foi adiada em 27 de julho de 2026 e não tem nova data. A concessionária mira a Operação Verão, e o início depende de autorização da ARTESP. As praças físicas seguem operando normalmente.
+Não. Os pórticos estão instalados, o da Imigrantes sentido capital no km 37,3 desde 29 de outubro de 2026, mas a cobrança foi adiada em 27 de julho de 2026 e não tem data confirmada. A concessionária estima começar até 14 de dezembro de 2026, na abertura da Operação Verão, e o início depende de autorização da ARTESP. As praças físicas seguem operando normalmente.
 </details>
 
 <details>
