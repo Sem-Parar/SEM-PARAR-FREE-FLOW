@@ -6,8 +6,42 @@ Todas as mudanças relevantes deste repositório são registradas aqui. O format
 
 ## [Não publicado]
 
-- **Link para o repositório irmão [Guincho e socorro nas rodovias do Brasil](https://github.com/Sem-Parar/SEM-PARAR-GUINCHO)** no README, com o telefone de socorro de cada concessionária.
 - **Comparativo de tags de pedágio**, a peça do Programa Escolher: seis critérios de decisão, tabela das cinco operadoras autorizadas pela ARTESP e veredito por perfil de motorista. Produzida e revisada, **aguardando aprovação do cliente** antes de publicar.
+
+---
+
+## [0.17.0], 2026-11-17
+
+A BR-040 começou a cobrar e a janela de regularização do CONTRAN terminou. O total nacional vai de 104 para **105 pórticos de cobrança**, em **34 rodovias**, **19 concessionárias** e os mesmos **8 estados**. Minas Gerais vai de 8 para 9 pórticos, e a lista por município, de 65 para 66 cidades.
+
+### Adicionado
+
+- **BR-040, da Elovias:** de `previsto` para `ativo`. O pórtico do km 831, em Simão Pereira (MG), cobra desde 0h de 16/11/2026, no lugar da praça física do km 819,3, desativada no mesmo momento, como exige a Deliberação ANTT nº 310/2026. Entrou com uma linha nova em [`dados/porticos-free-flow.csv`](dados/porticos-free-flow.csv) e uma em [`dados/tags-aceitas-free-flow.csv`](dados/tags-aceitas-free-flow.csv), e mudou de status em [`dados/rodovias-free-flow.csv`](dados/rodovias-free-flow.csv), [`dados/concessionarias-free-flow.csv`](dados/concessionarias-free-flow.csv) e [`dados/linha-do-tempo-free-flow.csv`](dados/linha-do-tempo-free-flow.csv).
+- **[Free Flow em Minas Gerais](estados/free-flow-mg.md)** ganhou a seção da BR-040, o canal de pagamento da Elovias e a quarta concessionária nas tabelas. A seção sobre moto virou pergunta e passou a dizer que a regra da BR-040 ainda não foi confirmada.
+- **Simão Pereira** na lista de [Free Flow por município](FREE-FLOW-POR-MUNICIPIO.md), e a Elovias nas tabelas de [Concessionárias com Free Flow](CONCESSIONARIAS-FREE-FLOW.md), [Rodovias com Free Flow](RODOVIAS-COM-FREE-FLOW.md), [Quais tags funcionam no Free Flow](docs/tags-aceitas-no-free-flow.md) e no README.
+- **A estimativa da Ecovias para o Sistema Anchieta-Imigrantes:** início até 14/12/2026, na abertura da Operação Verão, dependente de autorização da ARTESP. Entra na linha do tempo como `anunciado`, e o status segue `adiado`.
+- **Três notas datadas** em [Novidades](docs/novidades.md): 17 de novembro (fim da janela, sem prorrogação), 16 de novembro (BR-040) e 4 de novembro (estimativa da Ecovias), mais dois marcos em [História do Free Flow no Brasil](docs/historia-do-free-flow-no-brasil.md).
+- **Link para o repositório irmão [Guincho e socorro nas rodovias do Brasil](https://github.com/Sem-Parar/SEM-PARAR-GUINCHO)** no README, com o telefone de socorro de cada concessionária. Já estava no ar desde 09/11/2026 e é registrado nesta versão.
+
+### Alterado
+
+- **Fim do regime de transição da Deliberação CONTRAN nº 277/2026.** A janela de regularização sem penalidades de trânsito terminou em 16/11/2026 e não foi prorrogada. As páginas que falavam dela como aberta passaram a tratá-la como encerrada, dizendo o que ela garantiu a quem quitou no prazo e o que vale desde 17/11/2026: README, [O que é Free Flow](O-QUE-E-FREE-FLOW.md), [Base legal](BASE-LEGAL-DO-FREE-FLOW.md), [Não paguei o Free Flow](docs/nao-paguei-e-agora.md), [Prazo para pagar](docs/prazo-e-encargos.md), [Multa do Free Flow](docs/multa-free-flow.md), [Como pagar](docs/como-pagar.md), [Passei sem tag](docs/passei-sem-tag.md), [Cobrança indevida](docs/cobranca-indevida-como-contestar.md), [Consulta no app CNH do Brasil](docs/consulta-app-cnh-do-brasil.md), [Novidades](docs/novidades.md), [Glossário](docs/glossario.md), [São Paulo](estados/free-flow-sp.md), [Rio Grande do Sul](estados/free-flow-rs.md), [Via Dutra](rodovias/free-flow-dutra.md), [Rio-Santos](rodovias/free-flow-rio-santos.md), [Mogi-Bertioga](rodovias/free-flow-mogi-bertioga.md) e [Tamoios](rodovias/free-flow-tamoios.md).
+- **Oito títulos de seção mudaram, e com eles as âncoras:** em Base legal, Não paguei (dois), Multa, Prazo para pagar, Minas Gerais (dois) e Concessionárias. Os índices das páginas foram atualizados junto, e nenhuma outra página apontava para as âncoras antigas.
+- **A nova contagem do art. 7º da Resolução CONTRAN nº 1.013/2024**, dada pela mesma Deliberação, **continua em vigor**. Isso agora está dito de forma explícita nas páginas de prazo, base legal, multa e glossário, para que o fim da janela não seja lido como fim da regra.
+- **A linha da Deliberação nº 277/2026** em [`dados/base-legal-free-flow.csv`](dados/base-legal-free-flow.csv): vigência, descrição e relevância para o motorista refletem o fim da janela.
+- **As bases:** `porticos-free-flow` vai a 84 linhas, `tags-aceitas-free-flow` a 19 e `linha-do-tempo-free-flow` a 57; `canais-oficiais-pagamento` teve a linha da Elovias atualizada.
+
+### Corrigido
+
+- **[Free Flow em Minas Gerais](estados/free-flow-mg.md) dizia que Minas era o quarto estado em pórticos**, atrás de São Paulo, Paraná e Goiás. Desde outubro Mato Grosso também tem 14, e Minas é o quinto.
+- **A conversão pelo critério da ANTT** em [Metodologia e fontes](docs/metodologia-e-fontes.md) foi refeita: o total cairia de 105 para 94.
+
+### Notas de dado
+
+- **Sentido `n/d` na BR-040.** A fonte não informa se o pórtico do km 831 cobra nos dois sentidos. Ele conta como um ponto de cobrança.
+- **Regra da moto `n/d` na BR-040.** Nenhuma fonte oficial publicada até 17/11/2026 informa se a motocicleta paga no pórtico da Elovias.
+- **Homologação Senatran da Elovias não localizada.** A base de homologações segue com 15 portarias.
+- **A estimativa da Ecovias não muda o status.** O Sistema Anchieta-Imigrantes continua `adiado` até a cobrança começar.
 
 ---
 
