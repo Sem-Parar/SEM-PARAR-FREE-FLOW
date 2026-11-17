@@ -2,21 +2,37 @@
 
 **Esta é a linha do tempo do pedágio eletrônico brasileiro: cada mudança confirmada em pórtico, prazo ou regra entra aqui com data, resumo e fonte oficial linkada.** As notas ficam em ordem do mais recente para o mais antigo. Mudanças de status de rodovia entram em até 72 horas após o fato confirmado, e a base de dados é corrigida no mesmo movimento.
 
-> Última verificação em 9 de novembro de 2026.
+> Última verificação em 17 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Termos técnicos estão no [glossário](glossario.md), a cronologia consolidada em [História do Free Flow no Brasil](historia-do-free-flow-no-brasil.md) e o método de levantamento em [Metodologia e fontes](metodologia-e-fontes.md).
 
 ---
 
 ## O que está valendo agora, em três linhas
 
-1. **104 pórticos de cobrança em operação**, em 33 rodovias, 18 concessionárias e 8 estados: GO, MG, MT, PR, RJ, RO, RS e SP.
-2. **O prazo de regularização sem penalidade de trânsito termina em 16 de novembro de 2026.** A tarifa continua devida.
+1. **105 pórticos de cobrança em operação**, em 34 rodovias, 19 concessionárias e 8 estados: GO, MG, MT, PR, RJ, RO, RS e SP.
+2. **A janela de regularização sem penalidade de trânsito terminou em 16 de novembro de 2026, sem prorrogação.** Desde 17 de novembro, tarifa não paga no prazo volta a gerar a infração do art. 209-A.
 3. **O app CNH do Brasil já mostra passagens de Free Flow**, de rodovias federais, estaduais e municipais integradas.
 4. **A Senatran começou a homologar os sistemas**, e sistema não homologado não gera a infração do art. 209-A. A lista está em [Homologação do Free Flow pela Senatran](homologacao-senatran-free-flow.md).
 
 ---
 
 ## 2026
+
+### 17 de novembro de 2026: a janela de regularização termina sem prorrogação
+
+O prazo aberto pela **Deliberação CONTRAN nº 277/2026** terminou em **16 de novembro de 2026**, e nenhum ato do CONTRAN ou do Ministério dos Transportes o prorrogou. Desde **17 de novembro de 2026** vale a regra ordinária: a tarifa não paga dentro do prazo volta a poder gerar a infração do **art. 209-A** do Código de Trânsito Brasileiro, grave, com 5 pontos na CNH.
+
+**O que segue valendo.** A tarifa em aberto continua devida e pagá-la continua sendo o primeiro passo. Quem passou por um pórtico há menos de 30 dias ainda está dentro do prazo normal. E a nova contagem do art. 7º da Resolução CONTRAN nº 1.013/2024, que conta os 30 dias da confirmação do processamento do registro, não acabou com a janela: ela segue em vigor.
+
+Fonte: [SBT News](https://sbtnews.sbt.com.br/noticia/brasil/free-flow-motoristas-tem-ate-hoje-para-cancelar-multas) e [InfoMoney](https://www.infomoney.com.br/brasil/free-flow-prazo-quitar-pedagios-atrasados-sem-multa/). Afeta: [`dados/base-legal-free-flow.csv`](../dados/base-legal-free-flow.csv), [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv), [Não paguei o Free Flow](nao-paguei-e-agora.md), [Multa do Free Flow](multa-free-flow.md), [Prazo para pagar o Free Flow](prazo-e-encargos.md) e [Base legal do Free Flow](../BASE-LEGAL-DO-FREE-FLOW.md).
+
+### 16 de novembro de 2026: a BR-040 começa a cobrar em Simão Pereira
+
+O pórtico da **Elovias** no **km 831 da BR-040, em Simão Pereira (MG)**, começou a cobrar à 0h de 16 de novembro de 2026, no lugar da praça física do km 819,3, no mesmo município. É o primeiro Free Flow da BR-040 e da Zona da Mata mineira. O total nacional vai a **105 pórticos de cobrança**, em **34 rodovias** e **19 concessionárias**, e Minas Gerais, a **nove pórticos**.
+
+**Como pagar.** Com tag, a cobrança é automática. Sem tag, em até 30 dias, no [pedagioeletronico.elovias.com.br](https://pedagioeletronico.elovias.com.br), no aplicativo da Elovias ou nos totens de quatro bases de atendimento da concessionária. A regra da moto nesse pórtico ainda não foi confirmada em fonte oficial.
+
+Fonte: [Metrópoles](https://www.metropoles.com/minas-gerais/pedagio-free-flow-comeca-a-funcionar-na-br-040-em-mg-veja-como-pagar). Afeta: [`dados/porticos-free-flow.csv`](../dados/porticos-free-flow.csv), [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv), [`dados/concessionarias-free-flow.csv`](../dados/concessionarias-free-flow.csv), [`dados/tags-aceitas-free-flow.csv`](../dados/tags-aceitas-free-flow.csv), [Free Flow em Minas Gerais](../estados/free-flow-mg.md) e [Free Flow por município](../FREE-FLOW-POR-MUNICIPIO.md).
 
 ### 5 de novembro de 2026: a ANTT autoriza o Free Flow da BR-040, e a Elovias marca o início para 16 de novembro
 
@@ -27,6 +43,14 @@ A **ANTT** autorizou, pela **Deliberação nº 310, de 4 de novembro de 2026**, 
 **Por que o status é `previsto`, e não `ativo`.** O mesmo início já foi adiado uma vez, no próprio dia 4 de novembro. Este repositório muda o status quando a cobrança começa, e não quando ela é anunciada.
 
 Fonte: [Diário do Transporte](https://diariodotransporte.com.br/2026/11/06/antt-libera-novo-pedagio-eletronico-na-br-040-formaliza-concessao-de-502-km-a-116-sertoes-e-avanca-em-leilao-de-rodovia-com-r-108-bilhoes-previstos/) e [Mobilidade BH](https://mobilidadebh.com.br/br-040-pedagio-free-flow-comeca-operar-16-novembro/). Afeta: [`dados/rodovias-free-flow.csv`](../dados/rodovias-free-flow.csv), [`dados/concessionarias-free-flow.csv`](../dados/concessionarias-free-flow.csv), [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv), [`dados/canais-oficiais-pagamento.csv`](../dados/canais-oficiais-pagamento.csv) e [Free Flow em Minas Gerais](../estados/free-flow-mg.md).
+
+### 4 de novembro de 2026: a Ecovias estima começar a Anchieta-Imigrantes até 14 de dezembro
+
+A **Ecovias dos Imigrantes** passou a estimar o início do Free Flow no **Sistema Anchieta-Imigrantes** para **até 14 de dezembro de 2026**, data de abertura da Operação Verão. A cobrança, hoje concentrada na praça do sentido litoral, passa a ser dividida entre descida e subida.
+
+**É estimativa, não data confirmada.** O início depende de testes, homologação e autorização da ARTESP. Até lá as praças físicas seguem cobrando, o status continua `adiado`, e qualquer cobrança de Free Flow nessas rodovias é motivo de desconfiança.
+
+Fonte: [Canaltech](https://canaltech.com.br/carros/agora-vai-ecovias-tem-nova-data-para-estreia-do-pedagio-sem-cancela-na-imigrantes/) e [Estradas](https://estradas.com.br/pedagio-free-flow-no-sistema-anchieta-imigrantes-deve-comecar-em-dezembro/). Afeta: [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv) e [Free Flow no Sistema Anchieta-Imigrantes](../rodovias/free-flow-anchieta-imigrantes.md).
 
 ### 4 de novembro de 2026: o Free Flow da BR-040 é adiado no dia em que começaria
 
@@ -362,14 +386,11 @@ Fonte: [ANTT](https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/free-flow-
 
 | Quando | O que acontece | Onde |
 |---|---|---|
-| 16 de novembro de 2026 | Fim do prazo de regularização sem penalidades de trânsito | Nacional |
-| 16 de novembro de 2026 | Início anunciado do pórtico da BR-040 no km 831, em Simão Pereira, com a desativação da praça do km 819,3 | MG, Elovias |
-| 17 de novembro de 2026 | Tarifas em aberto voltam a poder gerar auto de infração | Nacional |
 | 1º de dezembro de 2026 | Início anunciado do pórtico de Colina, na SP-326 | SP, Ecovias Noroeste Paulista |
+| Até 14 de dezembro de 2026 | Início estimado pela concessionária para o Sistema Anchieta-Imigrantes, com o pórtico da subida já instalado no km 37,3; depende de autorização da ARTESP | SP, Ecovias dos Imigrantes |
 | Dezembro de 2026 | Free Flow previsto em contrato na BR-116 e BR-251, norte de Minas | MG, Ecovias das Gerais |
 | 17 de dezembro de 2026 | Leilão da Rota Agro Central, na B3 | MT e RO, ANTT |
 | 18 de dezembro de 2026 | Leilão da Rota 2 de Julho, na B3 | BA, ANTT |
-| Sem data | Início do Sistema Anchieta-Imigrantes, com o pórtico da subida já instalado no km 37,3; a concessionária mira a Operação Verão | SP, Ecovias dos Imigrantes |
 | Sem data | 14 pórticos previstos na Rota da Celulose; a imprensa local anunciou novembro de 2026, e o contrato só permite pedir a cobrança depois do 12º mês | MS, Caminhos da Celulose |
 
 Trechos com status `previsto` ou `adiado` **não cobram tarifa por pórtico hoje**. A lista completa está na seção [Onde o Free Flow ainda vai chegar](../README.md#onde-o-free-flow-ainda-vai-chegar).
@@ -383,7 +404,7 @@ Trechos com status `previsto` ou `adiado` **não cobram tarifa por pórtico hoje
 | Resolução ANTT nº 6.079/2026 | Sistema de livre passagem nas rodovias federais concedidas, publicada em 27/03/2026 |
 | Resolução ANTT nº 4.281/2014 | Arrecadação eletrônica e figura da AMAP; é o que garante a leitura da tag em qualquer pórtico federal. Continua em vigor, e está em revisão pela ANTT |
 | Resolução CONTRAN nº 1.013/2024 | Prazo geral de 30 dias para pagamento da tarifa, ressalvado o contrato de cada concessão |
-| Deliberação CONTRAN nº 277/2026 | Conta os 30 dias da confirmação do processamento do registro da passagem, e não da passagem; regularização sem penalidades de trânsito até 16/11/2026, mantida a obrigação de pagar a tarifa |
+| Deliberação CONTRAN nº 277/2026 | Conta os 30 dias da confirmação do processamento do registro da passagem, e não da passagem; a janela de regularização sem penalidades de trânsito terminou em 16/11/2026, sem prorrogação |
 | Portaria Senatran nº 442/2025 | Homologação e interoperabilidade dos sistemas de livre passagem; sistema não homologado não gera a infração do art. 209-A |
 | Lei nº 14.157/2021 | Incluiu o art. 209-A no Código de Trânsito Brasileiro e o § 10 do art. 115 |
 | Art. 209-A do Código de Trânsito Brasileiro | Infração grave, com 5 pontos na CNH, para a passagem não paga |

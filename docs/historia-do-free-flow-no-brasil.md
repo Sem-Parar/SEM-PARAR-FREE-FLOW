@@ -4,7 +4,7 @@
 
 Esta página reúne a cronologia completa, do primeiro regulamento à data mais recente, com fonte oficial em cada marco. É a linha do tempo estável do sistema. O que mudou nas últimas semanas fica em [Novidades do Free Flow no Brasil](novidades.md), que é a página viva.
 
-> Publicado em 26 de agosto de 2026. Última atualização em 9 de novembro de 2026.
+> Publicado em 26 de agosto de 2026. Última atualização em 17 de novembro de 2026.
 > Parte do repositório [Free Flow e Tag de Pedágio, pelo Sem Parar](../README.md). Base de dados em [`dados/linha-do-tempo-free-flow.csv`](../dados/linha-do-tempo-free-flow.csv), com 54 marcos datados.
 
 ---
@@ -129,6 +129,8 @@ Foi o ano em que o Free Flow deixou de ser um caso isolado e passou a existir em
 | 01/11/2026 | A Ecovias Noroeste Paulista troca as praças de **Pirangi e Monte Alto** por pórticos | SP, SP-351 e SP-323 |
 | 04/11/2026 | O pórtico da Elovias na BR-040 é **adiado** no dia em que começaria | MG, BR-040 |
 | 04/11/2026 | A ANTT **autoriza** o Free Flow no ponto P3A da BR-040, em Simão Pereira, no lugar da praça P3 | MG, BR-040 |
+| 16/11/2026 | A Elovias **começa a cobrar** no km 831 da BR-040, em Simão Pereira, e a praça do km 819,3 é desativada | MG, BR-040 |
+| 16/11/2026 | Termina, **sem prorrogação**, a janela de regularização da Deliberação CONTRAN nº 277/2026 | Nacional |
 
 Três leituras que a tabela não entrega sozinha:
 
@@ -136,7 +138,7 @@ Três leituras que a tabela não entrega sozinha:
 
 **O Paraná fez em quatro meses o que outros estados fizeram em três anos.** Todos os 14 pórticos paranaenses entraram em operação entre fevereiro e junho de 2026, e o estado saiu de zero para o segundo lugar nacional nesse intervalo. Veja [Free Flow no Paraná](../estados/free-flow-pr.md).
 
-**Mato Grosso entrou pela porta que ninguém estava olhando.** O calendário apontava a MT-130, em 10 de outubro, como a estreia mato-grossense. Quem chegou primeiro foi a Way-364, na BR-364, em 7 de setembro, numa concessão que atravessa a divisa e cobra também em Goiás. A MT-130 cumpriu a data, em 10 de outubro, e a Rota da Integração veio quatro dias depois: em pouco mais de um mês o estado foi de zero a 14 pórticos e empatou com Paraná e Goiás. É também o exemplo da regra que este repositório aplica desde a primeira versão: data anunciada é promessa, e o mapa muda pelo que é confirmado, não pelo que foi agendado. A BR-040, adiada no dia em que começaria, mostra o outro lado da mesma regra.
+**Mato Grosso entrou pela porta que ninguém estava olhando.** O calendário apontava a MT-130, em 10 de outubro, como a estreia mato-grossense. Quem chegou primeiro foi a Way-364, na BR-364, em 7 de setembro, numa concessão que atravessa a divisa e cobra também em Goiás. A MT-130 cumpriu a data, em 10 de outubro, e a Rota da Integração veio quatro dias depois: em pouco mais de um mês o estado foi de zero a 14 pórticos e empatou com Paraná e Goiás. É também o exemplo da regra que este repositório aplica desde a primeira versão: data anunciada é promessa, e o mapa muda pelo que é confirmado, não pelo que foi agendado. A BR-040, adiada no dia em que começaria e cobrando doze dias depois, mostra o outro lado da mesma regra.
 
 **A consulta nacional de 24 de agosto fechou uma lacuna de três anos.** Até ela, descobrir se você tinha passado por um pórtico exigia saber qual concessionária administrava aquele trecho e procurar o canal dela. O app CNH do Brasil passou a reunir as passagens de rodovias federais, estaduais e municipais integradas, com 14 concessionárias na estreia. Ele mostra, alerta e encaminha, mas **não recebe pagamento**. O passo a passo está em [Como consultar o Free Flow no app CNH do Brasil](consulta-app-cnh-do-brasil.md).
 
@@ -162,13 +164,10 @@ Datas anunciadas ou previstas em norma. **Anúncio de início de cobrança é pr
 
 | Quando | O que acontece | Situação |
 |---|---|---|
-| 16/11/2026 | Último dia da janela de regularização sem penalidades de trânsito | Confirmado em norma |
-| 16/11/2026 | Início anunciado do pórtico da Elovias na BR-040, em Simão Pereira | Anunciado |
-| 17/11/2026 | A regra ordinária volta a valer e tarifas em aberto voltam a poder gerar auto de infração | Confirmado em norma |
 | 01/12/2026 | Início anunciado do pórtico de Colina, na SP-326 | Anunciado |
+| Até 14/12/2026 | Início estimado pela concessionária para o Sistema Anchieta-Imigrantes, na abertura da Operação Verão | Estimativa |
 | 17/12/2026 | Leilão da Rota Agro Central, na B3 | Anunciado |
 | 18/12/2026 | Leilão da Rota 2 de Julho, na B3 | Anunciado |
-| Sem data | Início do Sistema Anchieta-Imigrantes, com o pórtico da subida já instalado no km 37,3 | Adiado |
 
 A lista completa de trechos previstos e adiados está em [Onde o Free Flow ainda vai chegar](../README.md#onde-o-free-flow-ainda-vai-chegar).
 
@@ -193,7 +192,7 @@ O pórtico de Antônio Prado, na ERS-122, no km 108,3, ligado em 15 de dezembro 
 <details>
 <summary><strong>Quantos pórticos de Free Flow existem hoje no Brasil?</strong></summary>
 
-Em 9 de novembro de 2026 são **104 pórticos de cobrança em operação**, distribuídos por 33 rodovias, 18 concessionárias e oito estados: GO, MG, MT, PR, RJ, RO, RS e SP. O número muda com frequência, e o valor vigente fica sempre no [README](../README.md). O mapa pórtico a pórtico está em [Rodovias com Free Flow no Brasil](../RODOVIAS-COM-FREE-FLOW.md), e o critério de contagem está declarado em [Metodologia e fontes](metodologia-e-fontes.md).
+Em 17 de novembro de 2026 são **105 pórticos de cobrança em operação**, distribuídos por 34 rodovias, 19 concessionárias e oito estados: GO, MG, MT, PR, RJ, RO, RS e SP. O número muda com frequência, e o valor vigente fica sempre no [README](../README.md). O mapa pórtico a pórtico está em [Rodovias com Free Flow no Brasil](../RODOVIAS-COM-FREE-FLOW.md), e o critério de contagem está declarado em [Metodologia e fontes](metodologia-e-fontes.md).
 </details>
 
 <details>
